@@ -102,7 +102,7 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
 
 Welcome to Swift Learning Diary 3 !">
 <meta property="og:image" content="http://i.imgur.com/KxFlbdu.jpg">
-<meta property="og:updated_time" content="2017-02-19T06:00:53.000Z">
+<meta property="og:updated_time" content="2017-02-19T06:34:45.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Swift 学习日记 - 3（复习与程序相关）">
 <meta name="twitter:description" content="diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
@@ -409,8 +409,7 @@ print &quot;Welcome to Swift Learning Diary &quot; + String(diaryNum) + &quot; !
 <hr>
 <h1 id="使用书籍"><a href="#使用书籍" class="headerlink" title="使用书籍"></a>使用书籍</h1><p>「Swift 与 Cocoa 框架开发」</p>
 <hr>
-<h1 id="复习"><a href="#复习" class="headerlink" title="复习"></a>复习</h1><p>2.1 - 2.5</p>
-<ul>
+<h1 id="复习"><a href="#复习" class="headerlink" title="复习"></a>复习</h1><h2 id="2-1-2-5"><a href="#2-1-2-5" class="headerlink" title="2.1 - 2.5"></a>2.1 - 2.5</h2><ul>
 <li><strong>Tuple</strong>，元组，将多个值捆绑到单个值中</li>
 <li><strong>空数组</strong>，需要人工指定类型： <a href="">Int</a></li>
 <li><strong>Dictionary</strong>, key to value. 不同类型也可以</li>
@@ -418,8 +417,7 @@ print &quot;Welcome to Swift Learning Diary &quot; + String(diaryNum) + &quot; !
 <li><strong>lf-let </strong>语句用来检查一个可选变量是否包含值</li>
 <li>强大的 <strong>switch</strong>，根据 Tuple 进行切换，可以编写非常特别的 case，仅当其中一个组件与条件匹配时再进行</li>
 </ul>
-<p>2.6</p>
-<ul>
+<h2 id="2-6"><a href="#2-6" class="headerlink" title="2.6"></a>2.6</h2><ul>
 <li>定义函数可返回值时，需要用 “ -> ” </li>
 <li>函数<em>仅可返回一个值</em>，但是通过使用 Tuple，可以将多个值捆绑放入单个值中</li>
 <li>在参数名前面放入 “ # ” 号，使得内部名字和外部名字相同</li>
@@ -433,8 +431,7 @@ return total }
 <li><strong>inout</strong>，直接改变这个变量中储存的值。用一个函数交换两个变量。<br>  func swapValues(inout v1: Int, inout v2: Int) {// 交换两个数的位置}<br>  swapValues(&amp;num1, &amp;num2)</li>
 <li>通过让函数捕获一个值并多次使用，可以创建用作<em>生成器</em>的函数（每次调用时返回不同值的函数）</li>
 </ul>
-<p>2.7</p>
-<ul>
+<h2 id="2-7"><a href="#2-7" class="headerlink" title="2.7"></a>2.7</h2><ul>
 <li><strong>闭包</strong>，内置 sorted 函数。可以接受参数，XCode 可以推断参数的类型，可以储存在变量中，调用方式与函数相同</li>
 <li><strong>继承</strong>，包含被继承类（父类）的所有函数和属性，只能有一个父类（C++ 允许多重继承）。通过 override 可以重写父类中的函数，用 super.xxx 调用父类中的对应值。</li>
 <li>定义<strong>计算属性</strong>：同储存属性一样声明一个变量，在后面加入 { 与 }</li>
@@ -446,8 +443,7 @@ return total }
 <li>将一个属性的 setter 声明为私有的，可以使这个属性只读，源文件可以随便读取改写，但其他文件只能读取值</li>
 <li>利用<strong>泛型</strong>可以将 class 的类型设为一个可变化参数，在之后的调用中任何类型都可以（class Tree\<t\> { }）</t\></li>
 </ul>
-<p>2.8 - 2.End</p>
-<ul>
+<h2 id="2-8-2-End"><a href="#2-8-2-End" class="headerlink" title="2.8 - 2.End"></a>2.8 - 2.End</h2><ul>
 <li>Objective-C 中使用 Swift，在对象前面增加 @objc</li>
 <li>Swift 中使用 Objective-C, #import</li>
 <li>苹果编写的书：<em><a href="https://developer.apple.com/library/tvos/documentation/Swift/Conceptual/BuildingCocoaApps/index.html" target="_blank" rel="external">Using Swift with Cocoa and Objective-C</a></em></li>
@@ -509,9 +505,6 @@ return total }
 <ul>
 <li>不可使用<strong>私有 API</strong>，只能使用文档中已经表明的</li>
 </ul>
-<hr>
-<h1 id="About-关于"><a href="#About-关于" class="headerlink" title="About 关于"></a>About 关于</h1><p>这是我的 Swift 学习日记，并不是什么高深莫测的玩意儿，只是为了记录以便日后巩固等。</p>
-<p>/ by Ulysses<br>/ by o1xhack (wyx)</p>
 
       
     </div>
@@ -685,7 +678,7 @@ return total }
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">1.</span> <span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#FollowLight-改进"><span class="nav-number"></span> <span class="nav-text">FollowLight 改进</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#A-new-Start"><span class="nav-number"></span> <span class="nav-text">A new Start</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用书籍"><span class="nav-number"></span> <span class="nav-text">使用书籍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#复习"><span class="nav-number"></span> <span class="nav-text">复习</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#应用程序"><span class="nav-number"></span> <span class="nav-text">应用程序</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#macOS-生命周期"><span class="nav-number">1.</span> <span class="nav-text">macOS 生命周期</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-生命周期"><span class="nav-number">2.</span> <span class="nav-text">iOS 生命周期</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#沙盒机制"><span class="nav-number">3.</span> <span class="nav-text">沙盒机制</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#About-关于"><span class="nav-number"></span> <span class="nav-text">About 关于</span></a></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">1.</span> <span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#FollowLight-改进"><span class="nav-number"></span> <span class="nav-text">FollowLight 改进</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#A-new-Start"><span class="nav-number"></span> <span class="nav-text">A new Start</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用书籍"><span class="nav-number"></span> <span class="nav-text">使用书籍</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#复习"><span class="nav-number"></span> <span class="nav-text">复习</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-2-5"><span class="nav-number">1.</span> <span class="nav-text">2.1 - 2.5</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-6"><span class="nav-number">2.</span> <span class="nav-text">2.6</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-7"><span class="nav-number">3.</span> <span class="nav-text">2.7</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-8-2-End"><span class="nav-number">4.</span> <span class="nav-text">2.8 - 2.End</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#应用程序"><span class="nav-number"></span> <span class="nav-text">应用程序</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#macOS-生命周期"><span class="nav-number">1.</span> <span class="nav-text">macOS 生命周期</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-生命周期"><span class="nav-number">2.</span> <span class="nav-text">iOS 生命周期</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#沙盒机制"><span class="nav-number">3.</span> <span class="nav-text">沙盒机制</span></a></li></ol></div>
             
 
           </div>
