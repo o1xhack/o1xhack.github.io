@@ -1,1 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Swift 学习日记 - 2（UIAlertController） | The Dev World, Yuxiao</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="var diaryNum = 1
+diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
+print &amp;quot;Hello Again！&amp;quot;
+print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;
 
+Welcome to Swift Le">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Swift 学习日记 - 2（UIAlertController）">
+<meta property="og:url" content="http://o1xhack.com/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/index.html">
+<meta property="og:site_name" content="The Dev World, Yuxiao">
+<meta property="og:description" content="var diaryNum = 1
+diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
+print &amp;quot;Hello Again！&amp;quot;
+print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;
+
+Welcome to Swift Le">
+<meta property="og:image" content="http://imgur.com/ElFHevR.jpg">
+<meta property="og:updated_time" content="2016-07-21T23:00:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Swift 学习日记 - 2（UIAlertController）">
+<meta name="twitter:description" content="var diaryNum = 1
+diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
+print &amp;quot;Hello Again！&amp;quot;
+print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;
+
+Welcome to Swift Le">
+<meta name="twitter:image" content="http://imgur.com/ElFHevR.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="The Dev World, Yuxiao" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">The Dev World, Yuxiao</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">\@o1xhack</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://o1xhack.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-swift-learning/swift-learning-2-uialertcontroller" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/" class="article-date">
+  <time datetime="2016-07-21T23:23:29.000Z" itemprop="datePublished">2016-07-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Swift-Learning（Swift-语言学习）/">Swift Learning（Swift 语言学习）</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Swift 学习日记 - 2（UIAlertController）
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <pre><code>var diaryNum = 1
+diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
+print &quot;Hello Again！&quot;
+print &quot;Welcome to Swift Learning Diary &quot; + String(diaryNum) + &quot; !&quot;
+</code></pre><blockquote>
+<p>Welcome to Swift Learning Diary 2 !</p>
+</blockquote>
+<p><strong>点击进入 → <a href="http://o1xhack.com/2016/05/21/swift-learning/swift-learning-outline-source/">Swift 学习日志 - 目录/相关资料</a></strong><br><a id="more"></a></p>
+<h1 id="FollowLight-改进"><a href="#FollowLight-改进" class="headerlink" title="FollowLight 改进"></a>FollowLight 改进</h1><ul>
+<li>胜利提醒增加了你玩的轮数（winningNumber）</li>
+<li>胜利后增加选项，可以直接增加难度（call 增加难度的 func）</li>
+<li>失败提醒增加了你玩的轮数</li>
+<li>开始游戏是询问是否确定，并提示点击确定便会将 winning number 的轮数变为1，这样你随时可以重头再来</li>
+</ul>
+<p><img src="http://imgur.com/ElFHevR.jpg" alt=""></p>
+<hr>
+<h1 id="UIAlertView-的退役"><a href="#UIAlertView-的退役" class="headerlink" title="UIAlertView 的退役"></a>UIAlertView 的退役</h1><p>UIAlertView 全部被 UIAlertController 给替换，在新版本的 xCode 中，会相应报错，并且有官方文档予以参考（Important: UIAlertView is deprecated in iOS 8.）<br>继承于 UIViewController （前一本书有讲过关于继承的问题，<em>inherit</em>） </p>
+<blockquote>
+<p>以下代码引用更改自 XCode 帮助文档，没有直接拉过来是因为用实例更适合解释和接受概念（帮助文档还是需要一定基础看懂的吧…）</p>
+</blockquote>
+<h2 id="UIAlertView-之前什么样子？"><a href="#UIAlertView-之前什么样子？" class="headerlink" title="UIAlertView 之前什么样子？"></a>UIAlertView 之前什么样子？</h2><pre><code>var name : UIAlertView = UIAlertView(Title: &quot;你想要的提示&quot;, message: &quot;在提示下面的小字信息&quot;, delegate: self, cancelButtonTitle: nil, otherButtonTitles: &quot;按钮&quot;) 
+name.show()     //改自书中案例
+</code></pre><p>如果在其中想要添加动作的时候，需要另外使用 delegate，其中有参数 alertView 和 buttonIndex。具体的不细说，但是新版本的确优化了许多。</p>
+<h2 id="UIAlertController-的改变"><a href="#UIAlertController-的改变" class="headerlink" title="UIAlertController 的改变"></a>UIAlertController 的改变</h2><p>以下代码都在一个函数中（func alertExample { }）<br>    let name = UIAlertController(title: “你想要的提示”, message: “在提示下面的小字信息!”, preferredStyle: .Alert)<br>首先去除了 delegate 以及之后的所有东西，在整个提示中变得间接许多，要知道，精简就是一门学问，这样子的改变可以一眼看出来提示的信息。<br><em>string 字符串中可以将变量转换为 string 字符添加到提示语句中，这样子可以拥有灵活性的提示</em></p>
+<h4 id="新增加的-preferredStyle-目前有两种可选："><a href="#新增加的-preferredStyle-目前有两种可选：" class="headerlink" title="新增加的 preferredStyle 目前有两种可选："></a>新增加的 preferredStyle 目前有两种可选：</h4><pre><code>enum UIAlertControllerStyle : Int {
+    case ActionSheet        //底部弹出提示框
+    case Alert       // 中间弹出提示框
+}
+</code></pre><h4 id="当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）"><a href="#当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）" class="headerlink" title="当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）"></a>当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）</h4><pre><code>name.addAction(UIAlertAction(title: &quot;按钮&quot;, style: .Default) { _ in
+           // 你想要它做的事情
+            })
+</code></pre><h4 id="present-模式继承了-UIViewController："><a href="#present-模式继承了-UIViewController：" class="headerlink" title="present 模式继承了 UIViewController："></a>present 模式继承了 UIViewController：</h4><pre><code>self.presentViewController(name, animated: true){}
+</code></pre><blockquote>
+<p>对于提示框的选择主要就是这些，最基础的内容，可以尝试在程序中添加各种提示，包括提示后的动作，动作里调用其他的提示函数或者普通函数来进一步的动作。</p>
+</blockquote>
+<p>推荐文章：<a href="http://www.jianshu.com/p/9cf49e6fa3c4" target="_blank" rel="external">iOS-个人整理16 - 警示框–UIAlertController</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://o1xhack.com/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/" data-id="cizfxoc24000y9604vl6c3kkh" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/language/">language</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/learning/">learning</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/swift3-0/">swift3.0</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/uialertcontroller/">uialertcontroller</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/07/25/swift-learning/swift-learning-3/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Récent</strong>
+      <div class="article-nav-title">
+        
+          Swift 学习日记 - 3（复习与程序相关）
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/05/25/swift-learning/swift-learning-1/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ancien</strong>
+      <div class="article-nav-title">Swift 学习日记 - 1</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Catégories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Swift-Learning（Swift-语言学习）/">Swift Learning（Swift 语言学习）</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/blog/">blog</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/iOS-Develop（iOS-开发）/">iOS Develop（iOS 开发）</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/kindle/">kindle</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/macos/">macos</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Mot-clés</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/app/">app</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/">blog</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/books/">books</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-APP/">iOS APP</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOSDev/">iOSDev</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/kindle/">kindle</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/language/">language</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/learning/">learning</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/swift3-0/">swift3.0</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/uialertcontroller/">uialertcontroller</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/菜单栏/">菜单栏</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/app/" style="font-size: 10px;">app</a> <a href="/tags/blog/" style="font-size: 13.33px;">blog</a> <a href="/tags/books/" style="font-size: 10px;">books</a> <a href="/tags/iOS-APP/" style="font-size: 10px;">iOS APP</a> <a href="/tags/iOSDev/" style="font-size: 13.33px;">iOSDev</a> <a href="/tags/kindle/" style="font-size: 10px;">kindle</a> <a href="/tags/language/" style="font-size: 16.67px;">language</a> <a href="/tags/learning/" style="font-size: 16.67px;">learning</a> <a href="/tags/mac/" style="font-size: 10px;">mac</a> <a href="/tags/swift3-0/" style="font-size: 20px;">swift3.0</a> <a href="/tags/uialertcontroller/" style="font-size: 10px;">uialertcontroller</a> <a href="/tags/菜单栏/" style="font-size: 10px;">菜单栏</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/02/21/infoit/">iOS APP：Info It - 通过分享快速搜索电影、图书</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/19/iosdevswift/">iOS开发相关分享 @iosdevswift 说明（Twitter，微博）</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/19/blog/about-blog/">关于 o1xhack.com 的 blog 搭建</a>
+          </li>
+        
+          <li>
+            <a href="/2016/08/11/kindle/kindle-export-evernote/">永远的命题，Kindle 笔记导出到印象笔记，最完美的完全解决方法。</a>
+          </li>
+        
+          <li>
+            <a href="/2016/07/27/macos/mac-menubar-app/">「mac」彻底释放 macOS 菜单栏潜能的软件（十五款）</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 Yuxiao Wang<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
