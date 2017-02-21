@@ -1,1 +1,908 @@
+<!doctype html>
 
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="swift3.0,iOSDev,iOS APP," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="前言为什么要做 Info It从用豆瓣记录电影开始，每一次不论在微信中还是网页中微博中文章内有任何电影，都得一次次跳转到豆瓣软件去搜索（豆瓣启动3秒在加上至少2秒欢迎页面），又或者打开一个新的网页搜索，iOS 10 中多出了 Look Up 功能，可以直接使用网页搜索，但是依旧不快并且对于长期使用豆瓣等的人来说，不论是评分，评分人数，短评，长篇评论都是很需要查询的到的，因此就有个这个软件的诞生。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="iOS APP：Info It - 通过分享快速搜索电影、图书">
+<meta property="og:url" content="http://o1xhack.com/2017/02/21/infoit/index.html">
+<meta property="og:site_name" content="The Dev World, Yuxiao">
+<meta property="og:description" content="前言为什么要做 Info It从用豆瓣记录电影开始，每一次不论在微信中还是网页中微博中文章内有任何电影，都得一次次跳转到豆瓣软件去搜索（豆瓣启动3秒在加上至少2秒欢迎页面），又或者打开一个新的网页搜索，iOS 10 中多出了 Look Up 功能，可以直接使用网页搜索，但是依旧不快并且对于长期使用豆瓣等的人来说，不论是评分，评分人数，短评，长篇评论都是很需要查询的到的，因此就有个这个软件的诞生。">
+<meta property="og:updated_time" content="2017-02-19T08:00:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="iOS APP：Info It - 通过分享快速搜索电影、图书">
+<meta name="twitter:description" content="前言为什么要做 Info It从用豆瓣记录电影开始，每一次不论在微信中还是网页中微博中文章内有任何电影，都得一次次跳转到豆瓣软件去搜索（豆瓣启动3秒在加上至少2秒欢迎页面），又或者打开一个新的网页搜索，iOS 10 中多出了 Look Up 功能，可以直接使用网页搜索，但是依旧不快并且对于长期使用豆瓣等的人来说，不论是评分，评分人数，短评，长篇评论都是很需要查询的到的，因此就有个这个软件的诞生。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://o1xhack.com/2017/02/21/infoit/"/>
+
+
+
+
+
+  <title> iOS APP：Info It - 通过分享快速搜索电影、图书 | The Dev World, Yuxiao </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?747baa206ad2f92571362b89be3e2e9f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">The Dev World, Yuxiao</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">\@o1xhack</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-dev">
+          <a href="/dev" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-apple"></i> <br />
+            
+            开发者
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-new">
+          <a href="/new" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-thumbs-up"></i> <br />
+            
+            尝新者
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://o1xhack.com/2017/02/21/infoit/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yuxiao Wang">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/uploads/avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="The Dev World, Yuxiao">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="The Dev World, Yuxiao" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                iOS APP：Info It - 通过分享快速搜索电影、图书
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-21T11:28:00-05:00">
+                2017-02-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS-Develop（iOS-开发）/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS Develop（iOS 开发）</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/02/21/infoit/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/02/21/infoit/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">本文被观赏
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="为什么要做-Info-It"><a href="#为什么要做-Info-It" class="headerlink" title="为什么要做 Info It"></a>为什么要做 Info It</h2><p>从用豆瓣记录电影开始，每一次不论在微信中还是网页中微博中文章内有任何电影，都得一次次跳转到豆瓣软件去搜索（豆瓣启动3秒在加上至少2秒欢迎页面），又或者打开一个新的网页搜索，iOS 10 中多出了 Look Up 功能，可以直接使用网页搜索，但是依旧不快并且对于长期使用豆瓣等的人来说，不论是评分，评分人数，短评，长篇评论都是很需要查询的到的，因此就有个这个软件的诞生。</p>
+<blockquote>
+<p><strong>Info It 是一款通过选中文字，运用 iOS 的 Action Extension 实现快速搜索电影，图书等的软件。</strong></p>
+</blockquote>
+<a id="more"></a>
+<h2 id="举个栗子！"><a href="#举个栗子！" class="headerlink" title="举个栗子！"></a>举个栗子！</h2><p>👉🏻 视频来啦！</p>
+<p>打开即刻浏览文章，看到文章中有电影，于是用最快的方式打开了豆瓣APP（iOS10里的特性）然<br>后浏览数据，浏览评论，看看这个看看那个，看完了返回即刻，便处于重新刷新的情况。<br>（在这里我故意停留时间长了一点为了保证视频可以一次成功，但实际上经常会遇到这类问题，因为内存问题是不可能避免的，一个APP是无法在后台保持良好就连safari也经常需要重新刷新，更别说如果你这时候收到一个消息进去回复一下等等。）</p>
+<blockquote>
+<p>最新的 iOS 10.3 beta 版本中更新了文件管理为 APFS，大大减少了软件回去会重开的几率，简直十分棒，但不停的跳转依旧是无法解决的！</p>
+</blockquote>
+<p><strong><a href="http://v.youku.com/v_show/id_XMTgyOTcxNjcyOA==.html" target="_blank" rel="external">优酷视频观看</a></strong></p>
+<p><strong><a href="https://youtu.be/DjVg0FlJH38" target="_blank" rel="external">youtube 观看</a></strong></p>
+<hr>
+<h1 id="Info-It-简介"><a href="#Info-It-简介" class="headerlink" title="Info It 简介"></a>Info It 简介</h1><p>Info It 通过运用 iOS 的 Action Extension，在任何可以选择文字的地方，选择分享按钮，实现快速在豆瓣搜索电影，图书，烂番茄、IMDb 搜素电影的软件。</p>
+<ul>
+<li>使用 Safari 内置浏览，达到豆瓣登录状态的存储（直接标记已看未看等）</li>
+<li>不需要跳转其他任何地方，保持在原有的页面上</li>
+<li>对拥有英文原名的影片在后台进行 JSON 数据解析，达到直接在搜索 IMDb 和烂番茄时查询英文名称</li>
+<li>只要支持文字复制的地方都可以使用</li>
+<li>可以配合多个场景达到效率化的使用</li>
+</ul>
+<p>Info It：</p>
+<ul>
+<li>并不是豆瓣开发的</li>
+<li>是因为个人需求开发</li>
+<li>个人对于电影和读书使用豆瓣十分频繁</li>
+</ul>
+<hr>
+<h1 id="Update-详情"><a href="#Update-详情" class="headerlink" title="Update 详情"></a>Update 详情</h1><h2 id="2017年1月"><a href="#2017年1月" class="headerlink" title="2017年1月"></a>2017年1月</h2><h3 id="1月25日-APP-Store：1-5"><a href="#1月25日-APP-Store：1-5" class="headerlink" title="1月25日 APP Store：1.5"></a>1月25日 APP Store：1.5</h3><ol>
+<li>中文影名直接转换英文搜索<ul>
+<li></li>
+</ul>
+</li>
+</ol>
+<h3 id="1月8日-APP-Store：1-0"><a href="#1月8日-APP-Store：1-0" class="headerlink" title="1月8日 APP Store：1.0"></a>1月8日 APP Store：1.0</h3><ol>
+<li>全面更新为 Safari View Controller：<ul>
+<li>可以强制重新刷新</li>
+<li>后退前进键</li>
+<li>分享按钮（和 Safari 支持的一样）</li>
+</ul>
+</li>
+<li>通过 Safari 登录一次豆瓣后即可：<ul>
+<li>自动保存登录的状态，实现直接在查询时标记已看，想看等。</li>
+<li>因为已经登录，当然就可以评论等了</li>
+<li>如果一段时间后没了重新登录一次即可</li>
+</ul>
+</li>
+<li>增加「功能及问题解决进度」<ul>
+<li>嵌入我自己使用的 Airtable 面板，直接查看所有的进度</li>
+</ul>
+</li>
+<li>反馈系统更改<ul>
+<li>关于 Bug 可以依旧使用 InstaBug 的系统</li>
+<li>增加了 Airtable 表单直接反馈</li>
+</ul>
+</li>
+<li>更新「FAQ 及已知问题」<ul>
+<li>更改为 Airtable 展示，这样我可以实时更新</li>
+<li>有任何问题先查看，再反馈！</li>
+</ul>
+</li>
+<li>增加「所有版本更新说明一览」<ul>
+<li>所有版本更新查看</li>
+<li>可以直观的看到所有的版本更新情况</li>
+</ul>
+</li>
+<li>关于全局分享搜索<ul>
+<li>未来会增加任何地方的分享（不仅仅是选中文字）</li>
+<li>目前仅会提示报错</li>
+</ul>
+</li>
+<li>Bug 解决等<ul>
+<li>iPad 上信息显示不足的问题</li>
+<li>解决了几个超级大 BUG！</li>
+<li>修复了几个内存和查询问题</li>
+<li>主 app 更改了一些细节</li>
+</ul>
+</li>
+</ol>
+<h2 id="2016年12月"><a href="#2016年12月" class="headerlink" title="2016年12月"></a>2016年12月</h2><h3 id="12月1日-beta版本：0-5-2"><a href="#12月1日-beta版本：0-5-2" class="headerlink" title="12月1日 beta版本：0.5.2"></a>12月1日 beta版本：0.5.2</h3><ul>
+<li>支持搜索：豆瓣图书，烂番茄指数（目前不会再增加了）</li>
+<li>Action Extension 增加图标</li>
+<li>更新 FAQ 和已知问题（关于 Safari View Controller 请进去看）</li>
+</ul>
+<h2 id="2016年11月"><a href="#2016年11月" class="headerlink" title="2016年11月"></a>2016年11月</h2><h3 id="11月28日-beta版本：0-2-5"><a href="#11月28日-beta版本：0-2-5" class="headerlink" title="11月28日 beta版本：0.2.5"></a>11月28日 beta版本：0.2.5</h3><ul>
+<li>添加反馈系统</li>
+<li>添加反馈说明</li>
+<li>增加「FAQ 及 已知问题」</li>
+<li>支持了 iOS9 以上机型</li>
+<li>主界面点击后不再有灰色底色</li>
+<li>带有 i 标志的设置项需要点击 i 才会进入，避免误触</li>
+<li>更改主界面颜色和排版</li>
+<li>更新 Info It 介绍</li>
+<li>去除「如何使用」中的翻页效果（避免卡顿）</li>
+<li>增加了「完整 APP 信息及更新情况」跳转</li>
+<li>解决了搜索中有空格导致无法搜索的问题</li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/swift3-0/" rel="tag"># swift3.0</a>
+          
+            <a href="/tags/iOSDev/" rel="tag"># iOSDev</a>
+          
+            <a href="/tags/iOS-APP/" rel="tag"># iOS APP</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/02/19/iosdevswift/" rel="next" title="iOS开发相关分享 @iosdevswift 说明（Twitter，微博）">
+                <i class="fa fa-chevron-left"></i> iOS开发相关分享 @iosdevswift 说明（Twitter，微博）
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/uploads/avatar.jpg"
+               alt="Yuxiao Wang" />
+          <p class="site-author-name" itemprop="name">Yuxiao Wang</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">12</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/o1xhack" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://weibo.com/jsxiao113" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/o1xhack" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要做-Info-It"><span class="nav-number">1.1.</span> <span class="nav-text">为什么要做 Info It</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#举个栗子！"><span class="nav-number">1.2.</span> <span class="nav-text">举个栗子！</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Info-It-简介"><span class="nav-number">2.</span> <span class="nav-text">Info It 简介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Update-详情"><span class="nav-number">3.</span> <span class="nav-text">Update 详情</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2017年1月"><span class="nav-number">3.1.</span> <span class="nav-text">2017年1月</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1月25日-APP-Store：1-5"><span class="nav-number">3.1.1.</span> <span class="nav-text">1月25日 APP Store：1.5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1月8日-APP-Store：1-0"><span class="nav-number">3.1.2.</span> <span class="nav-text">1月8日 APP Store：1.0</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2016年12月"><span class="nav-number">3.2.</span> <span class="nav-text">2016年12月</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#12月1日-beta版本：0-5-2"><span class="nav-number">3.2.1.</span> <span class="nav-text">12月1日 beta版本：0.5.2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2016年11月"><span class="nav-number">3.3.</span> <span class="nav-text">2016年11月</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#11月28日-beta版本：0-2-5"><span class="nav-number">3.3.1.</span> <span class="nav-text">11月28日 beta版本：0.2.5</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuxiao Wang</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">欢迎第<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>个天才访问了本站</span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'yuxiaowang';
+      var disqus_identifier = '2017/02/21/infoit/';
+
+      var disqus_title = "iOS APP：Info It - 通过分享快速搜索电影、图书";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>
