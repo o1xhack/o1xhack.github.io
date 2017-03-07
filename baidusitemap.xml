@@ -4,6 +4,8 @@
 
     
     
+    
+    
   <url>
     <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
     <lastmod>2017-02-26T22:15:28.000Z</lastmod>
@@ -27,7 +29,6 @@
     </data>
     </url>
 
-    
     
     
   <url>
@@ -176,7 +177,6 @@
     </url>
 
     
-    
   <url>
     <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
@@ -235,13 +235,13 @@
         
         <tag>swift3.0</tag>
          
+        <tag>iOSDev</tag>
+         
         <tag>blog</tag>
          
         <tag>language</tag>
          
         <tag>learning</tag>
-         
-        <tag>iOSDev</tag>
          
          
            
@@ -360,6 +360,34 @@
         <tag>language</tag>
          
         <tag>learning</tag>
+         
+         
+           
+             
+              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safri/</loc>
+    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
+        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>language</tag>
+         
+        <tag>learning</tag>
+         
+        <tag>SafariViewController</tag>
+         
+        <tag>SnapKit</tag>
          
          
            
