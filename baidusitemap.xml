@@ -250,34 +250,6 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
-    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>iOS开发相关分享 @iosdevswift 说明（Twitter，微博）</title>
-        <pubTime>2017-02-20T02:08:00.000Z</pubTime>
-        
-        <tag>swift3.0</tag>
-         
-        <tag>iOSDev</tag>
-         
-        <tag>blog</tag>
-         
-        <tag>language</tag>
-         
-        <tag>learning</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     <data>
@@ -291,6 +263,34 @@
            
              
               <breadCrumb title="blog" url="http://o1xhack.com/categories/blog/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
+    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>iOS开发相关分享 @iosdevswift 说明（Twitter，微博）</title>
+        <pubTime>2017-02-20T02:08:00.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>blog</tag>
+         
+        <tag>language</tag>
+         
+        <tag>learning</tag>
+         
+        <tag>iOSDev</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
           
         </display>
     </data>
