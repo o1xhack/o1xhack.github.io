@@ -16,6 +16,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Coffee It - Privacy Policy</title>
+    <link href="http://o1xhack.com/2017/03/18/privacy-policy/coffeeit/"/>
+    <id>http://o1xhack.com/2017/03/18/privacy-policy/coffeeit/</id>
+    <published>2017-03-19T03:20:29.000Z</published>
+    <updated>2017-02-20T08:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote class="blockquote-center">Coffee It - Track Caffeine in Simplest Way (Still Testing.)</blockquote>
+
+<h1 id="Privacy-Policy"><a href="#Privacy-Policy" class="headerlink" title="Privacy Policy"></a>Privacy Policy</h1><p>This Privacy Policy relates to my use of any personally identifiable data (”Personal Data”) collected from you when using Coffee It. For now, I only read and write to APPLE Health APP through HealthKit, which is totally secure in transition. Coffee It now doesn’t have any server to collect or analysis these data.</p>
+<a id="more"></a>
+<h2 id="What-Personal-Data-will-I-collect-and-using-for"><a href="#What-Personal-Data-will-I-collect-and-using-for" class="headerlink" title="What Personal Data will I collect and using for?"></a>What Personal Data will I collect and using for?</h2><p>Coffee It is currently a track caffeine taken app, so I only ask for your permission of Caffeine write and read right directly from Health APP. By using APPLE’s HealthKit, all the data are secured and won’t affect your life. </p>
+<p>For now, I won’t do anything to your data including but not only analyzing, transfer to server … I only show your data in the app.</p>
+<h2 id="Cookies"><a href="#Cookies" class="headerlink" title="Cookies:"></a>Cookies:</h2><p>Same, Coffee It doesn’t need to be connect to internet so there are no cookies now.</p>
+<h2 id="Data-Using"><a href="#Data-Using" class="headerlink" title="Data Using."></a>Data Using.</h2><p>I will only show your data if your want and always not to share anything data through anyway if you don’t want.</p>
+<h2 id="Enforcement"><a href="#Enforcement" class="headerlink" title="Enforcement"></a>Enforcement</h2><p>I regularly review my compliance with this Policy. Please feel free to direct any questions or concerns regarding this Policy or my treatment of Personal Data by contacting me through my website.</p>
+<h2 id="Changes-of-Privacy-Policy"><a href="#Changes-of-Privacy-Policy" class="headerlink" title="Changes of Privacy Policy"></a>Changes of Privacy Policy</h2><p>Coffee It may change from time to time. As a result, at times it may be necessary for me to make changes to this Privacy Policy. Accordingly, I reserve the right to update or modify this Privacy Policy at any time and from time to time without prior notice. Please review this policy periodically, and especially before you provide any Personal Data. This Privacy Policy was last updated on the date indicated above. Your continued use of Coffee It after any changes or revisions to this Privacy Policy shall indicate your agreement with the terms of such revised Privacy Policy.</p>
+<h2 id="Contacting"><a href="#Contacting" class="headerlink" title="Contacting"></a>Contacting</h2><p>If you have any additional questions or concerns about this Policy or information practices, please feel free to contact me at any time at from my website or app.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;Coffee It - Track Caffeine in Simplest Way (Still Testing.)&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;Privacy-Policy&quot;&gt;&lt;a href=&quot;#Privacy-Policy&quot; class=&quot;headerlink&quot; title=&quot;Privacy Policy&quot;&gt;&lt;/a&gt;Privacy Policy&lt;/h1&gt;&lt;p&gt;This Privacy Policy relates to my use of any personally identifiable data (”Personal Data”) collected from you when using Coffee It. For now, I only read and write to APPLE Health APP through HealthKit, which is totally secure in transition. Coffee It now doesn’t have any server to collect or analysis these data.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="APP Policy" scheme="http://o1xhack.com/categories/APP-Policy/"/>
+    
+    
+      <category term="ios" scheme="http://o1xhack.com/tags/ios/"/>
+    
+      <category term="app" scheme="http://o1xhack.com/tags/app/"/>
+    
+      <category term="policy" scheme="http://o1xhack.com/tags/policy/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
     <link href="http://o1xhack.com/2017/03/12/ios/omnifocus/"/>
     <id>http://o1xhack.com/2017/03/12/ios/omnifocus/</id>
@@ -875,13 +914,13 @@
     
       <category term="swift3.0" scheme="http://o1xhack.com/tags/swift3-0/"/>
     
+      <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
+    
       <category term="blog" scheme="http://o1xhack.com/tags/blog/"/>
     
       <category term="language" scheme="http://o1xhack.com/tags/language/"/>
     
       <category term="learning" scheme="http://o1xhack.com/tags/learning/"/>
-    
-      <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
     
   </entry>
   
@@ -1890,56 +1929,6 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
     
       &lt;h1 id=&quot;定时发送-Instagram&quot;&gt;&lt;a href=&quot;#定时发送-Instagram&quot; class=&quot;headerlink&quot; title=&quot;定时发送 Instagram&quot;&gt;&lt;/a&gt;定时发送 Instagram&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://appsto.re/cn/FVXt3.i&quot;&gt;Publish - On Twitter &amp;amp; Instagram&lt;/a&gt;(推荐)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://appsto.re/cn/F7lYU.i&quot;&gt;Later - Plan and Schedule Posts for Instagram&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="iOS APP 推荐" scheme="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
-    
-    
-      <category term="ios" scheme="http://o1xhack.com/tags/ios/"/>
-    
-      <category term="app" scheme="http://o1xhack.com/tags/app/"/>
-    
-      <category term="recommend" scheme="http://o1xhack.com/tags/recommend/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「iOS」Castro - 不如听播客</title>
-    <link href="http://o1xhack.com/2016/03/08/ios/castro/"/>
-    <id>http://o1xhack.com/2016/03/08/ios/castro/</id>
-    <published>2016-03-08T23:11:00.000Z</published>
-    <updated>2017-02-25T05:20:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="听"><a href="#听" class="headerlink" title="听"></a>听</h1><p><a href="https://itunes.apple.com/cn/app/castro-high-fidelity-podcasts/id723142770?l=en&amp;mt=8" target="_blank" rel="external">Castro</a></p>
-<p>播客 一个小但拥有灵魂的聚合</p>
-<p>当你还在没事听听音乐 听听休闲电台的时候 不如抽空将下载的播客听一听？</p>
-<blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
-
-<a id="more"></a>
-<h1 id="荐"><a href="#荐" class="headerlink" title="荐"></a>荐</h1><p>老实说，苹果自带的播客挺好用的 ，功能也基本能满足，作为一个果粉，我既然觉得够了，为什么还要推荐另一个呢？<br>如果你和我一样，更中意一个美美的播客，Castro 是一个不二的选择。<br>IT 公论也是推荐了这一款软件来作为播客客户端，当然我是在这之前就用了🙊</p>
-<ul>
-<li>美，细腻，简约，是不是乍一看没有那么的美？相信我，随着不断地打开，你会爱上它那独特简约又不失优雅的美。</li>
-</ul>
-<p><img src="http://i.imgur.com/fq9bJLu.png" alt=""></p>
-<ul>
-<li>真正的实用：不多一毫的设置项，却又涵盖了绝大多数人的需求（你有独特的需求的话我不能保证）播放的选项，下载的方式，缓存的管理。就连是否跳转 Safari 都有设置，如果你厌烦不停地跳转，不如来试试 Castro。</li>
-</ul>
-<p><img src="http://i.imgur.com/IgqhHIE.png" alt=""></p>
-<ul>
-<li>完美的手势：主界面的 “节目” 列表下，从左向右滑动选择删除或者下载，从右向左滑动标记为已观看。（缓存机制其实是不需要自己手动删除的，除非你强迫症看完一定要删0 0）</li>
-</ul>
-<p><img src="http://i.imgur.com/mdVu8BO.png" alt=""></p>
-<h1 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h1><p>我不能保证这是一款能满足你所有特殊需求的博客，但我可以保证这是一款你用久了会爱上的博客，没有繁杂的功能，抛弃无聊的选项，秉承美而简的界面，播客，不正是需要这样么？</p>
-<h1 id="更新："><a href="#更新：" class="headerlink" title="更新："></a>更新：</h1><p><strong>2017.02.25</strong>：Castro 之前更新了新版本，而在那儿之前我已经切换成了 Pocket Casts，等以后有空写写咯~</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;听&quot;&gt;&lt;a href=&quot;#听&quot; class=&quot;headerlink&quot; title=&quot;听&quot;&gt;&lt;/a&gt;听&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/cn/app/castro-high-fidelity-podcasts/id723142770?l=en&amp;amp;mt=8&quot;&gt;Castro&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;播客 一个小但拥有灵魂的聚合&lt;/p&gt;
-&lt;p&gt;当你还在没事听听音乐 听听休闲电台的时候 不如抽空将下载的播客听一听？&lt;/p&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
     
     </summary>
