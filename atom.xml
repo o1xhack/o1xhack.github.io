@@ -113,14 +113,14 @@
     
     </summary>
     
-      <category term="Podcast" scheme="http://o1xhack.com/categories/Podcast/"/>
+      <category term="iOS APP 分析" scheme="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
     
     
-      <category term="podcast" scheme="http://o1xhack.com/tags/podcast/"/>
+      <category term="ios" scheme="http://o1xhack.com/tags/ios/"/>
     
-      <category term="life" scheme="http://o1xhack.com/tags/life/"/>
+      <category term="app" scheme="http://o1xhack.com/tags/app/"/>
     
-      <category term="tech" scheme="http://o1xhack.com/tags/tech/"/>
+      <category term="review" scheme="http://o1xhack.com/tags/review/"/>
     
   </entry>
   
@@ -1906,40 +1906,34 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
   </entry>
   
   <entry>
-    <title>「iOS」Castro - 不如听播客</title>
-    <link href="http://o1xhack.com/2016/03/08/ios/castro/"/>
-    <id>http://o1xhack.com/2016/03/08/ios/castro/</id>
+    <title>「iOS」Blogo - 博客？</title>
+    <link href="http://o1xhack.com/2016/03/08/ios/blogo/"/>
+    <id>http://o1xhack.com/2016/03/08/ios/blogo/</id>
     <published>2016-03-08T23:11:00.000Z</published>
-    <updated>2017-02-25T05:20:00.000Z</updated>
+    <updated>2017-02-25T04:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="听"><a href="#听" class="headerlink" title="听"></a>听</h1><p><a href="https://itunes.apple.com/cn/app/castro-high-fidelity-podcasts/id723142770?l=en&amp;mt=8" target="_blank" rel="external">Castro</a></p>
-<p>播客 一个小但拥有灵魂的聚合</p>
-<p>当你还在没事听听音乐 听听休闲电台的时候 不如抽空将下载的播客听一听？</p>
+    <content type="html"><![CDATA[<h1 id="期待？"><a href="#期待？" class="headerlink" title="期待？"></a>期待？</h1><p>期待的 Blog 软件 Blogo 之前招收了 TF 用户</p>
+<blockquote>
+<p>“如果你不用博客，也很就不用考虑这个APP”</p>
+</blockquote>
 <blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
 
 <a id="more"></a>
-<h1 id="荐"><a href="#荐" class="headerlink" title="荐"></a>荐</h1><p>老实说，苹果自带的播客挺好用的 ，功能也基本能满足，作为一个果粉，我既然觉得够了，为什么还要推荐另一个呢？<br>如果你和我一样，更中意一个美美的播客，Castro 是一个不二的选择。<br>IT 公论也是推荐了这一款软件来作为播客客户端，当然我是在这之前就用了🙊</p>
 <ul>
-<li>美，细腻，简约，是不是乍一看没有那么的美？相信我，随着不断地打开，你会爱上它那独特简约又不失优雅的美。</li>
+<li>UI界面：说不上平庸，却也没有很强的亮点</li>
+<li>支持：仅支持三个博客源，其中Worldpress 在中国属于瘫痪 专门注册了一个 Blogo 的使用体验并没有比原生客户端好在哪里 首先</li>
+<li>理念：Blogo 是想到达随时随地记录 想发便发的地步 然而通过 Drafts 完全可以达到 Action 的衔接一点不差 Drafts 的体验也是异常的优秀</li>
 </ul>
-<p><img src="http://i.imgur.com/fq9bJLu.png" alt=""></p>
-<ul>
-<li>真正的实用：不多一毫的设置项，却又涵盖了绝大多数人的需求（你有独特的需求的话我不能保证）播放的选项，下载的方式，缓存的管理。就连是否跳转 Safari 都有设置，如果你厌烦不停地跳转，不如来试试 Castro。</li>
-</ul>
-<p><img src="http://i.imgur.com/IgqhHIE.png" alt=""></p>
-<ul>
-<li>完美的手势：主界面的 “节目” 列表下，从左向右滑动选择删除或者下载，从右向左滑动标记为已观看。（缓存机制其实是不需要自己手动删除的，除非你强迫症看完一定要删0 0）</li>
-</ul>
-<p><img src="http://i.imgur.com/mdVu8BO.png" alt=""></p>
-<h1 id="总结："><a href="#总结：" class="headerlink" title="总结："></a>总结：</h1><p>我不能保证这是一款能满足你所有特殊需求的博客，但我可以保证这是一款你用久了会爱上的博客，没有繁杂的功能，抛弃无聊的选项，秉承美而简的界面，播客，不正是需要这样么？</p>
-<h1 id="更新："><a href="#更新：" class="headerlink" title="更新："></a>更新：</h1><p><strong>2017.02.25</strong>：Castro 之前更新了新版本，而在那儿之前我已经切换成了 Pocket Casts，等以后有空写写咯~</p>
+<p><blockquote class="blockquote-center"> 点击：<a href="http://o1xhack.com/2016/04/21/ios/drafts/">Drafts 文章</a></blockquote>Drafts 文章</p>
+<p><img src="http://i.imgur.com/bEi0Il8.png" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;听&quot;&gt;&lt;a href=&quot;#听&quot; class=&quot;headerlink&quot; title=&quot;听&quot;&gt;&lt;/a&gt;听&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/cn/app/castro-high-fidelity-podcasts/id723142770?l=en&amp;amp;mt=8&quot;&gt;Castro&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;播客 一个小但拥有灵魂的聚合&lt;/p&gt;
-&lt;p&gt;当你还在没事听听音乐 听听休闲电台的时候 不如抽空将下载的播客听一听？&lt;/p&gt;
+      &lt;h1 id=&quot;期待？&quot;&gt;&lt;a href=&quot;#期待？&quot; class=&quot;headerlink&quot; title=&quot;期待？&quot;&gt;&lt;/a&gt;期待？&lt;/h1&gt;&lt;p&gt;期待的 Blog 软件 Blogo 之前招收了 TF 用户&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“如果你不用博客，也很就不用考虑这个APP”&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
     
     </summary>
