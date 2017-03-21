@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-02-20T08:00:00.000Z</updated>
+  <updated>2017-03-21T03:35:38.000Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -14,6 +14,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iOS APP：Coffee It - Track Caffeine in Simplest Way</title>
+    <link href="http://o1xhack.com/2017/03/20/coffeeit/"/>
+    <id>http://o1xhack.com/2017/03/20/coffeeit/</id>
+    <published>2017-03-20T04:30:00.000Z</published>
+    <updated>2017-03-21T03:35:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Coffee It 内测，小型。请全文查看具体简介以及填写表格！</p>
+<a id="more"></a>
+<div style="text-align:center"><br><iframe height="1500" width="600" align="middle" src="https://wj.qq.com/s/1178908/89bc" frameborder="0" allowfullscreen></iframe><br></div>
+
+
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Coffee It 内测，小型。请全文查看具体简介以及填写表格！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="iOS Develop（iOS 开发）" scheme="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
+    
+    
+      <category term="swift3.0" scheme="http://o1xhack.com/tags/swift3-0/"/>
+    
+      <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
+    
+      <category term="iOS APP" scheme="http://o1xhack.com/tags/iOS-APP/"/>
+    
+  </entry>
   
   <entry>
     <title>Coffee It - Privacy Policy</title>
@@ -678,7 +709,7 @@
     <link href="http://o1xhack.com/2017/02/21/infoit/"/>
     <id>http://o1xhack.com/2017/02/21/infoit/</id>
     <published>2017-02-21T16:28:00.000Z</published>
-    <updated>2017-02-26T22:15:28.000Z</updated>
+    <updated>2017-03-21T03:29:42.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center">点击下载：<a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="external">Info It - 通过分享快速搜索电影，书籍信息</a></blockquote>
 
@@ -1889,46 +1920,6 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
 &lt;blockquote&gt;
 &lt;p&gt;“它很丑，一堆内购，可我依然在用它。”&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="iOS APP 推荐" scheme="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
-    
-    
-      <category term="ios" scheme="http://o1xhack.com/tags/ios/"/>
-    
-      <category term="app" scheme="http://o1xhack.com/tags/app/"/>
-    
-      <category term="recommend" scheme="http://o1xhack.com/tags/recommend/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
-    <link href="http://o1xhack.com/2016/03/08/ios/publish-later/"/>
-    <id>http://o1xhack.com/2016/03/08/ios/publish-later/</id>
-    <published>2016-03-09T00:11:00.000Z</published>
-    <updated>2017-02-24T23:14:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="定时发送-Instagram"><a href="#定时发送-Instagram" class="headerlink" title="定时发送 Instagram"></a>定时发送 Instagram</h1><p><a href="https://appsto.re/cn/FVXt3.i" target="_blank" rel="external">Publish - On Twitter &amp; Instagram</a>(推荐)</p>
-<p><a href="https://appsto.re/cn/F7lYU.i" target="_blank" rel="external">Later - Plan and Schedule Posts for Instagram</a></p>
-<blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
-
-<a id="more"></a> 
-<p>两款设定时间发送 ins 的软件<br>都无法实现自动化发送 只能够通过提醒来进入APP并跳转发送</p>
-<ul>
-<li>UI界面：Publish 完胜</li>
-<li>设定时间：Publich 可以自动根据 ins 设定最佳时间 比较容易获得赞的时间~</li>
-<li>账户：Publish 在选择照片后可以选择多个账户 而 Latergramme 只能账户切换后再添加</li>
-</ul>
-<p><img src="http://i.imgur.com/RLDBssA.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;定时发送-Instagram&quot;&gt;&lt;a href=&quot;#定时发送-Instagram&quot; class=&quot;headerlink&quot; title=&quot;定时发送 Instagram&quot;&gt;&lt;/a&gt;定时发送 Instagram&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://appsto.re/cn/FVXt3.i&quot;&gt;Publish - On Twitter &amp;amp; Instagram&lt;/a&gt;(推荐)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://appsto.re/cn/F7lYU.i&quot;&gt;Later - Plan and Schedule Posts for Instagram&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
     
     </summary>

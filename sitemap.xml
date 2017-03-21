@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://o1xhack.com/2017/03/20/coffeeit/</loc>
+    
+    <lastmod>2017-03-21T03:35:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
+    
+    <lastmod>2017-03-21T03:29:42.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://o1xhack.com/2017/03/10/podcasts/</loc>
     
     <lastmod>2017-03-13T06:00:00.000Z</lastmod>
@@ -44,21 +58,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
-    
-    <lastmod>2017-02-26T22:15:28.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     
@@ -149,14 +156,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
+    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
     
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
+    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
     
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     
@@ -184,6 +191,13 @@
   </url>
   
   <url>
+    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
+    
+    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
     
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
@@ -192,13 +206,6 @@
   
   <url>
     <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
-    
-    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
     
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     
