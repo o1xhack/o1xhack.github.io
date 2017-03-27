@@ -81,12 +81,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
-        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
+        <title>「iOS」Castro - 不如听播客</title>
+        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -105,12 +105,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Castro - 不如听播客</title>
-        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
+        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
+        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -227,30 +227,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/18/privacy-policy/coffeeit/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Coffee It - Privacy Policy</title>
-        <pubTime>2017-03-19T03:20:29.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>policy</tag>
-         
-         
-           
-             
-              <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
@@ -299,6 +275,30 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Coffee It - Privacy Policy / Caffeine Data Sources</title>
+        <pubTime>2017-03-19T03:20:29.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>policy</tag>
+         
+         
+           
+             
+              <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2016/08/11/kindle/kindle-export-evernote/</loc>
     <lastmod>2017-02-19T23:19:00.000Z</lastmod>
     <data>
@@ -323,6 +323,26 @@
     
     
   <url>
+    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
+    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于 o1xhack.com 的 blog 搭建</title>
+        <pubTime>2017-02-20T00:11:00.000Z</pubTime>
+        
+        <tag>blog</tag>
+         
+         
+           
+             
+              <breadCrumb title="blog" url="http://o1xhack.com/categories/blog/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     <data>
@@ -344,26 +364,6 @@
            
              
               <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
-    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>关于 o1xhack.com 的 blog 搭建</title>
-        <pubTime>2017-02-20T00:11:00.000Z</pubTime>
-        
-        <tag>blog</tag>
-         
-         
-           
-             
-              <breadCrumb title="blog" url="http://o1xhack.com/categories/blog/"/>
           
         </display>
     </data>
@@ -445,30 +445,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
-    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>Swift 学习日记 - 1</title>
-        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
-        
-        <tag>swift3.0</tag>
-         
-        <tag>language</tag>
-         
-        <tag>learning</tag>
-         
-         
-           
-             
-              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
@@ -485,6 +461,30 @@
         <tag>SafariViewController</tag>
          
         <tag>SnapKit</tag>
+         
+         
+           
+             
+              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
+    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>Swift 学习日记 - 1</title>
+        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>language</tag>
+         
+        <tag>learning</tag>
          
          
            
