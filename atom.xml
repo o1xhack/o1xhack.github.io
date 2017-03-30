@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-03-29T00:45:48.000Z</updated>
+  <updated>2017-03-30T14:26:53.000Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -20,11 +20,15 @@
     <link href="http://o1xhack.com/2017/03/20/coffeeit/"/>
     <id>http://o1xhack.com/2017/03/20/coffeeit/</id>
     <published>2017-03-21T03:30:00.000Z</published>
-    <updated>2017-03-29T00:45:48.000Z</updated>
+    <updated>2017-03-30T14:26:53.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Coffee It is an iOS APP that build for those who drink Coffee a lot. There are group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are been abandoned in a few time, without further bug fixes and improvement, the APP are difficult to use. This is why I develop Coffee It.</p>
+    <content type="html"><![CDATA[<p>Coffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. This is why I develop Coffee It.</p>
 <p>I’m a student in Computer Science, and I learn Swift and iOS Development myself. This APP may not fulfill every Caffeine Lover’s requirement, but I will keep developing it with any feedback! I cannot assure I can do every function since I still need time for my University Study, but with my spare time, I will do my best in improving it.</p>
 <a id="more"></a>
+<h1 id="Upvoted-on-ProductHunt"><a href="#Upvoted-on-ProductHunt" class="headerlink" title="Upvoted on ProductHunt"></a>Upvoted on ProductHunt</h1><iframe style="border: none;" src="https://cards.producthunt.com/cards/posts/94855?v=1" width="100%" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe> 
+
+
+
 <h1 id="Caffeine-Data-Request"><a href="#Caffeine-Data-Request" class="headerlink" title="Caffeine Data Request"></a>Caffeine Data Request</h1><blockquote>
 <p>If you have any Coffee Brand or types want to be added as Default. Fill the form.</p>
 </blockquote>
@@ -38,7 +42,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;Coffee It is an iOS APP that build for those who drink Coffee a lot. There are group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are been abandoned in a few time, without further bug fixes and improvement, the APP are difficult to use. This is why I develop Coffee It.&lt;/p&gt;
+      &lt;p&gt;Coffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. This is why I develop Coffee It.&lt;/p&gt;
 &lt;p&gt;I’m a student in Computer Science, and I learn Swift and iOS Development myself. This APP may not fulfill every Caffeine Lover’s requirement, but I will keep developing it with any feedback! I cannot assure I can do every function since I still need time for my University Study, but with my spare time, I will do my best in improving it.&lt;/p&gt;
     
     </summary>
