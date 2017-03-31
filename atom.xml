@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-03-30T14:28:22.000Z</updated>
+  <updated>2017-03-31T04:43:09.000Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -20,9 +20,11 @@
     <link href="http://o1xhack.com/2017/03/20/coffeeit/"/>
     <id>http://o1xhack.com/2017/03/20/coffeeit/</id>
     <published>2017-03-21T03:30:00.000Z</published>
-    <updated>2017-03-30T14:28:22.000Z</updated>
+    <updated>2017-03-31T04:43:09.000Z</updated>
     
     <content type="html"><![CDATA[<p>Coffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. This is why I develop Coffee It.</p>
+<blockquote class="blockquote-center"> Download <a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="external">Coffee It</a> right now!</blockquote>
+
 <p>I’m a student in Computer Science, and I learn Swift and iOS Development myself. This APP may not fulfill every Caffeine Lover’s requirement, but I will keep developing it with any feedback! I cannot assure I can do every function since I still need time for my University Study, but with my spare time, I will do my best in improving it.</p>
 <a id="more"></a>
 <h1 id="Upvoted-on-ProductHunt"><a href="#Upvoted-on-ProductHunt" class="headerlink" title="Upvoted on ProductHunt"></a>Upvoted on ProductHunt</h1><blockquote>
@@ -45,6 +47,8 @@
     <summary type="html">
     
       &lt;p&gt;Coffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. This is why I develop Coffee It.&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt; Download &lt;a href=&quot;https://appsto.re/cn/Qf3Eib.i&quot;&gt;Coffee It&lt;/a&gt; right now!&lt;/blockquote&gt;
+
 &lt;p&gt;I’m a student in Computer Science, and I learn Swift and iOS Development myself. This APP may not fulfill every Caffeine Lover’s requirement, but I will keep developing it with any feedback! I cannot assure I can do every function since I still need time for my University Study, but with my spare time, I will do my best in improving it.&lt;/p&gt;
     
     </summary>
