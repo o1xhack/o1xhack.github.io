@@ -4,6 +4,7 @@
 
     
     
+    
   <url>
     <loc>http://o1xhack.com/2017/03/20/coffeeit/</loc>
     <lastmod>2017-03-31T04:43:09.000Z</lastmod>
@@ -27,7 +28,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
@@ -81,12 +81,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Castro - 不如听播客</title>
-        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
+        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
+        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -105,12 +105,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
-        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
+        <title>「iOS」Castro - 不如听播客</title>
+        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -227,30 +227,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
-        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>review</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
@@ -268,6 +244,30 @@
            
              
               <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
+        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>review</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
           
         </display>
     </data>
@@ -525,30 +525,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
-        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
-        
-        <tag>tech</tag>
-         
-        <tag>mobie payments</tag>
-         
-        <tag>译文计划</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -566,6 +542,30 @@
            
              
               <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
+        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
+        
+        <tag>tech</tag>
+         
+        <tag>mobie payments</tag>
+         
+        <tag>译文计划</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
           
         </display>
     </data>
