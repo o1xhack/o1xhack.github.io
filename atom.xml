@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-03-31T04:43:09.000Z</updated>
+  <updated>2017-02-25T04:00:00.000Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -14,6 +14,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「iOS」Todoist 的一些用法和技巧（4月10日）</title>
+    <link href="http://o1xhack.com/2017/04/10/ios/todoist-using/"/>
+    <id>http://o1xhack.com/2017/04/10/ios/todoist-using/</id>
+    <published>2017-04-10T05:01:00.000Z</published>
+    <updated>2017-02-25T04:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="开个坑"><a href="#开个坑" class="headerlink" title="开个坑"></a>开个坑</h1><p>开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～</p>
+<p>这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！</p>
+<p>\<blockquote class="blockquote-center" \=""> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 \</blockquote></p>
+<p>\&lt;!–more –></p>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><h3 id="2017-04-10"><a href="#2017-04-10" class="headerlink" title="2017.04.10"></a>2017.04.10</h3><ul>
+<li>项目父级子级关系</li>
+<li>已完成的子任务堆积怎么办？</li>
+</ul>
+<hr>
+<h1 id="项目父级子级关系"><a href="#项目父级子级关系" class="headerlink" title="项目父级子级关系"></a>项目父级子级关系</h1><p>每一个项目（Project）之间的父子级别关系，是仅在你的账户中显示的，也就是说你这里的父子级别的项目关系在共享给别人后，别人是不会知道这个关系的，举个例子：</p>
+<p>两个项目：「iOS开发」 和 「Swift学习」<br>你将 Swift学习 放到了 iOS开发的下面，在你这里 iOS开发 就是所谓的子项目，当你将两个项目都共享给别人后，别人那里，这两个项目拥有同等的级别，都是主项目，谁也不是谁的子项目。</p>
+<p> <img src="https://ww3.sinaimg.cn/large/006tKfTcgy1fehgeu0wkhj30yk0yvqd5.jpg" alt=""></p>
+<hr>
+<h1 id="已完成的子任务堆积怎么办？"><a href="#已完成的子任务堆积怎么办？" class="headerlink" title="已完成的子任务堆积怎么办？"></a>已完成的子任务堆积怎么办？</h1><p>如果你创建了一个主任务并且添加了许多的子任务，而这个主任务又不会短期内就完成，那一段时间后你的主任务里面便会有一堆灰色删除线的子任务堆积。在一个子任务已经被玩成后，你可以通过对这个子任务从右向左滑动，这个已经完成的子任务便会彻底不显示。</p>
+<p><img src="https://ww3.sinaimg.cn/large/006tKfTcgy1fehgpuopqaj30yk0yvaii.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;开个坑&quot;&gt;&lt;a href=&quot;#开个坑&quot; class=&quot;headerlink&quot; title=&quot;开个坑&quot;&gt;&lt;/a&gt;开个坑&lt;/h1&gt;&lt;p&gt;开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～&lt;/p&gt;
+&lt;p&gt;这篇文章是关于 Todoi
+    
+    </summary>
+    
+      <category term="iOS APP 分析" scheme="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
+    
+    
+      <category term="ios" scheme="http://o1xhack.com/tags/ios/"/>
+    
+      <category term="app" scheme="http://o1xhack.com/tags/app/"/>
+    
+      <category term="review" scheme="http://o1xhack.com/tags/review/"/>
+    
+  </entry>
   
   <entry>
     <title>iOS APP：Coffee It - Track Caffeine in Simplest Way</title>
@@ -1673,9 +1715,8 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
     
     <content type="html"><![CDATA[<p><em>本文写给 差钱的你~</em><br><em>不差钱的请直接买~</em><br><em>买了觉得不好也请不要黑~</em></p>
 <p><img src="http://i.imgur.com/sgMOvSS.jpg" alt=""></p>
-<blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
-
-<a id="more"></a>
+<p> \<blockquote class="blockquote-center" \=""> <a href="">尝新者</a>(<a href="http://o1xhack.com/new/)：尝试一切新鲜的事物">http://o1xhack.com/new/)：尝试一切新鲜的事物</a> \</blockquote></p>
+<p> \&lt;!–more –></p>
 <h1 id="荐"><a href="#荐" class="headerlink" title="荐"></a>荐</h1><p>当你还在纠结于苹果自带的备忘录不够用，印象笔记的服务太臃肿，简单的第三方软件似乎不够用也不够快是，一定听闻了许多关于 Drafts 的传说，最快，最便捷，超高级的可扩展项 …<br>所以究竟价格 68 元号称最快抓取记录的 Drafts 软件是否值得呢？</p>
 <p>本文附有态度，持 值得 态度，文风不保证科学般的严谨。</p>
 <p>似乎这个类型的文章已经快变成了我的一个文章系列了~</p>
@@ -1723,8 +1764,7 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
 <p>已经使用过其他笔记本，觉得还可以用或者觉得完全不能用。</p>
 </blockquote>
 <p>使用过笔记本的人不外乎两种，简单简洁的类似于自带备忘录的（当然有更多第三方好看的更强大一点的，不过皆归为一类），复杂臃肿的类似于印象笔记的。</p>
-<p><strong>使用简单笔记的</strong><br>    像上面一种人一样，强行在一段时间内高度使用备忘录，并且对照我所罗列的特点一一查看是否有需求，在使用完后想必你已然有了答案，再结合我给的扩展功能，更高阶 Drafts 使用的说明，来确定是否有需求。</p>
-<p><strong>使用印象笔记一类的</strong><br>首先需要确定自己需不需要一个轻度笔记应用，在我看来，很多人对印象笔记的使用熟练度已经完全克服了他的困难程度。</p>
+<p><strong>使用简单笔记的</strong><br>    像上面一种人一样，强行在一段时间内高度使用备忘录，并且对照我所罗列的特点一一查看是否有需求，在使用完后想必你已然有了答案，再结合我给的扩展功能，更高阶 Drafts 使用的说明，来确定是否有需求。<br><strong>使用印象笔记一类的</strong><br>首先需要确定自己需不需要一个轻度笔记应用，在我看来，很多人对印象笔记的使用熟练度已经完全克服了他的困难程度。</p>
 <ul>
 <li>关键点是：你是否需要一款特别快输入的软件。很多的笔记记录就是需要快，尤其是很多 idea，一闪即逝，在臃肿的印象笔记中等待打开并且输入已经会消磨部分的想法，这时候你就需要一款类似于 Drafts 的快速记录软件。</li>
 <li>关键点二：你是否需要超出与印象笔记分享的动作。这一点其实是很难确定的，因为 Drafts 的定制化非常的可扩展，可以有太多不同的选择定制，也许你看到的列子都是你觉得不需要的，而实际上是有你需要的，所以我的建议是，英文好的多浏览 Action Directory，查看你已用的软件来发掘自己的需求，另外就是你是否想搞，凡是定制的东西都是需要一定的学习，如果你在 workflow 类似软件中已经发掘自己不喜欢深研究，我是觉得你基本在 Drafts 中也不会很研究的（当然你非说你会我也没办法0 0），这需要一定的学习和应用，这种定制化的强大不是说一分钟就可以发掘，如果你不想发掘，自然就不需要了。</li>
@@ -1737,7 +1777,7 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
     
       &lt;p&gt;&lt;em&gt;本文写给 差钱的你~&lt;/em&gt;&lt;br&gt;&lt;em&gt;不差钱的请直接买~&lt;/em&gt;&lt;br&gt;&lt;em&gt;买了觉得不好也请不要黑~&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/sgMOvSS.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
+&lt;p&gt; \&lt;blo
     
     </summary>
     
@@ -1927,60 +1967,6 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
       <category term="mobie payments" scheme="http://o1xhack.com/tags/mobie-payments/"/>
     
       <category term="译文计划" scheme="http://o1xhack.com/tags/%E8%AF%91%E6%96%87%E8%AE%A1%E5%88%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
-    <link href="http://o1xhack.com/2016/03/09/ios/followers/"/>
-    <id>http://o1xhack.com/2016/03/09/ios/followers/</id>
-    <published>2016-03-09T23:11:00.000Z</published>
-    <updated>2017-02-25T05:20:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://itunes.apple.com/us/app/followers-+-for-instagram/id566223681?mt=8" target="_blank" rel="external">Followers+</a></p>
-<p>Surge 让整个 VPN 界都跨出了一步，未来必定会有更多类似 Surge 的软件出现，当翻墙已经不再是一件难事，不如来看看这款 Instagram 的工具吧。</p>
-<blockquote>
-<p>“它很丑，一堆内购，可我依然在用它。”</p>
-</blockquote>
-<blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
-
-<a id="more"></a>
-<h1 id="荐"><a href="#荐" class="headerlink" title="荐"></a>荐</h1><p>它有两个版本，一个是收费的 Pro 版，我已经忘记 Pro 是多了什么了，先下载免费的用吧，可以就不用买了。</p>
-<blockquote>
-<p>“如果你很想当网红，可以考虑买了内购。”</p>
-</blockquote>
-<p>可我一直在用它，从下载开始，因为我用 Ins，也有点强迫症。</p>
-<ul>
-<li>最基本的功能，也是最需要的，谁关注了你，谁取关了你。</li>
-<li>数据，有许多不同的数据分析，包括总的赞的数量，平均的赞等等。</li>
-<li>高级一点的功能，哪些人关注你你却没关注，哪些人你关注却没关注你</li>
-<li>内购：删除了什么评论，谁屏蔽了你，赞你最多的，关注你最多的，tw 和 fb 透视，就像一个全面的 instagram 分析工具（内购并不是单一，每个都有不同内购）</li>
-</ul>
-<h2 id="我为什么用？"><a href="#我为什么用？" class="headerlink" title="我为什么用？"></a>我为什么用？</h2><p>（大概我有强迫症）被认识的人取关我会很不开心！而且会觉得，被取关了很怪异，我关注了他，他却取关了我，这算什么玩意儿！</p>
-<p>（大概我有网红梦）我关注了你，你却没有回关我，不开心！当然是指朋友或认识的人。</p>
-<p>由于 instagram 的限制，你只能自己慢慢的刷列表看哪些人关注了你，你也没办法看到谁取关了你。如果你对于哪些人关注和取关比较在意，不如来试试这款软件。</p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>它更新很及时，连 Apple Watch 都已经支持，它没有一堆新的功能，但可以保持新特性的支持，纵观国内的很多 App，呵呵大~</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/followers-+-for-instagram/id566223681?mt=8&quot;&gt;Followers+&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Surge 让整个 VPN 界都跨出了一步，未来必定会有更多类似 Surge 的软件出现，当翻墙已经不再是一件难事，不如来看看这款 Instagram 的工具吧。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“它很丑，一堆内购，可我依然在用它。”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="iOS APP 推荐" scheme="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
-    
-    
-      <category term="ios" scheme="http://o1xhack.com/tags/ios/"/>
-    
-      <category term="app" scheme="http://o1xhack.com/tags/app/"/>
-    
-      <category term="recommend" scheme="http://o1xhack.com/tags/recommend/"/>
     
   </entry>
   
