@@ -24,8 +24,9 @@
     
     <content type="html"><![CDATA[<h1 id="开个坑"><a href="#开个坑" class="headerlink" title="开个坑"></a>开个坑</h1><p>开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～</p>
 <p>这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！</p>
-<p>\<blockquote class="blockquote-center" \=""> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 \</blockquote></p>
-<p>\&lt;!–more –></p>
+<blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
+
+<a id="more"></a>
 <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><h3 id="2017-04-10"><a href="#2017-04-10" class="headerlink" title="2017.04.10"></a>2017.04.10</h3><ul>
 <li>项目父级子级关系</li>
 <li>已完成的子任务堆积怎么办？</li>
@@ -42,7 +43,8 @@
     <summary type="html">
     
       &lt;h1 id=&quot;开个坑&quot;&gt;&lt;a href=&quot;#开个坑&quot; class=&quot;headerlink&quot; title=&quot;开个坑&quot;&gt;&lt;/a&gt;开个坑&lt;/h1&gt;&lt;p&gt;开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～&lt;/p&gt;
-&lt;p&gt;这篇文章是关于 Todoi
+&lt;p&gt;这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
     
     </summary>
     
@@ -1715,8 +1717,9 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
     
     <content type="html"><![CDATA[<p><em>本文写给 差钱的你~</em><br><em>不差钱的请直接买~</em><br><em>买了觉得不好也请不要黑~</em></p>
 <p><img src="http://i.imgur.com/sgMOvSS.jpg" alt=""></p>
-<p> \<blockquote class="blockquote-center" \=""> <a href="">尝新者</a>(<a href="http://o1xhack.com/new/)：尝试一切新鲜的事物">http://o1xhack.com/new/)：尝试一切新鲜的事物</a> \</blockquote></p>
-<p> \&lt;!–more –></p>
+ <blockquote class="blockquote-center"> <a href="">尝新者</a>(<a href="http://o1xhack.com/new/)：尝试一切新鲜的事物">http://o1xhack.com/new/)：尝试一切新鲜的事物</a> </blockquote>
+
+ <a id="more"></a>
 <h1 id="荐"><a href="#荐" class="headerlink" title="荐"></a>荐</h1><p>当你还在纠结于苹果自带的备忘录不够用，印象笔记的服务太臃肿，简单的第三方软件似乎不够用也不够快是，一定听闻了许多关于 Drafts 的传说，最快，最便捷，超高级的可扩展项 …<br>所以究竟价格 68 元号称最快抓取记录的 Drafts 软件是否值得呢？</p>
 <p>本文附有态度，持 值得 态度，文风不保证科学般的严谨。</p>
 <p>似乎这个类型的文章已经快变成了我的一个文章系列了~</p>
@@ -1777,7 +1780,7 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
     
       &lt;p&gt;&lt;em&gt;本文写给 差钱的你~&lt;/em&gt;&lt;br&gt;&lt;em&gt;不差钱的请直接买~&lt;/em&gt;&lt;br&gt;&lt;em&gt;买了觉得不好也请不要黑~&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/sgMOvSS.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt; \&lt;blo
+ &lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;&quot;&gt;尝新者&lt;/a&gt;(&lt;a href=&quot;http://o1xhack.com/new/)：尝试一切新鲜的事物&quot;&gt;http://o1xhack.com/new/)：尝试一切新鲜的事物&lt;/a&gt; &lt;/blockquote&gt;
     
     </summary>
     
