@@ -81,12 +81,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
-        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
+        <title>「iOS」Castro - 不如听播客</title>
+        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -105,12 +105,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Castro - 不如听播客</title>
-        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
+        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
+        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -203,6 +203,30 @@
     
     
   <url>
+    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
+    <lastmod>2017-02-24T23:14:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
+        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>recommend</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
@@ -227,23 +251,23 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
-    <lastmod>2017-02-24T23:14:00.000Z</lastmod>
+    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
-        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
+        <title>Coffee It - Privacy Policy / Caffeine Data Sources</title>
+        <pubTime>2017-03-19T03:20:29.000Z</pubTime>
         
         <tag>ios</tag>
          
         <tag>app</tag>
          
-        <tag>recommend</tag>
+        <tag>policy</tag>
          
          
            
              
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
+              <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
           
         </display>
     </data>
@@ -292,30 +316,6 @@
            
              
               <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Coffee It - Privacy Policy / Caffeine Data Sources</title>
-        <pubTime>2017-03-19T03:20:29.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>policy</tag>
-         
-         
-           
-             
-              <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
           
         </display>
     </data>
@@ -549,30 +549,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
-        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
-        
-        <tag>tech</tag>
-         
-        <tag>mobie payments</tag>
-         
-        <tag>译文计划</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -590,6 +566,30 @@
            
              
               <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
+        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
+        
+        <tag>tech</tag>
+         
+        <tag>mobie payments</tag>
+         
+        <tag>译文计划</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
           
         </display>
     </data>
