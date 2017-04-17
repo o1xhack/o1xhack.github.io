@@ -65,19 +65,43 @@
     <link href="http://o1xhack.com/2017/03/20/coffeeit/"/>
     <id>http://o1xhack.com/2017/03/20/coffeeit/</id>
     <published>2017-03-21T03:30:00.000Z</published>
-    <updated>2017-03-31T04:43:09.000Z</updated>
+    <updated>2017-04-17T15:31:07.000Z</updated>
     
-    <content type="html"><![CDATA[<p>Coffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. This is why I develop Coffee It.</p>
+    <content type="html"><![CDATA[<h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p>Coffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. This is why I develop Coffee It.</p>
 <blockquote class="blockquote-center"> Download <a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="external">Coffee It</a> right now!</blockquote>
 
-<p>I’m a student in Computer Science, and I learn Swift and iOS Development myself. This APP may not fulfill every Caffeine Lover’s requirement, but I will keep developing it with any feedback! I cannot assure I can do every function since I still need time for my University Study, but with my spare time, I will do my best in improving it.</p>
 <a id="more"></a>
+<h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><p>I’m a student in Computer Science, and I learn Swift and iOS Development myself. This APP may not fulfill every Caffeine Lover’s requirement, but I will keep developing it with any feedback! I cannot assure I can do every function since I still need time for my University Study, but with my spare time, I will do my best in improving it.</p>
+<hr>
 <h1 id="Upvoted-on-ProductHunt"><a href="#Upvoted-on-ProductHunt" class="headerlink" title="Upvoted on ProductHunt"></a>Upvoted on ProductHunt</h1><blockquote>
 <p>Please give the app an upvoted if you can!</p>
 </blockquote>
 <div style="text-align:center"><br><iframe style="border: none;" src="https://cards.producthunt.com/cards/posts/94855?v=1" width="500" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe><br></div>
 
 
+<hr>
+<h1 id="Update-Timeline"><a href="#Update-Timeline" class="headerlink" title="Update Timeline"></a>Update Timeline</h1><h2 id="Year-2017"><a href="#Year-2017" class="headerlink" title="Year 2017"></a><blockquote class="blockquote-center">Year 2017</blockquote></h2><h3 id="4-17-App-Store：1-3-3"><a href="#4-17-App-Store：1-3-3" class="headerlink" title="4.17 App Store：1.3.3"></a>4.17 App Store：1.3.3</h3><ul>
+<li>Delete in History view</li>
+<li>New Setting UI</li>
+<li>New Setting: Confirm Add Alert in Favorite View</li>
+<li>Auto layout fixes</li>
+<li>URL Scheme basic support</li>
+<li>Bug fixes</li>
+</ul>
+<h3 id="4-5-App-Store：1-2-2"><a href="#4-5-App-Store：1-2-2" class="headerlink" title="4.5 App Store：1.2.2"></a>4.5 App Store：1.2.2</h3><ul>
+<li>Favorite function!</li>
+<li>Coffee Data support Chinese language</li>
+<li>Add more coffee types</li>
+<li>Bug fixes</li>
+</ul>
+<h3 id="3-30-App-Store：1-0-0"><a href="#3-30-App-Store：1-0-0" class="headerlink" title="3.30 App Store：1.0.0"></a>3.30 App Store：1.0.0</h3><ul>
+<li>All basic adding, deleting, editing</li>
+<li>View controller and app info</li>
+<li>Health Data access and check</li>
+</ul>
+<h2 id="Beginning"><a href="#Beginning" class="headerlink" title="Beginning"></a>Beginning</h2> <blockquote class="blockquote-center"><strong>2017.03.16</strong><br><strong>Coffee It first time update to iTunes Connect</strong></blockquote>
+
+<hr>
 <h1 id="Caffeine-Data-Request"><a href="#Caffeine-Data-Request" class="headerlink" title="Caffeine Data Request"></a>Caffeine Data Request</h1><blockquote>
 <p>If you have any Coffee Brand or types want to be added as Default. Fill the form.</p>
 </blockquote>
@@ -91,10 +115,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;Coffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. This is why I develop Coffee It.&lt;/p&gt;
+      &lt;h1 id=&quot;Intro&quot;&gt;&lt;a href=&quot;#Intro&quot; class=&quot;headerlink&quot; title=&quot;Intro&quot;&gt;&lt;/a&gt;Intro&lt;/h1&gt;&lt;p&gt;Coffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. This is why I develop Coffee It.&lt;/p&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt; Download &lt;a href=&quot;https://appsto.re/cn/Qf3Eib.i&quot;&gt;Coffee It&lt;/a&gt; right now!&lt;/blockquote&gt;
-
-&lt;p&gt;I’m a student in Computer Science, and I learn Swift and iOS Development myself. This APP may not fulfill every Caffeine Lover’s requirement, but I will keep developing it with any feedback! I cannot assure I can do every function since I still need time for my University Study, but with my spare time, I will do my best in improving it.&lt;/p&gt;
     
     </summary>
     
@@ -803,7 +825,7 @@
     <link href="http://o1xhack.com/2017/02/21/infoit/"/>
     <id>http://o1xhack.com/2017/02/21/infoit/</id>
     <published>2017-02-21T16:28:00.000Z</published>
-    <updated>2017-03-21T03:29:42.000Z</updated>
+    <updated>2017-04-17T15:16:51.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center">点击下载：<a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="external">Info It - 通过分享快速搜索电影，书籍信息</a></blockquote>
 
@@ -893,13 +915,13 @@
 <h2 id="听播客时使用"><a href="#听播客时使用" class="headerlink" title="听播客时使用"></a>听播客时使用</h2><p>本人也是一个播客爱好者，目前使用的 Pocket Casts，但不论你使用什么客户端都一定会有 shownotes，绝大多数的播客都是内嵌地址或者附上地址，但也不排除会有少数并没有。</p>
 <p><img src="http://i.imgur.com/4V3T33B.jpg" alt=""></p>
 <hr>
-<h1 id="软件版本更新时间线"><a href="#软件版本更新时间线" class="headerlink" title="软件版本更新时间线"></a>软件版本更新时间线</h1><h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><h3 id="已提交审核：1-5-3"><a href="#已提交审核：1-5-3" class="headerlink" title="已提交审核：1.5.3"></a>已提交审核：1.5.3</h3><ul>
+<h1 id="软件版本更新时间线"><a href="#软件版本更新时间线" class="headerlink" title="软件版本更新时间线"></a>软件版本更新时间线</h1><h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><h3 id="2月27日-App-Store：1-5-3"><a href="#2月27日-App-Store：1-5-3" class="headerlink" title="2月27日 App Store：1.5.3"></a>2月27日 App Store：1.5.3</h3><ul>
 <li>修复选取英文无法搜索 IMDb、烂番茄的大 bug</li>
 <li>更改 UI 界面</li>
 <li>更新 Info It 相关所有信息</li>
 <li>增加了 你留一个好评可以让 Info It 更快 的功能</li>
 </ul>
-<h3 id="1月25日-APP-Store：1-5"><a href="#1月25日-APP-Store：1-5" class="headerlink" title="1月25日 APP Store：1.5"></a>1月25日 APP Store：1.5</h3><ol>
+<h3 id="1月25日-App-Store：1-5"><a href="#1月25日-App-Store：1-5" class="headerlink" title="1月25日 App Store：1.5"></a>1月25日 App Store：1.5</h3><ol>
 <li>中文影名直接转换英文搜索<ul>
 <li>无缝在后台转换中英文</li>
 </ul>
@@ -907,7 +929,7 @@
 <li>支持 IMDb 数据</li>
 <li>增加「开源许可」，「版本号」</li>
 </ol>
-<h3 id="1月8日-APP-Store：1-0"><a href="#1月8日-APP-Store：1-0" class="headerlink" title="1月8日 APP Store：1.0"></a>1月8日 APP Store：1.0</h3><ol>
+<h3 id="1月8日-App-Store：1-0"><a href="#1月8日-App-Store：1-0" class="headerlink" title="1月8日 App Store：1.0"></a>1月8日 App Store：1.0</h3><ol>
 <li>全面更新为 Safari View Controller：<ul>
 <li>可以强制重新刷新</li>
 <li>后退前进键</li>
