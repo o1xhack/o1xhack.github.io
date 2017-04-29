@@ -874,7 +874,7 @@
     <link href="http://o1xhack.com/2017/02/21/infoit/"/>
     <id>http://o1xhack.com/2017/02/21/infoit/</id>
     <published>2017-02-21T16:28:00.000Z</published>
-    <updated>2017-04-17T15:16:51.000Z</updated>
+    <updated>2017-04-29T04:19:47.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center">点击下载：<a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="external">Info It - 通过分享快速搜索电影，书籍信息</a></blockquote>
 
@@ -937,7 +937,29 @@
 </blockquote>
 <p><img src="http://i.imgur.com/5zZcTuB.png" alt=""></p>
 <hr>
-<h1 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h1><h2 id="在微信、微博、Twitter-等使用"><a href="#在微信、微博、Twitter-等使用" class="headerlink" title="在微信、微博、Twitter 等使用"></a>在微信、微博、Twitter 等使用</h2><ul>
+<h1 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h1><h2 id="在豆瓣中使用！"><a href="#在豆瓣中使用！" class="headerlink" title="在豆瓣中使用！"></a>在豆瓣中使用！</h2><blockquote>
+<p>好奇不？为什么要在豆瓣软件中使用豆瓣呢。。。我录了一个视频让你直观的感受一下。</p>
+</blockquote>
+<p>不得不说作为一个豆瓣记录的人，发现豆瓣对于自己软件内的文章提到的电影没有任何办法快速查询在豆瓣的状态我也是没办法。。。就比如你在看豆瓣里的一篇文章（我现在很多时候都会看一遍首页那些推荐），文章里提到了什么电影，你想知道这部电影怎么办如果好标记一下想看，该怎么办呢？</p>
+<ol>
+<li>返回豆瓣（关闭了文章）</li>
+<li>搜索这部电影，并且标记</li>
+<li>那之前的文章怎么办。。。？回去重新找0 0？</li>
+<li>或者记下来（复制下来），看完后在退出文章搜索（万一很多个电影、明星咋办）</li>
+</ol>
+<p>这个流程挺醉的，如果你没有需求你不会有感觉，但你如果尝试过一两次你一定会有一句 MMP 要讲。</p>
+<blockquote>
+<p>Info It 可以完美的解决在豆瓣内部看文章，长评论里面出现电影图书查询的所有问题！</p>
+</blockquote>
+<ol>
+<li>yi，文章出现了电影名字！</li>
+<li>选择它，选择共享，选择 Info It，标记，查看，搞定！</li>
+</ol>
+<p>ps. 视频中豆瓣打开过慢纯粹因为我在美国。。中国开的很快0 0</p>
+<iframe height="498" width="100%" src="http://player.youku.com/embed/XMjczNTQ2NjEzMg==" frameborder="0" 'allowfullscreen'=""></iframe>
+
+
+<h2 id="在微信、微博、Twitter-等使用"><a href="#在微信、微博、Twitter-等使用" class="headerlink" title="在微信、微博、Twitter 等使用"></a>在微信、微博、Twitter 等使用</h2><ul>
 <li>阅读微信文章时直接选取文字，点击分享</li>
 <li>查看微博时直接选取文字分享搜索（官方不可以在一条微博内选取，请使用第三方客户端）</li>
 <li>查看微博头条文章、Twitter 内的文章时，选取文字分享</li>
