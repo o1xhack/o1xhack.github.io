@@ -358,11 +358,11 @@
   </entry>
   
   <entry>
-    <title>「Podcast」播客推荐、信息介绍及单期节目推荐（18个）</title>
+    <title>「Podcast」播客推荐、信息介绍及单期节目推荐（20个）</title>
     <link href="http://o1xhack.com/2017/03/10/podcasts/"/>
     <id>http://o1xhack.com/2017/03/10/podcasts/</id>
     <published>2017-03-10T19:20:29.000Z</published>
-    <updated>2017-03-13T06:00:00.000Z</updated>
+    <updated>2017-05-10T16:30:00.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1> <blockquote class="blockquote-center">apexidea 团队 Slack 群申请：<a href="https://airtable.com/shr7vlqthJUPSiOK9" target="_blank" rel="external">Airtable表格填写</a></blockquote>
 
@@ -1155,13 +1155,13 @@
     
       <category term="swift3.0" scheme="http://o1xhack.com/tags/swift3-0/"/>
     
+      <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
+    
       <category term="blog" scheme="http://o1xhack.com/tags/blog/"/>
     
       <category term="language" scheme="http://o1xhack.com/tags/language/"/>
     
       <category term="learning" scheme="http://o1xhack.com/tags/learning/"/>
-    
-      <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
     
   </entry>
   
