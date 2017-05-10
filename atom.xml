@@ -364,20 +364,21 @@
     <published>2017-03-10T19:20:29.000Z</published>
     <updated>2017-03-13T06:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>日常走路听播客，早起睡前听播客已经成为了习惯~ 来推荐一些自己听得播客以及单期节目吧！ 什么方面都有，主要偏向科技，有英文有中文哈！</p>
+    <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1> <blockquote class="blockquote-center">apexidea 团队 Slack 群申请：<a href="https://airtable.com/shr7vlqthJUPSiOK9" target="_blank" rel="external">Airtable表格填写</a></blockquote>
+
+<p>日常走路听播客，早起睡前听播客已经成为了习惯~ 来推荐一些自己听得播客以及单期节目吧！ 什么方面都有，主要偏向科技，有英文有中文哈！</p>
 <p>本文章将介绍绝大部分个人听的博客，目前使用的软件为「<a href="https://appsto.re/cn/9bEUy.i" target="_blank" rel="external">Pocket Casts</a>」，态度非中立，拥有很强的个人观点，是个学生，学 cs，爱好繁多~ </p>
-<p>通过对每一档播客节目的简单介绍、相关信息罗列、以及单期节目推荐，让你可以通过播客的社交网络信息，播主的个人社交网络来直观看到这档播客的风格，而单期的节目推荐虽然带有很强的个人观点，但依旧可以成为你衡量是否喜欢的方便只选。</p>
-<p>因为个人使用 Pocket Casts 作为播客应用，故所有链接都是 pca.st 为开头，但是在打开后依旧可以使用 iOS 自带以及 RSS 等方式订阅，所有播客节目均可在泛用型播客软件中搜索出来。</p>
  <blockquote class="blockquote-center"><a href="http://o1xhack.com/life/">生活者</a>：生活着，无限可能</blockquote>
 
-
- <a id="more"></a>
+<a id="more"></a>
+<p>通过对每一档播客节目的简单介绍、相关信息罗列、以及单期节目推荐，让你可以通过播客的社交网络信息，播主的个人社交网络来直观看到这档播客的风格，而单期的节目推荐虽然带有很强的个人观点，但依旧可以成为你衡量是否喜欢的方便只选。</p>
+<p>因为个人使用 Pocket Casts 作为播客应用，故所有链接都是 pca.st 为开头，但是在打开后依旧可以使用 iOS 自带以及 RSS 等方式订阅，所有播客节目均可在泛用型播客软件中搜索出来。</p>
 <hr>
 <h1 id="更新历史"><a href="#更新历史" class="headerlink" title="更新历史"></a>更新历史</h1><blockquote>
 <p>想要忽略更新历史，直接跳转：<a href="http://o1xhack.com/2017/03/10/podcasts/#%E6%92%AD%E5%AE%A2%E5%88%97%E8%A1%A8"><strong>播客列表目录</strong></a></p>
 </blockquote>
 <h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><h3 id="5月10日："><a href="#5月10日：" class="headerlink" title="5月10日："></a>5月10日：</h3><ul>
-<li>博客增加：<a href="">科技相对论</a>，<a href="http://o1xhack.com/2017/03/10/podcasts/#AppStories">AppStories</a></li>
+<li>博客增加：<a href="http://o1xhack.com/2017/03/10/podcasts/#%E7%A7%91%E6%8A%80%E7%9B%B8%E5%AF%B9%E8%AE%BA">科技相对论</a>，<a href="http://o1xhack.com/2017/03/10/podcasts/#AppStories">AppStories</a></li>
 <li>单期节目增加：<a href="http://o1xhack.com/2017/03/10/podcasts/#%e5%a3%81%e4%b8%8b%e8%a7%82">壁下观</a> #60，<a href="http://o1xhack.com/2017/03/10/podcasts/#%e4%b8%8d%e8%83%bd%e9%94%99%e8%bf%87%e7%9a%84%e7%bf%bb%e5%94%b1%e6%ad%8c%e6%9b%b2">不能错过的翻唱歌曲</a> #17/4/26，<a href="http://o1xhack.com/2017/03/10/podcasts/#%e7%96%af%e6%8a%95%e5%9c%88">疯投圈</a> #7，<a href="http://o1xhack.com/2017/03/10/podcasts/#Acquired">Acquired</a> #32</li>
 </ul>
 <h3 id="3月13日："><a href="#3月13日：" class="headerlink" title="3月13日："></a>3月13日：</h3><ul>
@@ -405,7 +406,7 @@
 <li><a href="http://o1xhack.com/2017/03/10/podcasts/#IT-%E5%85%AC%E8%AE%BA">IT 公论</a></li>
 <li><a href="http://o1xhack.com/2017/03/10/podcasts/#%E5%A4%A7%E5%8F%AF%E7%9E%8E%E8%81%8A">大可瞎聊</a></li>
 <li><a href="http://o1xhack.com/2017/03/10/podcasts/#%E8%BF%9F%E6%97%A9%E6%9B%B4%E6%96%B0">迟早更新</a></li>
-<li><a href="">科技相对论</a></li>
+<li><a href="http://o1xhack.com/2017/03/10/podcasts/#%E7%A7%91%E6%8A%80%E7%9B%B8%E5%AF%B9%E8%AE%BA">科技相对论</a></li>
 </ul>
 <p>娱乐：</p>
 <ul>
@@ -668,10 +669,10 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h1&gt;&lt;p&gt;日常走路听播客，早起睡前听播客已经成为了习惯~ 来推荐一些自己听得播客以及单期节目吧！ 什么方面都有，主要偏向科技，有英文有中文哈！&lt;/p&gt;
+      &lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h1&gt; &lt;blockquote class=&quot;blockquote-center&quot;&gt;apexidea 团队 Slack 群申请：&lt;a href=&quot;https://airtable.com/shr7vlqthJUPSiOK9&quot;&gt;Airtable表格填写&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;日常走路听播客，早起睡前听播客已经成为了习惯~ 来推荐一些自己听得播客以及单期节目吧！ 什么方面都有，主要偏向科技，有英文有中文哈！&lt;/p&gt;
 &lt;p&gt;本文章将介绍绝大部分个人听的博客，目前使用的软件为「&lt;a href=&quot;https://appsto.re/cn/9bEUy.i&quot;&gt;Pocket Casts&lt;/a&gt;」，态度非中立，拥有很强的个人观点，是个学生，学 cs，爱好繁多~ &lt;/p&gt;
-&lt;p&gt;通过对每一档播客节目的简单介绍、相关信息罗列、以及单期节目推荐，让你可以通过播客的社交网络信息，播主的个人社交网络来直观看到这档播客的风格，而单期的节目推荐虽然带有很强的个人观点，但依旧可以成为你衡量是否喜欢的方便只选。&lt;/p&gt;
-&lt;p&gt;因为个人使用 Pocket Casts 作为播客应用，故所有链接都是 pca.st 为开头，但是在打开后依旧可以使用 iOS 自带以及 RSS 等方式订阅，所有播客节目均可在泛用型播客软件中搜索出来。&lt;/p&gt;
  &lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;a href=&quot;http://o1xhack.com/life/&quot;&gt;生活者&lt;/a&gt;：生活着，无限可能&lt;/blockquote&gt;
     
     </summary>
@@ -1154,13 +1155,13 @@
     
       <category term="swift3.0" scheme="http://o1xhack.com/tags/swift3-0/"/>
     
-      <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
-    
       <category term="blog" scheme="http://o1xhack.com/tags/blog/"/>
     
       <category term="language" scheme="http://o1xhack.com/tags/language/"/>
     
       <category term="learning" scheme="http://o1xhack.com/tags/learning/"/>
+    
+      <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
     
   </entry>
   
