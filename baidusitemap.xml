@@ -251,6 +251,30 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「mac」释放 macOS 菜单栏潜能的软件们（十五款）</title>
+        <pubTime>2016-07-27T23:23:29.000Z</pubTime>
+        
+        <tag>app</tag>
+         
+        <tag>mac</tag>
+         
+        <tag>菜单栏</tag>
+         
+         
+           
+             
+              <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
@@ -299,30 +323,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「mac」释放 macOS 菜单栏潜能的软件们（十五款）</title>
-        <pubTime>2016-07-27T23:23:29.000Z</pubTime>
-        
-        <tag>app</tag>
-         
-        <tag>mac</tag>
-         
-        <tag>菜单栏</tag>
-         
-         
-           
-             
-              <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2016/08/11/kindle/kindle-export-evernote/</loc>
     <lastmod>2017-02-19T23:19:00.000Z</lastmod>
     <data>
@@ -347,34 +347,6 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
-    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>iOS开发相关分享 @iosdevswift 说明（Twitter，微博）</title>
-        <pubTime>2017-02-20T02:08:00.000Z</pubTime>
-        
-        <tag>swift3.0</tag>
-         
-        <tag>iOSDev</tag>
-         
-        <tag>blog</tag>
-         
-        <tag>language</tag>
-         
-        <tag>learning</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     <data>
@@ -388,6 +360,34 @@
            
              
               <breadCrumb title="blog" url="http://o1xhack.com/categories/blog/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
+    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>iOS开发相关分享 @iosdevswift 说明（Twitter，微博）</title>
+        <pubTime>2017-02-20T02:08:00.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>blog</tag>
+         
+        <tag>language</tag>
+         
+        <tag>learning</tag>
+         
+        <tag>iOSDev</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
           
         </display>
     </data>
@@ -469,34 +469,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
-    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
-        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
-        
-        <tag>swift3.0</tag>
-         
-        <tag>language</tag>
-         
-        <tag>learning</tag>
-         
-        <tag>SafariViewController</tag>
-         
-        <tag>SnapKit</tag>
-         
-         
-           
-             
-              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
@@ -549,6 +521,60 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
+    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
+        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>language</tag>
+         
+        <tag>learning</tag>
+         
+        <tag>SafariViewController</tag>
+         
+        <tag>SnapKit</tag>
+         
+         
+           
+             
+              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）</title>
+        <pubTime>2017-04-29T14:12:00.000Z</pubTime>
+        
+        <tag>tech</tag>
+         
+        <tag>hardware</tag>
+         
+        <tag>music</tag>
+         
+        <tag>audio</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -585,32 +611,6 @@
         <tag>mobie payments</tag>
          
         <tag>译文计划</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）</title>
-        <pubTime>2017-04-29T14:12:00.000Z</pubTime>
-        
-        <tag>tech</tag>
-         
-        <tag>hardware</tag>
-         
-        <tag>music</tag>
-         
-        <tag>audio</tag>
          
          
            
