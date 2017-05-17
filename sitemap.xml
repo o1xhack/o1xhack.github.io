@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://o1xhack.com/dev/index.html</loc>
+    
+    <lastmod>2017-05-17T23:48:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://o1xhack.com/2017/05/17/appdev2016/</loc>
     
     <lastmod>2017-05-17T23:42:03.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://o1xhack.com/about/index.html</loc>
     
     <lastmod>2017-05-17T23:41:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://o1xhack.com/dev/index.html</loc>
-    
-    <lastmod>2017-05-17T23:40:24.000Z</lastmod>
     
   </url>
   
@@ -65,14 +65,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     
@@ -86,14 +86,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/blogo/</loc>
+    <loc>http://o1xhack.com/2017/04/10/ios/todoist-using/</loc>
     
     <lastmod>2017-02-25T04:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/04/10/ios/todoist-using/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/blogo/</loc>
     
     <lastmod>2017-02-25T04:00:00.000Z</lastmod>
     
