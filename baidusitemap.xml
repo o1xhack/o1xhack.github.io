@@ -3,10 +3,9 @@
 
 
     
-    
   <url>
-    <loc>http://o1xhack.com/2017/05/17/appdev2016/</loc>
-    <lastmod>2017-05-17T23:42:03.000Z</lastmod>
+    <loc>http://o1xhack.com/2017/05/17/appledev2016/</loc>
+    <lastmod>2017-05-17T23:49:59.000Z</lastmod>
     <data>
         <display>
         <title>Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事</title>
@@ -27,6 +26,7 @@
     </data>
     </url>
 
+    
     
     
   <url>
@@ -105,12 +105,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
-        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
+        <title>「iOS」Castro - 不如听播客</title>
+        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -129,12 +129,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Castro - 不如听播客</title>
-        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
+        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
+        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -275,30 +275,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「mac」释放 macOS 菜单栏潜能的软件们（十五款）</title>
-        <pubTime>2016-07-27T23:23:29.000Z</pubTime>
-        
-        <tag>app</tag>
-         
-        <tag>mac</tag>
-         
-        <tag>菜单栏</tag>
-         
-         
-           
-             
-              <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
@@ -316,6 +292,30 @@
            
              
               <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「mac」释放 macOS 菜单栏潜能的软件们（十五款）</title>
+        <pubTime>2016-07-27T23:23:29.000Z</pubTime>
+        
+        <tag>app</tag>
+         
+        <tag>mac</tag>
+         
+        <tag>菜单栏</tag>
+         
+         
+           
+             
+              <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
           
         </display>
     </data>
@@ -493,12 +493,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
+    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
-        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
+        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
+        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
@@ -545,12 +545,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
+    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
-        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
+        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
+        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
