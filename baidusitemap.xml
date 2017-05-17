@@ -3,11 +3,9 @@
 
 
     
-    
-    
   <url>
     <loc>http://o1xhack.com/2017/05/17/appdev2016/</loc>
-    <lastmod>2017-05-17T23:23:26.000Z</lastmod>
+    <lastmod>2017-05-17T23:42:03.000Z</lastmod>
     <data>
         <display>
         <title>Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事</title>
@@ -28,6 +26,8 @@
     </data>
     </url>
 
+    
+    
     
   <url>
     <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
@@ -227,12 +227,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
-        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
+        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
+        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -251,12 +251,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
+    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
-        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
+        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
+        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -493,6 +493,34 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
+    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
+        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>language</tag>
+         
+        <tag>learning</tag>
+         
+        <tag>SafariViewController</tag>
+         
+        <tag>SnapKit</tag>
+         
+         
+           
+             
+              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
@@ -523,34 +551,6 @@
         <display>
         <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
         <pubTime>2017-03-10T17:40:29.000Z</pubTime>
-        
-        <tag>swift3.0</tag>
-         
-        <tag>language</tag>
-         
-        <tag>learning</tag>
-         
-        <tag>SafariViewController</tag>
-         
-        <tag>SnapKit</tag>
-         
-         
-           
-             
-              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
-    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
-        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
