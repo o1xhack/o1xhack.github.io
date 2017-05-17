@@ -933,11 +933,11 @@
   </entry>
   
   <entry>
-    <title>iOS APP：Info It - 通过分享快速搜索电影、图书</title>
+    <title>iOS APP：Info It - 通过分享快速搜索电影、图书（5月17日1.7.3更新）</title>
     <link href="http://o1xhack.com/2017/02/21/infoit/"/>
     <id>http://o1xhack.com/2017/02/21/infoit/</id>
     <published>2017-02-21T16:28:00.000Z</published>
-    <updated>2017-05-17T18:36:01.000Z</updated>
+    <updated>2017-05-17T18:57:39.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center">点击下载：<a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="external">Info It - 通过分享快速搜索电影，书籍信息</a></blockquote>
 
@@ -1014,7 +1014,7 @@
 <li><p>打开角标显示数字1，将会永久显示角标 “1”，将 Info It 放入文件夹后，通过 3D Touch 则可以快速按压文件夹打开带有角标的 APP，专为希望将 Info It 放如文件夹的 iPhone 6s+ 设备用户定制（随时可以关闭角标显示）</p>
 <ul>
 <li>可以真正达到一秒打开，没有间隔</li>
-<li>具体可以看 #使用场景-放在文件夹中代替豆瓣</li>
+<li>具体可以看 <a href="http://o1xhack.com/2017/02/21/infoit/#%E6%94%BE%E5%9C%A8%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%AD%E4%BB%A3%E6%9B%BF%E8%B1%86%E7%93%A3%EF%BC%881-7-3%EF%BC%89">#使用场景-放在文件夹中代替豆瓣</a></li>
 </ul>
 <p><img src="http://i.imgur.com/lc1yalC.png" alt=""></p>
 </li>
@@ -1033,11 +1033,34 @@
 <blockquote>
 <p>你可以随时在 设置-高级设置 中关闭显示，角标就不会存在了</p>
 </blockquote>
-<p>这个功能可以代替豆瓣软件的原因有三：（以我个人例子，每个人使用情况不同~）</p>
+<h3 id="这个功能可以代替豆瓣软件的原因有三："><a href="#这个功能可以代替豆瓣软件的原因有三：" class="headerlink" title="这个功能可以代替豆瓣软件的原因有三："></a>这个功能可以代替豆瓣软件的原因有三：</h3><p>（以我个人例子，每个人使用情况不同~）</p>
 <ol>
 <li>我将豆瓣也放在文件夹中，因此他们的层级一样</li>
-<li></li>
+<li>同样在文件夹中，Info It 开启这个功能后比豆瓣打开少一步（一个字：快）</li>
+<li>相比于豆瓣的打开三秒等待，Info It 打开软件没有启动界面，没有广告，小巧，一秒（豆瓣？？你跟我讲豆瓣打开快我就真没话说了0 0）</li>
+<li>同样的功能，豆瓣可以的 Info It 都可以做到（网页版豆瓣像查影人似乎不可以）</li>
+<li>功能之外，你还可以参考 IMDb，烂番茄这两个国外著名影评网站<ul>
+<li>如果你使用豆瓣，复制中文名在到 IMDb 查询完全无效</li>
+<li>你需要找到英文名，记住或者复制再查找</li>
+<li>Info It 内置中英文名称自动转换（读取豆瓣数据），只要是国外影片都可以转换</li>
+</ul>
+</li>
+<li>功能之内，豆瓣读书和豆瓣电影可以同时查看，一键切换<ul>
+<li>豆瓣里面，你需要返回才能再查书</li>
+</ul>
+</li>
 </ol>
+<h3 id="目前不及豆瓣的功能："><a href="#目前不及豆瓣的功能：" class="headerlink" title="目前不及豆瓣的功能："></a>目前不及豆瓣的功能：</h3><ol>
+<li>没有已看，想看等列表<ul>
+<li>我一直在找一个比较恰当和好的方式来管理这些（拭目以待把！）</li>
+</ul>
+</li>
+<li>没有豆瓣的文章等</li>
+<li>没有办法随时看自己的个人主页和广播</li>
+</ol>
+<blockquote>
+<p>如果以上功能对你来讲没啥用，那你妥妥的可以切换啦！</p>
+</blockquote>
 <p><img src="http://i.imgur.com/lc1yalC.png" alt=""></p>
 <h2 id="在豆瓣中使用！"><a href="#在豆瓣中使用！" class="headerlink" title="在豆瓣中使用！"></a>在豆瓣中使用！</h2><blockquote>
 <p>好奇不？为什么要在豆瓣软件中使用豆瓣呢。。。我录了一个视频让你直观的感受一下。</p>
@@ -1088,9 +1111,21 @@
 <h2 id="听播客时使用"><a href="#听播客时使用" class="headerlink" title="听播客时使用"></a>听播客时使用</h2><p>本人也是一个播客爱好者，目前使用的 Pocket Casts，但不论你使用什么客户端都一定会有 shownotes，绝大多数的播客都是内嵌地址或者附上地址，但也不排除会有少数并没有。</p>
 <p><img src="http://i.imgur.com/4V3T33B.jpg" alt=""></p>
 <hr>
-<h1 id="软件版本更新时间线"><a href="#软件版本更新时间线" class="headerlink" title="软件版本更新时间线"></a>软件版本更新时间线</h1><h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><h3 id="5月17日-App-Store：1-7-3"><a href="#5月17日-App-Store：1-7-3" class="headerlink" title="5月17日 App Store：1.7.3"></a>5月17日 App Store：1.7.3</h3><ul>
-<li>APP 内</li>
+<h1 id="软件版本更新时间线"><a href="#软件版本更新时间线" class="headerlink" title="软件版本更新时间线"></a>软件版本更新时间线</h1><h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><h3 id="5月17日-App-Store：1-7-3"><a href="#5月17日-App-Store：1-7-3" class="headerlink" title="5月17日 App Store：1.7.3"></a>5月17日 App Store：1.7.3</h3><ol>
+<li>APP 内直接查询<ul>
+<li>更快，更方便，任何地方都覆盖了！</li>
 </ul>
+</li>
+<li>少数派的需求<ul>
+<li>具体看：<a href="http://o1xhack.com/2017/02/21/infoit/#%E6%94%BE%E5%9C%A8%E6%96%87%E4%BB%B6%E5%A4%B9%E4%B8%AD%E4%BB%A3%E6%9B%BF%E8%B1%86%E7%93%A3%EF%BC%881-7-3%EF%BC%89">放在文件夹中代替豆瓣</a></li>
+</ul>
+</li>
+<li>修复<ul>
+<li>UI/UX 更新</li>
+<li>Bug：键盘，链接，等问题</li>
+</ul>
+</li>
+</ol>
 <h3 id="2月27日-App-Store：1-5-3"><a href="#2月27日-App-Store：1-5-3" class="headerlink" title="2月27日 App Store：1.5.3"></a>2月27日 App Store：1.5.3</h3><ul>
 <li>修复选取英文无法搜索 IMDb、烂番茄的大 bug</li>
 <li>更改 UI 界面</li>
