@@ -275,23 +275,23 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
         <display>
-        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
-        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
+        <title>「mac」释放 macOS 菜单栏潜能的软件们（十五款）</title>
+        <pubTime>2016-07-27T23:23:29.000Z</pubTime>
         
-        <tag>ios</tag>
-         
         <tag>app</tag>
          
-        <tag>review</tag>
+        <tag>mac</tag>
+         
+        <tag>菜单栏</tag>
          
          
            
              
-              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
+              <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
           
         </display>
     </data>
@@ -323,23 +323,23 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
+    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
         <display>
-        <title>「mac」释放 macOS 菜单栏潜能的软件们（十五款）</title>
-        <pubTime>2016-07-27T23:23:29.000Z</pubTime>
+        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
+        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
         
+        <tag>ios</tag>
+         
         <tag>app</tag>
          
-        <tag>mac</tag>
-         
-        <tag>菜单栏</tag>
+        <tag>review</tag>
          
          
            
              
-              <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
+              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
           
         </display>
     </data>
@@ -573,30 +573,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
-        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>recommend</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -640,6 +616,30 @@
            
              
               <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
+        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>recommend</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
           
         </display>
     </data>
