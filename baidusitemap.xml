@@ -4,8 +4,32 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2017/04/10/ios/todoist-using/</loc>
+    <lastmod>2017-05-26T06:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「iOS」Todoist 的一些用法和技巧（2017.05.26）</title>
+        <pubTime>2017-04-10T05:01:00.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>review</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/03/10/podcasts/</loc>
-    <lastmod>2017-05-24T01:02:01.000Z</lastmod>
+    <lastmod>2017-05-24T22:20:08.000Z</lastmod>
     <data>
         <display>
         <title>「Podcast」播客推荐、信息介绍及单期节目推荐（20个） --17.5.24</title>
@@ -200,55 +224,7 @@
     </url>
 
     
-  <url>
-    <loc>http://o1xhack.com/2017/04/10/ios/todoist-using/</loc>
-    <lastmod>2017-02-25T04:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「iOS」Todoist 的一些用法和技巧（4月10日）</title>
-        <pubTime>2017-04-10T05:01:00.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>review</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
-    
-    
-  <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
-    <lastmod>2017-02-24T23:14:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
-        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>recommend</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
@@ -275,23 +251,23 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
+    <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
         <display>
-        <title>「mac」释放 macOS 菜单栏潜能的软件们（十五款）</title>
-        <pubTime>2016-07-27T23:23:29.000Z</pubTime>
+        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
+        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
         
+        <tag>ios</tag>
+         
         <tag>app</tag>
          
-        <tag>mac</tag>
-         
-        <tag>菜单栏</tag>
+        <tag>recommend</tag>
          
          
            
              
-              <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
+              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
           
         </display>
     </data>
@@ -340,6 +316,30 @@
            
              
               <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「mac」释放 macOS 菜单栏潜能的软件们（十五款）</title>
+        <pubTime>2016-07-27T23:23:29.000Z</pubTime>
+        
+        <tag>app</tag>
+         
+        <tag>mac</tag>
+         
+        <tag>菜单栏</tag>
+         
+         
+           
+             
+              <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
           
         </display>
     </data>
@@ -493,18 +493,22 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
+    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 学习日记 - 1</title>
-        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
+        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
+        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
         <tag>language</tag>
          
         <tag>learning</tag>
+         
+        <tag>SafariViewController</tag>
+         
+        <tag>SnapKit</tag>
          
          
            
@@ -545,22 +549,18 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
+    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
-        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
+        <title>Swift 学习日记 - 1</title>
+        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
         <tag>language</tag>
          
         <tag>learning</tag>
-         
-        <tag>SafariViewController</tag>
-         
-        <tag>SnapKit</tag>
          
          
            
@@ -597,6 +597,30 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
+        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
+        
+        <tag>tech</tag>
+         
+        <tag>mobie payments</tag>
+         
+        <tag>译文计划</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -611,30 +635,6 @@
         <tag>music</tag>
          
         <tag>audio</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
-        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
-        
-        <tag>tech</tag>
-         
-        <tag>mobie payments</tag>
-         
-        <tag>译文计划</tag>
          
          
            

@@ -199,21 +199,25 @@
   </entry>
   
   <entry>
-    <title>「iOS」Todoist 的一些用法和技巧（4月10日）</title>
+    <title>「iOS」Todoist 的一些用法和技巧（2017.05.26）</title>
     <link href="http://o1xhack.com/2017/04/10/ios/todoist-using/"/>
     <id>http://o1xhack.com/2017/04/10/ios/todoist-using/</id>
     <published>2017-04-10T05:01:00.000Z</published>
-    <updated>2017-02-25T04:00:00.000Z</updated>
+    <updated>2017-05-26T06:00:00.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="开个坑"><a href="#开个坑" class="headerlink" title="开个坑"></a>开个坑</h1><p>开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～</p>
 <p>这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！</p>
 <blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
 
 <a id="more"></a>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p><strong>2017.04.10</strong></p>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p><strong>2017.05.26</strong></p>
 <ul>
-<li>项目父级子级关系</li>
-<li>已完成的子任务堆积怎么办？</li>
+<li><a href="">设定默认打开的界面</a>（可自定义规则）</li>
+</ul>
+<p><strong>2017.04.10</strong></p>
+<ul>
+<li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/#%E9%A1%B9%E7%9B%AE%E7%88%B6%E7%BA%A7%E5%AD%90%E7%BA%A7%E5%85%B3%E7%B3%BB">项目父级子级关系</a></li>
+<li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/#%E5%B7%B2%E5%AE%8C%E6%88%90%E7%9A%84%E5%AD%90%E4%BB%BB%E5%8A%A1%E5%A0%86%E7%A7%AF%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F">已完成的子任务堆积怎么办？</a></li>
 </ul>
 <hr>
 <h1 id="项目父级子级关系"><a href="#项目父级子级关系" class="headerlink" title="项目父级子级关系"></a>项目父级子级关系</h1><p>每一个项目（Project）之间的父子级别关系，是仅在你的账户中显示的，也就是说你这里的父子级别的项目关系在共享给别人后，别人是不会知道这个关系的，举个例子：</p>
@@ -222,6 +226,12 @@
 <hr>
 <h1 id="已完成的子任务堆积怎么办？"><a href="#已完成的子任务堆积怎么办？" class="headerlink" title="已完成的子任务堆积怎么办？"></a>已完成的子任务堆积怎么办？</h1><p>如果你创建了一个主任务并且添加了许多的子任务，而这个主任务又不会短期内就完成，那一段时间后你的主任务里面便会有一堆灰色删除线的子任务堆积。在一个子任务已经被玩成后，你可以通过对这个子任务从右向左滑动，这个已经完成的子任务便会彻底不显示。</p>
 <p><img src="https://ww3.sinaimg.cn/large/006tKfTcgy1fehgpuopqaj30yk0yvaii.jpg" alt=""></p>
+<hr>
+<h1 id="设定默认的打开页面"><a href="#设定默认的打开页面" class="headerlink" title="设定默认的打开页面"></a>设定默认的打开页面</h1><blockquote>
+<p>发布于微博 <a href="http://weibo.com/sayoneofficial" target="_blank" rel="external">@说一SayOne</a> made by apexidea </p>
+</blockquote>
+<p>当你打开 Todoist 的网页时，你最想看到什么？是你今天安排的工作任务，还是你那塞得满满当当的收件箱？这一切你都可以自己做主。打开设置 - 偏好设置 - 起始页，你就可以选择和自定义显示在起始页的项目。当你点击左上角的 Todoist 图标时，就可以快速访问起始页。就我个人而言，我习惯将起始页设为收件箱、过期任务和今天事件。</p>
+<p><img src="https://i.imgur.com/bpmndHy.png" alt=""></p>
 ]]></content>
     
     <summary type="html">
@@ -498,7 +508,7 @@
     <link href="http://o1xhack.com/2017/03/10/podcasts/"/>
     <id>http://o1xhack.com/2017/03/10/podcasts/</id>
     <published>2017-03-10T19:20:29.000Z</published>
-    <updated>2017-05-24T01:02:01.000Z</updated>
+    <updated>2017-05-24T22:20:08.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1> <blockquote class="blockquote-center">apexidea 团队 Slack 群申请：<a href="https://airtable.com/shr7vlqthJUPSiOK9" target="_blank" rel="external">Airtable表格填写</a><br>（我不是彩蛋</blockquote>
 
