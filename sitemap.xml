@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://o1xhack.com/life/index.html</loc>
+    
+    <lastmod>2017-05-28T02:35:16.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://o1xhack.com/2017/03/10/podcasts/</loc>
     
     <lastmod>2017-05-28T02:20:00.000Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
     
     <lastmod>2017-05-17T19:37:48.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://o1xhack.com/life/index.html</loc>
-    
-    <lastmod>2017-05-10T04:59:06.000Z</lastmod>
     
   </url>
   
@@ -121,14 +121,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
+    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
     
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
     
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     
@@ -170,14 +170,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
+    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
     
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
+    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
     
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     
@@ -226,14 +226,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
+    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
     
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
     
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     
