@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://o1xhack.com/2017/06/16/tech/ipad-pro-10.5/</loc>
-    <lastmod>2017-06-15T08:03:35.000Z</lastmod>
+    <lastmod>2017-06-15T09:04:04.000Z</lastmod>
     <data>
         <display>
         <title>「iPad Pro 10.5 + 罗技 Slim Combo」上手测评及使用，以及对比「iPad Pro 9.7 + 苹果 Smart Keyboard/罗技 Create」</title>
@@ -601,30 +601,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
-        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>recommend</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -668,6 +644,30 @@
            
              
               <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
+        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>recommend</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
           
         </display>
     </data>
