@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://o1xhack.com/2017/06/16/tech/ipad-pro-10.5/</loc>
-    <lastmod>2017-06-15T04:54:31.000Z</lastmod>
+    <lastmod>2017-06-15T05:13:02.000Z</lastmod>
     <data>
         <display>
         <title>「iPad Pro 10.5 + 罗技 Slim Combo」上手测评及使用，以及对比「iPad Pro 9.7 + 苹果 Smart Keyboard/罗技 Create」</title>
@@ -30,6 +30,7 @@
     </data>
     </url>
 
+    
     
   <url>
     <loc>http://o1xhack.com/2017/05/17/appledev2016/</loc>
@@ -179,7 +180,6 @@
 
     
     
-    
   <url>
     <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
@@ -279,12 +279,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
-        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
+        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
+        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -303,12 +303,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
+    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
-        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
+        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
+        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -521,12 +521,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
+    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
-        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
+        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
+        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
@@ -549,12 +549,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
+    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
-        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
+        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
+        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
@@ -601,32 +601,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）</title>
-        <pubTime>2017-04-29T14:12:00.000Z</pubTime>
-        
-        <tag>tech</tag>
-         
-        <tag>hardware</tag>
-         
-        <tag>music</tag>
-         
-        <tag>audio</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -663,6 +637,32 @@
         <tag>mobie payments</tag>
          
         <tag>译文计划</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）</title>
+        <pubTime>2017-04-29T14:12:00.000Z</pubTime>
+        
+        <tag>tech</tag>
+         
+        <tag>hardware</tag>
+         
+        <tag>music</tag>
+         
+        <tag>audio</tag>
          
          
            
