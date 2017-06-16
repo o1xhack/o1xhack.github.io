@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2017/03/20/coffeeit/</loc>
+    <lastmod>2017-06-16T06:55:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>iOS APP：Coffee It - Track Caffeine in Simplest Way</title>
+        <pubTime>2017-03-21T03:30:00.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>iOSDev</tag>
+         
+        <tag>iOS APP</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/06/16/tech/ipad-pro-10.5/</loc>
     <lastmod>2017-06-15T09:04:04.000Z</lastmod>
     <data>
@@ -39,30 +63,6 @@
         <display>
         <title>Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事</title>
         <pubTime>2017-05-18T02:28:00.000Z</pubTime>
-        
-        <tag>swift3.0</tag>
-         
-        <tag>iOSDev</tag>
-         
-        <tag>iOS APP</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/03/20/coffeeit/</loc>
-    <lastmod>2017-05-29T04:58:58.000Z</lastmod>
-    <data>
-        <display>
-        <title>iOS APP：Coffee It - Track Caffeine in Simplest Way</title>
-        <pubTime>2017-03-21T03:30:00.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
@@ -181,12 +181,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
-        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
+        <title>「iOS」Castro - 不如听播客</title>
+        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -205,12 +205,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Castro - 不如听播客</title>
-        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
+        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
+        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -521,18 +521,22 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
+    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 学习日记 - 1</title>
-        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
+        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
+        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
         <tag>language</tag>
          
         <tag>learning</tag>
+         
+        <tag>SafariViewController</tag>
+         
+        <tag>SnapKit</tag>
          
          
            
@@ -573,22 +577,18 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
+    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
-        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
+        <title>Swift 学习日记 - 1</title>
+        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
         
         <tag>swift3.0</tag>
          
         <tag>language</tag>
          
         <tag>learning</tag>
-         
-        <tag>SafariViewController</tag>
-         
-        <tag>SnapKit</tag>
          
          
            
@@ -601,25 +601,23 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
+    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）</title>
-        <pubTime>2017-04-29T14:12:00.000Z</pubTime>
+        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
+        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
         
-        <tag>tech</tag>
+        <tag>ios</tag>
          
-        <tag>hardware</tag>
+        <tag>app</tag>
          
-        <tag>music</tag>
-         
-        <tag>audio</tag>
+        <tag>recommend</tag>
          
          
            
              
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
           
         </display>
     </data>
@@ -651,23 +649,25 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
+    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
-        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
+        <title>「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）</title>
+        <pubTime>2017-04-29T14:12:00.000Z</pubTime>
         
-        <tag>ios</tag>
+        <tag>tech</tag>
          
-        <tag>app</tag>
+        <tag>hardware</tag>
          
-        <tag>recommend</tag>
+        <tag>music</tag>
+         
+        <tag>audio</tag>
          
          
            
              
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
           
         </display>
     </data>
