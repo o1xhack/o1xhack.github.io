@@ -4,6 +4,60 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2017/10/01/tech/applewatch3-36/</loc>
+    <lastmod>2017-10-01T03:07:25.000Z</lastmod>
+    <data>
+        <display>
+        <title>「Apple Watch Series 3」36 小时使用，简单体验及耗电报告</title>
+        <pubTime>2017-10-01T04:05:00.000Z</pubTime>
+        
+        <tag>tech</tag>
+         
+        <tag>hardware</tag>
+         
+        <tag>applewatch</tag>
+         
+        <tag>apple</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/06/16/tech/ipad-pro-10.5/</loc>
+    <lastmod>2017-10-01T03:07:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「iPad Pro 10.5 + 罗技 Slim Combo」上手测评及使用，以及对比「iPad Pro 9.7 + 苹果 Smart Keyboard/罗技 Create」</title>
+        <pubTime>2017-06-16T17:00:00.000Z</pubTime>
+        
+        <tag>tech</tag>
+         
+        <tag>hardware</tag>
+         
+        <tag>apple</tag>
+         
+        <tag>ipadpro</tag>
+         
+        <tag>logetich</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/07/01/ios/awsome-ipad/</loc>
     <lastmod>2017-06-25T15:24:32.000Z</lastmod>
     <data>
@@ -47,34 +101,6 @@
            
              
               <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/06/16/tech/ipad-pro-10.5/</loc>
-    <lastmod>2017-06-15T09:04:04.000Z</lastmod>
-    <data>
-        <display>
-        <title>「iPad Pro 10.5 + 罗技 Slim Combo」上手测评及使用，以及对比「iPad Pro 9.7 + 苹果 Smart Keyboard/罗技 Create」</title>
-        <pubTime>2017-06-16T17:00:00.000Z</pubTime>
-        
-        <tag>tech</tag>
-         
-        <tag>hardware</tag>
-         
-        <tag>ipadpro</tag>
-         
-        <tag>logetich</tag>
-         
-        <tag>apple</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
           
         </display>
     </data>
@@ -547,30 +573,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
-    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>Swift 学习日记 - 1</title>
-        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
-        
-        <tag>swift3.0</tag>
-         
-        <tag>language</tag>
-         
-        <tag>learning</tag>
-         
-         
-           
-             
-              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
@@ -589,6 +591,30 @@
         <tag>SafariViewController</tag>
          
         <tag>SnapKit</tag>
+         
+         
+           
+             
+              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
+    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>Swift 学习日记 - 1</title>
+        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>language</tag>
+         
+        <tag>learning</tag>
          
          
            
@@ -631,30 +657,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
-        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>recommend</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -672,6 +674,30 @@
            
              
               <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
+        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>recommend</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
           
         </display>
     </data>
