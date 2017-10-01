@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-10-01T03:07:25.000Z</updated>
+  <updated>2017-10-01T03:19:11.720Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -20,11 +20,14 @@
     <link href="http://o1xhack.com/2017/10/01/tech/applewatch3-36/"/>
     <id>http://o1xhack.com/2017/10/01/tech/applewatch3-36/</id>
     <published>2017-10-01T04:05:00.000Z</published>
-    <updated>2017-10-01T03:07:25.000Z</updated>
+    <updated>2017-10-01T03:19:11.720Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://i.imgur.com/VHzCwj7.jpg" alt=""></p>
 <h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>这篇文章主要是关于 Apple Watch Series 3 + watchOS 4 的耗电使用情况～ 软件开启等等软体验。</p>
 <p>因为没有充足的时间，所以只有这篇简短的文章了～</p>
+<blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
+
+<a id="more"></a>
 <hr>
 <h1 id="此篇文章"><a href="#此篇文章" class="headerlink" title="此篇文章"></a>此篇文章</h1><h2 id="使用设备"><a href="#使用设备" class="headerlink" title="使用设备"></a>使用设备</h2><p>Apple Watch Series 3 LTE 运动版本 42mm</p>
 <p>总的时间使用来源于 iPhone 上的 Watch 软件的 ‘通用-用量’ 中，包含 ‘用量’ 和 ‘待机’。<br>软件的使用时间以及体能追踪等时间来源于 ‘健身记录’。<br>其他软件的使用时间可以自行进行计算，一般使用软件都很快所以不单独写了。<br>运动软件及体能追踪的时间归属为 ‘用量’ 和 ‘待机’ 是由苹果决定，由于 Apple Watch 的时间统计没有详细的软件分析，谅解～</p>
@@ -148,7 +151,9 @@
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/VHzCwj7.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h1&gt;&lt;p&gt;这篇文章主要是关于 Apple 
+&lt;h1 id=&quot;序&quot;&gt;&lt;a href=&quot;#序&quot; class=&quot;headerlink&quot; title=&quot;序&quot;&gt;&lt;/a&gt;序&lt;/h1&gt;&lt;p&gt;这篇文章主要是关于 Apple Watch Series 3 + watchOS 4 的耗电使用情况～ 软件开启等等软体验。&lt;/p&gt;
+&lt;p&gt;因为没有充足的时间，所以只有这篇简短的文章了～&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
     
     </summary>
     
@@ -625,14 +630,14 @@
     <link href="http://o1xhack.com/2017/05/17/appledev2016/"/>
     <id>http://o1xhack.com/2017/05/17/appledev2016/</id>
     <published>2017-05-18T02:28:00.000Z</published>
-    <updated>2017-06-15T02:44:54.000Z</updated>
+    <updated>2017-10-01T03:16:25.894Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center"> <a href="http://o1xhack.com/dev/">开发者</a>：开发这个世界. </blockquote>
+    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/Zoe4p4U.jpg" alt=""></p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center"> <a href="http://o1xhack.com/dev/">开发者</a>：开发这个世界. </blockquote>
 
 <p><strong>2016年6月16日，Apple Developer Program（Apple 开发人员计划）正式开启。</strong></p>
 <p>就在昨天，2017年5月16日，收到了来自苹果的邮件，告知我还有 30 天资格到期，提醒我续费，一时间不禁有点感叹时间的流逝，也萌生了写一篇这一年的开发精力的文章，留一份备案，也给自己的下一年做一个提醒。</p>
 <p>回顾了一下自己在学业之余开发软件经历的事情，感受的事情，以及一点一滴的成长吧。</p>
-<p><img src="http://i.imgur.com/Zoe4p4U.jpg" alt=""></p>
 <a id="more"></a>
 <hr>
 <h1 id="量化-总结"><a href="#量化-总结" class="headerlink" title="量化/总结"></a>量化/总结</h1><h2 id="这一年里"><a href="#这一年里" class="headerlink" title="这一年里"></a>这一年里</h2><p>我自学开发，自学 Swift 语言，实际上是从 16 年 9 月正式开始搞开发，10 个月的时间里，App Store 开发者 Yuxiao Wang 旗下上架了四款 APPs。但实际上拿的出手的只有后面两款软件，具体原因下面会说到。</p>
@@ -736,12 +741,12 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/dev/&quot;&gt;开发者&lt;/a&gt;：开发这个世界. &lt;/blockquote&gt;
+      &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/Zoe4p4U.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/dev/&quot;&gt;开发者&lt;/a&gt;：开发这个世界. &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;2016年6月16日，Apple Developer Program（Apple 开发人员计划）正式开启。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;就在昨天，2017年5月16日，收到了来自苹果的邮件，告知我还有 30 天资格到期，提醒我续费，一时间不禁有点感叹时间的流逝，也萌生了写一篇这一年的开发精力的文章，留一份备案，也给自己的下一年做一个提醒。&lt;/p&gt;
 &lt;p&gt;回顾了一下自己在学业之余开发软件经历的事情，感受的事情，以及一点一滴的成长吧。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://i.imgur.com/Zoe4p4U.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -810,7 +815,8 @@
     <published>2017-04-10T05:01:00.000Z</published>
     <updated>2017-05-28T17:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="开个坑"><a href="#开个坑" class="headerlink" title="开个坑"></a>开个坑</h1><p>开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～</p>
+    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/GdjhLRe.png" alt="Screen Shot 2017-09-30 at 11.18.05 PM"></p>
+<h1 id="开个坑"><a href="#开个坑" class="headerlink" title="开个坑"></a>开个坑</h1><p>开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～</p>
 <p>这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！</p>
 <blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
 
@@ -949,7 +955,8 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;开个坑&quot;&gt;&lt;a href=&quot;#开个坑&quot; class=&quot;headerlink&quot; title=&quot;开个坑&quot;&gt;&lt;/a&gt;开个坑&lt;/h1&gt;&lt;p&gt;开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/GdjhLRe.png&quot; alt=&quot;Screen Shot 2017-09-30 at 11.18.05 PM&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;开个坑&quot;&gt;&lt;a href=&quot;#开个坑&quot; class=&quot;headerlink&quot; title=&quot;开个坑&quot;&gt;&lt;/a&gt;开个坑&lt;/h1&gt;&lt;p&gt;开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～&lt;/p&gt;
 &lt;p&gt;这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！&lt;/p&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
     
@@ -1183,11 +1190,11 @@
     <published>2017-03-13T00:20:29.000Z</published>
     <updated>2017-02-20T08:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="更新序"><a href="#更新序" class="headerlink" title="更新序"></a>更新序</h2><p>本文章初始发布于 2016 年 1 月左右，但在经历一段时间的使用和自我调试中，发现按照我自己所写的文章来看我并不适合用  GTD 以及复杂的软件，所以最后换成了 2Do，又再次换成了 Todoist，目前对于 Todoist 十分满意，也更加对于选择一个适合的工具更加认为重要~</p>
+    <content type="html"><![CDATA[<p><img src="http://omqdii6dz.bkt.clouddn.com/blog/2017-03-13-015430.jpg" alt=""></p>
+<h2 id="更新序"><a href="#更新序" class="headerlink" title="更新序"></a>更新序</h2><p>本文章初始发布于 2016 年 1 月左右，但在经历一段时间的使用和自我调试中，发现按照我自己所写的文章来看我并不适合用  GTD 以及复杂的软件，所以最后换成了 2Do，又再次换成了 Todoist，目前对于 Todoist 十分满意，也更加对于选择一个适合的工具更加认为重要~</p>
 <blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
 
 <p>本文附有态度，持 值得 态度，文风不保证科学般的严谨。</p>
-<p><img src="http://omqdii6dz.bkt.clouddn.com/blog/2017-03-13-015430.jpg" alt=""></p>
 <a id="more"></a>
 <p>每每看到别人随意一张截图就是下图那种排列组合完美的列表就觉得羡慕？</p>
 <p>随随便便看到对方一个微博就是 OmniFocus 截图的今日代办列表？</p>
@@ -1266,11 +1273,11 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;更新序&quot;&gt;&lt;a href=&quot;#更新序&quot; class=&quot;headerlink&quot; title=&quot;更新序&quot;&gt;&lt;/a&gt;更新序&lt;/h2&gt;&lt;p&gt;本文章初始发布于 2016 年 1 月左右，但在经历一段时间的使用和自我调试中，发现按照我自己所写的文章来看我并不适合用  GTD 以及复杂的软件，所以最后换成了 2Do，又再次换成了 Todoist，目前对于 Todoist 十分满意，也更加对于选择一个适合的工具更加认为重要~&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;http://omqdii6dz.bkt.clouddn.com/blog/2017-03-13-015430.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;更新序&quot;&gt;&lt;a href=&quot;#更新序&quot; class=&quot;headerlink&quot; title=&quot;更新序&quot;&gt;&lt;/a&gt;更新序&lt;/h2&gt;&lt;p&gt;本文章初始发布于 2016 年 1 月左右，但在经历一段时间的使用和自我调试中，发现按照我自己所写的文章来看我并不适合用  GTD 以及复杂的软件，所以最后换成了 2Do，又再次换成了 Todoist，目前对于 Todoist 十分满意，也更加对于选择一个适合的工具更加认为重要~&lt;/p&gt;
 &lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/new/&quot;&gt;尝新者&lt;/a&gt;：尝试一切新鲜的事物 &lt;/blockquote&gt;
 
 &lt;p&gt;本文附有态度，持 值得 态度，文风不保证科学般的严谨。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://omqdii6dz.bkt.clouddn.com/blog/2017-03-13-015430.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
     
     </summary>
     
@@ -2451,7 +2458,8 @@
     <published>2016-07-27T23:23:29.000Z</published>
     <updated>2017-05-26T07:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
+    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/X3J6PaZ.jpg" alt=""></p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote>
 <p>一款好的软件不但可以节约时间，更能让你体验系统的魅力。</p>
 </blockquote>
 <p>想知道我的 Mac 菜单栏都有什么嘛？这是一篇简单的介绍 Mac 菜单栏工具的文章，共计 15 款，每一款<strong>点击都可以直达官网。</strong></p>
@@ -2462,8 +2470,7 @@
 <blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
 
 <a id="more"></a>
-<p>这就是我的菜单栏啦！</p>
-<p><img src="http://i.imgur.com/X3J6PaZ.jpg" alt=""></p>
+<p>题图就是我的菜单栏啦！</p>
 <p>要知道菜单栏堆积，的确就如同 iOS 上软件从不排序一样令人不快，无法快速找到想要的对应应用，无法快速的查看自己有什么是还未读的。<br>我会将我的菜单栏的应用介绍一遍，并简短说明用途以及为什么需要它在菜单栏。</p>
 <hr>
 <h1 id="更新说明"><a href="#更新说明" class="headerlink" title="更新说明"></a>更新说明</h1><p><strong>2017.5.26</strong></p>
@@ -2621,7 +2628,8 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+      &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/X3J6PaZ.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;一款好的软件不但可以节约时间，更能让你体验系统的魅力。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;想知道我的 Mac 菜单栏都有什么嘛？这是一篇简单的介绍 Mac 菜单栏工具的文章，共计 15 款，每一款&lt;strong&gt;点击都可以直达官网。&lt;/strong&gt;&lt;/p&gt;
