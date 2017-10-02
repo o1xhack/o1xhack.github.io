@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-10-02T00:34:14.766Z</updated>
+  <updated>2017-10-02T00:36:34.510Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -20,12 +20,11 @@
     <link href="http://o1xhack.com/2017/10/01/top/"/>
     <id>http://o1xhack.com/2017/10/01/top/</id>
     <published>2017-10-02T02:28:00.000Z</published>
-    <updated>2017-10-02T00:34:14.766Z</updated>
+    <updated>2017-10-02T00:36:34.510Z</updated>
     
-    <content type="html"><![CDATA[<p>请使用菜单栏进行栏目查看~ 这里仅仅为部分文章！</p>
-<div style="text-align:center">持续更新文章<br></div>
+    <content type="html"><![CDATA[<p>请使用菜单栏进行栏目查看~ 这里仅仅为部分文章！持续更新文章中斜体加粗日期为文章最后更新日期。</p>
+<div style="text-align:center"><strong>持续更新文章</strong><br></div>
 
-<p>按发表日期排序，斜体日期为 <strong><em>最后更新日期</em></strong></p>
 <ul>
 <li><a href="http://o1xhack.com/2017/10/01/watchos/watch-app/">「watchOS 4」那些值得一用的软件 </a>  <strong><em>2017.10.01 等待发布中~</em></strong></li>
 <li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/">Todoist 的一些用法和技巧（持续）</a>  <strong><em>2017.05.28</em></strong></li>
@@ -33,7 +32,7 @@
 <li><a href="http://o1xhack.com/2017/02/21/infoit/">iOS APP: Info It 详细介绍及使用</a>  <strong><em>2017.10.03：1.9.5</em></strong></li>
 <li><a href="http://o1xhack.com/2016/07/27/macos/mac-menubar-app/">「macOS」释放 macOS 菜单栏潜能的软件们 </a>  <strong><em>2017.05.26：15款</em></strong></li>
 </ul>
-<div style="text-align:center">精选<br></div>
+<div style="text-align:center"><strong>精选</strong><br></div>
 
 <ul>
 <li><a href="http://o1xhack.com/2017/06/16/tech/ipad-pro-10.5/">Apple Watch Series 3」36 小时使用，简单体验及耗电报告</a></li>
@@ -44,45 +43,14 @@
     
     <summary type="html">
     
-      &lt;p&gt;请使用菜单栏进行栏目查看~ 这里仅仅为部分文章！&lt;/p&gt;
-&lt;div style=&quot;text-align:center&quot;&gt;持续更新文章&lt;br&gt;&lt;/div&gt;
+      &lt;p&gt;请使用菜单栏进行栏目查看~ 这里仅仅为部分文章！持续更新文章中斜体加粗日期为文章最后更新日期。&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;strong&gt;持续更新文章&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;
 
-&lt;p&gt;按发表日期排序，斜体日期为 &lt;strong&gt;&lt;em&gt;最后更新日期&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-
+&lt;li&gt;&lt;a href=&quot;h
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>「watchOS 4」那些值得一用的软件（17.10.01 十款）</title>
-    <link href="http://o1xhack.com/2017/10/01/watchos/watch-app/"/>
-    <id>http://o1xhack.com/2017/10/01/watchos/watch-app/</id>
-    <published>2017-10-01T04:05:00.000Z</published>
-    <updated>2017-10-02T00:27:53.632Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Waiting-to-relese"><a href="#Waiting-to-relese" class="headerlink" title="Waiting to relese"></a>Waiting to relese</h1>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Waiting-to-relese&quot;&gt;&lt;a href=&quot;#Waiting-to-relese&quot; class=&quot;headerlink&quot; title=&quot;Waiting to relese&quot;&gt;&lt;/a&gt;Waiting to relese&lt;/h1&gt;
-    
-    </summary>
-    
-      <category term="watchOS" scheme="http://o1xhack.com/categories/watchOS/"/>
-    
-    
-      <category term="app" scheme="http://o1xhack.com/tags/app/"/>
-    
-      <category term="recommend" scheme="http://o1xhack.com/tags/recommend/"/>
-    
-      <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
-    
-      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
-    
-      <category term="watchos4" scheme="http://o1xhack.com/tags/watchos4/"/>
     
   </entry>
   
@@ -233,11 +201,41 @@
     
       <category term="tech" scheme="http://o1xhack.com/tags/tech/"/>
     
+      <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
+    
+      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
+    
       <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>「watchOS 4」那些值得一用的软件（17.10.01 十款）</title>
+    <link href="http://o1xhack.com/2017/10/01/watchos/watch-app/"/>
+    <id>http://o1xhack.com/2017/10/01/watchos/watch-app/</id>
+    <published>2017-10-01T04:05:00.000Z</published>
+    <updated>2017-10-02T00:27:53.632Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Waiting-to-relese"><a href="#Waiting-to-relese" class="headerlink" title="Waiting to relese"></a>Waiting to relese</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Waiting-to-relese&quot;&gt;&lt;a href=&quot;#Waiting-to-relese&quot; class=&quot;headerlink&quot; title=&quot;Waiting to relese&quot;&gt;&lt;/a&gt;Waiting to relese&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="watchOS" scheme="http://o1xhack.com/categories/watchOS/"/>
+    
+    
+      <category term="app" scheme="http://o1xhack.com/tags/app/"/>
+    
+      <category term="recommend" scheme="http://o1xhack.com/tags/recommend/"/>
     
       <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
     
       <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
+    
+      <category term="watchos4" scheme="http://o1xhack.com/tags/watchos4/"/>
     
   </entry>
   
@@ -686,9 +684,9 @@
     
       <category term="tech" scheme="http://o1xhack.com/tags/tech/"/>
     
-      <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
-    
       <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
+    
+      <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
       <category term="ipadpro" scheme="http://o1xhack.com/tags/ipadpro/"/>
     
