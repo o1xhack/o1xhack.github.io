@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-10-02T00:00:42.958Z</updated>
+  <updated>2017-10-01T03:19:11.720Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -14,30 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>📌 置顶：</title>
-    <link href="http://o1xhack.com/2017/10/01/top/"/>
-    <id>http://o1xhack.com/2017/10/01/top/</id>
-    <published>2017-10-02T02:28:00.000Z</published>
-    <updated>2017-10-02T00:00:42.958Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="持续更新文章"><a href="#持续更新文章" class="headerlink" title="持续更新文章"></a>持续更新文章</h1><p>按发表日期排序，斜体日期为 <strong><em>最后更新日期</em></strong></p>
-<ul>
-<li><a href="http://o1xhack.com/2017/03/10/podcasts/">播客推荐、信息介绍及单期节目推荐 </a>  <em>2017.05.27：21个</em></li>
-<li><a href="http://o1xhack.com/2016/07/27/macos/mac-menubar-app/">释放 macOS 菜单栏潜能的软件们 </a>  <em>2017.05.26：15款</em></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;持续更新文章&quot;&gt;&lt;a href=&quot;#持续更新文章&quot; class=&quot;headerlink&quot; title=&quot;持续更新文章&quot;&gt;&lt;/a&gt;持续更新文章&lt;/h1&gt;&lt;p&gt;按发表日期排序，斜体日期为 &lt;strong&gt;&lt;em&gt;最后更新日期&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>「Apple Watch Series 3」36 小时使用，简单体验及耗电报告</title>
@@ -188,9 +164,9 @@
     
       <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
-      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
-    
       <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
+    
+      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
     
   </entry>
   
@@ -641,11 +617,11 @@
     
       <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
+      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
+    
       <category term="ipadpro" scheme="http://o1xhack.com/tags/ipadpro/"/>
     
       <category term="logetich" scheme="http://o1xhack.com/tags/logetich/"/>
-    
-      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
     
   </entry>
   
@@ -2345,6 +2321,36 @@
     
     
       <category term="blog" scheme="http://o1xhack.com/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>📌 置顶：持续文章，栏目目录等</title>
+    <link href="http://o1xhack.com/2017/01/01/top/"/>
+    <id>http://o1xhack.com/2017/01/01/top/</id>
+    <published>2017-01-02T03:28:00.000Z</published>
+    <updated>2017-10-02T00:05:03.492Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="持续更新文章"><a href="#持续更新文章" class="headerlink" title="持续更新文章"></a>持续更新文章</h1><p>按发表日期排序，斜体日期为 <strong><em>最后更新日期</em></strong></p>
+<ul>
+<li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/">Todoist 的一些用法和技巧（持续）</a>  <em>2017.05.28</em></li>
+<li><a href="http://o1xhack.com/2017/03/10/podcasts/">播客推荐、信息介绍及单期节目推荐 </a>  <em>2017.05.27：21个</em></li>
+<li><a href="http://o1xhack.com/2016/07/27/macos/mac-menubar-app/">释放 macOS 菜单栏潜能的软件们 </a>  <em>2017.05.26：15款</em></li>
+</ul>
+<h1 id="栏目直达"><a href="#栏目直达" class="headerlink" title="栏目直达"></a>栏目直达</h1><ul>
+<li><a href="http://o1xhack.com/dev/">开发者</a>：开发有关的所有文章</li>
+<li><a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物，APP，科技等等</li>
+<li><a href="http://o1xhack.com/life/">生活者</a>：生活着，无限可能，读书，电影，播客</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;持续更新文章&quot;&gt;&lt;a href=&quot;#持续更新文章&quot; class=&quot;headerlink&quot; title=&quot;持续更新文章&quot;&gt;&lt;/a&gt;持续更新文章&lt;/h1&gt;&lt;p&gt;按发表日期排序，斜体日期为 &lt;strong&gt;&lt;em&gt;最后更新日期&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul
+    
+    </summary>
+    
     
   </entry>
   
