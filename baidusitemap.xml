@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://o1xhack.com/2017/10/01/top/</loc>
-    <lastmod>2017-10-02T00:22:49.526Z</lastmod>
+    <lastmod>2017-10-02T00:29:40.523Z</lastmod>
     <data>
         <display>
         <title>📌 置顶：持续文章，栏目目录等</title>
@@ -13,6 +13,84 @@
         
          
            
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/05/17/appledev2016/</loc>
+    <lastmod>2017-10-02T00:27:56.577Z</lastmod>
+    <data>
+        <display>
+        <title>Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事</title>
+        <pubTime>2017-05-18T02:28:00.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>iOSDev</tag>
+         
+        <tag>iOS APP</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/10/01/watchos/watch-app/</loc>
+    <lastmod>2017-10-02T00:27:53.632Z</lastmod>
+    <data>
+        <display>
+        <title>「watchOS 4」那些值得一用的软件（17.10.01 十款）</title>
+        <pubTime>2017-10-01T04:05:00.000Z</pubTime>
+        
+        <tag>app</tag>
+         
+        <tag>recommend</tag>
+         
+        <tag>applewatch</tag>
+         
+        <tag>apple</tag>
+         
+        <tag>watchos4</tag>
+         
+         
+           
+             
+              <breadCrumb title="watchOS" url="http://o1xhack.com/categories/watchOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/07/01/ios/awsome-ipad/</loc>
+    <lastmod>2017-10-02T00:26:14.123Z</lastmod>
+    <data>
+        <display>
+        <title>GitHub - Awesome iPad</title>
+        <pubTime>2017-07-01T05:01:00.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>github</tag>
+         
+        <tag>ipad</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
+          
         </display>
     </data>
     </url>
@@ -43,21 +121,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/10/01/watchos/watch-app/</loc>
-    <lastmod>2017-10-02T00:14:47.170Z</lastmod>
-    <data>
-        <display>
-        <title></title>
-        <pubTime>2017-10-02T00:14:47.170Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2016/04/21/ios/drafts/</loc>
     <lastmod>2017-10-01T03:59:00.000Z</lastmod>
     <data>
@@ -74,7 +137,7 @@
          
            
              
-              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
@@ -109,30 +172,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/05/17/appledev2016/</loc>
-    <lastmod>2017-10-01T03:16:25.894Z</lastmod>
-    <data>
-        <display>
-        <title>Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事</title>
-        <pubTime>2017-05-18T02:28:00.000Z</pubTime>
-        
-        <tag>swift3.0</tag>
-         
-        <tag>iOSDev</tag>
-         
-        <tag>iOS APP</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/06/16/tech/ipad-pro-10.5/</loc>
     <lastmod>2017-10-01T03:07:00.000Z</lastmod>
     <data>
@@ -154,32 +193,6 @@
            
              
               <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/07/01/ios/awsome-ipad/</loc>
-    <lastmod>2017-06-25T15:24:32.000Z</lastmod>
-    <data>
-        <display>
-        <title>GitHub - Awesome iPad</title>
-        <pubTime>2017-07-01T05:01:00.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>github</tag>
-         
-        <tag>ipad</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
           
         </display>
     </data>
@@ -227,7 +240,7 @@
          
            
              
-              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
@@ -276,7 +289,7 @@
          
            
              
-              <breadCrumb title="macos" url="http://o1xhack.com/categories/macos/"/>
+              <breadCrumb title="macOS" url="http://o1xhack.com/categories/macOS/"/>
           
         </display>
     </data>
@@ -285,30 +298,6 @@
     
     
     
-    
-  <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
-    <lastmod>2017-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「iOS」Castro - 不如听播客</title>
-        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>recommend</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
@@ -327,7 +316,31 @@
          
            
              
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <lastmod>2017-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「iOS」Castro - 不如听播客</title>
+        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>recommend</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
@@ -351,7 +364,7 @@
          
            
              
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
@@ -377,7 +390,7 @@
          
            
              
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
@@ -401,31 +414,7 @@
          
            
              
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
-        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>review</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS APP 分析" url="http://o1xhack.com/categories/iOS-APP-%E5%88%86%E6%9E%90/"/>
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
@@ -457,6 +446,30 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
+        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>review</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2016/08/11/kindle/kindle-export-evernote/</loc>
     <lastmod>2017-02-19T23:19:00.000Z</lastmod>
     <data>
@@ -481,6 +494,26 @@
     
     
   <url>
+    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
+    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于 o1xhack.com 的 blog 搭建</title>
+        <pubTime>2017-02-20T00:11:00.000Z</pubTime>
+        
+        <tag>blog</tag>
+         
+         
+           
+             
+              <breadCrumb title="blog" url="http://o1xhack.com/categories/blog/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     <data>
@@ -502,26 +535,6 @@
            
              
               <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
-    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>关于 o1xhack.com 的 blog 搭建</title>
-        <pubTime>2017-02-20T00:11:00.000Z</pubTime>
-        
-        <tag>blog</tag>
-         
-         
-           
-             
-              <breadCrumb title="blog" url="http://o1xhack.com/categories/blog/"/>
           
         </display>
     </data>
@@ -603,6 +616,36 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
+    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    <data>
+        <display>
+        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
+        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
+        
+        <tag>swift3.0</tag>
+         
+        <tag>language</tag>
+         
+        <tag>learning</tag>
+         
+        <tag>github</tag>
+         
+        <tag>SafariViewController</tag>
+         
+        <tag>SnapKit</tag>
+         
+         
+           
+             
+              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
@@ -645,36 +688,6 @@
         <tag>language</tag>
          
         <tag>learning</tag>
-         
-         
-           
-             
-              <breadCrumb title="Swift Learning（Swift 语言学习）" url="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
-    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
-        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
-        
-        <tag>swift3.0</tag>
-         
-        <tag>language</tag>
-         
-        <tag>learning</tag>
-         
-        <tag>github</tag>
-         
-        <tag>SafariViewController</tag>
-         
-        <tag>SnapKit</tag>
          
          
            
@@ -753,7 +766,7 @@
          
            
              
-              <breadCrumb title="iOS APP 推荐" url="http://o1xhack.com/categories/iOS-APP-%E6%8E%A8%E8%8D%90/"/>
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
