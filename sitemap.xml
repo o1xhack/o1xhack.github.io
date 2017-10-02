@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://o1xhack.com/2017/01/01/top/</loc>
+    <loc>http://o1xhack.com/2017/10/01/top/</loc>
     
-    <lastmod>2017-10-02T00:05:03.492Z</lastmod>
+    <lastmod>2017-10-02T00:22:49.526Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
+    
+    <lastmod>2017-10-02T00:21:40.117Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2017/10/01/watchos/watch-app/</loc>
+    
+    <lastmod>2017-10-02T00:14:47.170Z</lastmod>
     
   </url>
   
@@ -100,13 +114,6 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
-    
-    <lastmod>2017-05-17T19:37:48.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://o1xhack.com/rss/index.html</loc>
     
     <lastmod>2017-03-13T05:07:17.000Z</lastmod>
@@ -114,14 +121,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     
@@ -149,13 +156,6 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
-    
-    <lastmod>2017-02-24T23:14:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
     
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
@@ -163,14 +163,21 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
+    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
+    
+    <lastmod>2017-02-24T23:14:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
     
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
     
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     
@@ -198,14 +205,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
+    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
     
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
+    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
     
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     
@@ -233,13 +240,6 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
-    
-    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
     
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
@@ -248,6 +248,13 @@
   
   <url>
     <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
+    
+    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
     
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     

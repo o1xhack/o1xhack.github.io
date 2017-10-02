@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-10-01T03:19:11.720Z</updated>
+  <updated>2017-10-02T00:22:49.526Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -14,6 +14,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>📌 置顶：持续文章，栏目目录等</title>
+    <link href="http://o1xhack.com/2017/10/01/top/"/>
+    <id>http://o1xhack.com/2017/10/01/top/</id>
+    <published>2017-10-02T02:28:00.000Z</published>
+    <updated>2017-10-02T00:22:49.526Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="持续更新文章"><a href="#持续更新文章" class="headerlink" title="持续更新文章"></a>持续更新文章</h1><p>按发表日期排序，斜体日期为 <strong><em>最后更新日期</em></strong></p>
+<ul>
+<li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/">Todoist 的一些用法和技巧（持续）</a>  <strong><em>2017.05.28</em></strong></li>
+<li><a href="http://o1xhack.com/2017/03/10/podcasts/">播客推荐、信息介绍及单期节目推荐 </a>  <strong><em>2017.05.27：21个</em></strong></li>
+<li><a href="http://o1xhack.com/2017/02/21/infoit/">iOS APP: Info It 详细介绍及使用</a>  <strong><em>2017.10.03：1.9.5</em></strong></li>
+<li><a href="http://o1xhack.com/2016/07/27/macos/mac-menubar-app/">释放 macOS 菜单栏潜能的软件们 </a>  <strong><em>2017.05.26：15款</em></strong></li>
+</ul>
+<h1 id="栏目直达"><a href="#栏目直达" class="headerlink" title="栏目直达"></a>栏目直达</h1><ul>
+<li><a href="http://o1xhack.com/dev/">开发者</a>：开发有关的所有文章</li>
+<li><a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物，APP，硬件，科技等等</li>
+<li><a href="http://o1xhack.com/life/">生活者</a>：生活着，无限可能，读书，电影，播客</li>
+</ul>
+<h1 id="精选"><a href="#精选" class="headerlink" title="精选"></a>精选</h1><ul>
+<li><a href="http://o1xhack.com/2017/05/17/appledev2016">Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事</a></li>
+<li><a href="http://o1xhack.com/2017/03/12/ios/omnifocus/">Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;持续更新文章&quot;&gt;&lt;a href=&quot;#持续更新文章&quot; class=&quot;headerlink&quot; title=&quot;持续更新文章&quot;&gt;&lt;/a&gt;持续更新文章&lt;/h1&gt;&lt;p&gt;按发表日期排序，斜体日期为 &lt;strong&gt;&lt;em&gt;最后更新日期&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://o1xhack.com/2017/10/01/watchos/watch-app/"/>
+    <id>http://o1xhack.com/2017/10/01/watchos/watch-app/</id>
+    <published>2017-10-02T00:14:47.170Z</published>
+    <updated>2017-10-02T00:14:47.170Z</updated>
+    
+    <content type="html"><![CDATA[<p># </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;# &lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>「Apple Watch Series 3」36 小时使用，简单体验及耗电报告</title>
@@ -1902,11 +1957,11 @@
   </entry>
   
   <entry>
-    <title>iOS APP：Info It - 通过分享快速搜索电影、图书（5月17日1.7.3更新）</title>
+    <title>iOS APP：Info It - 通过分享快速搜索电影、图书（17.10.1：1.9.5版本）</title>
     <link href="http://o1xhack.com/2017/02/21/infoit/"/>
     <id>http://o1xhack.com/2017/02/21/infoit/</id>
     <published>2017-02-21T16:28:00.000Z</published>
-    <updated>2017-05-17T19:37:48.000Z</updated>
+    <updated>2017-10-02T00:21:40.117Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center">点击下载：<a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="external">Info It - 通过分享快速搜索电影，书籍信息</a></blockquote>
 
@@ -2083,7 +2138,24 @@
 <h2 id="听播客时使用"><a href="#听播客时使用" class="headerlink" title="听播客时使用"></a>听播客时使用</h2><p>本人也是一个播客爱好者，目前使用的 Pocket Casts，但不论你使用什么客户端都一定会有 shownotes，绝大多数的播客都是内嵌地址或者附上地址，但也不排除会有少数并没有。</p>
 <p><img src="http://i.imgur.com/4V3T33B.jpg" alt=""></p>
 <hr>
-<h1 id="软件版本更新时间线"><a href="#软件版本更新时间线" class="headerlink" title="软件版本更新时间线"></a>软件版本更新时间线</h1><h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><h3 id="5月17日-App-Store：1-7-3"><a href="#5月17日-App-Store：1-7-3" class="headerlink" title="5月17日 App Store：1.7.3"></a>5月17日 App Store：1.7.3</h3><ol>
+<h1 id="软件版本更新时间线"><a href="#软件版本更新时间线" class="headerlink" title="软件版本更新时间线"></a>软件版本更新时间线</h1><h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><h3 id="10月1日-App-Store：1-9-5（正在审核）"><a href="#10月1日-App-Store：1-9-5（正在审核）" class="headerlink" title="10月1日 App Store：1.9.5（正在审核）"></a>10月1日 App Store：1.9.5（正在审核）</h3><ol>
+<li>增加搜索历史<ul>
+<li>普通版可显示5个</li>
+<li>可以删除</li>
+<li>点击便可以查询并且不会加入到新的搜索历史中</li>
+</ul>
+</li>
+<li>Pro版本 = 请喝咖啡，提前上线，请去往设置查看~！<ul>
+<li>主要是为了担负苹果开发者计划以及后续维护，感谢！</li>
+</ul>
+</li>
+<li>软件内提示评分<ul>
+<li>感谢评分！</li>
+</ul>
+</li>
+<li>Bug 修复</li>
+</ol>
+<h3 id="5月17日-App-Store：1-7-3"><a href="#5月17日-App-Store：1-7-3" class="headerlink" title="5月17日 App Store：1.7.3"></a>5月17日 App Store：1.7.3</h3><ol>
 <li>APP 内直接查询<ul>
 <li>更快，更方便，任何地方都覆盖了！</li>
 </ul>
@@ -2321,36 +2393,6 @@
     
     
       <category term="blog" scheme="http://o1xhack.com/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>📌 置顶：持续文章，栏目目录等</title>
-    <link href="http://o1xhack.com/2017/01/01/top/"/>
-    <id>http://o1xhack.com/2017/01/01/top/</id>
-    <published>2017-01-02T03:28:00.000Z</published>
-    <updated>2017-10-02T00:05:03.492Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="持续更新文章"><a href="#持续更新文章" class="headerlink" title="持续更新文章"></a>持续更新文章</h1><p>按发表日期排序，斜体日期为 <strong><em>最后更新日期</em></strong></p>
-<ul>
-<li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/">Todoist 的一些用法和技巧（持续）</a>  <em>2017.05.28</em></li>
-<li><a href="http://o1xhack.com/2017/03/10/podcasts/">播客推荐、信息介绍及单期节目推荐 </a>  <em>2017.05.27：21个</em></li>
-<li><a href="http://o1xhack.com/2016/07/27/macos/mac-menubar-app/">释放 macOS 菜单栏潜能的软件们 </a>  <em>2017.05.26：15款</em></li>
-</ul>
-<h1 id="栏目直达"><a href="#栏目直达" class="headerlink" title="栏目直达"></a>栏目直达</h1><ul>
-<li><a href="http://o1xhack.com/dev/">开发者</a>：开发有关的所有文章</li>
-<li><a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物，APP，科技等等</li>
-<li><a href="http://o1xhack.com/life/">生活者</a>：生活着，无限可能，读书，电影，播客</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;持续更新文章&quot;&gt;&lt;a href=&quot;#持续更新文章&quot; class=&quot;headerlink&quot; title=&quot;持续更新文章&quot;&gt;&lt;/a&gt;持续更新文章&lt;/h1&gt;&lt;p&gt;按发表日期排序，斜体日期为 &lt;strong&gt;&lt;em&gt;最后更新日期&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul
-    
-    </summary>
-    
     
   </entry>
   
@@ -2823,77 +2865,6 @@ print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + 
       <category term="language" scheme="http://o1xhack.com/tags/language/"/>
     
       <category term="learning" scheme="http://o1xhack.com/tags/learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Swift 学习日记 - 2（UIAlertController）</title>
-    <link href="http://o1xhack.com/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/"/>
-    <id>http://o1xhack.com/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/</id>
-    <published>2016-07-21T23:23:29.000Z</published>
-    <updated>2016-07-21T23:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code>var diaryNum = 1
-diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
-print &quot;Hello Again！&quot;
-print &quot;Welcome to Swift Learning Diary &quot; + String(diaryNum) + &quot; !&quot;
-</code></pre><blockquote>
-<p>Welcome to Swift Learning Diary 2 !</p>
-</blockquote>
-<a id="more"></a>
-<p><strong>点击进入 → <a href="http://o1xhack.com/2016/05/21/swift-learning/swift-learning-outline-source/">Swift 学习日志 - 目录/相关资料</a></strong></p>
-<h1 id="FollowLight-改进"><a href="#FollowLight-改进" class="headerlink" title="FollowLight 改进"></a>FollowLight 改进</h1><ul>
-<li>胜利提醒增加了你玩的轮数（winningNumber）</li>
-<li>胜利后增加选项，可以直接增加难度（call 增加难度的 func）</li>
-<li>失败提醒增加了你玩的轮数</li>
-<li>开始游戏是询问是否确定，并提示点击确定便会将 winning number 的轮数变为1，这样你随时可以重头再来</li>
-</ul>
-<p><img src="http://imgur.com/ElFHevR.jpg" alt=""></p>
-<hr>
-<h1 id="UIAlertView-的退役"><a href="#UIAlertView-的退役" class="headerlink" title="UIAlertView 的退役"></a>UIAlertView 的退役</h1><p>UIAlertView 全部被 UIAlertController 给替换，在新版本的 xCode 中，会相应报错，并且有官方文档予以参考（Important: UIAlertView is deprecated in iOS 8.）<br>继承于 UIViewController （前一本书有讲过关于继承的问题，<em>inherit</em>） </p>
-<blockquote>
-<p>以下代码引用更改自 XCode 帮助文档，没有直接拉过来是因为用实例更适合解释和接受概念（帮助文档还是需要一定基础看懂的吧…）</p>
-</blockquote>
-<h2 id="UIAlertView-之前什么样子？"><a href="#UIAlertView-之前什么样子？" class="headerlink" title="UIAlertView 之前什么样子？"></a>UIAlertView 之前什么样子？</h2><pre><code>var name : UIAlertView = UIAlertView(Title: &quot;你想要的提示&quot;, message: &quot;在提示下面的小字信息&quot;, delegate: self, cancelButtonTitle: nil, otherButtonTitles: &quot;按钮&quot;) 
-name.show()     //改自书中案例
-</code></pre><p>如果在其中想要添加动作的时候，需要另外使用 delegate，其中有参数 alertView 和 buttonIndex。具体的不细说，但是新版本的确优化了许多。</p>
-<h2 id="UIAlertController-的改变"><a href="#UIAlertController-的改变" class="headerlink" title="UIAlertController 的改变"></a>UIAlertController 的改变</h2><p>以下代码都在一个函数中（func alertExample { }）<br>    let name = UIAlertController(title: “你想要的提示”, message: “在提示下面的小字信息!”, preferredStyle: .Alert)<br>首先去除了 delegate 以及之后的所有东西，在整个提示中变得间接许多，要知道，精简就是一门学问，这样子的改变可以一眼看出来提示的信息。<br><em>string 字符串中可以将变量转换为 string 字符添加到提示语句中，这样子可以拥有灵活性的提示</em></p>
-<h4 id="新增加的-preferredStyle-目前有两种可选："><a href="#新增加的-preferredStyle-目前有两种可选：" class="headerlink" title="新增加的 preferredStyle 目前有两种可选："></a>新增加的 preferredStyle 目前有两种可选：</h4><pre><code>enum UIAlertControllerStyle : Int {
-    case ActionSheet        //底部弹出提示框
-    case Alert       // 中间弹出提示框
-}
-</code></pre><h4 id="当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）"><a href="#当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）" class="headerlink" title="当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）"></a>当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）</h4><pre><code>name.addAction(UIAlertAction(title: &quot;按钮&quot;, style: .Default) { _ in
-           // 你想要它做的事情
-            })
-</code></pre><h4 id="present-模式继承了-UIViewController："><a href="#present-模式继承了-UIViewController：" class="headerlink" title="present 模式继承了 UIViewController："></a>present 模式继承了 UIViewController：</h4><pre><code>self.presentViewController(name, animated: true){}
-</code></pre><blockquote>
-<p>对于提示框的选择主要就是这些，最基础的内容，可以尝试在程序中添加各种提示，包括提示后的动作，动作里调用其他的提示函数或者普通函数来进一步的动作。</p>
-</blockquote>
-<p>推荐文章：<a href="http://www.jianshu.com/p/9cf49e6fa3c4" target="_blank" rel="external">iOS-个人整理16 - 警示框–UIAlertController</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code&gt;var diaryNum = 1
-diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
-print &amp;quot;Hello Again！&amp;quot;
-print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;Welcome to Swift Learning Diary 2 !&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="Swift Learning（Swift 语言学习）" scheme="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
-    
-    
-      <category term="swift3.0" scheme="http://o1xhack.com/tags/swift3-0/"/>
-    
-      <category term="language" scheme="http://o1xhack.com/tags/language/"/>
-    
-      <category term="learning" scheme="http://o1xhack.com/tags/learning/"/>
-    
-      <category term="uialertcontroller" scheme="http://o1xhack.com/tags/uialertcontroller/"/>
     
   </entry>
   
