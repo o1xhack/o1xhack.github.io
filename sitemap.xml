@@ -2,23 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://o1xhack.com/2017/10/01/watchos/watch-app/</loc>
+    <loc>http://o1xhack.com/2017/03/20/coffeeit/</loc>
     
-    <lastmod>2017-10-02T04:38:02.724Z</lastmod>
+    <lastmod>2017-10-10T21:35:03.457Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/10/01/top/</loc>
+    <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
     
-    <lastmod>2017-10-02T04:33:47.610Z</lastmod>
+    <lastmod>2017-10-10T21:22:52.818Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/dev/index.html</loc>
+    
+    <lastmod>2017-10-10T21:17:25.290Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://o1xhack.com/new/index.html</loc>
     
-    <lastmod>2017-10-02T04:14:26.085Z</lastmod>
+    <lastmod>2017-10-10T21:16:45.290Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/new/2017-10-10.html</loc>
+    
+    <lastmod>2017-10-10T21:16:36.142Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/life/index.html</loc>
+    
+    <lastmod>2017-10-10T21:16:24.537Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2017/10/01/top/</loc>
+    
+    <lastmod>2017-10-10T21:12:58.769Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2017/10/01/watchos/watch-app/</loc>
+    
+    <lastmod>2017-10-10T21:12:45.580Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2017/10/01/tech/applewatch3-36/</loc>
+    
+    <lastmod>2017-10-10T20:58:46.785Z</lastmod>
     
   </url>
   
@@ -44,23 +86,9 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/02/21/infoit/</loc>
-    
-    <lastmod>2017-10-02T00:21:40.117Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://o1xhack.com/2016/04/21/ios/drafts/</loc>
     
     <lastmod>2017-10-01T03:59:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://o1xhack.com/2017/10/01/tech/applewatch3-36/</loc>
-    
-    <lastmod>2017-10-01T03:19:11.720Z</lastmod>
     
   </url>
   
@@ -72,23 +100,9 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/20/coffeeit/</loc>
-    
-    <lastmod>2017-06-16T06:55:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://o1xhack.com/2017/04/10/ios/todoist-using/</loc>
     
     <lastmod>2017-05-28T17:00:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://o1xhack.com/life/index.html</loc>
-    
-    <lastmod>2017-05-28T02:35:16.000Z</lastmod>
     
   </url>
   
@@ -107,13 +121,6 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/dev/index.html</loc>
-    
-    <lastmod>2017-05-17T23:49:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://o1xhack.com/about/index.html</loc>
     
     <lastmod>2017-05-17T23:41:01.000Z</lastmod>
@@ -128,14 +135,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     
@@ -170,14 +177,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
     
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
+    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
     
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     
@@ -240,6 +247,13 @@
   </url>
   
   <url>
+    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
+    
+    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
     
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
@@ -254,9 +268,9 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
+    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     
-    <lastmod>2016-05-25T07:54:29.000Z</lastmod>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     
   </url>
   
@@ -269,13 +283,6 @@
   
   <url>
     <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
-    
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-10-02T04:38:02.724Z</updated>
+  <updated>2017-10-10T21:12:45.580Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>「watchOS 4」那些值得一用的软件（17.10.2 更新软件列表）</title>
+    <title>「watchOS 4」那些值得一用的软件（17.10.10 软件列表更新）</title>
     <link href="http://o1xhack.com/2017/10/01/watchos/watch-app/"/>
     <id>http://o1xhack.com/2017/10/01/watchos/watch-app/</id>
     <published>2017-10-02T03:05:00.000Z</published>
-    <updated>2017-10-02T04:38:02.724Z</updated>
+    <updated>2017-10-10T21:12:45.580Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://i.imgur.com/9y0pUQM.png" alt="Screen Shot 2017-10-01 at 11.34.57 PM"></p>
 <h1 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h1><p>又是一篇要持续更新的文章。。。 感觉给自己挖的坑有点多 - -</p>
@@ -39,36 +39,40 @@
 <li>关于怎么使用的</li>
 <li>持续更新，当软件不再使用后标明并注解原因</li>
 <li>一些使用的例子</li>
-<li><p>简单的介绍</p>
-<blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
-
-
-</li>
+<li>简单的介绍</li>
 </ol>
+<p>欢迎去往文章：<a href="http://o1xhack.com/2017/10/01/tech/applewatch3-36/">「Apple Watch Series 3」36 小时使用，简单体验及耗电报告</a>，了解更多 Series 3 耗电情况~</p>
+ <blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
+
+
 <hr>
-<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>使用名称排序，英文系统</p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><ul>
-<li>CARROT 天气</li>
-<li>Pillow</li>
-<li>Runkeeper</li>
-<li>Starbucks</li>
-<li>timetrack</li>
-<li>WaterMinder</li>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>排序：安装日期排序，从最新到最早安装</p>
+<p>应用后为安装日期，如果卸载会在加上卸载日期，不一定一定准确但基本没差别。(北美日期，有时差的哟)</p>
+<h2 id="高频使用"><a href="#高频使用" class="headerlink" title="高频使用"></a>高频使用</h2><ul>
+<li>Starbucks（17.09.26）</li>
+<li>CARROT 天气（17.09.22）</li>
+<li>Pillow（17.09.22）</li>
+<li>Runkeeper（17.09.22）</li>
+<li>timetrack.io（17.09.22）</li>
+<li>WaterMinder（17.09.22）</li>
+</ul>
+<h2 id="低频使用"><a href="#低频使用" class="headerlink" title="低频使用"></a>低频使用</h2><ul>
+<li>MoneyWiz（17.09.27）</li>
+<li>Tweetbot（17.09.26）</li>
+<li>WeChat（17.09.26）</li>
+<li>Forest（17.09.24）</li>
+<li>Deliveries（17.09.22）</li>
+<li>Due（17.09.22）</li>
+<li>ETA（17.09.22）</li>
+<li>Fantastical（17.09.22）</li>
+<li>Swarm（17.09.22）</li>
 </ul>
 <h2 id="已安装"><a href="#已安装" class="headerlink" title="已安装"></a>已安装</h2><ul>
-<li>Deliveries</li>
-<li>Due</li>
-<li>ETA</li>
-<li>Fantastical</li>
-<li>Flat Tomato</li>
-<li>Forest</li>
-<li>MoneyWiz</li>
-<li>Swarm</li>
-<li>Tweetbot</li>
-<li>WeChat</li>
+<li>Streaks（17.10.10）</li>
+<li>Flat Tomato（17.10.01）</li>
 </ul>
-<h2 id="被遗弃"><a href="#被遗弃" class="headerlink" title="被遗弃"></a>被遗弃</h2><ul>
-<li>Pokemon GO (不好玩。。。之前测试电量下载的)</li>
+<h2 id="已卸载"><a href="#已卸载" class="headerlink" title="已卸载"></a>已卸载</h2><ul>
+<li>Pokemon GO (不好玩。。。之前测试电量下载的)（17.09.24 - 17.09.28）</li>
 </ul>
 <hr>
 ]]></content>
@@ -104,13 +108,13 @@
     <link href="http://o1xhack.com/2017/10/01/top/"/>
     <id>http://o1xhack.com/2017/10/01/top/</id>
     <published>2017-10-02T02:28:00.000Z</published>
-    <updated>2017-10-02T04:33:47.610Z</updated>
+    <updated>2017-10-10T21:12:58.769Z</updated>
     
     <content type="html"><![CDATA[<p>请使用菜单栏进行栏目查看~ 这里仅仅为部分文章！持续更新文章中斜体加粗日期为文章最后更新日期。<br>欢迎收藏本篇文章~</p>
 <div style="text-align:center"><strong>持续更新文章：发表日期排序</strong><br></div>
 
 <ul>
-<li><a href="http://o1xhack.com/2017/10/01/watchos/watch-app/">「watchOS 4」那些值得一用的软件 </a>  <strong><em>17.10.2 更新软件列表</em></strong></li>
+<li><a href="http://o1xhack.com/2017/10/01/watchos/watch-app/">「watchOS 4」那些值得一用的软件 </a>  <strong><em>17.10.10 软件列表更新</em></strong></li>
 <li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/">Todoist 的一些用法和技巧（持续）</a>  <strong><em>2017.05.28</em></strong></li>
 <li><a href="http://o1xhack.com/2017/03/10/podcasts/">「Podcast」播客推荐、信息介绍及单期节目推荐 </a>  <strong><em>2017.05.27：21个</em></strong></li>
 <li><a href="http://o1xhack.com/2017/02/21/infoit/">iOS APP: Info It 详细介绍及使用</a>  <strong><em>2017.10.03：1.9.5</em></strong></li>
@@ -119,7 +123,7 @@
 <div style="text-align:center"><strong>精选文章</strong><br></div>
 
 <ul>
-<li><a href="http://o1xhack.com/2017/06/16/tech/ipad-pro-10.5/">「Apple Watch Series 3」36 小时使用，简单体验及耗电报告</a></li>
+<li><a href="http://o1xhack.com/2017/10/01/tech/applewatch3-36/">「Apple Watch Series 3」36 小时使用，简单体验及耗电报告</a></li>
 <li><a href="http://o1xhack.com/2017/05/17/appledev2016">Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事</a></li>
 <li><a href="http://o1xhack.com/2017/03/12/ios/omnifocus/">Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</a></li>
 </ul>
@@ -141,7 +145,7 @@
     <link href="http://o1xhack.com/2017/10/01/tech/applewatch3-36/"/>
     <id>http://o1xhack.com/2017/10/01/tech/applewatch3-36/</id>
     <published>2017-10-01T04:05:00.000Z</published>
-    <updated>2017-10-01T03:19:11.720Z</updated>
+    <updated>2017-10-10T20:58:46.785Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://i.imgur.com/VHzCwj7.jpg" alt=""></p>
 <h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>这篇文章主要是关于 Apple Watch Series 3 + watchOS 4 的耗电使用情况～ 软件开启等等软体验。</p>
@@ -150,7 +154,8 @@
 
 <a id="more"></a>
 <hr>
-<h1 id="此篇文章"><a href="#此篇文章" class="headerlink" title="此篇文章"></a>此篇文章</h1><h2 id="使用设备"><a href="#使用设备" class="headerlink" title="使用设备"></a>使用设备</h2><p>Apple Watch Series 3 LTE 运动版本 42mm</p>
+<h1 id="此篇文章"><a href="#此篇文章" class="headerlink" title="此篇文章"></a>此篇文章</h1><p>欢迎去往文章：<a href="http://o1xhack.com/2017/10/01/watchos/watch-app/">「watchOS 4」那些值得一用的软件</a> ，一篇将会持续更新的帖子。</p>
+<h2 id="使用设备"><a href="#使用设备" class="headerlink" title="使用设备"></a>使用设备</h2><p>Apple Watch Series 3 LTE 运动版本 42mm</p>
 <p>总的时间使用来源于 iPhone 上的 Watch 软件的 ‘通用-用量’ 中，包含 ‘用量’ 和 ‘待机’。<br>软件的使用时间以及体能追踪等时间来源于 ‘健身记录’。<br>其他软件的使用时间可以自行进行计算，一般使用软件都很快所以不单独写了。<br>运动软件及体能追踪的时间归属为 ‘用量’ 和 ‘待机’ 是由苹果决定，由于 Apple Watch 的时间统计没有详细的软件分析，谅解～</p>
 <p>本次使用及耗电报告，不包含任何 LTE 相关活动，相当于 Series 3 GPS 版本。</p>
 <h2 id="相关软件"><a href="#相关软件" class="headerlink" title="相关软件"></a>相关软件</h2><p>罗列这个统计时间内用到的软件，开启了后台刷新的软件，以及表盘上的软件。</p>
@@ -1103,7 +1108,7 @@
     <link href="http://o1xhack.com/2017/03/20/coffeeit/"/>
     <id>http://o1xhack.com/2017/03/20/coffeeit/</id>
     <published>2017-03-21T03:30:00.000Z</published>
-    <updated>2017-06-16T06:55:00.000Z</updated>
+    <updated>2017-10-10T21:35:03.457Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/ucKkbCm.png" alt="PNG 图像-7186AF5662CA-1"></p>
 <h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p><a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="external">Coffee It</a> is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. The rest are expensive, and less functional. This is why I develop <a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="external">Coffee It</a>.</p>
@@ -1146,7 +1151,80 @@
 
 
 <hr>
-<h1 id="Update-Timeline"><a href="#Update-Timeline" class="headerlink" title="Update Timeline"></a>Update Timeline</h1><h2 id="Year-2017"><a href="#Year-2017" class="headerlink" title="Year 2017"></a><blockquote class="blockquote-center">Year 2017</blockquote></h2><h3 id="6-12-App-Store-1-5-5"><a href="#6-12-App-Store-1-5-5" class="headerlink" title="6.12 App Store: 1.5.5"></a>6.12 App Store: 1.5.5</h3><p>—- Click in History to Add —-<br>Fast like Flash!</p>
+<h1 id="Update-Timeline"><a href="#Update-Timeline" class="headerlink" title="Update Timeline"></a>Update Timeline</h1><h2 id="Year-2017"><a href="#Year-2017" class="headerlink" title="Year 2017"></a><blockquote class="blockquote-center">Year 2017</blockquote></h2><h3 id="9-28-App-Store-1-6-13"><a href="#9-28-App-Store-1-6-13" class="headerlink" title="9.28 App Store: 1.6.13"></a>9.28 App Store: 1.6.13</h3><p>Coffee It already supports iOS11, if any problem, contact me please.<br>Also In-App Rate system added! Please give a 5-star!</p>
+<p>Since the latest Apple Watch got a really fast speed to open 3rd APP, Coffee It will come up with a Watch APP, but won’t in few months. This semester cannot be more busier and I will try my best to maintain all LifeAnalysis Lab APPs.</p>
+<p>This is an update with plenty data update and detail changed.</p>
+<ol>
+<li><p>History View now shows the number of cups you take. (Some person may drink not exactly one cup)</p>
+</li>
+<li><p>Starbucks now seperate into two new groups: Starbucks Coffee and Starbuck Drinks</p>
+<ul>
+<li>Just to let you know, there are still caffeine in lots of Drinks! Please check them and make your life better!</li>
+</ul>
+</li>
+<li><p>New coffee data in Starbuck Drinks</p>
+<ul>
+<li>Strawberry Acai Refreshers</li>
+<li>Pink Drink</li>
+<li>Ombrè Pink Drink</li>
+<li>Iced Black Tea (Lemonade)</li>
+<li>Iced Green Tea (Lemonade)</li>
+</ul>
+</li>
+<li><p>Update coffee data in Starbucks Coffee</p>
+<ul>
+<li>Caffè Latte</li>
+<li>Caffè Mocha</li>
+<li>Caffè Americano</li>
+<li>Nariño 70 Cold Brew</li>
+</ul>
+</li>
+<li><p>I find out some coffee got different caffeine date with Iced compare to normal Hot one.</p>
+<ul>
+<li>Iced Coffee (Unsweetened)</li>
+<li>Iced Coffee (Sweetened)</li>
+<li>Iced Caffè Latte</li>
+<li>Iced Caffè Mocha</li>
+<li>Please notice when you drinking an Iced one, it’s normally got more in Venti type, also, you can submit a Request new Coffee types to help me add these data. </li>
+</ul>
+</li>
+<li><p>Update Localization of Chinese</p>
+</li>
+<li><p>UI Constraint change.</p>
+</li>
+</ol>
+<h3 id="7-17-App-Store-1-6-6"><a href="#7-17-App-Store-1-6-6" class="headerlink" title="7.17 App Store: 1.6.6"></a>7.17 App Store: 1.6.6</h3><ol>
+<li>Using Fabric to analysis now. <ul>
+<li>No privacy problem! Won’t sell or give any data~ </li>
+<li>Just help me to learn how user using functions.</li>
+</ul>
+</li>
+<li>Localization Chinese fix.</li>
+<li>Fix in Settings.</li>
+</ol>
+<p>No big update for this version. From data, Coffee It has extremely little users, if your friends love coffee, track stuff, welcome to recommend Coffee It!</p>
+<h3 id="6-23-App-Stroe-1-6-5"><a href="#6-23-App-Stroe-1-6-5" class="headerlink" title="6.23 App Stroe: 1.6.5"></a>6.23 App Stroe: 1.6.5</h3><ol>
+<li>History View layout change! <ul>
+<li>Easier to see the data~</li>
+</ul>
+</li>
+<li>New in-app notification UI<ul>
+<li>Change in 4 other places, Please let me know if you have other advices</li>
+</ul>
+</li>
+<li>Click to add at History View</li>
+<li>Add new list at Coffee View</li>
+<li>Feedback at Setting View<ul>
+<li>New feature of the update version, this one it is!</li>
+</ul>
+</li>
+<li>New launch screen! <ul>
+<li>LifeAnalysis Lab is founded!(only me233)</li>
+</ul>
+</li>
+<li>Send Feedback email from settings</li>
+</ol>
+<h3 id="6-12-App-Store-1-5-5"><a href="#6-12-App-Store-1-5-5" class="headerlink" title="6.12 App Store: 1.5.5"></a>6.12 App Store: 1.5.5</h3><p>—- Click in History to Add —-<br>Fast like Flash!</p>
 <ul>
 <li>Now you can click any single history in History view</li>
 <li>Then a confirm alert shows with details</li>
@@ -1206,6 +1284,7 @@
 <li>Health Data access and check</li>
 </ul>
 <h2 id="Beginning"><a href="#Beginning" class="headerlink" title="Beginning"></a>Beginning</h2> <blockquote class="blockquote-center"><strong>2017.03.16</strong><br><strong>Coffee It first time update to iTunes Connect</strong></blockquote>
+
 
 <hr>
 <h1 id="Caffeine-Data-Request"><a href="#Caffeine-Data-Request" class="headerlink" title="Caffeine Data Request"></a>Caffeine Data Request</h1><blockquote>
@@ -2033,7 +2112,7 @@
     <link href="http://o1xhack.com/2017/02/21/infoit/"/>
     <id>http://o1xhack.com/2017/02/21/infoit/</id>
     <published>2017-02-21T16:28:00.000Z</published>
-    <updated>2017-10-02T00:21:40.117Z</updated>
+    <updated>2017-10-10T21:22:52.818Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center">点击下载：<a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="external">Info It - 通过分享快速搜索电影，书籍信息</a></blockquote>
 
@@ -2210,7 +2289,8 @@
 <h2 id="听播客时使用"><a href="#听播客时使用" class="headerlink" title="听播客时使用"></a>听播客时使用</h2><p>本人也是一个播客爱好者，目前使用的 Pocket Casts，但不论你使用什么客户端都一定会有 shownotes，绝大多数的播客都是内嵌地址或者附上地址，但也不排除会有少数并没有。</p>
 <p><img src="http://i.imgur.com/4V3T33B.jpg" alt=""></p>
 <hr>
-<h1 id="软件版本更新时间线"><a href="#软件版本更新时间线" class="headerlink" title="软件版本更新时间线"></a>软件版本更新时间线</h1><h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><h3 id="10月1日-App-Store：1-9-5（正在审核）"><a href="#10月1日-App-Store：1-9-5（正在审核）" class="headerlink" title="10月1日 App Store：1.9.5（正在审核）"></a>10月1日 App Store：1.9.5（正在审核）</h3><ol>
+<h1 id="软件版本更新时间线"><a href="#软件版本更新时间线" class="headerlink" title="软件版本更新时间线"></a>软件版本更新时间线</h1><h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><h3 id="App-Store：1-9-6"><a href="#App-Store：1-9-6" class="headerlink" title="App Store：1.9.6"></a>App Store：1.9.6</h3><p>正在审核</p>
+<h3 id="10月3日-App-Store：1-9-5"><a href="#10月3日-App-Store：1-9-5" class="headerlink" title="10月3日 App Store：1.9.5"></a>10月3日 App Store：1.9.5</h3><ol>
 <li>增加搜索历史<ul>
 <li>普通版可显示5个</li>
 <li>可以删除</li>
