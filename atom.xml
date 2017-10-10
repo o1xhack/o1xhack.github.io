@@ -1108,7 +1108,7 @@
     <link href="http://o1xhack.com/2017/03/20/coffeeit/"/>
     <id>http://o1xhack.com/2017/03/20/coffeeit/</id>
     <published>2017-03-21T03:30:00.000Z</published>
-    <updated>2017-10-10T21:35:03.457Z</updated>
+    <updated>2017-10-10T21:38:25.574Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/ucKkbCm.png" alt="PNG 图像-7186AF5662CA-1"></p>
 <h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p><a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="external">Coffee It</a> is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. The rest are expensive, and less functional. This is why I develop <a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="external">Coffee It</a>.</p>
@@ -1151,19 +1151,27 @@
 
 
 <hr>
-<h1 id="Update-Timeline"><a href="#Update-Timeline" class="headerlink" title="Update Timeline"></a>Update Timeline</h1><h2 id="Year-2017"><a href="#Year-2017" class="headerlink" title="Year 2017"></a><blockquote class="blockquote-center">Year 2017</blockquote></h2><h3 id="9-28-App-Store-1-6-13"><a href="#9-28-App-Store-1-6-13" class="headerlink" title="9.28 App Store: 1.6.13"></a>9.28 App Store: 1.6.13</h3><p>Coffee It already supports iOS11, if any problem, contact me please.<br>Also In-App Rate system added! Please give a 5-star!</p>
+<h1 id="Update-Timeline"><a href="#Update-Timeline" class="headerlink" title="Update Timeline"></a>Update Timeline</h1><h2 id="Year-2017"><a href="#Year-2017" class="headerlink" title="Year 2017"></a><blockquote class="blockquote-center">Year 2017</blockquote></h2><h3 id="10-9-App-Store-1-7-6"><a href="#10-9-App-Store-1-7-6" class="headerlink" title="10.9 App Store: 1.7.6"></a>10.9 App Store: 1.7.6</h3><p>TOP: Watch APP is in progress~</p>
+<ol>
+<li>For all Soylent drinker, here we are!<ul>
+<li>Cafe Coffiest</li>
+<li>Cafe Vanilla</li>
+<li>Cafe Chai</li>
+</ul>
+</li>
+<li>Starbucks Coffee add：Iced Flat White</li>
+<li>Starbucks Beverage add：Cool Lime Starbucks Refreshers</li>
+</ol>
+<h3 id="9-28-App-Store-1-6-13"><a href="#9-28-App-Store-1-6-13" class="headerlink" title="9.28 App Store: 1.6.13"></a>9.28 App Store: 1.6.13</h3><p>Coffee It already supports iOS11, if any problem, contact me please.<br>Also In-App Rate system added! Please give a 5-star!</p>
 <p>Since the latest Apple Watch got a really fast speed to open 3rd APP, Coffee It will come up with a Watch APP, but won’t in few months. This semester cannot be more busier and I will try my best to maintain all LifeAnalysis Lab APPs.</p>
 <p>This is an update with plenty data update and detail changed.</p>
 <ol>
-<li><p>History View now shows the number of cups you take. (Some person may drink not exactly one cup)</p>
-</li>
-<li><p>Starbucks now seperate into two new groups: Starbucks Coffee and Starbuck Drinks</p>
-<ul>
+<li>History View now shows the number of cups you take. (Some person may drink not exactly one cup)</li>
+<li>Starbucks now seperate into two new groups: Starbucks Coffee and Starbuck Drinks<ul>
 <li>Just to let you know, there are still caffeine in lots of Drinks! Please check them and make your life better!</li>
 </ul>
 </li>
-<li><p>New coffee data in Starbuck Drinks</p>
-<ul>
+<li>New coffee data in Starbuck Drinks<ul>
 <li>Strawberry Acai Refreshers</li>
 <li>Pink Drink</li>
 <li>Ombrè Pink Drink</li>
@@ -1171,16 +1179,14 @@
 <li>Iced Green Tea (Lemonade)</li>
 </ul>
 </li>
-<li><p>Update coffee data in Starbucks Coffee</p>
-<ul>
+<li>Update coffee data in Starbucks Coffee<ul>
 <li>Caffè Latte</li>
 <li>Caffè Mocha</li>
 <li>Caffè Americano</li>
 <li>Nariño 70 Cold Brew</li>
 </ul>
 </li>
-<li><p>I find out some coffee got different caffeine date with Iced compare to normal Hot one.</p>
-<ul>
+<li>I find out some coffee got different caffeine date with Iced compare to normal Hot one.<ul>
 <li>Iced Coffee (Unsweetened)</li>
 <li>Iced Coffee (Sweetened)</li>
 <li>Iced Caffè Latte</li>
@@ -1188,10 +1194,8 @@
 <li>Please notice when you drinking an Iced one, it’s normally got more in Venti type, also, you can submit a Request new Coffee types to help me add these data. </li>
 </ul>
 </li>
-<li><p>Update Localization of Chinese</p>
-</li>
-<li><p>UI Constraint change.</p>
-</li>
+<li>Update Localization of Chinese</li>
+<li>UI Constraint change.</li>
 </ol>
 <h3 id="7-17-App-Store-1-6-6"><a href="#7-17-App-Store-1-6-6" class="headerlink" title="7.17 App Store: 1.6.6"></a>7.17 App Store: 1.6.6</h3><ol>
 <li>Using Fabric to analysis now. <ul>
