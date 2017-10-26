@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-10-10T21:12:45.580Z</updated>
+  <updated>2017-10-25T18:00:05.087Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>「watchOS 4」那些值得一用的软件（17.10.10 软件列表更新）</title>
+    <title>「watchOS 4」那些值得一用的软件（17.10.20 软件列表更新）</title>
     <link href="http://o1xhack.com/2017/10/01/watchos/watch-app/"/>
     <id>http://o1xhack.com/2017/10/01/watchos/watch-app/</id>
     <published>2017-10-02T03:05:00.000Z</published>
-    <updated>2017-10-10T21:12:45.580Z</updated>
+    <updated>2017-10-25T18:00:05.087Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://i.imgur.com/9y0pUQM.png" alt="Screen Shot 2017-10-01 at 11.34.57 PM"></p>
 <h1 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h1><p>又是一篇要持续更新的文章。。。 感觉给自己挖的坑有点多 - -</p>
@@ -48,15 +48,20 @@
 <hr>
 <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>排序：安装日期排序，从最新到最早安装</p>
 <p>应用后为安装日期，如果卸载会在加上卸载日期，不一定一定准确但基本没差别。(北美日期，有时差的哟)</p>
+<p>如果从高频转为低频，会写上 “降 xx.xx.xx” 代表什么时间降级<br>如果从低频转为高频，会协商 “升 xx.xx.xx” 代表什么时候进行了提升</p>
 <h2 id="高频使用"><a href="#高频使用" class="headerlink" title="高频使用"></a>高频使用</h2><ul>
+<li>Life Cycle（17.10.19）</li>
+<li>Keep（17.10.13）</li>
 <li>Starbucks（17.09.26）</li>
 <li>CARROT 天气（17.09.22）</li>
 <li>Pillow（17.09.22）</li>
-<li>Runkeeper（17.09.22）</li>
 <li>timetrack.io（17.09.22）</li>
 <li>WaterMinder（17.09.22）</li>
 </ul>
 <h2 id="低频使用"><a href="#低频使用" class="headerlink" title="低频使用"></a>低频使用</h2><ul>
+<li>Runkeeper（降 17.10.02，安 17.09.22）</li>
+<li>Streaks（17.10.10）</li>
+<li>Flat Tomato（17.10.01）</li>
 <li>MoneyWiz（17.09.27）</li>
 <li>Tweetbot（17.09.26）</li>
 <li>WeChat（17.09.26）</li>
@@ -68,10 +73,14 @@
 <li>Swarm（17.09.22）</li>
 </ul>
 <h2 id="已安装"><a href="#已安装" class="headerlink" title="已安装"></a>已安装</h2><ul>
-<li>Streaks（17.10.10）</li>
-<li>Flat Tomato（17.10.01）</li>
+<li>Zones（17.10.25）</li>
+<li>Robinhood（17.10.19）</li>
+<li>Bookout（17.10.19）</li>
+<li>内测中 HabitMinder（17.10.19）</li>
+<li>航旅纵横 Pro（17.10.19）</li>
 </ul>
 <h2 id="已卸载"><a href="#已卸载" class="headerlink" title="已卸载"></a>已卸载</h2><ul>
+<li>Beanstock（17.10.19 - 17.10.20）</li>
 <li>Pokemon GO (不好玩。。。之前测试电量下载的)（17.09.24 - 17.09.28）</li>
 </ul>
 <hr>
@@ -95,9 +104,9 @@
     
       <category term="recommend" scheme="http://o1xhack.com/tags/recommend/"/>
     
-      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
-    
       <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
+    
+      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
     
       <category term="watchos4" scheme="http://o1xhack.com/tags/watchos4/"/>
     
@@ -290,9 +299,9 @@
     
       <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
-      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
-    
       <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
+    
+      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
     
   </entry>
   
@@ -743,11 +752,11 @@
     
       <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
+      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
+    
       <category term="ipadpro" scheme="http://o1xhack.com/tags/ipadpro/"/>
     
       <category term="logetich" scheme="http://o1xhack.com/tags/logetich/"/>
-    
-      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
     
   </entry>
   
