@@ -365,13 +365,13 @@
     <link href="http://o1xhack.com/2017/10/01/top/"/>
     <id>http://o1xhack.com/2017/10/01/top/</id>
     <published>2017-10-02T02:28:00.000Z</published>
-    <updated>2018-03-02T02:35:49.063Z</updated>
+    <updated>2018-03-02T02:43:08.936Z</updated>
     
     <content type="html"><![CDATA[<p>请使用菜单栏进行栏目查看~ 这里仅仅为部分文章！持续更新文章中斜体加粗日期为文章最后更新日期。<br>欢迎收藏本篇文章~</p>
 <div style="text-align:center"><strong>持续更新文章：更新日期排序</strong><br></div>
 
 <ul>
-<li><a href="">🔥 Info It 2.0：查询电影/图书的超快工具</a></li>
+<li><a href="http://o1xhack.com/2018/03/10/infoit2/">🔥 Info It 2.0：查询电影/图书的超快工具</a></li>
 <li><a href="http://o1xhack.com/2017/10/01/watchos/watch-app/">「watchOS 4」那些值得一用的软件 </a>  <strong><em>17.10.10 软件列表更新</em></strong></li>
 <li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/">Todoist 的一些用法和技巧（持续）</a>  <strong><em>2017.05.28</em></strong></li>
 <li><a href="http://o1xhack.com/2017/03/10/podcasts/">「Podcast」播客推荐、信息介绍及单期节目推荐 </a>  <strong><em>2017.05.27：21个</em></strong></li>
@@ -2374,12 +2374,11 @@
     <link href="http://o1xhack.com/2017/02/21/infoit/"/>
     <id>http://o1xhack.com/2017/02/21/infoit/</id>
     <published>2017-02-21T16:28:00.000Z</published>
-    <updated>2018-03-02T00:47:01.990Z</updated>
+    <updated>2018-03-02T02:43:25.646Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2-0-版本后：文章更新"><a href="#2-0-版本后：文章更新" class="headerlink" title="2.0 版本后：文章更新"></a>2.0 版本后：文章更新</h1><blockquote class="blockquote-center">请去往 2.0 版本后的最新文章：<a href="http://o1xhack.com/2018/03/10/infoit2/">Info It - 通过分享快速搜索电影，书籍信息</a></blockquote>
 
-
-
+<a id="more"></a>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center">点击下载：<a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="external">Info It - 通过分享快速搜索电影，书籍信息</a></blockquote>
 
 <blockquote>
@@ -2392,7 +2391,6 @@
 <blockquote class="blockquote-center">Info It 是一款通过选中文字，运用 iOS 的 Action Extension 实现快速搜索电影，图书等的软件。</blockquote>
 
 
-<a id="more"></a>
 <h2 id="举个栗子！"><a href="#举个栗子！" class="headerlink" title="举个栗子！"></a>举个栗子！</h2><p>👉🏻 视频来啦！</p>
 <p>打开即刻浏览文章，看到文章中有电影，于是用最快的方式打开了豆瓣APP（iOS10里的特性）然<br>后浏览数据，浏览评论，看看这个看看那个，看完了返回即刻，便处于重新刷新的情况。<br>（在这里我故意停留时间长了一点为了保证视频可以一次成功，但实际上经常会遇到这类问题，因为内存问题是不可能避免的，一个APP是无法在后台保持良好就连safari也经常需要重新刷新，更别说如果你这时候收到一个消息进去回复一下等等。）</p>
 <blockquote>
@@ -2775,19 +2773,6 @@
     <summary type="html">
     
       &lt;h1 id=&quot;2-0-版本后：文章更新&quot;&gt;&lt;a href=&quot;#2-0-版本后：文章更新&quot; class=&quot;headerlink&quot; title=&quot;2.0 版本后：文章更新&quot;&gt;&lt;/a&gt;2.0 版本后：文章更新&lt;/h1&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;请去往 2.0 版本后的最新文章：&lt;a href=&quot;http://o1xhack.com/2018/03/10/infoit2/&quot;&gt;Info It - 通过分享快速搜索电影，书籍信息&lt;/a&gt;&lt;/blockquote&gt;
-
-
-
-&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote class=&quot;blockquote-center&quot;&gt;点击下载：&lt;a href=&quot;https://appsto.re/cn/2XApgb.i&quot;&gt;Info It - 通过分享快速搜索电影，书籍信息&lt;/a&gt;&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;可以根据博客左侧的目录快速去往「特色功能」「使用场景」等！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt; &lt;a href=&quot;http://o1xhack.com/dev/&quot;&gt;开发者&lt;/a&gt;：开发这个世界. &lt;/blockquote&gt;
-
-
-&lt;h2 id=&quot;为什么要做-Info-It&quot;&gt;&lt;a href=&quot;#为什么要做-Info-It&quot; class=&quot;headerlink&quot; title=&quot;为什么要做 Info It&quot;&gt;&lt;/a&gt;为什么要做 Info It&lt;/h2&gt;&lt;p&gt;从用豆瓣记录电影开始，每一次不论在微信中还是网页中微博中文章内有任何电影，都得一次次跳转到豆瓣软件去搜索（豆瓣启动3秒在加上至少2秒欢迎页面），又或者打开一个新的网页搜索，iOS 10 中多出了 Look Up 功能，可以直接使用网页搜索，但是依旧不快并且对于长期使用豆瓣等的人来说，不论是评分，评分人数，短评，长篇评论都是很需要查询的到的，因此就有个这个软件的诞生。&lt;/p&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;Info It 是一款通过选中文字，运用 iOS 的 Action Extension 实现快速搜索电影，图书等的软件。&lt;/blockquote&gt;
     
     </summary>
     
