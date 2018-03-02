@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2017-10-25T18:00:05.087Z</updated>
+  <updated>2018-03-02T02:39:44.976Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -14,6 +14,254 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>🔥 Info It 2.0：查询电影/图书的超快工具</title>
+    <link href="http://o1xhack.com/2018/03/10/infoit2/"/>
+    <id>http://o1xhack.com/2018/03/10/infoit2/</id>
+    <published>2018-03-10T17:00:00.000Z</published>
+    <updated>2018-03-02T02:39:44.976Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.imgur.com/M8NAMqF.png" alt="1-background"></p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>自 Info It 第一次 <a href="http://o1xhack.com/2017/02/21/infoit/#%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E7%BA%BF">TestFlight</a> 以来已经差不多 1 年 3 个月了，本想着在上架一周年的时候更新 2.0 的，奈何 17 年下半年实在太忙，准确的说，现在也忙的不行，但是因为已经一年了，所以强行熬了好多个通宵来更新。（<a href="http://o1xhack.com/2017/02/21/infoit/">Info It 1.0 的文章</a>）</p>
+<p>Info It 是我写的第一款上架 App Store 的软件（Liquor It 暂不算），由于我的天真和新手，底层其实有很多的问题，还好一开始的版本功能没有很复杂，这也是我熬了快一个月才能把很多错误修正。</p>
+<p>因为是利用业余时间，除了繁重的课业和项目外，我只能尽量利用本来看电影、休闲、玩乐的时间去开发，感谢大家的体谅！也真正的是因为我热爱在 iOS 上开发，我才能坚持下来。</p>
+<blockquote class="blockquote-center">点击下载：<a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="external">Info It - 通过分享快速搜索电影，书籍信息</a></blockquote>
+
+<a id="more"></a>
+<p>Info It 2.0 之前总共上了 10 个 App Store 版本，总共有 22 个上传的版本，而更小的 build 数量，就不计算了~</p>
+<p>总共有 26 个 5 星评价，谢谢大家！</p>
+<p>总共收入约等于 0，同样谢谢大家！</p>
+<p>Info It 的代码在 美国，中国，飞机上，咖啡厅，饭店，机场 都写过~</p>
+<blockquote class="blockquote-center"> <a href="http://o1xhack.com/dev/">开发者</a>：开发这个世界. </blockquote>
+
+
+<h2 id="Info-It-的缘由"><a href="#Info-It-的缘由" class="headerlink" title="Info It 的缘由"></a>Info It 的缘由</h2><p>Info It 在改变，就像人一样，这是我在 1.0 的文章中写的：</p>
+<blockquote>
+<p>从用豆瓣记录电影开始，每一次不论在微信中还是网页中微博中文章内有任何电影，都得一次次跳转到豆瓣软件去搜索（豆瓣启动3秒在加上至少2秒欢迎页面），又或者打开一个新的网页搜索，iOS 10 中多出了 Look Up 功能，可以直接使用网页搜索，但是依旧不快并且对于长期使用豆瓣等的人来说，不论是评分，评分人数，短评，长篇评论都是很需要查询的到的，因此就有个这个软件的诞生。<br>1.0：Info It 是一款通过选中文字，运用 iOS 的 Action Extension 实现快速搜索电影，图书等的软件。</p>
+</blockquote>
+<p>现在，我的缘由没有改变，但是 Info It 变得更强大了：</p>
+<p>现在，Info It 使用了设计过的界面来承载信息流和搜索结果，在这之中，API 频繁使用，API 所做不到的地方都是通过爬去网页然后分析得来的。我在「<a href="http://o1xhack.com/2018/03/10/infoit2/#%E7%89%B9%E8%89%B2%E5%8A%9F%E8%83%BD">特色功能</a>」中详细介绍，简单的一句话来概括：</p>
+<blockquote class="blockquote-center">2.0：Info It 是一款致力于将搜索电影/图书等信息变得轻便、简单、快速的工具软件。</blockquote>
+
+<p>如果你是第一次使用 Info It，可以前往 <a href="">1.0 文章视频例子</a> 查看视频，如果你已经看过了，直接看下去吧~</p>
+<hr>
+<h1 id="Info-It-简介"><a href="#Info-It-简介" class="headerlink" title="Info It 简介"></a>Info It 简介</h1><p>Info It 通过运用 iOS 的 Action Extension，在任何可以选择文字的地方，选择分享按钮，实现快速在搜索电影/图书的相关信息。</p>
+<p>软件内和共享插件有着基本相同的使用体验，让你不仅可以任何地方搜索，同时可以代替豆瓣自带的软件。</p>
+<ul>
+<li>不需要跳转其他任何地方，保持在原有的页面上</li>
+<li>详细的单个条目信息</li>
+<li>列表模式查看搜索结果、对比评分</li>
+<li>任何地方选中文字，分享，即刻查询</li>
+<li>内置 Safari 浏览，达到豆瓣登录状态的存储（直接标记已看未看等）</li>
+<li>可以配合多个场景达到效率化的使用，具体看后面的「使用场景」</li>
+</ul>
+<p>Info It：</p>
+<ul>
+<li>并不是豆瓣开发的</li>
+<li>是因为个人需求开发</li>
+<li>因为个人对于电影和读书搜索经常使用才开发的</li>
+</ul>
+<hr>
+<h1 id="问答"><a href="#问答" class="headerlink" title="问答"></a>问答</h1><p>欢迎像我提问，你也可以去往 <a href="http://o1xhack.com/2017/02/21/infoit/#%E9%97%AE%E7%AD%94">1.0 问答</a> 查看之前的提问！</p>
+<hr>
+<h1 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h1><h2 id="任意地方"><a href="#任意地方" class="headerlink" title="任意地方"></a><blockquote class="blockquote-center"><strong>任意地方</strong></blockquote></h2><p>在任何能够选择文字的地方，都只需要两步就可以搜索：</p>
+<ol>
+<li>选中文字</li>
+<li>选择分享（Share），如果没有请先选择更多来加入</li>
+</ol>
+<p>ps. 部分软件不给你选择文字，或者取消了苹果的选中文字弹出框，自己开发了一个新的，这种情况下，爱莫能助啊！</p>
+<p><img src="https://i.imgur.com/4eC6R83.png" alt="Wallpaper 01"></p>
+<h2 id="无缝融合"><a href="#无缝融合" class="headerlink" title="无缝融合"></a><blockquote class="blockquote-center"><strong>无缝融合</strong></blockquote></h2><p>在尝试获取豆瓣的 API key 失败后，这个功能依旧只能点开网页来实现</p>
+<ul>
+<li>标记电影，标记图书，查看标记状态</li>
+<li>查看评论，查看影人资讯，查看打分，查看图片</li>
+</ul>
+<blockquote>
+<p>所有在豆瓣、IMDb、烂番茄可以做到的，如今指尖可达，无需离开页面，触手可及！</p>
+</blockquote>
+<p><img src="https://i.imgur.com/B36vVCw.png" alt="2"></p>
+<h2 id="中英文无缝查询"><a href="#中英文无缝查询" class="headerlink" title="中英文无缝查询"></a><blockquote class="blockquote-center"><strong>中英文无缝查询</strong></blockquote></h2><p>文章中的文字是「降临」？需要查询豆瓣记住英文名称在去 IMDb 查询？</p>
+<p>Info It 直接帮你转换，获取相关信息，并且读取对应平台，从此你无需担心</p>
+<h2 id="多平台信息"><a href="#多平台信息" class="headerlink" title="多平台信息"></a><blockquote class="blockquote-center"><strong>多平台信息</strong></blockquote></h2><p>避免繁琐的跳转和复制查询：</p>
+<p>目前 Info It 可以同时显示豆瓣电影和 IMDb 的评分（烂番茄的文档正在研究中~）<br>目前图书方面只有 豆瓣读书 的评分（不知道你们还想看哪家的呢？可以告诉我我试试！）</p>
+<p>** 目前仅 APP 内可以切换 电影/图书查询，下一步将会应用到 共享插件中~</p>
+<p><img src="https://i.imgur.com/2rz2wWp.png" alt="3"></p>
+<h2 id="丰富的详情"><a href="#丰富的详情" class="headerlink" title="丰富的详情"></a><blockquote class="blockquote-center"><strong>丰富的详情</strong></blockquote></h2><p>在搜索的结果页面，我放入了 相关的导演/作者，获取图片，年份，以及评分，给你更直观的查看需求，如果你仅仅需要查看一下评分等基础信息，无需任何多余的步骤和点击~</p>
+<p>点击单个电影详情页面后，你可以看到更加丰富的信息：</p>
+<ul>
+<li>对于电影：影片介绍、以及对应可以观看的平台</li>
+<li>对于图书：图书介绍、作者介绍</li>
+</ul>
+<p>ps. 对于图书的购买信息还在斟酌要不要放进去~<br>pps. 未来会加入更多，已经在研究中了~</p>
+<p><img src="https://i.imgur.com/Sw4QKmD.jpg" alt="4"></p>
+<h2 id="超快"><a href="#超快" class="headerlink" title="超快"></a><blockquote class="blockquote-center"><strong>超快</strong></blockquote></h2><ul>
+<li>打开 APP，输入，确认</li>
+<li>一秒打开，一秒搜索</li>
+<li>哪怕你放到文件夹中，根据我的方法，依然可以十分快速的打开：<a href="">使用 3D Touch 放在文件夹中拥有同样的打开速度</a></li>
+</ul>
+<blockquote>
+<p>打开网页速度看你网络决定，中国豆瓣很快，美国略慢</p>
+</blockquote>
+<h2 id="丰富的自定义"><a href="#丰富的自定义" class="headerlink" title="丰富的自定义"></a><blockquote class="blockquote-center"><strong>丰富的自定义</strong></blockquote></h2><blockquote>
+<p>不论多小众的需求，如果在力所能及的范围，我一定去实现</p>
+</blockquote>
+<ol>
+<li>打开角标显示数字1，将会永久显示角标 “1”，将 Info It 放入文件夹后，通过 3D Touch 则可以快速按压文件夹打开带有角标的 APP，专为希望将 Info It 放如文件夹的 iPhone 6s+ 设备用户定制（随时可以关闭角标显示）<ul>
+<li>可以真正达到一秒打开，没有间隔</li>
+<li>具体可以看 <a href="">#使用场景-使用 3D Touch 放在文件夹中拥有同样的打开速度</a></li>
+</ul>
+</li>
+<li>自动识别剪贴板，并且复制到输入框中</li>
+<li>自动弹出键盘</li>
+<li>URL scheme，直接使用可以方便的打开！</li>
+</ol>
+<p>以下功能是 Pro 的附加功能：</p>
+<ul>
+<li>搜索历史数量显示，默认 3 个，内购后无限多</li>
+<li>改变图标，目前有四个图标~</li>
+<li>历史记录点击加载缓存的数目，默认 3 个，自定义<ul>
+<li>加载缓存的速度将会非常快，如果不是很老的信息完全不用重新搜索</li>
+<li>（正在考虑加入一个重新刷新的按钮，更方便 Pro 用户设定加载缓存多一点）</li>
+</ul>
+</li>
+<li>搜索结果加载数目，默认 9 个，自定义</li>
+</ul>
+<p>Pro 用来提供我支付给苹果的开发者费用，一年 99 美金，所以我没有将 Pro 设定的非买不可，而是更加自定义化，如果你钱包有限，依旧可以完美的使用 Info It，然而如果你可以支持 ￥6，我将会很感谢你给予的支持并加油维护！  </p>
+<p><img src="https://i.imgur.com/WuKIyrT.png" alt="6"></p>
+<hr>
+<h1 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h1><h2 id="使用-3D-Touch-放在文件夹中拥有同样的打开速度"><a href="#使用-3D-Touch-放在文件夹中拥有同样的打开速度" class="headerlink" title="使用 3D Touch 放在文件夹中拥有同样的打开速度"></a>使用 3D Touch 放在文件夹中拥有同样的打开速度</h2><blockquote>
+<p>这是 Info It 的第一个为少数人做的功能（我自己），并不知道有没有人在意，但觉得小小的好功能还是很增加幸福感的！（简称小确幸哈哈）</p>
+</blockquote>
+<ol>
+<li>在 Info It 的 设置-高级设置 中打开「开启数字角标」</li>
+<li>提示获取通知，选择允许（不会发任何东西，只需要角标而已）</li>
+<li>关闭 Info It，可以看到角标显示 1</li>
+<li>放如文件夹中并关闭文件夹</li>
+<li>3D Touch 按压对应文件夹，可以看到 Info It，点击便可以打开</li>
+</ol>
+<blockquote>
+<p>你可以随时在 设置-高级设置 中关闭显示，角标就不会存在了</p>
+</blockquote>
+<p><img src="https://i.imgur.com/g0JsTyK.png" alt="5"></p>
+<h2 id="代替-豆瓣官方-APP"><a href="#代替-豆瓣官方-APP" class="headerlink" title="代替 豆瓣官方 APP"></a>代替 豆瓣官方 APP</h2><p>首先需要打开上面的 <a href="">使用 3D Touch 放在文件夹中拥有同样的打开速度</a> 功能，可以最大化的代替放在文件夹中的的豆瓣，如果你想将 Info It 放到外面，那当然可以直接替代啦~</p>
+<h3 id="这个功能可以代替豆瓣软件的原因有三："><a href="#这个功能可以代替豆瓣软件的原因有三：" class="headerlink" title="这个功能可以代替豆瓣软件的原因有三："></a>这个功能可以代替豆瓣软件的原因有三：</h3><p>（以我个人例子，每个人使用情况不同~）</p>
+<ol>
+<li>我将豆瓣也放在文件夹中，因此他们的层级一样</li>
+<li>同样在文件夹中，Info It 开启这个功能后比豆瓣打开少一步（一个字：快）</li>
+<li>相比于豆瓣的打开三秒等待，Info It 打开软件没有启动界面，没有广告，小巧，一秒（豆瓣？？你跟我讲豆瓣打开快我就真没话说了0 0）</li>
+<li>同样的功能，豆瓣可以的 Info It 都可以做到（网页版豆瓣像查影人似乎不可以）</li>
+<li>功能之外，你还可以参考 IMDb，烂番茄这两个国外著名影评网站<ul>
+<li>如果你使用豆瓣，复制中文名在到 IMDb 查询完全无效</li>
+<li>你需要找到英文名，记住或者复制再查找</li>
+<li>Info It 内置中英文名称自动转换（读取豆瓣数据），只要是国外影片都可以转换</li>
+</ul>
+</li>
+<li>功能之内，豆瓣读书和豆瓣电影可以同时查看，一键切换<ul>
+<li>豆瓣里面，你需要返回才能再查书</li>
+</ul>
+</li>
+</ol>
+<h3 id="目前不及豆瓣的功能："><a href="#目前不及豆瓣的功能：" class="headerlink" title="目前不及豆瓣的功能："></a>目前不及豆瓣的功能：</h3><ol>
+<li>没有已看，想看等列表<ul>
+<li>我一直在找一个比较恰当和好的方式来管理这些（拭目以待把！）</li>
+</ul>
+</li>
+<li>没有豆瓣的文章等</li>
+<li>没有办法随时看自己的个人主页和广播</li>
+</ol>
+<blockquote>
+<p>如果以上功能对你来讲没啥用，那你妥妥的可以切换啦！</p>
+</blockquote>
+<h2 id="在豆瓣官方-APP-中使用！"><a href="#在豆瓣官方-APP-中使用！" class="headerlink" title="在豆瓣官方 APP 中使用！"></a>在豆瓣官方 APP 中使用！</h2><p>2.0 版本在替代豆瓣上越来越完美！视频中使用的是 1.0，请见谅没有那么多的时间~</p>
+<blockquote>
+<p>好奇不？为什么要在豆瓣软件中使用豆瓣呢。。。我录了一个视频让你直观的感受一下。</p>
+</blockquote>
+<p>不得不说作为一个豆瓣记录的人，发现豆瓣对于自己软件内的文章提到的电影没有任何办法快速查询在豆瓣的状态我也是没办法。。。就比如你在看豆瓣里的一篇文章（我现在很多时候都会看一遍首页那些推荐），文章里提到了什么电影，你想知道这部电影怎么办如果好标记一下想看，该怎么办呢？</p>
+<ol>
+<li>返回豆瓣（关闭了文章）</li>
+<li>搜索这部电影，并且标记</li>
+<li>那之前的文章怎么办。。。？回去重新找0 0？</li>
+<li>或者记下来（复制下来），看完后在退出文章搜索（万一很多个电影、明星咋办）</li>
+</ol>
+<p>这个流程挺醉的，如果你没有需求你不会有感觉，但你如果尝试过一两次你一定会有一句 MMP 要讲。</p>
+<blockquote>
+<p>Info It 可以完美的解决在豆瓣内部看文章，长评论里面出现电影图书查询的所有问题！</p>
+</blockquote>
+<ol>
+<li>yi，文章出现了电影名字！</li>
+<li>选择它，选择共享，选择 Info It，标记，查看，搞定！</li>
+</ol>
+<p>ps. 视频中豆瓣打开过慢纯粹因为我在美国。。中国开的很快0 0</p>
+<iframe height="498" width="100%" src="http://player.youku.com/embed/XMjczNTQ2NjEzMg==" frameborder="0" 'allowfullscreen'=""></iframe>
+
+
+<h2 id="在微信、微博、Twitter-等使用"><a href="#在微信、微博、Twitter-等使用" class="headerlink" title="在微信、微博、Twitter 等使用"></a>在微信、微博、Twitter 等使用</h2><ul>
+<li>阅读微信文章时直接选取文字，点击分享</li>
+<li>查看微博时直接选取文字分享搜索（官方不可以在一条微博内选取，请使用第三方客户端）</li>
+<li>查看微博头条文章、Twitter 内的文章时，选取文字分享</li>
+<li>Telegram 等任何软件中只要可以选取文字便可以分享</li>
+</ul>
+<h2 id="进一步的分享"><a href="#进一步的分享" class="headerlink" title="进一步的分享"></a>进一步的分享</h2><h3 id="Todoist-待办事项等"><a href="#Todoist-待办事项等" class="headerlink" title="Todoist 待办事项等"></a>Todoist 待办事项等</h3><p>使用于使用 todo 软件，收集软件等进行整理归档的朋友</p>
+<p>结合其他软件自带的分享功能，在打开的 Info It 页面上，直接选择分享按钮，便可以分享到任何在 Safari 中支持分享的软件。例如：</p>
+<p>选择分享到 Todoist，可以快速将想看的电影，想买的书，想看的书加入到对应的列表中：</p>
+<ul>
+<li>分享的内容为 markdown 格式，可以直接点击进入对应链接</li>
+<li>直接添加优先级，评论，分配给 xxx 等</li>
+</ul>
+<blockquote>
+<p>在日渐活跃的软件社区，支持分享的软件越来越多，机会也就越来越大。</p>
+</blockquote>
+<h3 id="二次社交分享"><a href="#二次社交分享" class="headerlink" title="二次社交分享"></a>二次社交分享</h3><p>分享到微博、微信、短信、Moke、Twitter、Telegram、Whatsapp 等等等</p>
+<p>Safari 的分享支持有多少，世界就有多大！</p>
+<h3 id="Linnk-等聚集软件"><a href="#Linnk-等聚集软件" class="headerlink" title="Linnk 等聚集软件"></a>Linnk 等聚集软件</h3><p>直接选择分享到 Linnk、Raindrop、收趣等聚集软件</p>
+<p>将有兴趣的电影、图书随时随地存储！</p>
+<h2 id="听播客时使用"><a href="#听播客时使用" class="headerlink" title="听播客时使用"></a>听播客时使用</h2><p>本人也是一个播客爱好者，目前使用的 Pocket Casts，但不论你使用什么客户端都一定会有 shownotes，绝大多数的播客都是内嵌地址或者附上地址，但也不排除会有少数并没有。</p>
+<hr>
+<h1 id="软件版本更新时间线"><a href="#软件版本更新时间线" class="headerlink" title="软件版本更新时间线"></a>软件版本更新时间线</h1><h2 id="Info-It-2-0！"><a href="#Info-It-2-0！" class="headerlink" title="Info It 2.0！"></a>Info It 2.0！</h2><blockquote class="blockquote-center"><strong>2018年3月??日</strong><br><strong>Info It 2.0 版本正式更新！</strong></blockquote>
+
+
+<h2 id="2018年-1-2月"><a href="#2018年-1-2月" class="headerlink" title="2018年 1-2月"></a><blockquote class="blockquote-center">2018年 1-2月</blockquote></h2><p>2.0 前共有 3 个 App Store 版本更新<br>具体查看：<a href="http://o1xhack.com/2017/02/21/infoit/#%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E7%BA%BF">2.0 之前版本更新</a></p>
+<h2 id="2017年"><a href="#2017年" class="headerlink" title="2017年"></a><blockquote class="blockquote-center">2017年</blockquote></h2><p>共 6 个 App Store 版本更新</p>
+<p>具体查看：<a href="http://o1xhack.com/2017/02/21/infoit/#%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E7%BA%BF">2.0 之前版本更新</a></p>
+<h2 id="2016年"><a href="#2016年" class="headerlink" title="2016年"></a><blockquote class="blockquote-center">2016年</blockquote></h2><p>2 个 TestFlight 测试版本<br>具体查看：<a href="http://o1xhack.com/2017/02/21/infoit/#%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E7%BA%BF">2.0 之前版本更新</a></p>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2> <blockquote class="blockquote-center"><strong>2016年11月24日</strong><br><strong>美国感恩节当天</strong><br><strong>Info It 第一次上传至 iTunes Connect</strong></blockquote>
+
+
+<hr>
+<h1 id="1-0-例子视频"><a href="#1-0-例子视频" class="headerlink" title="1.0 例子视频"></a>1.0 例子视频</h1><p>👉🏻 视频来啦！</p>
+<p>打开即刻浏览文章，看到文章中有电影，于是用最快的方式打开了豆瓣APP（iOS10里的特性）然<br>后浏览数据，浏览评论，看看这个看看那个，看完了返回即刻，便处于重新刷新的情况。<br>（在这里我故意停留时间长了一点为了保证视频可以一次成功，但实际上经常会遇到这类问题，因为内存问题是不可能避免的，一个APP是无法在后台保持良好就连safari也经常需要重新刷新，更别说如果你这时候收到一个消息进去回复一下等等。）</p>
+<blockquote>
+<p>最新的 iOS 10.3 beta 版本中更新了文件管理为 APFS，大大减少了软件回去会重开的几率，简直十分棒，但不停的跳转依旧是无法解决的！</p>
+</blockquote>
+<h3 id="视频：Info-It-会避免什么"><a href="#视频：Info-It-会避免什么" class="headerlink" title="视频：Info It 会避免什么"></a>视频：Info It 会避免什么</h3><h4 id="优酷视频"><a href="#优酷视频" class="headerlink" title="优酷视频"></a>优酷视频</h4><iframe height="498" width="510" src="http://player.youku.com/embed/XMTgyOTcxNjcyOA==" frameborder="0" 'allowfullscreen'=""></iframe>
+
+
+<h4 id="youtube"><a href="#youtube" class="headerlink" title="youtube"></a>youtube</h4><iframe width="560" height="315" src="https://www.youtube.com/embed/DjVg0FlJH38?ecver=1" frameborder="0" allowfullscreen><br></iframe>
+
+
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/M8NAMqF.png&quot; alt=&quot;1-background&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;自 Info It 第一次 &lt;a href=&quot;http://o1xhack.com/2017/02/21/infoit/#%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E7%BA%BF&quot;&gt;TestFlight&lt;/a&gt; 以来已经差不多 1 年 3 个月了，本想着在上架一周年的时候更新 2.0 的，奈何 17 年下半年实在太忙，准确的说，现在也忙的不行，但是因为已经一年了，所以强行熬了好多个通宵来更新。（&lt;a href=&quot;http://o1xhack.com/2017/02/21/infoit/&quot;&gt;Info It 1.0 的文章&lt;/a&gt;）&lt;/p&gt;
+&lt;p&gt;Info It 是我写的第一款上架 App Store 的软件（Liquor It 暂不算），由于我的天真和新手，底层其实有很多的问题，还好一开始的版本功能没有很复杂，这也是我熬了快一个月才能把很多错误修正。&lt;/p&gt;
+&lt;p&gt;因为是利用业余时间，除了繁重的课业和项目外，我只能尽量利用本来看电影、休闲、玩乐的时间去开发，感谢大家的体谅！也真正的是因为我热爱在 iOS 上开发，我才能坚持下来。&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;点击下载：&lt;a href=&quot;https://appsto.re/cn/2XApgb.i&quot;&gt;Info It - 通过分享快速搜索电影，书籍信息&lt;/a&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="iOS Develop（iOS 开发）" scheme="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
+    
+    
+      <category term="swift" scheme="http://o1xhack.com/tags/swift/"/>
+    
+      <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
+    
+      <category term="iOS APP" scheme="http://o1xhack.com/tags/iOS-APP/"/>
+    
+  </entry>
   
   <entry>
     <title>「watchOS 4」那些值得一用的软件（17.10.20 软件列表更新）</title>
@@ -3002,150 +3250,6 @@
       <category term="mac" scheme="http://o1xhack.com/tags/mac/"/>
     
       <category term="菜单栏" scheme="http://o1xhack.com/tags/%E8%8F%9C%E5%8D%95%E6%A0%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Swift 学习日记 - 3（复习与程序相关）</title>
-    <link href="http://o1xhack.com/2016/07/25/swift-learning/swift-learning-3/"/>
-    <id>http://o1xhack.com/2016/07/25/swift-learning/swift-learning-3/</id>
-    <published>2016-07-25T19:48:29.000Z</published>
-    <updated>2016-07-25T19:40:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<pre><code>diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
-print &quot;Hello Again！&quot;
-print &quot;Welcome to Swift Learning Diary &quot; + String(diaryNum) + &quot; !&quot;
-</code></pre><blockquote>
-<p>Welcome to Swift Learning Diary 3 !</p>
-</blockquote>
-<a id="more"></a>
-<p><strong>点击进入 → <a href="http://o1xhack.com/2016/05/21/swift-learning/swift-learning-outline-source/">Swift 学习日志 - 目录/相关资料</a></strong></p>
-<h1 id="FollowLight-改进"><a href="#FollowLight-改进" class="headerlink" title="FollowLight 改进"></a>FollowLight 改进</h1><pre><code>print &quot;Still that Silly!&quot;
-</code></pre><blockquote>
-<p>Still that Silly!</p>
-</blockquote>
-<hr>
-<h1 id="A-new-Start"><a href="#A-new-Start" class="headerlink" title="A new Start"></a>A new Start</h1><p>虽说已经可以逐渐做一些小的增加和改动，但是对于基础的掌握依旧需要长时间的练习，一遍遍的训练和掌握。</p>
-<hr>
-<h1 id="使用书籍"><a href="#使用书籍" class="headerlink" title="使用书籍"></a>使用书籍</h1><p>「Swift 与 Cocoa 框架开发」</p>
-<hr>
-<h1 id="复习"><a href="#复习" class="headerlink" title="复习"></a>复习</h1><h2 id="2-1-2-5"><a href="#2-1-2-5" class="headerlink" title="2.1 - 2.5"></a>2.1 - 2.5</h2><ul>
-<li><strong>Tuple</strong>，元组，将多个值捆绑到单个值中</li>
-<li><strong>空数组</strong>，需要人工指定类型： <a href="">Int</a></li>
-<li><strong>Dictionary</strong>, key to value. 不同类型也可以</li>
-<li><strong>0 ..\&lt; 10</strong> // 0 到 10 不包含 10，for xx in xxxx<br>  <strong>0 … 10</strong> // 0 到 10 包含10</li>
-<li><strong>lf-let </strong>语句用来检查一个可选变量是否包含值</li>
-<li>强大的 <strong>switch</strong>，根据 Tuple 进行切换，可以编写非常特别的 case，仅当其中一个组件与条件匹配时再进行</li>
-</ul>
-<h2 id="2-6"><a href="#2-6" class="headerlink" title="2.6"></a>2.6</h2><ul>
-<li>定义函数可返回值时，需要用 “ -> ” </li>
-<li>函数<em>仅可返回一个值</em>，但是通过使用 Tuple，可以将多个值捆绑放入单个值中</li>
-<li>在参数名前面放入 “ # ” 号，使得内部名字和外部名字相同</li>
-<li>为函数单独命名了外部名字时，调用时<strong><em>必须使用这个外部名称</em></strong></li>
-<li><strong>可变参数</strong>，取值数目可变，使用方法像数组一样 (仅最有一个参数可以是可变参数)<br>  func sumNumber(numbers: Int…) -&gt; Int { // Int 后面加 … 表示为可变参数<pre><code>var total = 0
-for number in numbers {
-    total += numbers
-}
-return total }
-</code></pre></li>
-<li><strong>inout</strong>，直接改变这个变量中储存的值。用一个函数交换两个变量。<br>  func swapValues(inout v1: Int, inout v2: Int) {// 交换两个数的位置}<br>  swapValues(&amp;num1, &amp;num2)</li>
-<li>通过让函数捕获一个值并多次使用，可以创建用作<em>生成器</em>的函数（每次调用时返回不同值的函数）</li>
-</ul>
-<h2 id="2-7"><a href="#2-7" class="headerlink" title="2.7"></a>2.7</h2><ul>
-<li><strong>闭包</strong>，内置 sorted 函数。可以接受参数，XCode 可以推断参数的类型，可以储存在变量中，调用方式与函数相同</li>
-<li><strong>继承</strong>，包含被继承类（父类）的所有函数和属性，只能有一个父类（C++ 允许多重继承）。通过 override 可以重写父类中的函数，用 super.xxx 调用父类中的对应值。</li>
-<li>定义<strong>计算属性</strong>：同储存属性一样声明一个变量，在后面加入 { 与 }</li>
-<li>在属性发生变化时运行某些代码，向属性添加<strong>观察器</strong>，属性后面添加 { 与 }，包含 willSet 和 didSet 代码块</li>
-<li><strong>惰性属性</strong>：直到首次访问时才会设定，关键字 lazy</li>
-<li>定义<strong>协议</strong>：创建一个属性和方法清单，与类十分相似，但是不提供任何实际的代码，可以引用任何遵守某一给定协议的对象，这个类的具体类型久无关紧要了</li>
-<li>可以<strong>扩展</strong>任意类型，既可以扩展自己编写的 class，也可以扩展内置类型<br>  情况：向别人编写的 class 中添加功能，但不能访问其代码或不想浪费时间时<br>  情况：使用自己编写的 class，但希望将其功能划分到不同部分提高可读性时</li>
-<li>extension 中只能增加计算属性，不能增加自己的储存属性</li>
-<li>将一个属性的 setter 声明为私有的，可以使这个属性只读，源文件可以随便读取改写，但其他文件只能读取值</li>
-<li>利用<strong>泛型</strong>可以将 class 的类型设为一个可变化参数，在之后的调用中任何类型都可以（class Tree\<t\> { }）</t\></li>
-</ul>
-<h2 id="2-8-2-End"><a href="#2-8-2-End" class="headerlink" title="2.8 - 2.End"></a>2.8 - 2.End</h2><ul>
-<li>Objective-C 中使用 Swift，在对象前面增加 @objc</li>
-<li>Swift 中使用 Objective-C, #import</li>
-<li>苹果编写的书：<em><a href="https://developer.apple.com/library/tvos/documentation/Swift/Conceptual/BuildingCocoaApps/index.html" target="_blank" rel="external">Using Swift with Cocoa and Objective-C</a></em></li>
-<li><strong>内存托管</strong>：使用时，放入内存中，不再需要时，从内存中删除。<strong>引用计数</strong>是 Swift 中用来跟踪对象是否还在使用的技术，将对象指定给变量时增加 1，不再指定减少 1，降到 0 时便从内存中删除</li>
-<li>需要留意的问题：<strong>循环引用</strong>，两个对象互相引用，但未被其他任何部分引用。</li>
-<li><strong>弱引用</strong>来解决，一种变量，引用一个对象，不改变对象的引用计数（关键字 weak）</li>
-<li>countElement 可以计算任意集合中的元素个数（数组，字典）</li>
-<li>数据模块：NSData</li>
-<li>遵循 NSObject 和 NSCoding 协议下，可以将对象转换为数据</li>
-<li>模型-视图-控制器：<strong>MVC</strong></li>
-<li>将应用程序划分为责任区后，修改将变得更为轻松，通过明确定义哪些对象负责哪些功能，可以更轻松的修改应用并使项目结构保持清晰</li>
-<li>对象的委托</li>
-</ul>
-<hr>
-<h1 id="应用程序"><a href="#应用程序" class="headerlink" title="应用程序"></a>应用程序</h1><ul>
-<li>Info.plist 非常重要</li>
-<li>通过 NSBundle，无论代码在哪里，应用程序都可以正常工作，代码通过这个类可以知道自己在磁盘上的位置以及如何获得编译后的资源</li>
-</ul>
-<h2 id="macOS-生命周期"><a href="#macOS-生命周期" class="headerlink" title="macOS 生命周期"></a>macOS 生命周期</h2><ol>
-<li>首先打开 Info.plist，系统因而知道编译后的二进制文件在哪里并启动</li>
-<li>接口对象：在设计时准备的，与应用成语一起打包的对——预先准备的窗口，控件和屏幕。存储在 nib 文件内部。</li>
-<li>从 nib 文件解包一个对象时，会发送 awakeFromNib 消息，对象便可以运行代码。（向 nib 中添加对象时便被创建，保存 nib 时，对象被冷冻起来，在打开 nib 时，对象被唤醒，之后便会发送消息，让它知道此时状态已经清醒）</li>
-<li>应用程序准备可以运行，向应用程序委托发送 applicationDidFinishLaunching 方法。</li>
-<li>进行运行循环，监听一切发生的事情</li>
-<li>当用户选择另一个 APP 时，收到 applicationWillResignActive 的消息，表示 APP 不再活动</li>
-<li>收到 applicationDidResignActive 方法确认 APP 的确不再活动<br> 分开的原因：切换另一个 APP 时，代码可以继续控制屏幕内容的变化，再调用 Will 时，程序仍然在屏幕上，当不可见时，会收到 Did 方法 </li>
-<li>用户回归 APP 时，收到类似之前的方法，applicationWillBecomeActive 和 applicationDidBecomeActive</li>
-<li>最终退出时(⌘Q)，收到 applicationWillTerminate，最后一次保存文件的机会</li>
-</ol>
-<h2 id="iOS-生命周期"><a href="#iOS-生命周期" class="headerlink" title="iOS 生命周期"></a>iOS 生命周期</h2><p>与 macOS 区别：</p>
-<ul>
-<li>屏幕一次只能显示一个程序</li>
-<li>电话，通知栏等会打断程序使之变为后台程序</li>
-</ul>
-<p>生命周期基本相同</p>
-<ul>
-<li>程序完成加载后，增加的参数：Dictionary，包含了有关为什么启动程序以及如何启动（点击，分享，URL）</li>
-<li>关于 Resign 方法，macOS 上时 NSNotification 对象，而 iOS 上为 UIApplication</li>
-</ul>
-<p>退出时的变化，多任务：</p>
-<ul>
-<li>按主屏幕按钮退出后，程序被挂起，停止执行代码，内存被锁定</li>
-<li>程序仍在内存中，没有退出但停止消耗 CPU 及其他硬件资源</li>
-<li>当开启的程序需要更多的内存时，程序被终止，不作任何通知</li>
-<li>applicationWillEnterBackground 在程序被移到后台后立即被调用，程序应该在这个时候保存所有数据</li>
-<li>applicationWillEnterForeground 在程序即将回到屏幕上之前被调用</li>
-<li>通过减少程序所用的内存（释放大的对象，卸载图像等）来降低被终止的可能性</li>
-<li><em>将内存降到 16MB 一下</em>：低于这个量额程序会被存储在闪存中，从内存中彻底移出，当程序恢复时，再次从闪存芯片的存储内存中重新加载，因此，不会因为其他应用的内存需求而将程序从内存中去除</li>
-<li>程序可以申请在后台段时间运行，不超过 10 分钟，为了让程序完成一个需要长时间运行的过程（将大型文件写回磁盘，完成下载等），时间结束后，程序需要告诉 iOS 已完成或者将被终止（不是挂取）</li>
-<li>后台获取与后台通知的增加，需要专门开启，设定的最短间隔唤醒时间并不一定被 iOS 采纳，iOS 会有自己的机制来避免不必要的损耗</li>
-<li>音频类应用可以在后台持续播放；后台跟踪位置的应用可以运行任意长时间；网际协议电话（VoIP）可以定期运行</li>
-</ul>
-<h2 id="沙盒机制"><a href="#沙盒机制" class="headerlink" title="沙盒机制"></a>沙盒机制</h2><ul>
-<li>iOS 中一定存在，无法抉择</li>
-<li>macOS 之前可以选择，现在一定需要（mac app story 不接受非沙盒的，因此更多的开发商选择了官网直接发售而不是商家 MAS）</li>
-</ul>
-<p><img src="http://i.imgur.com/KxFlbdu.jpg" alt=""></p>
-<p>沙盒可以将系统级的文件被隔绝出来避免各种安全性的问题，哪怕软件用可以被利用的 bug，因为沙盒的限制，它依旧不能改变系统性的东西，所以杜绝了安全性的问题</p>
-<ul>
-<li>不可使用<strong>私有 API</strong>，只能使用文档中已经表明的</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;pre&gt;&lt;code&gt;diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
-print &amp;quot;Hello Again！&amp;quot;
-print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;blockquote&gt;
-&lt;p&gt;Welcome to Swift Learning Diary 3 !&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="Swift Learning（Swift 语言学习）" scheme="http://o1xhack.com/categories/Swift-Learning%EF%BC%88Swift-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0%EF%BC%89/"/>
-    
-    
-      <category term="language" scheme="http://o1xhack.com/tags/language/"/>
-    
-      <category term="learning" scheme="http://o1xhack.com/tags/learning/"/>
-    
-      <category term="swift3.0" scheme="http://o1xhack.com/tags/swift3-0/"/>
     
   </entry>
   
