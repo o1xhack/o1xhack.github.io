@@ -1,0 +1,1183 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/en/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/en/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/en/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="swift,iOSDev,iOS APP," />
+
+
+
+
+
+  <link rel="alternate" href="/en/atom.xml" title="LifeAnalysis Lab & Yuxiao" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/en/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="IntroCoffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker">
+<meta name="keywords" content="swift,iOSDev,iOS APP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="iOS APP：Coffee It - Track Caffeine in Simplest Way">
+<meta property="og:url" content="http://o1xhack.com/2017/03/20/coffeeit/index.html">
+<meta property="og:site_name" content="LifeAnalysis Lab &amp; Yuxiao">
+<meta property="og:description" content="IntroCoffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://i.imgur.com/ucKkbCm.png">
+<meta property="og:updated_time" content="2018-03-02T00:25:27.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="iOS APP：Coffee It - Track Caffeine in Simplest Way">
+<meta name="twitter:description" content="IntroCoffee It is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker">
+<meta name="twitter:image" content="http://i.imgur.com/ucKkbCm.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/en/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://o1xhack.com/2017/03/20/coffeeit/"/>
+
+
+
+
+
+  <title> iOS APP：Coffee It - Track Caffeine in Simplest Way | LifeAnalysis Lab & Yuxiao </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-107347093-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?747baa206ad2f92571362b89be3e2e9f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/en/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">LifeAnalysis Lab & Yuxiao</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">\@o1xhack</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-cnblog">
+          <a href="/en/../" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-globe"></i> <br />
+            
+            中文博客
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/en/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-code">
+          <a href="/en/code" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-code"></i> <br />
+            
+            Code Activity
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/en/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/en/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="search.placeholder" spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://o1xhack.com/en/2017/03/20/coffeeit/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yuxiao Wang">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/en/uploads/avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="LifeAnalysis Lab & Yuxiao">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="LifeAnalysis Lab & Yuxiao" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                iOS APP：Coffee It - Track Caffeine in Simplest Way
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-20T23:30:00-04:00">
+                2017-03-20
+              </time>
+            
+
+	
+           <span class="post-updated">
+	       &nbsp; | &nbsp; 
+           <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+           更新
+	   <time itemprop="dateUpdated" datetime="2018-03-01T19:25:27-05:00" content="2018-03-01">
+	  2018-03-01
+	    </time>
+            </span>
+          
+
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/en/categories/iOS-Develop（iOS-开发）/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS Develop（iOS 开发）</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/en/2017/03/20/coffeeit/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/03/20/coffeeit/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">本文被观赏
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="http://i.imgur.com/ucKkbCm.png" alt="PNG 图像-7186AF5662CA-1"></p>
+<h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p><a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="noopener">Coffee It</a> is an iOS APP that builds for those who drink Coffee a lot. There are a group of people who want to log all Caffeine they drink each time. And from all iOS APPs, most Caffeine Tracker APP are abandoned in a few time, without further bug fixes and improvement, the APP is difficult to use. The rest are expensive, and less functional. This is why I develop <a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="noopener">Coffee It</a>.</p>
+<blockquote class="blockquote-center"> Please download <a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="noopener">Coffee It - Track Caffeine in Simplest Way</a> and give a try!</blockquote>
+
+<a id="more"></a>
+<p><strong>For me, it only takes a seconds to log the coffee before I throw the empty cup, so if you feel it’s not that good to use, give me feedback and I will try my best.</strong></p>
+<blockquote class="blockquote-center"> Using telegram to give me feedback: <a href="http://t.me/o1xhack" target="_blank" rel="noopener">@o1xhack</a></blockquote>
+
+<p>As a student with spare time for these APPs: </p>
+<blockquote class="blockquote-center">Leave a 5-star if you like it or want support me!</blockquote>
+
+
+<h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><p>I’m a student in Computer Science, and I learn Swift and iOS Development myself. </p>
+<p>This APP may not fulfill every coffee lover’s requirement, but I will keep developing it with any feedback! I cannot assure I can do every function since I still need time for my University Study, but with my spare time, I will do my best in improving it.</p>
+<p>As you can see, I’m consistently making <a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="noopener">Coffee It</a> faster and easy to using, for me, it only takes a seconds to log the coffee before I throw the empty cup, so if you feel it’s not that good to use, give me feedback and I will try my best.</p>
+<hr>
+<h1 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h1><blockquote>
+<p>I put all my time on my developing process (beside student works) that I don’t have time to write a whole article for features, here are the summary.</p>
+</blockquote>
+<p>I sincerely appreciate you give me any advice or leave a 5-star with comment!</p>
+<h2 id="Complete-Data"><a href="#Complete-Data" class="headerlink" title="Complete Data"></a>Complete Data</h2><p>Build-in caffeine data will fulfill most normal situation.</p>
+<p>Fulfill most normal routine log.</p>
+<h2 id="Favorite"><a href="#Favorite" class="headerlink" title="Favorite"></a>Favorite</h2><p>Favorite what you like and add in seconds</p>
+<h2 id="Quick-Fast-like-flash"><a href="#Quick-Fast-like-flash" class="headerlink" title="Quick, Fast like flash"></a>Quick, Fast like flash</h2><p>The only thing you need to care is to choose the type of coffee.</p>
+<p>In <strong>Favorite List</strong>, single click to confirm add without more steps.</p>
+<p>Set History as default view, and click any history to add that data, quick like Flash!</p>
+<h2 id="Customize"><a href="#Customize" class="headerlink" title="Customize"></a>Customize</h2><p>Make your list and store specific type.</p>
+<p>Customize your life and your mood! (:</p>
+<h2 id="Convenient"><a href="#Convenient" class="headerlink" title="Convenient"></a>Convenient</h2><p>Open it, Log it, and View it.</p>
+<p><strong>Minority Function</strong>: Set Badge to number “1”, and put inside a folder, 3D Touch folder to quick open <a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="noopener">Coffee It</a>, and log coffe!</p>
+<h2 id="Daily-Total-and-Limitation"><a href="#Daily-Total-and-Limitation" class="headerlink" title="Daily Total and Limitation"></a>Daily Total and Limitation</h2><p>View all your history! (integrated with Health)</p>
+<p>See your daily total intake and percentage of the daily limitation​(300mg)</p>
+<h2 id="Future"><a href="#Future" class="headerlink" title="Future"></a>Future</h2><p>I have ideas about history analysis, data analysis, and I will try my best to develop it, but I cannot promise to update every feedback in time, but I will do my best to keep <a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="noopener">Coffee It</a> up-to-dates. I’m using it too!</p>
+<hr>
+<h1 id="Upvoted-on-ProductHunt"><a href="#Upvoted-on-ProductHunt" class="headerlink" title="Upvoted on ProductHunt"></a>Upvoted on ProductHunt</h1><blockquote>
+<p>Please give the app an upvoted if you can!</p>
+</blockquote>
+<div style="text-align:center"><br><iframe style="border: none;" src="https://cards.producthunt.com/cards/posts/94855?v=1" width="500" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe><br></div>
+
+
+<hr>
+<h1 id="Update-Timeline"><a href="#Update-Timeline" class="headerlink" title="Update Timeline"></a>Update Timeline</h1><h2 id="Year-2017"><a href="#Year-2017" class="headerlink" title="Year 2017"></a><blockquote class="blockquote-center">Year 2017</blockquote></h2><h3 id="10-9-App-Store-1-7-6"><a href="#10-9-App-Store-1-7-6" class="headerlink" title="10.9 App Store: 1.7.6"></a>10.9 App Store: 1.7.6</h3><p>TOP: Watch APP is in progress~</p>
+<ol>
+<li>For all Soylent drinker, here we are!<ul>
+<li>Cafe Coffiest</li>
+<li>Cafe Vanilla</li>
+<li>Cafe Chai</li>
+</ul>
+</li>
+<li>Starbucks Coffee add：Iced Flat White</li>
+<li>Starbucks Beverage add：Cool Lime Starbucks Refreshers</li>
+</ol>
+<h3 id="9-28-App-Store-1-6-13"><a href="#9-28-App-Store-1-6-13" class="headerlink" title="9.28 App Store: 1.6.13"></a>9.28 App Store: 1.6.13</h3><p>Coffee It already supports iOS11, if any problem, contact me please.<br>Also In-App Rate system added! Please give a 5-star!</p>
+<p>Since the latest Apple Watch got a really fast speed to open 3rd APP, Coffee It will come up with a Watch APP, but won’t in few months. This semester cannot be more busier and I will try my best to maintain all LifeAnalysis Lab APPs.</p>
+<p>This is an update with plenty data update and detail changed.</p>
+<ol>
+<li>History View now shows the number of cups you take. (Some person may drink not exactly one cup)</li>
+<li>Starbucks now seperate into two new groups: Starbucks Coffee and Starbuck Drinks<ul>
+<li>Just to let you know, there are still caffeine in lots of Drinks! Please check them and make your life better!</li>
+</ul>
+</li>
+<li>New coffee data in Starbuck Drinks<ul>
+<li>Strawberry Acai Refreshers</li>
+<li>Pink Drink</li>
+<li>Ombrè Pink Drink</li>
+<li>Iced Black Tea (Lemonade)</li>
+<li>Iced Green Tea (Lemonade)</li>
+</ul>
+</li>
+<li>Update coffee data in Starbucks Coffee<ul>
+<li>Caffè Latte</li>
+<li>Caffè Mocha</li>
+<li>Caffè Americano</li>
+<li>Nariño 70 Cold Brew</li>
+</ul>
+</li>
+<li>I find out some coffee got different caffeine date with Iced compare to normal Hot one.<ul>
+<li>Iced Coffee (Unsweetened)</li>
+<li>Iced Coffee (Sweetened)</li>
+<li>Iced Caffè Latte</li>
+<li>Iced Caffè Mocha</li>
+<li>Please notice when you drinking an Iced one, it’s normally got more in Venti type, also, you can submit a Request new Coffee types to help me add these data. </li>
+</ul>
+</li>
+<li>Update Localization of Chinese</li>
+<li>UI Constraint change.</li>
+</ol>
+<h3 id="7-17-App-Store-1-6-6"><a href="#7-17-App-Store-1-6-6" class="headerlink" title="7.17 App Store: 1.6.6"></a>7.17 App Store: 1.6.6</h3><ol>
+<li>Using Fabric to analysis now. <ul>
+<li>No privacy problem! Won’t sell or give any data~ </li>
+<li>Just help me to learn how user using functions.</li>
+</ul>
+</li>
+<li>Localization Chinese fix.</li>
+<li>Fix in Settings.</li>
+</ol>
+<p>No big update for this version. From data, Coffee It has extremely little users, if your friends love coffee, track stuff, welcome to recommend Coffee It!</p>
+<h3 id="6-23-App-Stroe-1-6-5"><a href="#6-23-App-Stroe-1-6-5" class="headerlink" title="6.23 App Stroe: 1.6.5"></a>6.23 App Stroe: 1.6.5</h3><ol>
+<li>History View layout change! <ul>
+<li>Easier to see the data~</li>
+</ul>
+</li>
+<li>New in-app notification UI<ul>
+<li>Change in 4 other places, Please let me know if you have other advices</li>
+</ul>
+</li>
+<li>Click to add at History View</li>
+<li>Add new list at Coffee View</li>
+<li>Feedback at Setting View<ul>
+<li>New feature of the update version, this one it is!</li>
+</ul>
+</li>
+<li>New launch screen! <ul>
+<li>LifeAnalysis Lab is founded!(only me233)</li>
+</ul>
+</li>
+<li>Send Feedback email from settings</li>
+</ol>
+<h3 id="6-12-App-Store-1-5-5"><a href="#6-12-App-Store-1-5-5" class="headerlink" title="6.12 App Store: 1.5.5"></a>6.12 App Store: 1.5.5</h3><p>—- Click in History to Add —-<br>Fast like Flash!</p>
+<ul>
+<li>Now you can click any single history in History view</li>
+<li>Then a confirm alert shows with details</li>
+<li>Click and, that’s it!</li>
+</ul>
+<p>—- Set Default Open View —-<br>With the Click in History to Add function<br>It’s better to let your choose the default open view</p>
+<ul>
+<li>History view</li>
+<li>or Coffee view</li>
+</ul>
+<p>—- Localization —-<br>Since you all using En, I’m not introduced a lot.<br>Just support most view/alert with Chinese</p>
+<p>—- UI/UX —-</p>
+<ul>
+<li>font unify</li>
+<li>UI unify (add to favorite change to Green)</li>
+<li>tab bar name change</li>
+</ul>
+<p>—- Bug? —-</p>
+<ul>
+<li>fix showing of History bottom view</li>
+<li>fix too many digit number(1.2222222%) in History Today view.</li>
+<li>some alert fix</li>
+</ul>
+<h3 id="5-29-App-Store-1-3-13"><a href="#5-29-App-Store-1-3-13" class="headerlink" title="5.29 App Store: 1.3.13"></a>5.29 App Store: 1.3.13</h3><p>—- Total Toady Caffeine —-</p>
+<ul>
+<li>Now you can view total caffeine intake of today, the percentage of daily limitation(300mg)</li>
+<li>The percentage label will present RED if you get the limitation</li>
+<li>All data sync from HealthKit</li>
+</ul>
+<p>—- Show Badge of 1 —-</p>
+<ul>
+<li>Coffee It will ask for the request of notification, and then Coffee It will have the badge of “1” for all time until you close this setting. </li>
+<li>After you open this, you can put Coffee It inside a folder, and 3D Touch the folder to quick open Coffee It with one step.</li>
+</ul>
+<p>—- Localization —-</p>
+<ul>
+<li>Now History daily goal view supports Chinese.</li>
+<li>Go to APP Settings and open 「本地化中文」</li>
+</ul>
+<h3 id="4-17-App-Store：1-3-3"><a href="#4-17-App-Store：1-3-3" class="headerlink" title="4.17 App Store：1.3.3"></a>4.17 App Store：1.3.3</h3><ul>
+<li>Delete in History view</li>
+<li>New Setting UI</li>
+<li>New Setting: Confirm Add Alert in Favorite View</li>
+<li>Auto layout fixes</li>
+<li>URL Scheme basic support</li>
+<li>Bug fixes</li>
+</ul>
+<h3 id="4-5-App-Store：1-2-2"><a href="#4-5-App-Store：1-2-2" class="headerlink" title="4.5 App Store：1.2.2"></a>4.5 App Store：1.2.2</h3><ul>
+<li>Favorite function!</li>
+<li>Coffee Data support Chinese language</li>
+<li>Add more coffee types</li>
+<li>Bug fixes</li>
+</ul>
+<h3 id="3-30-App-Store：1-0-0"><a href="#3-30-App-Store：1-0-0" class="headerlink" title="3.30 App Store：1.0.0"></a>3.30 App Store：1.0.0</h3><ul>
+<li>All basic adding, deleting, editing</li>
+<li>View controller and app info</li>
+<li>Health Data access and check</li>
+</ul>
+<h2 id="Beginning"><a href="#Beginning" class="headerlink" title="Beginning"></a>Beginning</h2> <blockquote class="blockquote-center"><strong>2017.03.16</strong><br><strong>Coffee It first time update to iTunes Connect</strong></blockquote>
+
+
+<hr>
+<h1 id="Caffeine-Data-Request"><a href="#Caffeine-Data-Request" class="headerlink" title="Caffeine Data Request"></a>Caffeine Data Request</h1><blockquote>
+<p>If you have any Coffee Brand or types want to be added as Default. Fill the form.</p>
+</blockquote>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrZwOKG779zOhLaO?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+
+<hr>
+<h1 id="Policy"><a href="#Policy" class="headerlink" title="Policy"></a>Policy</h1><p><a href="http://o1xhack.com/2017/03/18/coffeeit-policy/#Privacy-Policy">Privacy Policy</a></p>
+<p><a href="http://o1xhack.com/2017/03/18/coffeeit-policy/#Caffeine-Data-Sources">Caffeine Data Sources Policy</a></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/en/tags/swift/" rel="tag"># swift</a>
+          
+            <a href="/en/tags/iOSDev/" rel="tag"># iOSDev</a>
+          
+            <a href="/en/tags/iOS-APP/" rel="tag"># iOS APP</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/en/2017/03/18/coffeeit-policy/" rel="next" title="Coffee It - Privacy Policy / Caffeine Data Sources">
+                <i class="fa fa-chevron-left"></i> Coffee It - Privacy Policy / Caffeine Data Sources
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/en/2017/07/01/ios/awsome-ipad/" rel="prev" title="GitHub - Awesome iPad">
+                GitHub - Awesome iPad <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/en/uploads/avatar.jpg"
+               alt="Yuxiao Wang" />
+          <p class="site-author-name" itemprop="name">Yuxiao Wang</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/en/archives">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">categories</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-name">tags</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/en/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/o1xhack" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://weibo.com/jsxiao113" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/o1xhack" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro"><span class="nav-text">Intro</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#About"><span class="nav-text">About</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Features"><span class="nav-text">Features</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Complete-Data"><span class="nav-text">Complete Data</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Favorite"><span class="nav-text">Favorite</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Fast-like-flash"><span class="nav-text">Quick, Fast like flash</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Customize"><span class="nav-text">Customize</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Convenient"><span class="nav-text">Convenient</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Daily-Total-and-Limitation"><span class="nav-text">Daily Total and Limitation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Future"><span class="nav-text">Future</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Upvoted-on-ProductHunt"><span class="nav-text">Upvoted on ProductHunt</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Update-Timeline"><span class="nav-text">Update Timeline</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Year-2017"><span class="nav-text">Year 2017</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#10-9-App-Store-1-7-6"><span class="nav-text">10.9 App Store: 1.7.6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-28-App-Store-1-6-13"><span class="nav-text">9.28 App Store: 1.6.13</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-17-App-Store-1-6-6"><span class="nav-text">7.17 App Store: 1.6.6</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-23-App-Stroe-1-6-5"><span class="nav-text">6.23 App Stroe: 1.6.5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-12-App-Store-1-5-5"><span class="nav-text">6.12 App Store: 1.5.5</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-29-App-Store-1-3-13"><span class="nav-text">5.29 App Store: 1.3.13</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-17-App-Store：1-3-3"><span class="nav-text">4.17 App Store：1.3.3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-5-App-Store：1-2-2"><span class="nav-text">4.5 App Store：1.2.2</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-30-App-Store：1-0-0"><span class="nav-text">3.30 App Store：1.0.0</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Beginning"><span class="nav-text">Beginning</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Caffeine-Data-Request"><span class="nav-text">Caffeine Data Request</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Policy"><span class="nav-text">Policy</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuxiao Wang</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">欢迎第<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>个天才访问了本站</span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/en/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/en/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/en/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/en/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/en/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/en/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'yuxiaowang';
+      var disqus_identifier = '2017/03/20/coffeeit/';
+
+      var disqus_title = "iOS APP：Coffee It - Track Caffeine in Simplest Way";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/en/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="local-search-pop-overlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>
