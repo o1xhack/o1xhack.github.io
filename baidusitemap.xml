@@ -399,12 +399,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
+    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
-        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
+        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
+        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -423,12 +423,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
-        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
+        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
+        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -519,26 +519,6 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
-    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>关于 o1xhack.com 的 blog 搭建</title>
-        <pubTime>2017-02-20T00:11:00.000Z</pubTime>
-        
-        <tag>blog</tag>
-         
-         
-           
-             
-              <breadCrumb title="blog" url="http://o1xhack.com/categories/blog/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
     <lastmod>2017-02-19T08:00:00.000Z</lastmod>
     <data>
@@ -560,6 +540,26 @@
            
              
               <breadCrumb title="iOS Develop（iOS 开发）" url="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/02/19/blog/about-blog/</loc>
+    <lastmod>2017-02-19T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于 o1xhack.com 的 blog 搭建</title>
+        <pubTime>2017-02-20T00:11:00.000Z</pubTime>
+        
+        <tag>blog</tag>
+         
+         
+           
+             
+              <breadCrumb title="blog" url="http://o1xhack.com/categories/blog/"/>
           
         </display>
     </data>
@@ -695,23 +695,23 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
-        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
+        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
+        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
         
-        <tag>tech</tag>
+        <tag>ios</tag>
          
-        <tag>mobie payments</tag>
+        <tag>app</tag>
          
-        <tag>译文计划</tag>
+        <tag>recommend</tag>
          
          
            
              
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
@@ -745,23 +745,23 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
+    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
-        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
+        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
+        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
         
-        <tag>ios</tag>
+        <tag>tech</tag>
          
-        <tag>app</tag>
+        <tag>mobie payments</tag>
          
-        <tag>recommend</tag>
+        <tag>译文计划</tag>
          
          
            
              
-              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
           
         </display>
     </data>
