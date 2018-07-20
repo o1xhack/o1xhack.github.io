@@ -471,30 +471,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Coffee It - Privacy Policy / Caffeine Data Sources</title>
-        <pubTime>2017-03-19T03:20:29.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>policy</tag>
-         
-         
-           
-             
-              <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
@@ -512,6 +488,30 @@
            
              
               <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Coffee It - Privacy Policy / Caffeine Data Sources</title>
+        <pubTime>2017-03-19T03:20:29.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>policy</tag>
+         
+         
+           
+             
+              <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
           
         </display>
     </data>
@@ -665,24 +665,18 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
+    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
-        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
+        <title>Swift 学习日记 - 1</title>
+        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
         
         <tag>language</tag>
          
         <tag>learning</tag>
          
-        <tag>github</tag>
-         
         <tag>swift3.0</tag>
-         
-        <tag>SafariViewController</tag>
-         
-        <tag>SnapKit</tag>
          
          
            
@@ -725,18 +719,24 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
+    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 学习日记 - 1</title>
-        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
+        <title>Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</title>
+        <pubTime>2017-03-08T22:55:29.000Z</pubTime>
         
         <tag>language</tag>
          
         <tag>learning</tag>
          
+        <tag>github</tag>
+         
         <tag>swift3.0</tag>
+         
+        <tag>SafariViewController</tag>
+         
+        <tag>SnapKit</tag>
          
          
            
@@ -749,23 +749,23 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
+    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
-        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
+        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
+        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
         
-        <tag>ios</tag>
+        <tag>tech</tag>
          
-        <tag>app</tag>
+        <tag>mobie payments</tag>
          
-        <tag>recommend</tag>
+        <tag>译文计划</tag>
          
          
            
              
-              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
           
         </display>
     </data>
@@ -799,23 +799,23 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
-        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
+        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
+        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
         
-        <tag>tech</tag>
+        <tag>ios</tag>
          
-        <tag>mobie payments</tag>
+        <tag>app</tag>
          
-        <tag>译文计划</tag>
+        <tag>recommend</tag>
          
          
            
              
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>

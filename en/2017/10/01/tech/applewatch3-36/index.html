@@ -1,0 +1,1154 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/en/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/en/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/en/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="tech,applewatch,apple,hardware," />
+
+
+
+
+
+  <link rel="alternate" href="/en/atom.xml" title="LifeAnalysis Lab & Yuxiao" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/en/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="序这篇文章主要是关于 Apple Watch Series 3 + watchOS 4 的耗电使用情况～ 软件开启等等软体验。 因为没有充足的时间，所以只有这篇简短的文章了～  尝新者：尝试一切新鲜的事物">
+<meta name="keywords" content="tech,applewatch,apple,hardware">
+<meta property="og:type" content="article">
+<meta property="og:title" content="「Apple Watch Series 3」36 小时使用，简单体验及耗电报告">
+<meta property="og:url" content="http://o1xhack.com/2017/10/01/tech/applewatch3-36/index.html">
+<meta property="og:site_name" content="LifeAnalysis Lab &amp; Yuxiao">
+<meta property="og:description" content="序这篇文章主要是关于 Apple Watch Series 3 + watchOS 4 的耗电使用情况～ 软件开启等等软体验。 因为没有充足的时间，所以只有这篇简短的文章了～  尝新者：尝试一切新鲜的事物">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://i.imgur.com/VHzCwj7.jpg">
+<meta property="og:image" content="https://i.imgur.com/gVs7a5b.png">
+<meta property="og:image" content="https://i.imgur.com/goStvac.png">
+<meta property="og:image" content="https://i.imgur.com/1FYwAYW.jpg">
+<meta property="og:image" content="https://i.imgur.com/tmmbegY.png">
+<meta property="og:updated_time" content="2017-10-10T20:58:46.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="「Apple Watch Series 3」36 小时使用，简单体验及耗电报告">
+<meta name="twitter:description" content="序这篇文章主要是关于 Apple Watch Series 3 + watchOS 4 的耗电使用情况～ 软件开启等等软体验。 因为没有充足的时间，所以只有这篇简短的文章了～  尝新者：尝试一切新鲜的事物">
+<meta name="twitter:image" content="https://i.imgur.com/VHzCwj7.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/en/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://o1xhack.com/2017/10/01/tech/applewatch3-36/"/>
+
+
+
+
+
+  <title> 「Apple Watch Series 3」36 小时使用，简单体验及耗电报告 | LifeAnalysis Lab & Yuxiao </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-107347093-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?747baa206ad2f92571362b89be3e2e9f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/en/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">LifeAnalysis Lab & Yuxiao</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">\@o1xhack</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/en/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/en/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-dev">
+          <a href="/en/dev" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-apple"></i> <br />
+            
+            开发者
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-new">
+          <a href="/en/new" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-thumbs-up"></i> <br />
+            
+            尝新者
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-life">
+          <a href="/en/life" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-line-chart"></i> <br />
+            
+            生活者
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/en/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/en/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/en/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="search.placeholder" spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://o1xhack.com/en/2017/10/01/tech/applewatch3-36/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yuxiao Wang">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/en/uploads/avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="LifeAnalysis Lab & Yuxiao">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="LifeAnalysis Lab & Yuxiao" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                「Apple Watch Series 3」36 小时使用，简单体验及耗电报告
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-01T00:05:00-04:00">
+                2017-10-01
+              </time>
+            
+
+	
+           <span class="post-updated">
+	       &nbsp; | &nbsp; 
+           <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+           更新
+	   <time itemprop="dateUpdated" datetime="2017-10-10T16:58:46-04:00" content="2017-10-10">
+	  2017-10-10
+	    </time>
+            </span>
+          
+
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/en/categories/Tech-科技/" itemprop="url" rel="index">
+                    <span itemprop="name">Tech 科技</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/en/2017/10/01/tech/applewatch3-36/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/10/01/tech/applewatch3-36/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">本文被观赏
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="https://i.imgur.com/VHzCwj7.jpg" alt=""></p>
+<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>这篇文章主要是关于 Apple Watch Series 3 + watchOS 4 的耗电使用情况～ 软件开启等等软体验。</p>
+<p>因为没有充足的时间，所以只有这篇简短的文章了～</p>
+<blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
+
+<a id="more"></a>
+<hr>
+<h1 id="此篇文章"><a href="#此篇文章" class="headerlink" title="此篇文章"></a>此篇文章</h1><p>欢迎去往文章：<a href="http://o1xhack.com/2017/10/01/watchos/watch-app/">「watchOS 4」那些值得一用的软件</a> ，一篇将会持续更新的帖子。</p>
+<h2 id="使用设备"><a href="#使用设备" class="headerlink" title="使用设备"></a>使用设备</h2><p>Apple Watch Series 3 LTE 运动版本 42mm</p>
+<p>总的时间使用来源于 iPhone 上的 Watch 软件的 ‘通用-用量’ 中，包含 ‘用量’ 和 ‘待机’。<br>软件的使用时间以及体能追踪等时间来源于 ‘健身记录’。<br>其他软件的使用时间可以自行进行计算，一般使用软件都很快所以不单独写了。<br>运动软件及体能追踪的时间归属为 ‘用量’ 和 ‘待机’ 是由苹果决定，由于 Apple Watch 的时间统计没有详细的软件分析，谅解～</p>
+<p>本次使用及耗电报告，不包含任何 LTE 相关活动，相当于 Series 3 GPS 版本。</p>
+<h2 id="相关软件"><a href="#相关软件" class="headerlink" title="相关软件"></a>相关软件</h2><p>罗列这个统计时间内用到的软件，开启了后台刷新的软件，以及表盘上的软件。</p>
+<h3 id="总共使用过的软件"><a href="#总共使用过的软件" class="headerlink" title="总共使用过的软件"></a>总共使用过的软件</h3><p>指的是点开过的软件。</p>
+<p>系统自带：</p>
+<ul>
+<li>地图</li>
+<li>呼吸</li>
+<li>健身记录</li>
+<li>日历</li>
+<li>时钟</li>
+<li>体能训练</li>
+<li>心率</li>
+<li>音乐</li>
+<li>Siri</li>
+</ul>
+<p>第三方：</p>
+<ul>
+<li>CARROT Weather</li>
+<li>Due</li>
+<li>ETA</li>
+<li>Forest</li>
+<li>Pillow</li>
+<li>Pokemon Go</li>
+<li>Runkeeper</li>
+<li>Swarm</li>
+<li>timetrack.io</li>
+<li>WaterMinder</li>
+</ul>
+<h3 id="打开后台应用刷新的软件"><a href="#打开后台应用刷新的软件" class="headerlink" title="打开后台应用刷新的软件"></a>打开后台应用刷新的软件</h3><p>包含自带以及第三方：</p>
+<ul>
+<li>CARROT Weather</li>
+<li>ETA</li>
+<li>WaterMinder</li>
+<li>timetrack.io</li>
+<li>体能训练</li>
+<li>健身记录</li>
+<li>心率</li>
+<li>日历</li>
+</ul>
+<h3 id="表盘"><a href="#表盘" class="headerlink" title="表盘"></a>表盘</h3><p>总共使用的三个表盘，根据需求进行切换。<br>附上 Watch 软件的截图，这样可以更容易看到表盘上都有的软件</p>
+<p><img src="https://i.imgur.com/gVs7a5b.png" alt=""></p>
+<hr>
+<h1 id="耗电情况及使用"><a href="#耗电情况及使用" class="headerlink" title="耗电情况及使用"></a>耗电情况及使用</h1><p>统计数据显示：</p>
+<ul>
+<li>待机：1 天 12 小时</li>
+<li>用量：7 小时 23 分钟</li>
+</ul>
+<p>约莫 36 小时待机以及 7 个多小时使用后，还有 <strong>28%</strong> 的电量，个人还是十分满意的。</p>
+<p><img src="https://i.imgur.com/goStvac.png" alt=""></p>
+<h2 id="软件使用占比及时间"><a href="#软件使用占比及时间" class="headerlink" title="软件使用占比及时间"></a>软件使用占比及时间</h2><p>这里说一下大概的软件都怎么用的，耗电这个事情其实很浮动大，这次测试尝试多用了很多第三方软件，一方面是在 Series 3 上的开启使用速度相当满意并很愿意用，所以日后一定会有很多用第三方的情况，而且这次尽量只要可以都进行体能训练等等吧，这都是比较耗电的。</p>
+<h3 id="软件打开次数"><a href="#软件打开次数" class="headerlink" title="软件打开次数"></a>软件打开次数</h3><p>只是一个略记，因为特意测试所以有特别关注，不然谁没空记开了几次！<br>表盘的后台刷新并不算在打开之内～</p>
+<p>系统自带：</p>
+<ul>
+<li>地图：2 次打开，进行了查看地图，包括移动地图放大，没有导航</li>
+<li>呼吸：1 次呼吸记录</li>
+<li>健身记录：很经常会打开查看的，至少 10 次打开</li>
+<li>日历：4 次打开</li>
+<li>时钟：1 次打开</li>
+<li>体能训练：4 次打开，2 次记录（后面会详细说）</li>
+<li>心率：2 次打开</li>
+<li>音乐：播放任何音频变会自动打开（设置里有开关），约莫 8 次</li>
+<li>Siri：2 次使用，并通过其打开了软件</li>
+</ul>
+<p>第三方：</p>
+<ul>
+<li>CARROT Weather：约 6 次打开</li>
+<li>Due：1 次打开</li>
+<li>ETA：3 次打开</li>
+<li>Forest：3 次打开</li>
+<li>Pillow：6 次打开，3 次记录（后面说）</li>
+<li>Pokemon Go：4 次打开，2 次记录（后面说）</li>
+<li>Runkeeper：3 次打开，2 次记录（后面说）</li>
+<li>Swarm：3 次打开并签到</li>
+<li>timetrack.io：N 次打开并开始/暂停/结束活动（&gt; 20次）</li>
+<li>WaterMinder：约 8 次打开记录饮水</li>
+</ul>
+<p><img src="https://i.imgur.com/1FYwAYW.jpg" alt=""></p>
+<h3 id="运动睡眠后台追踪"><a href="#运动睡眠后台追踪" class="headerlink" title="运动睡眠后台追踪"></a>运动睡眠后台追踪</h3><p>运动追踪总共分三个软件使用，其中耗电从大到小排序为：Pokemon Go - RunKeeper - 体能训练。（个人感觉上的排名而已）<br>睡眠追踪用的 Pillow iOS APP + Watch APP</p>
+<ol>
+<li>RunKeeper 跑步追踪，用到了 GPS，手机同时带着<ul>
+<li>总时间 20 分钟左右</li>
+<li>跑步期间抬腕查看多次，应该和大多数人跑步看的频率类似</li>
+</ul>
+</li>
+<li>体能训练 户外步行 2 次，用到了 GPS， 手机同时带着<ul>
+<li>总时间 36 分钟左右</li>
+<li>步行期间也抬腕查看了，但次数不多</li>
+<li>同时也有使用了其他第三方软件例如：Swarm，timetrack，WaterMinder 等</li>
+</ul>
+</li>
+<li>Pokemon Go 步行追踪 2 次，用到了 GPS，手机同时带着<ul>
+<li>总时间 38 分钟左右</li>
+<li>期间到达补给点用 Watch 直接转动大概 4 次</li>
+<li>抬腕查看包含通知等大概 8 次</li>
+</ul>
+</li>
+<li>Pillow 睡眠追踪 3 次<ul>
+<li>开启了 ‘剧院模式’</li>
+<li>这里指的是开启了 Pillow 的 Watch 版本</li>
+<li>期间包含早上等打开月末 6 次左右</li>
+<li>总时间约 19 小时</li>
+</ul>
+</li>
+</ol>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>详细罗列数据是因为每个人使用的追踪度不同，很有可能一个人每天体能训练就一个多小时，有的人有可能一次都没有，所以电量会有不同，详细的数据能够更加详细的参考。当然也不能保证不例外。</p>
+<p>简单的来说，如果你看完了感觉你自己一天的使用比这个少得多，那我认为剩余个 40% 以上应该不成问题。如果使用的多很多，建议还是自己大概测试一下～</p>
+<p>至少总的来说我还是比较满意的！</p>
+<hr>
+<h1 id="硬件与系统使用"><a href="#硬件与系统使用" class="headerlink" title="硬件与系统使用"></a>硬件与系统使用</h1><h2 id="硬件相关"><a href="#硬件相关" class="headerlink" title="硬件相关"></a>硬件相关</h2><p>硬件方面其实没啥好说的，因为实在没什么变化。<br>从尺寸上来讲背部更突出了一点，第一天还有点感觉，后面就没什么感觉了，并没有太大的不适应感觉。屏幕的感光感觉的 Series 0 要号很多（就是最最最初的一代）</p>
+<h2 id="软件与系统"><a href="#软件与系统" class="headerlink" title="软件与系统"></a>软件与系统</h2><p>之前已经在微博 <a href="https://weibo.com/jsxiao113" target="_blank" rel="noopener">@o1xhack</a> 发过了一个打开多个第三方应用并且进行操作的视频，十分丝滑！</p>
+<p>再之后的不断突破使用后，的确会有被后台关闭了，打开程序需要刷新的情况，但是连一秒种都没有就会刷新完成，体验还是很好的。</p>
+<p>在上个部分关于软件耗电使用情况中，我为了测试故意多选择了第三方应用，包括体能训练可以做到的一样去选择第三方来记录，在这之中基本上没遇到过几次内存完全耗掉并且需要重新加载的情况。遇到了之后也很快的加载了出来。</p>
+<p>在从 Series 0 换到 Series 3，差不多两年之后，最大的感触莫过于系统层面带来的反应。虽说 Apple Watch 的确不能独立完成很多，哪怕加了 LTE 也是一样，因为所有的软件等等设置都需要 iPhone 配合，但这正是手表所应该完成的任务，至少在我的想法中目前是这样的。</p>
+<p>如果你期望买到一个能帮助你提高生产力等等的手表我建议还是别想了，但是 Apple Watch 的确在健康方面下了极大的功夫，以及提高处理速度，增加电池储备等等，大部分人属于越戴越觉得没用，以往还会关心健康环有没有完成等等，但我却是一个越戴越有用的，至少在我个人看来，任何的软件，设备都是没办法帮助你抵消懒惰的，只有你自己下定决定，外部的配合才能够有用，而对于那种买来手表就将卡路里设定成 400，500，而实际平时只有 100 的人，奉劝一句：一口吃不成一个胖子，至少我吃不成哈哈！</p>
+<p><img src="https://i.imgur.com/tmmbegY.png" alt=""></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/en/tags/tech/" rel="tag"># tech</a>
+          
+            <a href="/en/tags/applewatch/" rel="tag"># applewatch</a>
+          
+            <a href="/en/tags/apple/" rel="tag"># apple</a>
+          
+            <a href="/en/tags/hardware/" rel="tag"># hardware</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/en/2017/07/01/ios/awsome-ipad/" rel="next" title="GitHub - Awesome iPad">
+                <i class="fa fa-chevron-left"></i> GitHub - Awesome iPad
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/en/2017/10/01/top/" rel="prev" title="📌 置顶：持续文章，栏目目录等">
+                📌 置顶：持续文章，栏目目录等 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/en/uploads/avatar.jpg"
+               alt="Yuxiao Wang" />
+          <p class="site-author-name" itemprop="name">Yuxiao Wang</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/en/archives">
+                <span class="site-state-item-count">33</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/en/categories">
+                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/en/tags">
+                <span class="site-state-item-count">34</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/en/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/o1xhack" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://weibo.com/jsxiao113" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/o1xhack" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#序"><span class="nav-text">序</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#此篇文章"><span class="nav-text">此篇文章</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#使用设备"><span class="nav-text">使用设备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关软件"><span class="nav-text">相关软件</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#总共使用过的软件"><span class="nav-text">总共使用过的软件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#打开后台应用刷新的软件"><span class="nav-text">打开后台应用刷新的软件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#表盘"><span class="nav-text">表盘</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#耗电情况及使用"><span class="nav-text">耗电情况及使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#软件使用占比及时间"><span class="nav-text">软件使用占比及时间</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#软件打开次数"><span class="nav-text">软件打开次数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运动睡眠后台追踪"><span class="nav-text">运动睡眠后台追踪</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#小结"><span class="nav-text">小结</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#硬件与系统使用"><span class="nav-text">硬件与系统使用</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#硬件相关"><span class="nav-text">硬件相关</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#软件与系统"><span class="nav-text">软件与系统</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuxiao Wang</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">欢迎第<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>个天才访问了本站</span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/en/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/en/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/en/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/en/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/en/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/en/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'yuxiaowang';
+      var disqus_identifier = '2017/10/01/tech/applewatch3-36/';
+
+      var disqus_title = "「Apple Watch Series 3」36 小时使用，简单体验及耗电报告";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/en/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="local-search-pop-overlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>

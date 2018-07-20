@@ -1,0 +1,1094 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/en/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/en/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/en/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="language,learning,github,swift3.0,SafariViewController,SnapKit," />
+
+
+
+
+
+  <link rel="alternate" href="/en/atom.xml" title="LifeAnalysis Lab & Yuxiao" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/en/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="IntroThis article is trying to add SafariViewController as childviewcontroller. I’m using SnapKit to auto layout everything and Swift 3 as the language.  I also introduced some divide and multiply usi">
+<meta name="keywords" content="language,learning,github,swift3.0,SafariViewController,SnapKit">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Swift 3 - Add SafariViewController as childViewController with SnapKit">
+<meta property="og:url" content="http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/index.html">
+<meta property="og:site_name" content="LifeAnalysis Lab &amp; Yuxiao">
+<meta property="og:description" content="IntroThis article is trying to add SafariViewController as childviewcontroller. I’m using SnapKit to auto layout everything and Swift 3 as the language.  I also introduced some divide and multiply usi">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="http://i.imgur.com/77cE892.png">
+<meta property="og:image" content="http://i.imgur.com/7Dx2ZUP.png">
+<meta property="og:image" content="http://i.imgur.com/xPAUgcc.png">
+<meta property="og:image" content="http://i.imgur.com/ZBtJswu.png">
+<meta property="og:image" content="http://i.imgur.com/O5dJFEC.png">
+<meta property="og:image" content="http://i.imgur.com/UtWsXku.png">
+<meta property="og:image" content="http://i.imgur.com/wOiEHXT.png">
+<meta property="og:image" content="http://i.imgur.com/LLSlJSN.png">
+<meta property="og:image" content="http://i.imgur.com/KSqrPZg.png">
+<meta property="og:updated_time" content="2016-05-25T07:54:29.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Swift 3 - Add SafariViewController as childViewController with SnapKit">
+<meta name="twitter:description" content="IntroThis article is trying to add SafariViewController as childviewcontroller. I’m using SnapKit to auto layout everything and Swift 3 as the language.  I also introduced some divide and multiply usi">
+<meta name="twitter:image" content="http://i.imgur.com/77cE892.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/en/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/"/>
+
+
+
+
+
+  <title> Swift 3 - Add SafariViewController as childViewController with SnapKit | LifeAnalysis Lab & Yuxiao </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-107347093-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?747baa206ad2f92571362b89be3e2e9f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/en/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">LifeAnalysis Lab & Yuxiao</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">\@o1xhack</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/en/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/en/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-dev">
+          <a href="/en/dev" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-apple"></i> <br />
+            
+            开发者
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-new">
+          <a href="/en/new" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-thumbs-up"></i> <br />
+            
+            尝新者
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-life">
+          <a href="/en/life" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-line-chart"></i> <br />
+            
+            生活者
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/en/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/en/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/en/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="search.placeholder" spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://o1xhack.com/en/2017/03/10/swift-learning/addchildview-safari/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Yuxiao Wang">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/en/uploads/avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="LifeAnalysis Lab & Yuxiao">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="LifeAnalysis Lab & Yuxiao" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Swift 3 - Add SafariViewController as childViewController with SnapKit
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-10T12:40:29-05:00">
+                2017-03-10
+              </time>
+            
+
+	
+
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/en/categories/Swift-Learning（Swift-语言学习）/" itemprop="url" rel="index">
+                    <span itemprop="name">Swift Learning（Swift 语言学习）</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/en/2017/03/10/swift-learning/addchildview-safari/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/03/10/swift-learning/addchildview-safari/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">本文被观赏
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>次
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h1><p>This article is trying to add SafariViewController as childviewcontroller. I’m using SnapKit to auto layout everything and Swift 3 as the language. </p>
+<p>I also introduced some divide and multiply using of SnapKit that not describing much in official documents.</p>
+<p>Download final <a href="https://github.com/o1xhack/addChildViewController" target="_blank" rel="noopener">Project here</a>.  </p>
+<p>中文版教程：<a href="http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/">Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController</a></p>
+<blockquote class="blockquote-center"> <a href="http://o1xhack.com/dev/">Dev Person</a>：Developer the World. </blockquote>
+
+<a id="more"></a>
+<hr>
+<h1 id="SnapKit"><a href="#SnapKit" class="headerlink" title="SnapKit"></a>SnapKit</h1><p><a href="http://snapkit.io" target="_blank" rel="noopener">SnapKit</a> is a DSL to make Auto Layout easy on both iOS and OS X.</p>
+<h2 id="Why-using"><a href="#Why-using" class="headerlink" title="Why using?"></a>Why using?</h2><p>When I develop <a href="http://o1xhack.com/2017/02/21/infoit/">Info It</a>, I encountered a problem that when I trying to add constraints at Xcode interface, the Xcode give me crash every time I using it. And after I installed SnapKit inside, I found it was something wrong with Xcode that I cannot find out why (searching Google, Stackoverflow, etc won’t give me any answer). After I installed SnapKit and using it, it solved my problem automatically and the elegant code of SnapKit makes constraints, auto layout beautiful and easy.</p>
+<h2 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h2><p><a href="http://snapkit.io/docs/" target="_blank" rel="noopener">SnapKit Document</a></p>
+<p>Everyone can install it quickly using CocoaPods. This article will not describing details about install CocoaPods, I will directly install SnapKit, assuming you all installed CocoaPods.</p>
+<p>Create a new project with Swift language. Open Terminal while Xcode project still open(I using iTerm). Then ‘cd’ to your project address, and init the podfile</p>
+<p><code>&gt; pod init</code></p>
+<p>After this command, add this line inside your podfile, the place like I did in picture.</p>
+<p><code>pod &#39;SnapKit&#39;, &#39;~&gt; 3.0&#39;</code></p>
+<p>Then install pod using commend:</p>
+<p><code>&gt; pod install</code></p>
+<p>While install SnapKit, do not close the project! After install successfully like picture, close the project and open the <code>.xcworkspace</code> file</p>
+<p><img src="http://i.imgur.com/77cE892.png" alt=""></p>
+<hr>
+<h1 id="SafariViewController"><a href="#SafariViewController" class="headerlink" title="SafariViewController"></a>SafariViewController</h1><p>I will using “svc” for convenient for SafariViewController.</p>
+<p>While you want using SafariViewController, you need to add SafariViewControllerDelegate after your class, and set two String we will using later as links:</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ViewController</span>: <span class="title">UIViewController</span>, <span class="title">SFSafariViewControllerDelegate</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Insert two web link to test the child view</span></span><br><span class="line">    <span class="keyword">let</span> main: <span class="type">String</span> = <span class="string">"http://o1xhack.com/2017/02/21/infoit/"</span></span><br><span class="line">    <span class="keyword">let</span> update: <span class="type">String</span> = <span class="string">"http://o1xhack.com"</span></span><br></pre></td></tr></table></figure>
+<p>Create a view and a button in the storyboard. (button using to test how to auto layout and also the change link of svc)</p>
+<p>And connect the view and button into the controller file.</p>
+<p><img src="http://i.imgur.com/7Dx2ZUP.png" alt=""></p>
+<h2 id="addChildViewController"><a href="#addChildViewController" class="headerlink" title="addChildViewController"></a>addChildViewController</h2><p>Then add the code inside viewDidLoad function about the auto layout and also childviewcontroller.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">func</span> <span class="title">viewDidLoad</span><span class="params">()</span></span> &#123;</span><br><span class="line">    <span class="keyword">super</span>.viewDidLoad()</span><br><span class="line">    </span><br><span class="line">    showView.snp.makeConstraints&#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">        make.edges.equalTo(<span class="keyword">self</span>.view).inset(<span class="type">UIEdgeInsetsMake</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">60</span>,<span class="number">0</span>))</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">let</span> svc = <span class="type">SFSafariViewController</span>(url: <span class="type">URL</span>(string: main)!)</span><br><span class="line">    svc.delegate = <span class="keyword">self</span></span><br><span class="line">    <span class="keyword">self</span>.addChildViewController(svc)</span><br><span class="line">    <span class="keyword">self</span>.showView.addSubview(svc.view)</span><br><span class="line">    svc.didMove(toParentViewController: <span class="keyword">self</span>)</span><br><span class="line">    </span><br><span class="line">    svc.view.snp.makeConstraints&#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">        make.edges.equalTo(<span class="keyword">self</span>.showView)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;    </span><br></pre></td></tr></table></figure>
+<h3 id="line-4-6"><a href="#line-4-6" class="headerlink" title="line 4-6:"></a>line 4-6:</h3><p>Make constraint of the showView(the view will be the parent of our svc), this code using SnapKit to make constraint of the showView compare to view, with bottom 60 to the view. Which will make an empty space of the bottom only.</p>
+<h3 id="line-8-12"><a href="#line-8-12" class="headerlink" title="line 8-12:"></a>line 8-12:</h3><p>Line 8 set svc to a new SafariViewController with url of my previous settings. And line 9 set the svc delegate to self.<br>Line 10 add the svc as childviewcontroller, and then we can using it add to showview’s subview in line 11.<br>Line 12 tells the controller that the svc has moved to parentviewcontroller, which is the showView.</p>
+<h3 id="line-14-16"><a href="#line-14-16" class="headerlink" title="line 14-16:"></a>line 14-16:</h3><p>This is basic the same as line 4-6, we set svc’s contraint just fit the showView, kind like set it to view(0,0,60,0), but since svc is the child view, we only need to set it’s constraint to it’s parent view. </p>
+<h3 id="Result"><a href="#Result" class="headerlink" title="Result"></a>Result</h3><p>After these codes, we run the project and will get this kind of simulation that the button was covered by the svc, which caused by we not setting any constraint with it.</p>
+<p><img src="http://i.imgur.com/xPAUgcc.png" alt=""></p>
+<hr>
+<h1 id="SnapKit-again"><a href="#SnapKit-again" class="headerlink" title="SnapKit again"></a>SnapKit again</h1><p>Once for all, we know how to constraint a view with spacing 60 to the bottom, let’s do some work to set constraint of the button based on the showView and view.</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">change.snp.makeConstraints &#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">        make.centerX.equalTo(showView)</span><br><span class="line">        make.top.equalTo(showView.snp.bottom).offset(<span class="number">20</span>)</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>Here for the code of <code>change.snp.makeConstraints</code>, we will need to add this part directly after the <code>showView.snp.makeConstraints</code> since we need to make constraint after and based on the showView.</p>
+<p>For line 2 we make the button center horizontally with showView, if you using Xcode interface to drag that before, it will be familiar to you.<br>For line 3, we set the top of button has an offset distance of 20 to bottom of the viewShow. Since we make constraint that the viewShow will always be 60 to the bottom to the view, we can be sure the 20 distance will always working no matter the devices are. (Later, I will try to using another way of divide to set the layout, which is more elegant way.)</p>
+<p>Run project, and you will see the button is just under the svc and center exactly same with svc.</p>
+<p><img src="http://i.imgur.com/ZBtJswu.png" alt=""></p>
+<hr>
+<h1 id="Update-SVC"><a href="#Update-SVC" class="headerlink" title="Update SVC"></a>Update SVC</h1><p>Now we need to write a new function to update the svc link once we click our button, and this is not quiet difficult, we just need to drag the button to our code and create an action.</p>
+<p><img src="http://i.imgur.com/O5dJFEC.png" alt=""></p>
+<p>When we trying to add code in this function same as the one we add in viewDidLoad, and run the project, we will find that after we click the button, nothing happened! </p>
+<p>The code we add are right here: So why is this happen?  (Remember you cannot just copy this code sicne the IBAction need you to connect yourself.)</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@IBAction</span> <span class="function"><span class="keyword">func</span> <span class="title">changeWebsite</span><span class="params">(<span class="number">_</span> sender: UIButton)</span></span> &#123;</span><br><span class="line">    <span class="keyword">let</span> svc = <span class="type">SFSafariViewController</span>(url: <span class="type">URL</span>(string: update)!)</span><br><span class="line">    svc.delegate = <span class="keyword">self</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">self</span>.addChildViewController(svc)</span><br><span class="line">    <span class="keyword">self</span>.showView.addSubview(svc.view)</span><br><span class="line">    svc.didMove(toParentViewController: <span class="keyword">self</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Well, that is because we don’t add any constraint to the svc we create in this function, so the system don’t know the layout the svc and where it should be. So we trying to add <code>svc.snp.makeConstraints</code> same as the one in viewDidLoad and the code become:</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@IBAction</span> <span class="function"><span class="keyword">func</span> <span class="title">changeWebsite</span><span class="params">(<span class="number">_</span> sender: UIButton)</span></span> &#123;</span><br><span class="line">    <span class="keyword">let</span> svc = <span class="type">SFSafariViewController</span>(url: <span class="type">URL</span>(string: update)!)</span><br><span class="line">    svc.delegate = <span class="keyword">self</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">self</span>.addChildViewController(svc)</span><br><span class="line">    <span class="keyword">self</span>.showView.addSubview(svc.view)</span><br><span class="line">    svc.didMove(toParentViewController: <span class="keyword">self</span>)</span><br><span class="line">    </span><br><span class="line">    svc.view.snp.makeConstraints&#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">        make.edges.equalTo(<span class="keyword">self</span>.showView)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Then we run the project and click the button, we will find the svc change the link and load a new website: (the first load is the article, and second is the main page.)</p>
+<p><img src="http://i.imgur.com/UtWsXku.png" alt=""></p>
+<hr>
+<h1 id="SnapKit-Divide-Multiply"><a href="#SnapKit-Divide-Multiply" class="headerlink" title="SnapKit Divide / Multiply"></a>SnapKit Divide / Multiply</h1><p>This project is basically done with all, now you know how to using SnapKit to auto layout then to make safari as an childview in anywhere. Well, but using precise number of offset is not very good. Why? Cause in the picture, you will find we don’t consider that height of the button and it has more white space from bottom of showView to top of button than bottom of button to bottom of view.</p>
+<p>So we will using a more auto way: Divide the total view height and using fraction to auto layout it.</p>
+<p>Now consider that we only need relatively little space for button and most of our view to svc, I will assume we divide the view into 10 parts, and the svc occupied 9 out of 10. So we are trying to divide the view into parts, but when in code we actually need to multiply the height with 0.9 because dividing height into 9/10 is not quick than multiply (Using your math skill to calculate).</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">showView.snp.makeConstraints&#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">        make.top.equalTo(<span class="keyword">self</span>.view).offset(<span class="number">0</span>)</span><br><span class="line">        make.<span class="keyword">right</span>.equalTo(<span class="keyword">self</span>.view).offset(<span class="number">0</span>)</span><br><span class="line">        make.<span class="keyword">left</span>.equalTo(<span class="keyword">self</span>.view).offset(<span class="number">0</span>)</span><br><span class="line">        make.height.equalTo(<span class="keyword">self</span>.view).multipliedBy(<span class="number">0.9</span>)</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>We change the make edge into details of top, right, left since we need a limit of height rather than based on edges. Line 2-4 makes the showView has no offset to the view of top, right and left. Line 5 set the height to be the 90% of the height of the view(superview). Run the project and you will find this really works:</p>
+<p><img src="http://i.imgur.com/wOiEHXT.png" alt=""></p>
+<p>Then we will handle the button layout that also using multiply and divide way. To make the button fit equally with consideration of its height, we will divide the rest part of view(1-0.9=0.1) into 3 parts. Equally fraction of top white space, height and bottom white space. this means we multiply the height with 0.1*0.3=0.03 and same as the white space from bottom of showView and top of button. Let’s try it:</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">change.snp.makeConstraints &#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">    make.centerX.equalTo(showView)</span><br><span class="line">    make.top.equalTo(showView.snp.bottom).multipliedBy(<span class="number">0.03</span>)</span><br><span class="line">    make.height.equalTo(<span class="keyword">self</span>.view).multipliedBy(<span class="number">0.03</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Woops! We got really wired one:</p>
+<p><img src="http://i.imgur.com/LLSlJSN.png" alt=""></p>
+<p>Why is this happening?? That is because we are thinking a way that computer doesn’t understand!</p>
+<p>So actually we want the rest 10% of view divide into 3 parts, that is 0.1/3=0.0333… which is infinite, so we just set the height to 0.034 of the height and the other two white space to 0.033. But what we need to do is tell the computer that it is 0.967(1-0.967) to the bottom compare to the view, not 0.03 compare to the showView. This is how multiply and divide works, we actually multiply the object’s height, not what we think that auto calculate the distance of white space, so changing the code into the following:</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">change.snp.makeConstraints &#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">    make.centerX.equalTo(showView)</span><br><span class="line">    make.bottom.equalTo(<span class="keyword">self</span>.view).multipliedBy(<span class="number">0.967</span>)</span><br><span class="line">    make.height.equalTo(<span class="keyword">self</span>.view).multipliedBy(<span class="number">0.034</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>And it worked!</p>
+<p><img src="http://i.imgur.com/KSqrPZg.png" alt=""></p>
+<h2 id="Why-using-1"><a href="#Why-using-1" class="headerlink" title="Why using?"></a>Why using?</h2><p>You can see that multiply and divide can be quite confused especially you have two or more objects need to layout, but once for all, when you done the calculation, you will be good from that day to the day you need to add a new object! You will not need to consider different devices and the impact of using number as distanced to caused some button or label be covered by others.</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/en/tags/language/" rel="tag"># language</a>
+          
+            <a href="/en/tags/learning/" rel="tag"># learning</a>
+          
+            <a href="/en/tags/github/" rel="tag"># github</a>
+          
+            <a href="/en/tags/swift3-0/" rel="tag"># swift3.0</a>
+          
+            <a href="/en/tags/SafariViewController/" rel="tag"># SafariViewController</a>
+          
+            <a href="/en/tags/SnapKit/" rel="tag"># SnapKit</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/en/2017/03/08/swift-learning/addchildview-safari-cn/" rel="next" title="Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController">
+                <i class="fa fa-chevron-left"></i> Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/en/2017/03/10/podcasts/" rel="prev" title="「Podcast」播客推荐、信息介绍及单期节目推荐（21个） --17.5.27">
+                「Podcast」播客推荐、信息介绍及单期节目推荐（21个） --17.5.27 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/en/uploads/avatar.jpg"
+               alt="Yuxiao Wang" />
+          <p class="site-author-name" itemprop="name">Yuxiao Wang</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/en/archives">
+                <span class="site-state-item-count">33</span>
+                <span class="site-state-item-name">posts</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/en/categories">
+                <span class="site-state-item-count">10</span>
+                <span class="site-state-item-name">categories</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/en/tags">
+                <span class="site-state-item-count">34</span>
+                <span class="site-state-item-name">tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/en/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/o1xhack" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://weibo.com/jsxiao113" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/o1xhack" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Intro"><span class="nav-text">Intro</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SnapKit"><span class="nav-text">SnapKit</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-using"><span class="nav-text">Why using?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Install"><span class="nav-text">Install</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SafariViewController"><span class="nav-text">SafariViewController</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#addChildViewController"><span class="nav-text">addChildViewController</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#line-4-6"><span class="nav-text">line 4-6:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#line-8-12"><span class="nav-text">line 8-12:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#line-14-16"><span class="nav-text">line 14-16:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Result"><span class="nav-text">Result</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SnapKit-again"><span class="nav-text">SnapKit again</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Update-SVC"><span class="nav-text">Update SVC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SnapKit-Divide-Multiply"><span class="nav-text">SnapKit Divide / Multiply</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Why-using-1"><span class="nav-text">Why using?</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuxiao Wang</span>
+</div>
+
+
+<div class="powered-by">
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+<div class="busuanzi-count">
+
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">欢迎第<span class="busuanzi-value" id="busuanzi_value_site_uv"></span>个天才访问了本站</span>
+  
+
+  
+    <span class="site-pv"><i class="fa fa-eye"></i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span></span>
+  
+  
+</div>
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/en/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/en/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/en/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/en/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/en/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/en/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/en/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'yuxiaowang';
+      var disqus_identifier = '2017/03/10/swift-learning/addchildview-safari/';
+
+      var disqus_title = "Swift 3 - Add SafariViewController as childViewController with SnapKit";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/en/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="local-search-pop-overlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>
