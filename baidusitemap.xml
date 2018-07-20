@@ -423,12 +423,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
+    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
-        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
+        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
+        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -447,12 +447,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
     <lastmod>2017-02-24T23:14:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Television Time - 追剧领域快准狠原则</title>
-        <pubTime>2016-04-20T23:11:00.000Z</pubTime>
+        <title>「iOS」Publish / Later - 设定你的 Instagram 发送时间</title>
+        <pubTime>2016-03-09T00:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -665,18 +665,24 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
+    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 学习日记 - 1</title>
-        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
+        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
+        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
         
         <tag>language</tag>
          
         <tag>learning</tag>
          
+        <tag>github</tag>
+         
         <tag>swift3.0</tag>
+         
+        <tag>SafariViewController</tag>
+         
+        <tag>SnapKit</tag>
          
          
            
@@ -719,24 +725,18 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/</loc>
+    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
     <lastmod>2016-05-25T07:54:29.000Z</lastmod>
     <data>
         <display>
-        <title>Swift 3 - Add SafariViewController as childViewController with SnapKit</title>
-        <pubTime>2017-03-10T17:40:29.000Z</pubTime>
+        <title>Swift 学习日记 - 1</title>
+        <pubTime>2016-05-25T07:55:29.000Z</pubTime>
         
         <tag>language</tag>
          
         <tag>learning</tag>
          
-        <tag>github</tag>
-         
         <tag>swift3.0</tag>
-         
-        <tag>SafariViewController</tag>
-         
-        <tag>SnapKit</tag>
          
          
            
@@ -749,20 +749,18 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
+    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）</title>
-        <pubTime>2017-04-29T14:12:00.000Z</pubTime>
+        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
+        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
         
         <tag>tech</tag>
          
-        <tag>hardware</tag>
+        <tag>mobie payments</tag>
          
-        <tag>music</tag>
-         
-        <tag>audio</tag>
+        <tag>译文计划</tag>
          
          
            
@@ -799,18 +797,20 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
-        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
+        <title>「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）</title>
+        <pubTime>2017-04-29T14:12:00.000Z</pubTime>
         
         <tag>tech</tag>
          
-        <tag>mobie payments</tag>
+        <tag>hardware</tag>
          
-        <tag>译文计划</tag>
+        <tag>music</tag>
+         
+        <tag>audio</tag>
          
          
            
