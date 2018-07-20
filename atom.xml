@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2018-03-03T02:59:10.331Z</updated>
+  <updated>2018-07-20T20:33:38.051Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://o1xhack.com/2018/03/10/infoit2/"/>
     <id>http://o1xhack.com/2018/03/10/infoit2/</id>
     <published>2018-03-10T17:00:00.000Z</published>
-    <updated>2018-03-03T02:59:10.331Z</updated>
+    <updated>2018-07-20T20:33:38.051Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://i.imgur.com/oLzfxyk.png" alt="7"></p>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>自 Info It 第一次 <a href="http://o1xhack.com/2017/02/21/infoit/#%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E7%BA%BF">TestFlight</a> 以来已经差不多 1 年 3 个月了，本想着在上架一周年的时候更新 2.0 的，奈何 17 年下半年实在太忙，准确的说，现在也忙的不行，但是因为已经一年了，所以强行熬了好多个通宵来更新。（<a href="http://o1xhack.com/2017/02/21/infoit/">Info It 1.0 的文章</a>）</p>
@@ -366,13 +366,14 @@
   </entry>
   
   <entry>
-    <title>📌 置顶：持续文章，栏目目录等</title>
+    <title>📌 置顶：持续文章，栏目目录等 📌</title>
     <link href="http://o1xhack.com/2017/10/01/top/"/>
     <id>http://o1xhack.com/2017/10/01/top/</id>
     <published>2017-10-02T02:28:00.000Z</published>
-    <updated>2018-07-20T20:24:42.763Z</updated>
+    <updated>2018-07-20T20:55:23.698Z</updated>
     
-    <content type="html"><![CDATA[<div style="text-align:center">🔥 <strong>Code Activity over last 30 Days, update every day 🧐</strong><br></div>
+    <content type="html"><![CDATA[<a id="more"></a>
+<div style="text-align:center">🔥 <strong>Code Activity over last 30 Days, update every day 🧐</strong><br></div>
 
 <p><center><a href="http://o1xhack.com/en/code">En Blog Menu - Code Activity</a><center></center></center></p>
 <p>请使用菜单栏进行栏目查看~ 这里仅仅为部分文章！持续更新文章中斜体加粗日期为文章最后更新日期。<br>欢迎收藏本篇文章~</p>
@@ -396,9 +397,10 @@
     
     <summary type="html">
     
-      &lt;div style=&quot;text-align:center&quot;&gt;🔥 &lt;strong&gt;Code Activity over last 30 Days, update every day 🧐&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;🔥 &lt;strong&gt;Code Activity over last 30 Days, update every day 🧐&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;a href=&quot;http:
+&lt;p&gt;&lt;cen
     
     </summary>
     

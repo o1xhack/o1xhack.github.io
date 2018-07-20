@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[📌 Top：Elite, Continue ~]]></title>
+    <title><![CDATA[Shortcuts (since iOS12)]]></title>
+    <url>%2Fen%2F2018%2F07%2F20%2Fshortcuts%2F</url>
+    <content type="text"><![CDATA[download:]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[📌 Top Articles, Series Articles 📌]]></title>
     <url>%2Fen%2F2017%2F10%2F01%2Ftop%2F</url>
     <content type="text"><![CDATA[iOS App I developed~ Coffee It 🔥 Info It 2.0, Chinese Tech Add SafariViewController as childViewController with SnapKit]]></content>
   </entry>

@@ -6,7 +6,7 @@
   <link href="/en/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2018-07-20T20:03:09.568Z</updated>
+  <updated>2018-07-20T21:09:27.556Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -17,22 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>📌 Top：Elite, Continue ~</title>
-    <link href="http://o1xhack.com/2017/10/01/top/"/>
-    <id>http://o1xhack.com/2017/10/01/top/</id>
-    <published>2017-10-02T02:28:00.000Z</published>
-    <updated>2018-07-20T20:03:09.568Z</updated>
+    <title>Shortcuts (since iOS12)</title>
+    <link href="http://o1xhack.com/2018/07/20/shortcuts/"/>
+    <id>http://o1xhack.com/2018/07/20/shortcuts/</id>
+    <published>2018-07-21T02:28:00.000Z</published>
+    <updated>2018-07-20T21:09:27.556Z</updated>
     
-    <content type="html"><![CDATA[<div style="text-align:center"><strong>iOS App I developed~</strong><br></div><ul><li><a href="http://o1xhack.com/en/2017/03/20/coffeeit/">Coffee It</a></li><li><a href="http://o1xhack.com/2018/03/10/infoit2/">🔥 Info It 2.0, Chinese</a></li></ul><div style="text-align:center"><strong>Tech</strong><br></div><ul><li><a href="http://o1xhack.com/en/2017/03/10/swift-learning/addchildview-safari/">Add SafariViewController as childViewController with SnapKit</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>download: </p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;div style=&quot;text-align:center&quot;&gt;&lt;strong&gt;iOS App I developed~&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;
+        &lt;p&gt;download: &lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>📌 Top Articles, Series Articles 📌</title>
+    <link href="http://o1xhack.com/2017/10/01/top/"/>
+    <id>http://o1xhack.com/2017/10/01/top/</id>
+    <published>2017-10-02T02:28:00.000Z</published>
+    <updated>2018-07-20T21:00:29.014Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><div style="text-align:center"><strong>iOS App I developed~</strong><br></div><ul><li><a href="http://o1xhack.com/en/2017/03/20/coffeeit/">Coffee It</a></li><li><a href="http://o1xhack.com/2018/03/10/infoit2/">🔥 Info It 2.0, Chinese</a></li></ul><div style="text-align:center"><strong>Tech</strong><br></div><ul><li><a href="http://o1xhack.com/en/2017/03/10/swift-learning/addchildview-safari/">Add SafariViewController as childViewController with SnapKit</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;strong&gt;iOS App I developed~&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://o1xhack.com/en/2017/03/20/coffeeit/
+&lt;li&gt;&lt;a href=&quot;http://o1xhack.com/en/20
       
     
     </summary>
