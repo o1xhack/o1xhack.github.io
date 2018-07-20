@@ -555,11 +555,11 @@
     
       <category term="tech" scheme="http://o1xhack.com/tags/tech/"/>
     
+      <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
+    
       <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
     
       <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
-    
-      <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
   </entry>
   
@@ -1008,9 +1008,9 @@
     
       <category term="tech" scheme="http://o1xhack.com/tags/tech/"/>
     
-      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
-    
       <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
+    
+      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
     
       <category term="ipadpro" scheme="http://o1xhack.com/tags/ipadpro/"/>
     
