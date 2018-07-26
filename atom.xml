@@ -2857,16 +2857,19 @@
   </entry>
   
   <entry>
-    <title>Kindle 笔记导出到印象笔记，分析与完全解决方法</title>
+    <title>Kindle 笔记导出到印象笔记，分析与完全解决方法 (18.7.17 印象笔记新版分享不是全文解决办法)</title>
     <link href="http://o1xhack.com/2016/08/11/kindle/kindle-export-evernote/"/>
     <id>http://o1xhack.com/2016/08/11/kindle/kindle-export-evernote/</id>
     <published>2016-08-11T23:23:29.000Z</published>
-    <updated>2017-02-19T23:19:00.000Z</updated>
+    <updated>2018-07-27T15:19:00.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="永远的命题"><a href="#永远的命题" class="headerlink" title="永远的命题"></a>永远的命题</h1><p>从 Kindle Paperwhite 到 Oasis, Kindle 越来越完美，电子书逐渐成为了一种趋势，在电子书的体验上依旧有十分多的地方可以改进，Kindle 或任何其他服务都不可能一统江湖，简言之，读书所得到的东西也就越发的重要，<br><strong>我们应该在意的并不仅仅是在哪里看，而更应该是如何梳理。</strong></p>
 <blockquote class="blockquote-center"> <a href="http://o1xhack.com/life/">生活者</a>：生活着，无限可能 </blockquote>
 
 <a id="more"></a>
+<hr>
+<h1 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h1><h2 id="2018-07-27"><a href="#2018-07-27" class="headerlink" title="2018.07.27"></a>2018.07.27</h2><p><a href="">点击跳转更新部分</a></p>
+<p>这本来完全不是一篇连续性的文章，就在刚才偶然查看简书发现阅读量竟然很高并且有人反应新版本分享到印象笔记后，是以附件的形式加入，而不是全文。略微研究了一下，没有完美的替代，但是有解决办法（多出繁琐的一步），因此特地更新一下文章</p>
 <hr>
 <h1 id="大多的导出方式：通过-Clippings-txt"><a href="#大多的导出方式：通过-Clippings-txt" class="headerlink" title="大多的导出方式：通过 Clippings.txt"></a>大多的导出方式：通过 Clippings.txt</h1><blockquote>
 <p>关于 Kindle 导出笔记的方式的文章不在少数，但作为一个喜欢追求完美，并且喜欢整理的人，这些方法往往不尽人如意。</p>
@@ -2965,6 +2968,14 @@
 <p>通过 kindle 自带分享不能超过全书内容的 10%， 否则属于侵权行为无法分享。</p>
 </blockquote>
 <p>我相信很少有人会超过哒！ </p>
+<h2 id="2018-07-27-更新-新版印象笔记分享是附件的解决办法"><a href="#2018-07-27-更新-新版印象笔记分享是附件的解决办法" class="headerlink" title="2018.07.27 更新 新版印象笔记分享是附件的解决办法"></a>2018.07.27 更新 新版印象笔记分享是附件的解决办法</h2><h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>经过反馈发现，新版本的印象笔记分享不再是以前那样了，会将整个 html 文件以附件的形式插入到笔记中，如下图：</p>
+<p><img src="https://i.imgur.com/FWanRlD.png" alt="IMG_1488"></p>
+<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>在上图中的笔记中，点击 html 文件，会打开这个文件，点击左上角的 分享 按钮，在弹出的分享框中第三行找到 “Save to Evernote” 一个小剪刀的标志，请看下图：</p>
+<p><img src="https://i.imgur.com/TsSm2NC.jpg" alt="IMG_1489"></p>
+<p>点击这个小剪刀的标志，不会有任何的提示，不要慌，确定点击了就行，然后返回，看你同一个笔记本下，会自动创建了一个新的笔记，包含了完整的内容。</p>
+<p>唯一的问题就是，第一排会有一行链接，删除就好了。目前没有办法直接解决，暂时只能这样，这样的结果至少是和之前的结果一样了。</p>
+<p>如果之后有时间会尝试看看 workflow/shortcuts 能不能够一步到位，欢迎关注我的微博，博客等待新消息~</p>
+<p><img src="https://i.imgur.com/vdfvoa3.jpg" alt="IMG_1490"></p>
 ]]></content>
     
     <summary type="html">
