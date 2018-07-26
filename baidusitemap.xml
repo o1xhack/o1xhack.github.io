@@ -484,30 +484,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
-        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>review</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
@@ -525,6 +501,30 @@
            
              
               <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
+        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>review</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
@@ -641,9 +641,9 @@
          
         <tag>learning</tag>
          
-        <tag>uialertcontroller</tag>
-         
         <tag>swift3.0</tag>
+         
+        <tag>uialertcontroller</tag>
          
          
            
@@ -710,30 +710,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
-        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
-        
-        <tag>tech</tag>
-         
-        <tag>mobie payments</tag>
-         
-        <tag>译文计划</tag>
-         
-         
-           
-             
-              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -777,6 +753,30 @@
            
              
               <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「Tech」译文：谷歌发布一款可以无需掏出手机便支付的 APP</title>
+        <pubTime>2016-03-10T23:11:00.000Z</pubTime>
+        
+        <tag>tech</tag>
+         
+        <tag>mobie payments</tag>
+         
+        <tag>译文计划</tag>
+         
+         
+           
+             
+              <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
           
         </display>
     </data>
