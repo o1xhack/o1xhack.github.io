@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2018-07-20T22:30:45.587Z</updated>
+  <updated>2018-09-29T03:20:46.357Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -16,21 +16,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Shortcuts (从 iOS12 起)</title>
+    <title>Shortcuts 捷径分享 (从 iOS12 起)</title>
     <link href="http://o1xhack.com/2018/07/20/shortcuts/"/>
     <id>http://o1xhack.com/2018/07/20/shortcuts/</id>
     <published>2018-07-21T02:28:00.000Z</published>
-    <updated>2018-07-20T22:30:45.587Z</updated>
+    <updated>2018-09-29T03:20:46.357Z</updated>
     
-    <content type="html"><![CDATA[<div style="text-align:center"><strong>共 1 shortcuts</strong><br></div><br><div style="text-align:center"><em>修改 0, 创建 1</em><br></div>
+    <content type="html"><![CDATA[<div style="text-align:center"><strong>共 2 shortcuts</strong><br></div><br><div style="text-align:center"><em>修改 0, 创建 2</em><br></div>
 
-<p><a href="http://o1xhack.com/en/2018/07/20/shortcuts/">Shortcuts English version</a></p>
 <a id="more"></a>
+<p><a href="http://o1xhack.com/en/2018/07/20/shortcuts/">Shortcuts English version</a></p>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>下载方式：<a href="http://o1xhack.com/2018/07/20/shortcuts/#%E4%BB%8E%E6%9C%AC%E6%96%87%E4%B8%8B%E8%BD%BD-Shortcut">从本文下载 Shortcut</a></p>
+<p><strong>记录</strong></p>
+<ol>
+<li><a href="">Keep 锻炼记录 Day One</a></li>
+<li><a href="">读书记录 DayOne</a></li>
+</ol>
 <h1 id="从本文下载-Shortcut"><a href="#从本文下载-Shortcut" class="headerlink" title="从本文下载 Shortcut"></a>从本文下载 Shortcut</h1><p>在 Safari 中打开，iPhone 上<br>已经安装 Shortcuts（仅开发者内测中）</p>
 <p>点击对应 ⬇️ 按钮下载对应 Shortcuts</p>
-<p>如下图点击 ‘Open in “Shortcuts”‘ 即可</p>
-<p><img src="https://i.imgur.com/SwIJ21t.jpg" alt=""></p>
-<h2 id="DayOne-读书记录"><a href="#DayOne-读书记录" class="headerlink" title="DayOne 读书记录"></a>DayOne 读书记录</h2><p>v1.1  2018-06-22<br>@o1xhack</p>
+<p><img src="https://i.imgur.com/932bzo9.jpg" alt=""></p>
+<h1 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h1><h2 id="Keep-锻炼记录-Day-One"><a href="#Keep-锻炼记录-Day-One" class="headerlink" title="Keep 锻炼记录 Day One"></a>Keep 锻炼记录 Day One</h2><p>v1.5  2018-09-22<br>@o1xhack</p>
+<p>导入问题：</p>
+<ul>
+<li>输入 训练营名称，列表</li>
+<li>输入 选择有训练营后 DayOne 的标签</li>
+<li>输入 选择有训练营后 DayOne 的日记本</li>
+<li>输入 选择没有训练营后 DayOne 的标签</li>
+<li>输入 选择没有训练营后 DayOne 的日记本</li>
+</ul>
+<p>功能：</p>
+<ul>
+<li>选择总共锻炼数目</li>
+<li>选择从 K3 到 K0 四个等级每个锻炼数目</li>
+<li>选择是否有训练营</li>
+<li>生成自定义 DayOne，见截图</li>
+<li>DayOne 中 锻炼数目一行为斜体，训练营名称为粗体</li>
+</ul>
+<h3 id="⬇️-DayOne锻炼1-5"><a href="#⬇️-DayOne锻炼1-5" class="headerlink" title="⬇️ DayOne锻炼1.5"></a>⬇️ <a href="https://www.icloud.com/shortcuts/42ce68a88df3466fbf206c909114cd69" target="_blank" rel="external">DayOne锻炼1.5</a></h3><p><strong><em>有问题请在文章末尾评论，我会及时收到通知！</em></strong></p>
+<p><img src="https://i.imgur.com/wySKAWM.jpg" alt=""></p>
+<h2 id="读书记录-DayOne"><a href="#读书记录-DayOne" class="headerlink" title="读书记录 DayOne"></a>读书记录 DayOne</h2><p>v1.1  2018-06-22<br>@o1xhack</p>
 <p>导入问题：</p>
 <ul>
 <li>输入 tag</li>
@@ -44,16 +68,13 @@
 <li>支持星星打分</li>
 <li>支持写入书评</li>
 </ul>
-<p>⬇️ <a href="/2018/07/20/shortcuts/DayOneBook1.1.shortcut">DayOneBook1.1</a></p>
-<p><strong><em>有问题请在文章末尾评论，我会及时收到通知！</em></strong></p>
+<h3 id="⬇️-DayOne书评1-1"><a href="#⬇️-DayOne书评1-1" class="headerlink" title="⬇️ DayOne书评1.1"></a>⬇️ <a href="https://www.icloud.com/shortcuts/e5219d2d9f6a4ed9aa3d1f3d272a91e4" target="_blank" rel="external">DayOne书评1.1</a></h3><p><strong><em>有问题请在文章末尾评论，我会及时收到通知！</em></strong></p>
 <p><img src="https://i.imgur.com/jEF2gjJ.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;div style=&#39;text-align:center&#39;&gt;&lt;strong&gt;共 1 shortcuts&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&#39;text-align:center&#39;&gt;&lt;em&gt;修改 0, 创建 1&lt;/em&gt;&lt;br&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://o1xhack.com/en/2018/07/20/shortcuts/&quot;&gt;Shortcuts English version&lt;/a&gt;&lt;/p&gt;
+      &lt;div style=&#39;text-align:center&#39;&gt;&lt;strong&gt;共 2 shortcuts&lt;/strong&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&#39;text-align:center&#39;&gt;&lt;em&gt;修改 0, 创建 2&lt;/em&gt;&lt;br&gt;&lt;/div&gt;
     
     </summary>
     

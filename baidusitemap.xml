@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2018/07/20/shortcuts/</loc>
+    <lastmod>2018-09-29T03:20:46.357Z</lastmod>
+    <data>
+        <display>
+        <title>Shortcuts 捷径分享 (从 iOS12 起)</title>
+        <pubTime>2018-07-21T02:28:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/03/20/coffeeit/</loc>
     <lastmod>2018-07-27T21:02:59.996Z</lastmod>
     <data>
@@ -56,21 +71,6 @@
         <display>
         <title>📌 置顶：持续文章，栏目目录等 📌</title>
         <pubTime>2017-10-02T02:28:00.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2018/07/20/shortcuts/</loc>
-    <lastmod>2018-07-20T22:30:45.587Z</lastmod>
-    <data>
-        <display>
-        <title>Shortcuts (从 iOS12 起)</title>
-        <pubTime>2018-07-21T02:28:00.000Z</pubTime>
         
          
            
@@ -363,12 +363,12 @@
     
     
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Castro - 不如听播客</title>
-        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
+        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
+        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -387,12 +387,12 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     <lastmod>2017-02-25T05:20:00.000Z</lastmod>
     <data>
         <display>
-        <title>「iOS」Followers+ - Instagram 网红离你不远啦</title>
-        <pubTime>2016-03-09T23:11:00.000Z</pubTime>
+        <title>「iOS」Castro - 不如听播客</title>
+        <pubTime>2016-03-08T23:11:00.000Z</pubTime>
         
         <tag>ios</tag>
          
@@ -484,30 +484,6 @@
 
     
   <url>
-    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
-    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
-        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>review</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
     <lastmod>2017-02-20T08:00:00.000Z</lastmod>
     <data>
@@ -525,6 +501,30 @@
            
              
               <breadCrumb title="APP Policy" url="http://o1xhack.com/categories/APP-Policy/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <lastmod>2017-02-20T08:00:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>Omnifocus 2：这个让你又爱又恨的神 GTD 软件，究竟值不值得入手？ 关于 GTD。</title>
+        <pubTime>2017-03-13T00:20:29.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>review</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
@@ -734,6 +734,30 @@
 
     
   <url>
+    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
+    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
+        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
+        
+        <tag>ios</tag>
+         
+        <tag>app</tag>
+         
+        <tag>recommend</tag>
+         
+         
+           
+             
+              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
     <lastmod>2016-02-25T05:20:00.000Z</lastmod>
     <data>
@@ -753,30 +777,6 @@
            
              
               <breadCrumb title="Tech 科技" url="http://o1xhack.com/categories/Tech-%E7%A7%91%E6%8A%80/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
-    <lastmod>2016-02-25T05:20:00.000Z</lastmod>
-    <data>
-        <display>
-        <title>「iOS」即刻 -  这才是新闻推送该有的样子</title>
-        <pubTime>2016-03-17T22:11:00.000Z</pubTime>
-        
-        <tag>ios</tag>
-         
-        <tag>app</tag>
-         
-        <tag>recommend</tag>
-         
-         
-           
-             
-              <breadCrumb title="iOS" url="http://o1xhack.com/categories/iOS/"/>
           
         </display>
     </data>
