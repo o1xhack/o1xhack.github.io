@@ -85,7 +85,7 @@
     <link href="http://o1xhack.com/2018/03/10/infoit2/"/>
     <id>http://o1xhack.com/2018/03/10/infoit2/</id>
     <published>2018-03-10T17:00:00.000Z</published>
-    <updated>2018-07-20T21:19:12.761Z</updated>
+    <updated>2018-10-06T23:11:32.949Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://i.imgur.com/oLzfxyk.png" alt="7"></p>
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>自 Info It 第一次 <a href="http://o1xhack.com/2017/02/21/infoit/#%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E7%BA%BF">TestFlight</a> 以来已经差不多 1 年 3 个月了，本想着在上架一周年的时候更新 2.0 的，奈何 17 年下半年实在太忙，准确的说，现在也忙的不行，但是因为已经一年了，所以强行熬了好多个通宵来更新。（<a href="http://o1xhack.com/2017/02/21/infoit/">Info It 1.0 的文章</a>）</p>
@@ -131,6 +131,16 @@
 <hr>
 <h1 id="问答"><a href="#问答" class="headerlink" title="问答"></a>问答</h1><p>欢迎像我提问，你也可以去往 <a href="http://o1xhack.com/2017/02/21/infoit/#%E9%97%AE%E7%AD%94">1.0 问答</a> 查看之前的提问！</p>
 <hr>
+<h1 id="关于内购"><a href="#关于内购" class="headerlink" title="关于内购"></a>关于内购</h1><p><strong>作为一款工具软件，我不奢望能够每年都卖出足够的份额，但是依旧希望能够获得等价的投入。</strong></p>
+<p>目前 Info It 内购价格为 ￥18，这不是一个很贵的价格，而且内购价格只会增加不会减少。以目前的情况看，Info It 从 1.0 到 2.x 都没有另外收费，仅仅是一次内购。</p>
+<p>未来会同时支持纯打赏开发者~</p>
+<h2 id="Pro-功能"><a href="#Pro-功能" class="headerlink" title="Pro 功能"></a>Pro 功能</h2><h3 id="搜索历史数量显示"><a href="#搜索历史数量显示" class="headerlink" title="搜索历史数量显示"></a>搜索历史数量显示</h3><p>Pro 用户可无限，默认 3 个。</p>
+<h3 id="图标改变"><a href="#图标改变" class="headerlink" title="图标改变"></a>图标改变</h3><p>目前四款</p>
+<h3 id="历史纪录点击加载缓存数目"><a href="#历史纪录点击加载缓存数目" class="headerlink" title="历史纪录点击加载缓存数目"></a>历史纪录点击加载缓存数目</h3><p>Pro 用户自定义，默认 3 个。</p>
+<p>改变前 X 个历史纪录点击加载缓存而不是联网搜索。如果搜索频繁可以设定多一点，大部分的数据不会更改很频繁，加载缓存基本秒加载</p>
+<h3 id="搜索结果加载数目"><a href="#搜索结果加载数目" class="headerlink" title="搜索结果加载数目"></a>搜索结果加载数目</h3><p>Pro 用户自定义，默认 9 个。</p>
+<h3 id="申请测试版"><a href="#申请测试版" class="headerlink" title="申请测试版"></a>申请测试版</h3><p>Pro 用户享受 测试版申请福利~ 如果有的话~</p>
+<h3 id="计划中：收藏电影图书"><a href="#计划中：收藏电影图书" class="headerlink" title="计划中：收藏电影图书"></a>计划中：收藏电影图书</h3><h3 id="计划中：支持-GoodReader-查询"><a href="#计划中：支持-GoodReader-查询" class="headerlink" title="计划中：支持 GoodReader 查询"></a>计划中：支持 GoodReader 查询</h3><hr>
 <h1 id="特色功能"><a href="#特色功能" class="headerlink" title="特色功能"></a>特色功能</h1><h2 id="iPad-分屏"><a href="#iPad-分屏" class="headerlink" title="iPad 分屏"></a><blockquote class="blockquote-center"><strong>iPad 分屏</strong></blockquote></h2><blockquote>
 <p>许多地方没有选择的余地，只能自己搜索，如果你是在 iPad 上，分屏欢迎你嘿！</p>
 </blockquote>
@@ -620,11 +630,11 @@
     
       <category term="tech" scheme="http://o1xhack.com/tags/tech/"/>
     
-      <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
-    
       <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
     
       <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
+    
+      <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
   </entry>
   
@@ -1073,9 +1083,9 @@
     
       <category term="tech" scheme="http://o1xhack.com/tags/tech/"/>
     
-      <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
-    
       <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
+    
+      <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
       <category term="ipadpro" scheme="http://o1xhack.com/tags/ipadpro/"/>
     
