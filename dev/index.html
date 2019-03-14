@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="前言这里是所有有关开发的文章，根据开发种类进行了分类，目前主要是 iOS 开发，Swift 3.0 为主。  iOS 开发 Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事 2016.6.16 - 2017.6.16  Swift 语言 addChildViewController：Add SafariViewController as childViewController w">
+<meta property="og:type" content="website">
+<meta property="og:title" content="开发者">
+<meta property="og:url" content="http://o1xhack.com/dev/index.html">
+<meta property="og:site_name" content="LifeAnalysis Lab &amp; Yuxiao">
+<meta property="og:description" content="前言这里是所有有关开发的文章，根据开发种类进行了分类，目前主要是 iOS 开发，Swift 3.0 为主。  iOS 开发 Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事 2016.6.16 - 2017.6.16  Swift 语言 addChildViewController：Add SafariViewController as childViewController w">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-10-10T21:17:25.290Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="开发者">
+<meta name="twitter:description" content="前言这里是所有有关开发的文章，根据开发种类进行了分类，目前主要是 iOS 开发，Swift 3.0 为主。  iOS 开发 Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事 2016.6.16 - 2017.6.16  Swift 语言 addChildViewController：Add SafariViewController as childViewController w">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="LifeAnalysis Lab & Yuxiao" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://o1xhack.com/dev/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>开发者 | LifeAnalysis Lab & Yuxiao</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">LifeAnalysis Lab & Yuxiao</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">\@o1xhack</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+    
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-dev" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://o1xhack.com/dev/index.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yuxiao Wang">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LifeAnalysis Lab & Yuxiao">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">开发者
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2017-02-08 23:47:13" itemprop="dateCreated datePublished" datetime="2017-02-08T23:47:13-08:00">2017-02-08</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2017-10-10 14:17:25" itemprop="dateModified" datetime="2017-10-10T14:17:25-07:00">2017-10-10</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>这里是所有有关开发的文章，根据开发种类进行了分类，目前主要是 iOS 开发，Swift 3.0 为主。</p>
+<hr>
+<h1 id="iOS-开发"><a href="#iOS-开发" class="headerlink" title="iOS 开发"></a>iOS 开发</h1><ul>
+<li><a href="http://o1xhack.com/2017/05/17/appledev2016">Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事</a> <em>2016.6.16 - 2017.6.16</em></li>
+</ul>
+<h2 id="Swift-语言"><a href="#Swift-语言" class="headerlink" title="Swift 语言"></a>Swift 语言</h2><ul>
+<li><a href="http://o1xhack.com/2017/03/10/swift-learning/addchildview-safari/">addChildViewController</a>：Add SafariViewController as childViewController with SnapKit</li>
+<li><a href="http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari-cn/">addChildViewController</a>：用 SnapKit 添加 SafariViewController 为 childViewController</li>
+<li><a href="http://o1xhack.com/2016/05/21/swift-learning/swift-learning-outline-source/">Swift 学习日志 - 目录/相关资料</a><ul>
+<li>目前更新三篇学习日志</li>
+</ul>
+</li>
+</ul>
+<h2 id="iOS-APP-上架"><a href="#iOS-APP-上架" class="headerlink" title="iOS APP 上架"></a>iOS APP 上架</h2><h3 id="Info-It-通过分享快速搜索电影，书籍信息"><a href="#Info-It-通过分享快速搜索电影，书籍信息" class="headerlink" title="Info It - 通过分享快速搜索电影，书籍信息"></a><a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="noopener">Info It - 通过分享快速搜索电影，书籍信息</a></h3><ul>
+<li>通过 Action Extension 快速选择文字直接查询对应的豆瓣书、豆瓣电影数据</li>
+<li>APP 内直接快速打开搜索</li>
+<li>3D Touch 按压文件夹快速打开软件（看介绍）</li>
+<li>小巧灵活，不受限制</li>
+<li>Swift 3</li>
+<li><a href="http://o1xhack.com/2017/02/21/infoit/">Info It详细介绍及使用</a> <strong><em>持续更新</em></strong></li>
+</ul>
+<h3 id="Coffee-It-Track-Caffeine-in-Simplest-Way"><a href="#Coffee-It-Track-Caffeine-in-Simplest-Way" class="headerlink" title="Coffee It - Track Caffeine in Simplest Way"></a><a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="noopener">Coffee It - Track Caffeine in Simplest Way</a></h3><ul>
+<li>正在等待苹果审核.</li>
+<li>用最简单的方式记录每天的咖啡因摄入量。</li>
+<li>Swift 3</li>
+<li>Quick, Easy, Convenient.</li>
+<li><a href="http://o1xhack.com/2017/03/20/coffeeit/">Coffee It 介绍</a> EN</li>
+</ul>
+<h2 id="iOS-开发资讯分享"><a href="#iOS-开发资讯分享" class="headerlink" title="iOS 开发资讯分享"></a>iOS 开发资讯分享</h2><p><a href="http://o1xhack.com/2017/02/19/iosdevswift/">简介</a></p>
+<ul>
+<li>通过社交平台分享在开发以及学习中遇到的那些问题以及找到的解决办法！主要为中文文章，部分英文。</li>
+<li>Twitter：<a href="http://twitter.com/iosdevswift" target="_blank" rel="noopener">@iosdevswift</a></li>
+<li>新浪微博：<a href="http://weibo.com/iosdevswift" target="_blank" rel="noopener">@iosdevswift</a></li>
+<li>开发者头条：<a href="https://toutiao.io/subjects/29225" target="_blank" rel="noopener">iOS开发与Swift</a></li>
+</ul>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Yuxiao Wang</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">32</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">10</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">34</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#iOS-开发"><span class="nav-number">2.</span> <span class="nav-text">iOS 开发</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Swift-语言"><span class="nav-number">2.1.</span> <span class="nav-text">Swift 语言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-APP-上架"><span class="nav-number">2.2.</span> <span class="nav-text">iOS APP 上架</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Info-It-通过分享快速搜索电影，书籍信息"><span class="nav-number">2.2.1.</span> <span class="nav-text">Info It - 通过分享快速搜索电影，书籍信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Coffee-It-Track-Caffeine-in-Simplest-Way"><span class="nav-number">2.2.2.</span> <span class="nav-text">Coffee It - Track Caffeine in Simplest Way</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#iOS-开发资讯分享"><span class="nav-number">2.3.</span> <span class="nav-text">iOS 开发资讯分享</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuxiao Wang</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.0.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/schemes/muse.js?v=7.0.1"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="终于解决了这学期的所有课程！ 于是开始自己的奋战 Swift 之路。 目标是暑假结束时上架一款属于自己的 APP！">
+<meta name="keywords" content="language,learning,swift3.0">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Swift 学习日记 - 1">
+<meta property="og:url" content="http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/index.html">
+<meta property="og:site_name" content="LifeAnalysis Lab &amp; Yuxiao">
+<meta property="og:description" content="终于解决了这学期的所有课程！ 于是开始自己的奋战 Swift 之路。 目标是暑假结束时上架一款属于自己的 APP！">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://i.imgur.com/NIQADQf.jpg">
+<meta property="og:image" content="http://i.imgur.com/fAvnR3Y.png">
+<meta property="og:image" content="http://i.imgur.com/U8293Hv.png">
+<meta property="og:image" content="http://i.imgur.com/lHDrs92.png">
+<meta property="og:image" content="http://i.imgur.com/4cyiHlP.png">
+<meta property="og:updated_time" content="2016-05-25T10:54:29.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Swift 学习日记 - 1">
+<meta name="twitter:description" content="终于解决了这学期的所有课程！ 于是开始自己的奋战 Swift 之路。 目标是暑假结束时上架一款属于自己的 APP！">
+<meta name="twitter:image" content="http://i.imgur.com/NIQADQf.jpg">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="LifeAnalysis Lab & Yuxiao" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Swift 学习日记 - 1 | LifeAnalysis Lab & Yuxiao</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">LifeAnalysis Lab & Yuxiao</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">\@o1xhack</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yuxiao Wang">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LifeAnalysis Lab & Yuxiao">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Swift 学习日记 - 1
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2016-05-25 03:55:29 / Modified: 03:54:29" itemprop="dateCreated datePublished" datetime="2016-05-25T03:55:29-07:00">2016-05-25</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Swift-Learning（Swift-语言学习）/" itemprop="url" rel="index"><span itemprop="name">Swift Learning（Swift 语言学习）</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>终于解决了这学期的所有课程！</p>
+<p>于是开始自己的奋战 Swift 之路。 目标是暑假结束时上架一款属于自己的 APP！</p>
+<a id="more"></a>
+<p><strong>点击进入 → <a href="http://o1xhack.com/2016/05/21/swift-learning/swift-learning-outline-source/">Swift 学习日志 - 目录/相关资料</a></strong></p>
+<h2 id="使用书籍"><a href="#使用书籍" class="headerlink" title="使用书籍"></a>使用书籍</h2><p>「SWIFT基础教程」 亚马逊 Kindle 版，1st Edi<br>「SWIFT for Beginners」英文版，2nd Edi</p>
+<hr>
+<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>由于实在不想直接从英文版读物入手，毕竟入门我还是很担心英文版会太慢。 但是买的时候 第二修订版 还没有出中文版，于是买了第一修订版，based on Swift 1，大家也知道 Swift 2 更改了不少东西，还好 xCode 非常的贴近人心，有地方更改基本都会指明，只有少部分的大更改需要自行解决，但这也给予了非常好的一点：<strong>你可以更加钻研进去</strong>，看书只能是辅助，看的 code 越多越来越发觉如果只是照着书上给你的例子来码代码，根本无济于事，你不理解为什么，你不理解以后怎么用。</p>
+<p>记得看到一篇大神文章说，现在很多人，学代码，只知道跟着步骤走，我除了一个非常简单的题目，无所谓你用什么语言，只要能将整个流程写出来，验证出来，就说明你懂得是程序猿的思考逻辑，而不是一串串可以 Google 的代码。</p>
+<ul>
+<li>在第 9 章写一个 iOS 程序时，有较大的问题，基于 code 本身就要复杂与书中讲解，UIAlertView 在 iOS9 中被启用，而新的 UIAlertController 需要自行 google 钻研一下，如有问题可以问我！</li>
+</ul>
+<hr>
+<h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><p>学过 Python 和 Java 的部分，对于部分语法也是有很大的熟悉度，尤其是 Iterator 和 Recursive 非常有印象- -（Java 中不少 code 都在写这俩），所以语法不算难事，只要跟着整本书过一遍，基本没什么问题。<br>建议在过的期间可以自己多写几个相关的 method，吃的透彻一点，否则等到后面看一堆又傻眼还得回去重新温习。</p>
+<hr>
+<h2 id="难点？"><a href="#难点？" class="headerlink" title="难点？"></a>难点？</h2><p>第 8 章之前中。</p>
+<ul>
+<li>闭包，这个在后面的运用对我来讲颇为复杂。</li>
+<li>类的继承，这一部分的理论和概念要清晰，明白继承的作用，书中详细说明了为什么用继承，和什么时候用继承，建议记下来，可以温习</li>
+<li>协议和扩展，之后的很多 code 中都直接使用了 Swift 中一些自带的协议，如果不吃透，在后面的解释中可能直接懵逼！</li>
+<li>扩展中使用闭包，再一次！</li>
+</ul>
+<p>总的来说，前面那些简单的语法之后，都挺重要的hhh<br>多吃透！ 一定要按照书中所解释的去想！去尝试书中没有的 code！</p>
+<p><strong> 如果遇到不懂得，就按照整个 code 的逻辑，去想明白为什么可以达到这一步 </strong>，这是我在写 Java 各种程序时必备技能，先整理出来思路，在写，要比啥都不想就写要快得多！（个人己见~）</p>
+<hr>
+<h2 id="真正的编程"><a href="#真正的编程" class="headerlink" title="真正的编程"></a>真正的编程</h2><ul>
+<li><p>第 7 章 简单介绍了 xCode 的使用以及界面，过度~<br>然后变开始了第一个基于 Swift 的程序，一款 Mac 上计算利息的 silly 计算器 hh<br>这个只是个试手，非常的 EASY！<br>让你理解一下整个 xCode 的逻辑，Swift 文件是如何创立，什么时候新建一个比较好，以及 Cocoa 框架的运用~<br>这部分对于第 9 章中开始用开发 iOS 的软件有非常好的上手作用！</p>
+</li>
+<li><p>第 8 章 省略！ 也就是增强了一下这个 silly 的计算机可以算复利，啥，你不懂啥叫复利？ - 0 0</p>
+</li>
+</ul>
+<h3 id="第-9-章-开发-iOS-程序"><a href="#第-9-章-开发-iOS-程序" class="headerlink" title="第 9 章 开发 iOS 程序"></a>第 9 章 开发 iOS 程序</h3><p>因为触屏，自然变成了 Cocoa Touch 框架，而其他的逻辑都和 Mac 无差<br>这章中，在建立完四个颜色方块之后，就是一堆的代码，如果你看的是 1st 版本，估计会有不少问题，不过不要在意。<br>先将那一堆你也许很多都看不懂的 code 全部一股脑放进去，在码的期间，也尝试用之前学到的看看能识别出来几个，哪里用到了扩展？闭包呢？这个 method 的逻辑是什么？能做到什么？为什么能做到？在每个 method 时问自己这些问题十分有帮助！<br>虽然很多的细节我都看不懂，可是我能吃透整个 method 达到什么效果，为什么要写这个 method，写完这几个后还差什么功能需要实现。</p>
+<ul>
+<li><p>写完这些后，就到了纠错时间。<br>善用 StackOverflow，里面的问题十分有帮助，必要的可以收藏一下。<br>这里对<br>英文要求挺大~<br>因为 一定不会有一模一样 code 的问题，但是肯定会有一样的 error，而这些 error 都附带着提问者的 code，好了，学习时间到了！遇到了压根看不懂的，跳过咯，先找那些你一眼就看到比较熟悉的，然后分析他的 code 逻辑是什么，想达到什么效果，再结合下面回答者给的如何修复 code 的问题，去理解这个 error 的问题是什么，然后举一反三啦啦啦！</p>
+</li>
+<li><p>不要气馁。<br>由于第一版，由于 StackOverflow 中有十分多的 code 情况都很不一样并且不是那么容易搞定，也许你看了好几个也解决不了，没关系，不要气馁，要知道没有解决不了的 error，只有不耐心的 programmer。 通过尝试各种方式的改变，最终你一定能成功。</p>
+</li>
+<li><p>推荐一个<br>在找问题中，遇到的一个 Youtube 小孩录得视频，各种 error 的解决方法，着实涨了很多见识，真是年少有为！地址：<a href="https://www.youtube.com/user/JeffreyApp" target="_blank" rel="noopener">Jeferry App</a></p>
+</li>
+<li><p>第 9 章 成果图</p>
+</li>
+</ul>
+<p><img src="http://i.imgur.com/NIQADQf.jpg" alt></p>
+<p>着实很丑- -<br>其实就是四个灯，你跟随者点，25轮后你就胜利了，点错了会提示你点错了，然后你再尝试就好了- -<br>简直愚蠢的不行，你写完后玩的时候就知道有多愚蠢了- -</p>
+<hr>
+<h2 id="改进"><a href="#改进" class="headerlink" title="改进"></a>改进</h2><p>基于我遇到的那些 silly 问题，我进行了改进这个愚蠢的游戏。</p>
+<ul>
+<li>主界面增加了文字说明</li>
+<li>增加了开始按钮（本来打开就会开始，你都看不到第一个亮的是啥）</li>
+<li>将初始难度降到最低，1轮就胜利（有按钮可以增加难度，并且会问你选择增加，还是不增加）</li>
+<li>胜利后开启新的游戏</li>
+<li>失败后可选择从重新开始，开始继续尝试（原本只能重新尝试）<br>改进后效果如图：</li>
+</ul>
+<p><img src="http://i.imgur.com/fAvnR3Y.png" alt><br><img src="http://i.imgur.com/U8293Hv.png" alt><br><img src="http://i.imgur.com/lHDrs92.png" alt><br><img src="http://i.imgur.com/4cyiHlP.png" alt></p>
+<ul>
+<li>也许<br>你会觉得感觉这些增加的功能好好好好好简单啊！<br>对，就是很简单。<br>但是- -<br>你写了就知道啦！<br>通过自己的想要达到的想法，去增加新功能，可以很有效的熟悉整个代码以及各种前面提到的难点。</li>
+</ul>
+<hr>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>至此，我已经完成了一个 Silly 但还不至于是愚蠢的 iOS APP<br>未来，我会将更多学到和练习到的新功能增加到这个被我称为「FollowLight」的小游戏里<br>当然，仅当这些功能可以加入，并且适合加入！</p>
+<ul>
+<li>还有个第 10 章<br>我们下回再谈咯！</li>
+</ul>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/language/" rel="tag"># language</a>
+          
+            <a href="/tags/learning/" rel="tag"># learning</a>
+          
+            <a href="/tags/swift3-0/" rel="tag"># swift3.0</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/05/21/swift-learning/swift-learning-outline-source/" rel="next" title="Swift 学习日记 - 目录/相关资料">
+                <i class="fa fa-chevron-left"></i> Swift 学习日记 - 目录/相关资料
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/" rel="prev" title="Swift 学习日记 - 2（UIAlertController）">
+                Swift 学习日记 - 2（UIAlertController） <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Yuxiao Wang</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">32</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">10</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">34</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#使用书籍"><span class="nav-number">1.</span> <span class="nav-text">使用书籍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开始"><span class="nav-number">2.</span> <span class="nav-text">开始</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#语法"><span class="nav-number">3.</span> <span class="nav-text">语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#难点？"><span class="nav-number">4.</span> <span class="nav-text">难点？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#真正的编程"><span class="nav-number">5.</span> <span class="nav-text">真正的编程</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第-9-章-开发-iOS-程序"><span class="nav-number">5.1.</span> <span class="nav-text">第 9 章 开发 iOS 程序</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#改进"><span class="nav-number">6.</span> <span class="nav-text">改进</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#最后"><span class="nav-number">7.</span> <span class="nav-text">最后</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuxiao Wang</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.0.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/schemes/muse.js?v=7.0.1"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

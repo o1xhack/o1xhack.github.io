@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="前言 开发者：开发这个世界.   2016年6月16日，Apple Developer Program（Apple 开发人员计划）正式开启。 就在昨天，2017年5月16日，收到了来自苹果的邮件，告知我还有 30 天资格到期，提醒我续费，一时间不禁有点感叹时间的流逝，也萌生了写一篇这一年的开发精力的文章，留一份备案，也给自己的下一年做一个提醒。 回顾了一下自己在学业之余开发软件经历的事情，感受的">
+<meta name="keywords" content="swift,iOSDev,iOS APP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事">
+<meta property="og:url" content="http://o1xhack.com/2017/05/17/appledev2016/index.html">
+<meta property="og:site_name" content="LifeAnalysis Lab &amp; Yuxiao">
+<meta property="og:description" content="前言 开发者：开发这个世界.   2016年6月16日，Apple Developer Program（Apple 开发人员计划）正式开启。 就在昨天，2017年5月16日，收到了来自苹果的邮件，告知我还有 30 天资格到期，提醒我续费，一时间不禁有点感叹时间的流逝，也萌生了写一篇这一年的开发精力的文章，留一份备案，也给自己的下一年做一个提醒。 回顾了一下自己在学业之余开发软件经历的事情，感受的">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://i.imgur.com/Zoe4p4U.jpg">
+<meta property="og:image" content="http://i.imgur.com/b7x2cBu.png">
+<meta property="og:image" content="http://i.imgur.com/c2WkK6H.png">
+<meta property="og:image" content="http://i.imgur.com/LoGapQk.jpg">
+<meta property="og:image" content="http://i.imgur.com/W1DYkR8.png">
+<meta property="og:image" content="http://i.imgur.com/OuSHY6O.png">
+<meta property="og:image" content="http://i.imgur.com/wkfdY9c.png">
+<meta property="og:image" content="http://i.imgur.com/gW6hoTv.png">
+<meta property="og:image" content="http://i.imgur.com/th22iLt.jpg">
+<meta property="og:image" content="http://i.imgur.com/t8QppCW.png">
+<meta property="og:image" content="http://i.imgur.com/bIofmzx.png">
+<meta property="og:image" content="http://i.imgur.com/BtBpX10.png">
+<meta property="og:image" content="http://i.imgur.com/VXL301u.png">
+<meta property="og:image" content="http://i.imgur.com/URk1Ian.png">
+<meta property="og:image" content="http://i.imgur.com/5LvxyPH.png">
+<meta property="og:image" content="http://i.imgur.com/b1gRmZt.png">
+<meta property="og:image" content="https://i.imgur.com/IXPshA9.png">
+<meta property="og:image" content="http://i.imgur.com/38woi9I.png">
+<meta property="og:image" content="http://i.imgur.com/O6heCPQ.jpg">
+<meta property="og:image" content="http://i.imgur.com/GOPTwHi.png">
+<meta property="og:image" content="http://i.imgur.com/TWylO0e.png">
+<meta property="og:updated_time" content="2018-03-02T00:25:23.271Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事">
+<meta name="twitter:description" content="前言 开发者：开发这个世界.   2016年6月16日，Apple Developer Program（Apple 开发人员计划）正式开启。 就在昨天，2017年5月16日，收到了来自苹果的邮件，告知我还有 30 天资格到期，提醒我续费，一时间不禁有点感叹时间的流逝，也萌生了写一篇这一年的开发精力的文章，留一份备案，也给自己的下一年做一个提醒。 回顾了一下自己在学业之余开发软件经历的事情，感受的">
+<meta name="twitter:image" content="http://i.imgur.com/Zoe4p4U.jpg">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="LifeAnalysis Lab & Yuxiao" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://o1xhack.com/2017/05/17/appledev2016/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事 | LifeAnalysis Lab & Yuxiao</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">LifeAnalysis Lab & Yuxiao</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">\@o1xhack</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://o1xhack.com/2017/05/17/appledev2016/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yuxiao Wang">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LifeAnalysis Lab & Yuxiao">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Apple 开发人员计划的一年，一个再普通不过的学生的一年开发故事
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2017-05-17 22:28:00" itemprop="dateCreated datePublished" datetime="2017-05-17T22:28:00-07:00">2017-05-17</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-03-01 16:25:23" itemprop="dateModified" datetime="2018-03-01T16:25:23-08:00">2018-03-01</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/iOS-Develop（iOS-开发）/" itemprop="url" rel="index"><span itemprop="name">iOS Develop（iOS 开发）</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="http://i.imgur.com/Zoe4p4U.jpg" alt></p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote class="blockquote-center"> <a href="http://o1xhack.com/dev/">开发者</a>：开发这个世界. </blockquote>
+
+<p><strong>2016年6月16日，Apple Developer Program（Apple 开发人员计划）正式开启。</strong></p>
+<p>就在昨天，2017年5月16日，收到了来自苹果的邮件，告知我还有 30 天资格到期，提醒我续费，一时间不禁有点感叹时间的流逝，也萌生了写一篇这一年的开发精力的文章，留一份备案，也给自己的下一年做一个提醒。</p>
+<p>回顾了一下自己在学业之余开发软件经历的事情，感受的事情，以及一点一滴的成长吧。</p>
+<a id="more"></a>
+<hr>
+<h1 id="量化-总结"><a href="#量化-总结" class="headerlink" title="量化/总结"></a>量化/总结</h1><h2 id="这一年里"><a href="#这一年里" class="headerlink" title="这一年里"></a>这一年里</h2><p>我自学开发，自学 Swift 语言，实际上是从 16 年 9 月正式开始搞开发，10 个月的时间里，App Store 开发者 Yuxiao Wang 旗下上架了四款 APPs。但实际上拿的出手的只有后面两款软件，具体原因下面会说到。</p>
+<p><img src="http://i.imgur.com/b7x2cBu.png" alt></p>
+<h2 id="比肩许多个人开发者"><a href="#比肩许多个人开发者" class="headerlink" title="比肩许多个人开发者"></a>比肩许多个人开发者</h2><p>觉得自己其实很差，看到别人开发的软件总是不自觉的赞叹好，看看自己的，叹叹气哈哈。但在开发的过程中，一次次的被自己激励，被使用的人激励，总想做出点什么，做的几款软件都很小众，但都是自己的需求，也是希望能在开发的路上慢慢向上爬，毕竟珠穆拉玛峰不是一步便到的。</p>
+<p>在这一年里，开发人员计划是 $99 美金，每一款软件都是免费的，甚至都没有时间研究内购请喝咖啡，因为学业的确繁忙，全是专业课，每次写软件时都是找到一个功能需要加入或者找到一个 Bug 想要修复。所以一年下来，App Store 里的销售是 0 元，连开发人员计划的钱都木有赚回来嘿嘿，希望下一年可以把这个 99 美金赚回来！</p>
+<p><img src="http://i.imgur.com/c2WkK6H.png" alt></p>
+<h2 id="一共四个软件"><a href="#一共四个软件" class="headerlink" title="一共四个软件"></a>一共四个软件</h2><blockquote>
+<p><strong>上架时间分别是 2016年9月28日，2016年10月24日，2017年1月8日，2017年3月30日。</strong></p>
+</blockquote>
+<p>时间其实差的还挺大的，但是总的来说从 2016年9月中旬的开发到 2017年3月30日，一共半年，4 个软件我还是颇为觉得满意的，并且没有放弃哪怕一个（Liquor It 会在后面解释）。</p>
+<p><img src="http://i.imgur.com/LoGapQk.jpg" alt></p>
+<h2 id="9-个-App-Store-版本更新"><a href="#9-个-App-Store-版本更新" class="headerlink" title="9 个 App Store 版本更新"></a>9 个 App Store 版本更新</h2><p>App Store 里总共有 9 个小版本更新，主要是 Info It 和 Coffee It，但是在 iTunes Connect 里，有更多的上传版本，而在 Xcode 上，更有许多没有上传的版本。</p>
+<h3 id="Info-It-有-11-个上传版本，总共-20-个小版本（build）"><a href="#Info-It-有-11-个上传版本，总共-20-个小版本（build）" class="headerlink" title="Info It 有 11 个上传版本，总共 20 个小版本（build）"></a>Info It 有 11 个上传版本，总共 20 个小版本（build）</h3><p><img src="http://i.imgur.com/W1DYkR8.png" alt></p>
+<h3 id="Coffee-It-有-15-个上传版本，总共-19-个小版本（build）"><a href="#Coffee-It-有-15-个上传版本，总共-19-个小版本（build）" class="headerlink" title="Coffee It 有 15 个上传版本，总共 19 个小版本（build）"></a>Coffee It 有 15 个上传版本，总共 19 个小版本（build）</h3><p><img src="http://i.imgur.com/OuSHY6O.png" alt></p>
+<h2 id="25-的时间"><a href="#25-的时间" class="headerlink" title="25% 的时间"></a>25% 的时间</h2><p>通过 timetrack 的不完全统计，学习和编程一起，编程占据了我生活中的 25% 的时间，其中包括学习开发，设计等。<br>在 2016 年下学期，四门 cs 专业课的情况下，我已经很知足了，有时候学业繁重很累，但是 iOS 开发总能带给我快乐，记得无数次熬夜和通宵的研究，累但很快乐，很满足。</p>
+<p><img src="http://i.imgur.com/wkfdY9c.png" alt></p>
+<hr>
+<h1 id="万事开头难"><a href="#万事开头难" class="headerlink" title="万事开头难"></a>万事开头难</h1><p>作为一个自知执行力不够强，容易拖延的人，在美国这个没人管束肆意妄为的地方，要下定决心学一个新东西还真不容易。</p>
+<p>但我好歹还是做到了，从 16 年 7 月开始陆陆续续的学习 iOS 开发，Swift 语言，觉得学的异常平淡，最后发现还是实践才能得出真理，正值 iMessage Sticker 发布，看了一下看法流程，真是异常的简单，根本都不用编程，于是就做出了一款表情包并且上架。说实在的，iTunes Connect 上架等流程第一次弄真的有点懵逼，<strong>所以说，把一件事情拆成两个事情来分别做还是有好处的。</strong></p>
+<p>从这个表情包开始，我无需担心和 iTunes Connect 一切相关的事宜，专心致志写代码就好。</p>
+<blockquote>
+<p>在这之间还有两款表情包因为需要获得授权，而被拒绝因此没有办法上架~</p>
+</blockquote>
+<p><img src="http://i.imgur.com/gW6hoTv.png" alt></p>
+<hr>
+<h1 id="一个契机？"><a href="#一个契机？" class="headerlink" title="一个契机？"></a>一个契机？</h1><p>刚开始的时候我也不知道想做什么，准确的讲想做的十分多，一个个都是大项目，各种好的功能，完美的 UI/UX，但一打开 Xcode 发现无从下手，果然，<strong>还是得从最基础的做起</strong>，于是先是开发了 Liquor It，让我了解了很多基本的开发元素，开发要领，等等，也仅仅是作为练手项目而上架。</p>
+<blockquote>
+<p>就在今天，收到了一份 Info It 的评论，首先给了个五星，并且表示 Liquor It 对于他来讲也很有用，希望可以继续开发，不得不说还是小小惊喜了一下，并且回复了这个评论人，只要是我力所能及的一定去开发下去！</p>
+</blockquote>
+<p><img src="http://i.imgur.com/th22iLt.jpg" alt></p>
+<p>在 Liquor It 上架后（一开始不叫这个名字，叫 xLiquor），想过做一个类似于 Today，Streaks 这种习惯养成的软件，或者读书记录整理收藏软件，或者一个可以包含国内韩国这种电视剧的追踪软件，但一个个都是大项目，<strong>不得不说当你定的目标太高的时候，是很难一下子跳上去的</strong>，而那时候正好是 Price Tag 发布不久，再加上自己平时对于电影、图书查询的需求，以及糟糕的体验，萌生了开发一款类似于 Price Tag 的模式的插件（类似 Pin），可以让用户在看微信文章，微博文章，微博，任何文章的时候选中出现的电影名字，分享，直接查询对应的豆瓣电影，以及豆瓣书数据，并且可以和美国著名的 IMDb、烂番茄结合，因此 Info It 诞生了。</p>
+<h2 id="说干就干"><a href="#说干就干" class="headerlink" title="说干就干"></a>说干就干</h2><p>那是 16 年的 11 月，即将到来的是感恩节的假期，记得很清楚，2016年11月23日到11月27日，而在11月21日周一有一门 midterm 考试，但我相信很多人都有这种感觉的，<strong>一直没有头目的事情突然有了清晰的目的，你会想要放弃手头的一切，抓紧将这个想法尽快实现，然后独自给自己倒上一杯威士忌，庆祝一番。</strong></p>
+<p>于是我在周一 21 日有一门考试的情况下，从周五 18 号开始到 20 号一共用了将近 15 个小时（包含 21 考完试后的一个小时设计）将 Info It 的基本框架的软件写完，在这期间，不懂就查，不会就看文章，结合官方的文档，一步步研究，一开始先用最简单的 Webview，然后慢慢想办法用 Safari View Controller 代替，不得不说付出没有白搭，Info It 的开始总算没有半途而废，这期间遇到了很多复杂的问题，都一一被解决。</p>
+<p><img src="http://i.imgur.com/t8QppCW.png" alt></p>
+<hr>
+<h1 id="谁不累？"><a href="#谁不累？" class="headerlink" title="谁不累？"></a>谁不累？</h1><p>就在一边写 Info It 一边准备考试的那几天，突然觉得想出去散散心，呆的又的压抑，于是去了之前就一只想去的 KAWS 在德州达拉斯的展览，说走就走，分分钟买了机票定了酒店，还是在不经意间告诉我姐然后被我妈妈知道，批了一顿，说我不提前报备，一个人去太危险 balabala，当然被我想尽办法搪塞过去了哈！</p>
+<p>不得不说，适当的休息和娱乐还是对于身心放松很有好处的。</p>
+<p><img src="http://i.imgur.com/bIofmzx.png" alt></p>
+<h2 id="难忘的感恩节"><a href="#难忘的感恩节" class="headerlink" title="难忘的感恩节"></a>难忘的感恩节</h2><p>这可以说是最难忘的一个感恩节了把。22 号飞过去，24 号飞回来，从 20 号到 28 号，一共上传了 7 个测试版本，部分是给自己测试，部分是发放成 TestFlight 测试。</p>
+<p><img src="http://i.imgur.com/BtBpX10.png" alt></p>
+<p>这几天因为飞来飞去，在加上休息了一些时间，还看了展览，吃了好吃的牛排，看了电影，所以前几天没有每天花很久时间。</p>
+<p>据不完全统计下，从 22 号到 28 号一共用了 20 小时在写 Info It 上。</p>
+<p><img src="http://i.imgur.com/VXL301u.png" alt></p>
+<p>22 号在飞机上完成了 APP 设置的界面和细节，第一次体验了在飞机上写代码的体验还是挺糟糕的哈哈。</p>
+<p>23，24，25 在达拉斯除了看展览休息意外，每天花了将近三个小时，在宾馆，或者在星巴克完成对 Info It 的小版本迭代，修复，更新，功能增加和改进，如果我截图没有删除，应该是放了 4 个 TestFlight 的测试版本，在微博上经过几轮转发，总共有差不多 200 多人参与了测试，当然有很多只是报了名，没怎么用过，但自己也是很知足了。</p>
+<p>现在还记得，在 24 号感恩节的当天，达拉斯这种小地方饭店全部关门，就星巴克开着，于是去星巴克随便吃了点打发午饭，开始写 APP，然后猛然间看到飞机时间要快到了得去机场了，于是叫了一辆车，但那时候正在尝试 Info It 的网页浏览嵌入 svc，专心致志，上车后继续写代码，于是又解锁了在 uber 上写程序的成就，并且在到达机场之前上传到了 iTunes Connect，也是松了一口气。</p>
+<p><strong>不得不说，谁不累？妄想着每天享受生活依旧写出来好的 APP 当然是不现实的。</strong></p>
+<p><img src="http://i.imgur.com/URk1Ian.png" alt></p>
+<h2 id="感恩节，感恩。"><a href="#感恩节，感恩。" class="headerlink" title="感恩节，感恩。"></a>感恩节，感恩。</h2><p>在感恩节期间，遇到了 Info It 里面碰到的一个十分棘手的问题。</p>
+<p>Safari View Controller 在嵌入进去后，和一个个按钮并存的情况下，不论怎么办，打开都是空白一片。一下子懵了，要知道 Safari 在 Info It 中的作用可是很重要的，有了 Safari 的嵌入可以记住登录状态，会变得更方便。</p>
+<p>在研究了许久，各种查找问题，甚至重启电脑，重装 Xcode，写一个新的程序测试，缺仍旧解决不了任何问题。在这期间，和 Pin，小历，TodayMind 的开发者 @钟颖 交流许久，他甚至还专门写了测试的程序让我运行看到底是什么问题。</p>
+<p><strong>毫不夸张的说，感恩节遇到了值得感恩的事情，这是一件十分幸福的巧合，让我在行走的路上有了更多的动力。</strong></p>
+<p><img src="http://i.imgur.com/5LvxyPH.png" alt></p>
+<p>从 27 号晚上 11 点左右一直到 28 号凌晨 5 点，和钟颖探讨了关于这个问题，并且在他的帮助通过不同的方式测试了是否可行以及什么问题，然而不论怎么办都没有解决，而这个问题十分奇怪，不仅没有在网上查到任何相关的，在 Pin 上使用是完全可以，甚至我的手机上也可以，并且在钟颖发给我的测试程序中，他那里是完全可以打开的，我这里就完全不可以，一样的 Xcode 版本，一样的程序，虽然在交流了六个多小时之久后仍然没有解决，<strong>但在这烦躁的时间段内，有一个乐于帮助我的人，让我在深夜里感受到了温暖，而本有的烦恼、焦躁也一一消失。</strong></p>
+<p>这也是第一次因为 Info It 完全通宵，在交流完后，我继续自己的探索，通过不断的尝试近三个小时，一直到早上 8 点，依然没有解决这个问题，也让 Info It 的一个大特性不得不推后延迟，最终因为实在疲乏躺在床上睡着了。</p>
+<h2 id="弱者死于路中"><a href="#弱者死于路中" class="headerlink" title="弱者死于路中"></a>弱者死于路中</h2><pre><code>-- 来自清华大学副校长杨斌教授给《鞋狗》的推荐序
+</code></pre><p>如果你也有这样的经历，那也许你也会有这样的感受，你在做一件事情，这件事情怎么都做不成，你没有做错，你的方法也没有错，甚至这很有可能只是因为 Xcode 的 Bug，这件事情不做成有影响，但还不至于大到让整个项目结束。这就是我遇到的困境。我完全不懂为什么，我完全不知道该怎么办，为了研究这个，我重新读了 APPLE 给出的通过 Xcode 找 View 层级的问题，尝试了一下，但依旧没有结果。</p>
+<p><strong>但是，谁想当弱者？</strong></p>
+<p>于是，在 29 号我洗了个澡，吃了顿火锅，好好的休息了一天整理思绪，30，31 号用 6 个小时总算找到了解决的方式。</p>
+<p>我一步步的复现最终想要做成的效果，一步步逆推，看是哪一步导致了打开页面会空白，在尝试了许多次之后，总算发现了玄机，至于是我电脑的问题还是 Xcode 的 Bug，真的不敢说，但至少不是我写的代码问题。具体的问题就不在这里 bb 了，反正是一个十分玄妙的 bug。</p>
+<p><strong><em>（短短的几行字无法描述这个疲累、焦躁、烦恼的过程，也无法描述解决之后的成功的喜悦、开心和满足。）</em></strong></p>
+<p>一拍脑门，靠，为什么我就没有在一开始就想到这种解决方法呢？</p>
+<p><strong>没关系，至少我以后知道了。果然，日积月累是一定有用的。</strong></p>
+<hr>
+<h1 id="期待和满足"><a href="#期待和满足" class="headerlink" title="期待和满足"></a>期待和满足</h1><p>每件事情都有一个最期待的时刻，写程序的那个时刻就是上线 App Store。</p>
+<p>只能靠自己粉丝为数不多的微博发送消息上限，也并没有预期多高，也没有进行所谓的大范围推广等，但还是很开心的，小确幸把。</p>
+<p>每件事情也都有能然你满足的反应，写程序的满足应该就是看到 App Store 上面的五星评论和真心的觉得好用吧~</p>
+<p><em>到北京时间 2017年5月17日早上6点 为止，Info It 一共收到 14 份评论</em>，的确不多，但每一份都是真正的使用者。对比下载量的话这个占比连 1% 都没有。对比下载了后真的使用的占比来说，我并不知道。我也不知道通常来讲百分比多少属于好的软件，百分之多少又属于用户粘性高的软件，<strong>但每一次发布新版本后焦急的刷新评价，看到一个评价后认真读，仔细看，盯着半天的那种感觉，真的很好。</strong></p>
+<p>有很多人，支持我，在看到 Info It 发布后，会专门下载下来支持，哪怕他们也许没有搜索电影这个需求，又或者是给身边有这个需求的人分享，每次刷到这些，<strong>很感动也感觉很幸福</strong>。</p>
+<p><img src="http://i.imgur.com/b1gRmZt.png" alt></p>
+<hr>
+<h1 id="再次踏上征途"><a href="#再次踏上征途" class="headerlink" title="再次踏上征途"></a>再次踏上征途</h1><p>Info It 在新年前又完成了一个大的版本推送，选择中文名查询 IMDb，烂番茄时可以自动转换成英文原名，不算太大的功能，但是对我来讲依旧需要用时间去学习和编写，而且也的确让 Info It 变得更加方便和简单。</p>
+<p>在经历了使用各种咖啡软件记录每天的咖啡因摄入后，总算忍不了想要开发一款新的应用了，因此，Coffee It 就出生了。在衡量了自己的能力后，发现基础版本我是完全可以搞定的，于是从头开始学了 Realm 数据库的管理和使用，全面使用了 Realm Swift（学校里还没有上到 Database 相关的课程）。</p>
+<p>从 3月15日 开始，到 3月30日 App Store 上线第一个版本，总共经过了 10 个小版本的上传，都是为了给自己在真机上调试以防出问题，</p>
+<p><img src="https://i.imgur.com/IXPshA9.png" alt></p>
+<p>这一次，不管怎么样，没有遇到上次那样玄奥的 bug，而这开发之中的技术性问题我也就不给概述了。</p>
+<p>一样是趁着春假的多事之秋，将 Coffee It 进行了各个版本的更新，而不论考试还是写作业期间，都掺杂着开发的日子和时光。</p>
+<p><strong>由于 Coffee It 相比较于 Info It 而言，更加的小众，上线也没有经过推广，评论就不说了，少的可怜，</strong>但 Coffee It 也的确还没有达到我的预期，还在路上，现在虽然有了历史界面，有了收藏功能，但在我看来还不够快，而历史的数据的挖掘还没有深入，属于不大有用的情况，这也是我这篇文章不怎么谈及 Coffee It 历程的原因。</p>
+<p><img src="http://i.imgur.com/38woi9I.png" alt></p>
+<hr>
+<h1 id="设计，设计，设计-）-（"><a href="#设计，设计，设计-）-（" class="headerlink" title="设计，设计，设计 ）_（"></a>设计，设计，设计 ）_（</h1><p>好的设计总是能让人心情愉悦，必然的，这是连我都知道，都会作为抉择使用的一个条件。</p>
+<p>不得不说，我真的不是拖延也不是推脱，所有的开发 APP 的精力，都投入给了功能开发和稳定性上，而由于迫在眉急（已经到了）的暑假，实习更是让我想要加速 APP 功能的开发好有更多的竞争力。像我说的那样，<strong>我有自知之明，我会在未来的日子里通过碎片时间感受设计，慢慢培养自己的设计理念，也欢迎有相关的资讯可以推荐给我，</strong>下一年（2017年6月16开始，新的 APPLE Developer Program），希望自己能够让 Info It，Coffee It 的设计都上一个阶梯。</p>
+<p><img src="http://i.imgur.com/O6heCPQ.jpg" alt></p>
+<hr>
+<h1 id="最后？"><a href="#最后？" class="headerlink" title="最后？"></a>最后？</h1><p>不，这只是第一篇章，希望下一个篇章，能够更精彩。</p>
+<p>如果按照是否有 APP 上架 App Store 并被人使用这个指标来衡量一个人是不是 iOS 开发者，那我应该算是一个。</p>
+<p>但如果按照开发能力，设计和交互，等综合能力来判定，我只能算是一个<strong>小白</strong>。</p>
+<blockquote>
+<p>这永远不是一篇技术文章，也不会是你的救星和鸡汤文，套用偶像 Elon Musk 的一句话 “我想要很清楚的说明，我不是任何人的拯救者。”，连 Musk 都有这种自知之明，更何况我们呢？</p>
+</blockquote>
+<p><img src="http://i.imgur.com/GOPTwHi.png" alt></p>
+<p><strong>谨以这篇文章，献给我 2016年6月到2017年5月的日子，也给自己来年一个警示和警钟，同时，告诉所有人：</strong></p>
+<blockquote class="blockquote-center"> 努力思考未来，并且不抱着悲观的心态。 </blockquote>
+
+<p><img src="http://i.imgur.com/TWylO0e.png" alt></p>
+<h2 id="相关材料-链接"><a href="#相关材料-链接" class="headerlink" title="相关材料/链接"></a>相关材料/链接</h2><p>这篇文章差不多花了 3 个多小时，一共 4000 个字有多，20 张图片。</p>
+<p>我的软件<br>Info It：<a href="https://appsto.re/cn/2XApgb.i" target="_blank" rel="noopener">下载</a>，<a href="http://o1xhack.com/2017/02/21/infoit/">文章介绍</a><br>Coffee It：<a href="https://appsto.re/cn/Qf3Eib.i" target="_blank" rel="noopener">下载</a></p>
+<p>用到的软件<br>图片编辑：LongScreen，Stitch It!，LightScreen<br>时间追踪记录：timetrack.io<br>版本上架记录：DayOne，iTunes Connect<br>写作：MWeb（Mac）<br>上传图床：iPic（Mac）</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/swift/" rel="tag"># swift</a>
+          
+            <a href="/tags/iOSDev/" rel="tag"># iOSDev</a>
+          
+            <a href="/tags/iOS-APP/" rel="tag"># iOS APP</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/04/29/tech/boserevolve/" rel="next" title="「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）">
+                <i class="fa fa-chevron-left"></i> 「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/06/16/tech/ipad-pro-10.5/" rel="prev" title="「iPad Pro 10.5 + 罗技 Slim Combo」上手测评及使用，以及对比「iPad Pro 9.7 + 苹果 Smart Keyboard/罗技 Create」">
+                「iPad Pro 10.5 + 罗技 Slim Combo」上手测评及使用，以及对比「iPad Pro 9.7 + 苹果 Smart Keyboard/罗技 Create」 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Yuxiao Wang</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">32</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">10</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">34</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#量化-总结"><span class="nav-number">2.</span> <span class="nav-text">量化/总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#这一年里"><span class="nav-number">2.1.</span> <span class="nav-text">这一年里</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#比肩许多个人开发者"><span class="nav-number">2.2.</span> <span class="nav-text">比肩许多个人开发者</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一共四个软件"><span class="nav-number">2.3.</span> <span class="nav-text">一共四个软件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-个-App-Store-版本更新"><span class="nav-number">2.4.</span> <span class="nav-text">9 个 App Store 版本更新</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Info-It-有-11-个上传版本，总共-20-个小版本（build）"><span class="nav-number">2.4.1.</span> <span class="nav-text">Info It 有 11 个上传版本，总共 20 个小版本（build）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Coffee-It-有-15-个上传版本，总共-19-个小版本（build）"><span class="nav-number">2.4.2.</span> <span class="nav-text">Coffee It 有 15 个上传版本，总共 19 个小版本（build）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#25-的时间"><span class="nav-number">2.5.</span> <span class="nav-text">25% 的时间</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#万事开头难"><span class="nav-number">3.</span> <span class="nav-text">万事开头难</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一个契机？"><span class="nav-number">4.</span> <span class="nav-text">一个契机？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#说干就干"><span class="nav-number">4.1.</span> <span class="nav-text">说干就干</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#谁不累？"><span class="nav-number">5.</span> <span class="nav-text">谁不累？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#难忘的感恩节"><span class="nav-number">5.1.</span> <span class="nav-text">难忘的感恩节</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#感恩节，感恩。"><span class="nav-number">5.2.</span> <span class="nav-text">感恩节，感恩。</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#弱者死于路中"><span class="nav-number">5.3.</span> <span class="nav-text">弱者死于路中</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#期待和满足"><span class="nav-number">6.</span> <span class="nav-text">期待和满足</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#再次踏上征途"><span class="nav-number">7.</span> <span class="nav-text">再次踏上征途</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#设计，设计，设计-）-（"><span class="nav-number">8.</span> <span class="nav-text">设计，设计，设计 ）_（</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#最后？"><span class="nav-number">9.</span> <span class="nav-text">最后？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#相关材料-链接"><span class="nav-number">9.1.</span> <span class="nav-text">相关材料/链接</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuxiao Wang</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.0.1</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/schemes/muse.js?v=7.0.1"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
