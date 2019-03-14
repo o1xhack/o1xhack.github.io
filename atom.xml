@@ -91,9 +91,9 @@
     
       <category term="recommend" scheme="http://o1xhack.com/tags/recommend/"/>
     
-      <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
-    
       <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
+    
+      <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
     
       <category term="watchos4" scheme="http://o1xhack.com/tags/watchos4/"/>
     
@@ -147,9 +147,9 @@
     
       <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
-      <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
-    
       <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
+    
+      <category term="applewatch" scheme="http://o1xhack.com/tags/applewatch/"/>
     
   </entry>
   
@@ -208,11 +208,11 @@
     
       <category term="hardware" scheme="http://o1xhack.com/tags/hardware/"/>
     
-      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
-    
       <category term="ipadpro" scheme="http://o1xhack.com/tags/ipadpro/"/>
     
       <category term="logetich" scheme="http://o1xhack.com/tags/logetich/"/>
+    
+      <category term="apple" scheme="http://o1xhack.com/tags/apple/"/>
     
   </entry>
   
