@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://o1xhack.com/2018/07/20/shortcuts/</loc>
-    <lastmod>2019-05-21</lastmod>
-  </url>  <url>
-    <loc>http://o1xhack.com/2018/03/10/infoit2/</loc>
-    <lastmod>2019-05-21</lastmod>
-  </url>  <url>
     <loc>http://o1xhack.com/2017/10/01/top/</loc>
     <lastmod>2019-05-21</lastmod>
   </url>  <url>
@@ -15,6 +9,12 @@
   </url>  <url>
     <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
     <lastmod>2019-03-14</lastmod>
+  </url>  <url>
+    <loc>http://o1xhack.com/2018/03/10/infoit2/</loc>
+    <lastmod>2019-03-10</lastmod>
+  </url>  <url>
+    <loc>http://o1xhack.com/2018/07/20/shortcuts/</loc>
+    <lastmod>2018-09-23</lastmod>
   </url>  <url>
     <loc>http://o1xhack.com/2016/08/11/kindle/kindle-export-evernote/</loc>
     <lastmod>2018-07-27</lastmod>
@@ -46,25 +46,25 @@
     <loc>http://o1xhack.com/2017/03/10/podcasts/</loc>
     <lastmod>2017-05-28</lastmod>
   </url>  <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     <lastmod>2017-02-25</lastmod>
   </url>  <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     <lastmod>2017-02-25</lastmod>
   </url>  <url>
     <loc>http://o1xhack.com/2016/03/08/ios/blogo/</loc>
     <lastmod>2017-02-25</lastmod>
   </url>  <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
-    <lastmod>2017-02-25</lastmod>
-  </url>  <url>
     <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
     <lastmod>2017-02-25</lastmod>
   </url>  <url>
-    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
-    <lastmod>2017-02-20</lastmod>
+    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
+    <lastmod>2017-02-25</lastmod>
   </url>  <url>
     <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <lastmod>2017-02-20</lastmod>
+  </url>  <url>
+    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
     <lastmod>2017-02-20</lastmod>
   </url>  <url>
     <loc>http://o1xhack.com/2017/02/19/iosdevswift/</loc>
@@ -82,16 +82,16 @@
     <loc>http://o1xhack.com/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/</loc>
     <lastmod>2016-07-22</lastmod>
   </url>  <url>
-    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
-    <lastmod>2016-05-25</lastmod>
-  </url>  <url>
     <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari/</loc>
     <lastmod>2016-05-25</lastmod>
   </url>  <url>
-    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
-    <lastmod>2016-02-25</lastmod>
+    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
+    <lastmod>2016-05-25</lastmod>
   </url>  <url>
     <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <lastmod>2016-02-25</lastmod>
+  </url>  <url>
+    <loc>http://o1xhack.com/2016/03/17/ios/jike/</loc>
     <lastmod>2016-02-25</lastmod>
   </url>  <url>
     <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
