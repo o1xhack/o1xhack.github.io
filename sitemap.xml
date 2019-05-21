@@ -2,20 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://o1xhack.com/2018/07/20/shortcuts/</loc>
-    
-    <lastmod>2019-05-21T02:56:42.024Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://o1xhack.com/2018/03/10/infoit2/</loc>
-    
-    <lastmod>2019-05-21T02:54:52.984Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://o1xhack.com/2017/10/01/top/</loc>
     
     <lastmod>2019-05-21T02:29:58.813Z</lastmod>
@@ -33,6 +19,20 @@
     <loc>http://o1xhack.com/2016/07/27/macos/mac-menubar-app/</loc>
     
     <lastmod>2019-03-14T03:23:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2018/03/10/infoit2/</loc>
+    
+    <lastmod>2019-03-10T19:00:00.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://o1xhack.com/2018/07/20/shortcuts/</loc>
+    
+    <lastmod>2018-09-23T02:24:00.000Z</lastmod>
     
   </url>
   
@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
+    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
     
     <lastmod>2017-02-25T02:14:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
     
     <lastmod>2017-02-25T02:14:00.000Z</lastmod>
     
@@ -198,14 +198,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
     
     <lastmod>2017-02-20T11:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
+    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
     
     <lastmod>2017-02-20T11:00:00.000Z</lastmod>
     
@@ -261,14 +261,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
+    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari/</loc>
     
     <lastmod>2016-05-25T10:54:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari/</loc>
+    <loc>http://o1xhack.com/2016/05/25/swift-learning/swift-learning-1/</loc>
     
     <lastmod>2016-05-25T10:54:29.000Z</lastmod>
     
