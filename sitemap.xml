@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://o1xhack.com/about/index.html</loc>
+    
+    <lastmod>2019-05-21T04:04:52.630Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://o1xhack.com/2017/10/01/top/</loc>
     
-    <lastmod>2019-05-21T03:15:36.503Z</lastmod>
+    <lastmod>2019-05-21T04:03:37.612Z</lastmod>
     
   </url>
   
@@ -135,13 +142,6 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/about/index.html</loc>
-    
-    <lastmod>2017-05-17T23:41:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://o1xhack.com/2017/03/20/coffeeit/</loc>
     
     <lastmod>2017-03-22T02:24:00.000Z</lastmod>
@@ -156,14 +156,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
+    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
     
     <lastmod>2017-02-25T08:20:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/09/ios/followers/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/castro/</loc>
     
     <lastmod>2017-02-25T08:20:00.000Z</lastmod>
     
@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
+    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
     
     <lastmod>2017-02-25T02:14:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/08/ios/publish-later/</loc>
+    <loc>http://o1xhack.com/2016/04/20/ios/television-time/</loc>
     
     <lastmod>2017-02-25T02:14:00.000Z</lastmod>
     
@@ -198,14 +198,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
+    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
     
     <lastmod>2017-02-20T11:00:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/03/12/ios/omnifocus/</loc>
+    <loc>http://o1xhack.com/2017/03/18/coffeeit-policy/</loc>
     
     <lastmod>2017-02-20T11:00:00.000Z</lastmod>
     
@@ -275,14 +275,14 @@
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
+    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
     
     <lastmod>2016-02-25T08:20:00.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://o1xhack.com/2017/04/29/tech/boserevolve/</loc>
+    <loc>http://o1xhack.com/2016/03/10/tech/google-hand-free-pay-mobile-payments-trans/</loc>
     
     <lastmod>2016-02-25T08:20:00.000Z</lastmod>
     
