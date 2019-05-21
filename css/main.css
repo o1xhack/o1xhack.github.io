@@ -1838,7 +1838,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7ee75d;
+  background: #d4d40d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2696,4 +2696,16 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.post-body a {
+  color: #428bca;
+  text-decoration: none;
+  border-bottom: 1px dashed #6465a5;
+  background-color: transparent;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.post-body a: hover {
+  color: #f15838;
+  border-bottom: 1px dashed #f28a31;
 }
