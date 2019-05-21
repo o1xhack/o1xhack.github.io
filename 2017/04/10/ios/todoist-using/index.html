@@ -1,0 +1,1650 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"always","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="转至：持续文章更新列表，建议收藏  开个坑开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～ 这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！  尝新者：尝试一切新鲜的事物">
+<meta name="keywords" content="ios,app,review">
+<meta property="og:type" content="article">
+<meta property="og:title" content="「iOS」Todoist 的一些用法和技巧（2017.05.28）">
+<meta property="og:url" content="http://o1xhack.com/2017/04/10/ios/todoist-using/index.html">
+<meta property="og:site_name" content="LifeAnalysis Lab &amp; Yuxiao">
+<meta property="og:description" content="转至：持续文章更新列表，建议收藏  开个坑开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～ 这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！  尝新者：尝试一切新鲜的事物">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://i.imgur.com/GdjhLRe.png">
+<meta property="og:image" content="https://ww3.sinaimg.cn/large/006tKfTcgy1fehgeu0wkhj30yk0yvqd5.jpg">
+<meta property="og:image" content="https://ww3.sinaimg.cn/large/006tKfTcgy1fehgpuopqaj30yk0yvaii.jpg">
+<meta property="og:image" content="https://i.imgur.com/bpmndHy.png">
+<meta property="og:updated_time" content="2017-05-28T20:00:00.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="「iOS」Todoist 的一些用法和技巧（2017.05.28）">
+<meta name="twitter:description" content="转至：持续文章更新列表，建议收藏  开个坑开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～ 这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！  尝新者：尝试一切新鲜的事物">
+<meta name="twitter:image" content="https://i.imgur.com/GdjhLRe.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="LifeAnalysis Lab & Yuxiao" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://o1xhack.com/2017/04/10/ios/todoist-using/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>「iOS」Todoist 的一些用法和技巧（2017.05.28） | LifeAnalysis Lab & Yuxiao</title>
+  
+
+
+
+
+
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?747baa206ad2f92571362b89be3e2e9f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">LifeAnalysis Lab & Yuxiao</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">\@o1xhack</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-dev">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/dev" rel="section"><i class="menu-item-icon fa fa-fw fa-apple"></i> <br>开发者</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-new">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/new" rel="section"><i class="menu-item-icon fa fa-fw fa-thumbs-up"></i> <br>尝新者</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-life">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/life" rel="section"><i class="menu-item-icon fa fa-fw fa-line-chart"></i> <br>生活者</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/categories" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-enblog">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/en" rel="section"><i class="menu-item-icon fa fa-fw fa-globe"></i> <br>English Blog</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://o1xhack.com/2017/04/10/ios/todoist-using/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yuxiao Wang">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/uploads/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LifeAnalysis Lab & Yuxiao">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">「iOS」Todoist 的一些用法和技巧（2017.05.28）
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-04-10 01:01:00" itemprop="dateCreated datePublished" datetime="2017-04-10T01:01:00-07:00">2017-04-10</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新</span>
+                
+                <time title="修改时间：2017-05-28 13:00:00" itemprop="dateModified" datetime="2017-05-28T13:00:00-07:00">2017-05-28</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/iOS/" itemprop="url" rel="index"><span itemprop="name">iOS</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/2017/04/10/ios/todoist-using/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/04/10/ios/todoist-using/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="https://i.imgur.com/GdjhLRe.png" alt="Screen Shot 2017-09-30 at 11.18.05 PM"></p>
+<div style="text-align:center"> 转至：<a href="http://o1xhack.com/2017/10/01/top/">持续文章更新列表，建议收藏</a><br></div>
+
+<h1 id="开个坑"><a href="#开个坑" class="headerlink" title="开个坑"></a>开个坑</h1><p>开个坑，填不填的上就不知道了！碰到了就加上去吧哈哈！请根据目录来，或者直接文中搜索直达哟～</p>
+<p>这篇文章是关于 Todoist iOS 客户端的使用以及技巧，没啥大不了，都是一些小功能，有一些不容易发现，也给大家一个可以找找的地方哈！</p>
+<blockquote class="blockquote-center"> <a href="http://o1xhack.com/new/">尝新者</a>：尝试一切新鲜的事物 </blockquote>
+
+<a id="more"></a>
+<h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p><strong>2017.05.28</strong></p>
+<ul>
+<li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/#Cortex-47-%E5%85%B3%E4%BA%8E-Todoist-%E6%83%B3%E6%B3%95%E7%9A%84%E6%8E%A2%E8%AE%A8">播客节目 Cortex 第 47 期，关于 Todoist 想法的探讨</a>（一些使用技巧探讨和思考~）</li>
+</ul>
+<p><strong>2017.05.26</strong></p>
+<ul>
+<li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/#%E8%AE%BE%E5%AE%9A%E9%BB%98%E8%AE%A4%E7%9A%84%E6%89%93%E5%BC%80%E9%A1%B5%E9%9D%A2">设定默认打开的界面</a>（可自定义规则）</li>
+</ul>
+<p><strong>2017.04.10</strong></p>
+<ul>
+<li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/#%E9%A1%B9%E7%9B%AE%E7%88%B6%E7%BA%A7%E5%AD%90%E7%BA%A7%E5%85%B3%E7%B3%BB">项目父级子级关系</a></li>
+<li><a href="http://o1xhack.com/2017/04/10/ios/todoist-using/#%E5%B7%B2%E5%AE%8C%E6%88%90%E7%9A%84%E5%AD%90%E4%BB%BB%E5%8A%A1%E5%A0%86%E7%A7%AF%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F">已完成的子任务堆积怎么办？</a></li>
+</ul>
+<hr>
+<h1 id="Cortex-47-关于-Todoist-想法的探讨"><a href="#Cortex-47-关于-Todoist-想法的探讨" class="headerlink" title="Cortex #47 关于 Todoist 想法的探讨"></a>Cortex #47 关于 Todoist 想法的探讨</h1><blockquote>
+<p>#47 播放于 2017年3月7日，关于 Todoist 讨论共 40 分钟左右</p>
+</blockquote>
+<p>Cortex 第 47 期，关于 Todoist 想法的探讨：<a href="http://pca.st/episode/55110b20-e55e-0134-ec12-4114446340cb?t=1974" target="_blank" rel="noopener">32:54 Myke’s Thoughts on Todoist</a>（pocket cast 时间戳分享，直接点击可以听取）</p>
+<p>本期的讨论 Myke 说了一些关于它自己对于 Todoist 的想法和思考，我摘取这最重要的一段分享一下，整期节目也十分推荐，如果你对博客感兴趣，欢迎去看我的文章 <a href="http://o1xhack.com/2017/03/10/podcasts/">播客推荐、信息介绍及单期节目推荐（21个）</a></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><blockquote>
+<p>由于是英文，所以进行一些大概点的总结，可以看完之后在听，对于英文能力略弱的应该有一定帮助，而英文能力可以的一样可以看一下有个印象。</p>
+</blockquote>
+<ol>
+<li>支持 Zapier/IFTTT，监控 Google 日历，为指定的事件增加对应的 Todoist 任务<ul>
+<li>Myke 举例当他的日历中有录播客节目的时候，就可以自动在 Todoist 里加入对应的任务 “加入 shownote”</li>
+<li>理由：简单</li>
+<li><strong>@o1xhack 注：</strong>Todoist 在新版本中增加了对 Google 日历原生的接入和支持哟~</li>
+</ul>
+</li>
+<li>Slack 接入<ul>
+<li>在 Slack 中直接打字增加任务，并且可以带截止日期，标签，项目等</li>
+<li>当有人在 Slack 里问 Myke 记得做什么的时候，十分快速连 Slack 都没必要离开</li>
+<li>在任何 channel 都可以，并不是要找到对应的 Slack 机器人，没有限制</li>
+</ul>
+</li>
+<li>Omnifocus？<ul>
+<li>嘲弄了一下 Omnifocus 不会加这种整合支持功能- -</li>
+<li>就算加也得老久了！</li>
+</ul>
+</li>
+<li>但 Omnifocus 的 forecast view 功能十分让 Myke 怀念<ul>
+<li>可以看到这一周的忙碌程度</li>
+<li>Todoist 没有这种类似的，虽然有未来七天，但是所有任务的列表</li>
+<li>举例，之前可以看到周一有7个任务，周二有5个任务，周三有3个任务，这样就可以很方便的决定把这个待定的任务放到周三去，但现在使用 Todoist 只能顺着列表一个个看下去，不够直观和快捷</li>
+</ul>
+</li>
+<li>Todoist 的重新安排功能很喜欢<ul>
+<li>通过机器学习的方法自动推荐过期的任务的新日期，十分棒！ </li>
+<li>主要是通过判别未来每天的任务数来把任务安排到最不忙碌的日子去</li>
+<li>Grey 也表示很喜欢这个功能！</li>
+</ul>
+</li>
+<li>Grey 不看 Omnifocus 的 forecast view！<ul>
+<li>Grey 表示 Myke 在说到 Omnifocus 时都会说到 forecast view 作为一个主要的点，但 Grey 自己却是从来不看 forecast，认为对他自己来讲是完全没用的：每一天有一个数字表示有多少任务对于他来讲没任何用，并不能对他做决定时候有效的帮助，因为任务之间是非常不同的，20个任务 vs 7个任务 vs 10个任务其实并没有任何实际的量化水准</li>
+<li>Myke 也认同，他通常是看大概的估计，并不会觉得任务数少就一定是不忙的</li>
+<li><strong>@o1xhack 注：</strong>再一次印证了我一直强调的话，效率软件一定要看你自己的需求，有人喜欢这种表现方式，有人喜欢另一种，要完全根据自己的需求选择猜对~</li>
+</ul>
+</li>
+<li>Todoist 有周报告，Myke 发现上周平均每天完成了 7 个任务<ul>
+<li>这在之前堆 Myke 来讲属于十分忙碌的感觉</li>
+<li>用 Todoist 的时候会加入更多的任务！而用 Omnifocus 的时候因为会看每天的任务总数，会按照数量来加</li>
+<li>所以让他自己感觉自己更加有效率了</li>
+</ul>
+</li>
+<li>讨论了更多关于数字的这件事儿！</li>
+<li>讨论了 Todoist 的软件，感觉不像 iOS</li>
+<li>讨论了 Omnifocus 的 Start Date（开始日期）<ul>
+<li>Grey 认为是做的最好的一家，他十分喜欢！</li>
+<li>可以只显示现在就能做的，Start Date 在之后的在到达那个时间后再出来</li>
+<li>Grey 希望当有一个任务是现在做不了，他喜欢这个任务隐藏起来直到可以做为止</li>
+<li>举了母亲节买花的例子</li>
+<li><strong>@o1xhack 注：</strong>这又是因人而异，对我而言我就不在乎 Start Data，也许是因为我现在项目、学习、任务没这个需求，也许是我就对这个没需求，所以再一次，看自己的需求选择~</li>
+<li>Grey 认为自己也是少数人233</li>
+<li>Grey 说了自己对 Due Day 的想法和感觉以及对他的意义应该是啥</li>
+</ul>
+</li>
+<li>Myke 说了一个自己导致的迁移问题！</li>
+<li>两个人 bb 了一些 RSS，HTML，EMAIL protocol - - <ul>
+<li>Grey 对于 Myke 问他 Evernote 用的咋样回答了 Fxcking great</li>
+<li>Myke 建议重头开始，选一个新的切入点0 0</li>
+<li>两人 bbbbb 一些，很好玩哈哈</li>
+</ul>
+</li>
+<li>扯到了纯文本，OCR</li>
+<li>迁移（时间错误）</li>
+<li>在 automation 和 API 越来越多的情况下<ul>
+<li>Grey 认为也许在未来如果 Myke 需要迁移 Todoist 到其他的，应该至少能写一些东西可以做到最基本的数据迁移</li>
+</ul>
+</li>
+<li>Todoist 的自然语意识别无法相信的好<ul>
+<li>点击加任务，输入，然后按完成就什么都有了，截止日期，项目，标签，等等</li>
+<li>Myke：就像 Fantastical 改变了日历一样，Todoist 改变了增加任务输入的方式</li>
+<li>需要学习一些简单的 app 语言</li>
+</ul>
+</li>
+<li>有专门的重复任务的语言<ul>
+<li>一个页面专门解释如何实现各种重复任务，需要学习一下</li>
+<li>问题：所有的重复任务，没有任何的 UI，除非你用他可以识别的语言重新写如何重复，否则你美版办法更改</li>
+<li>Myke 表示他用了 20 分钟写了许多遍才把他想要的重复方法正确的实现出来，因为他一直在用他认为 Todoist 应该可以理解的方式写，但一直错误，然后 Todoist 又没有任何办法可以点击什么按钮就更改，不像 Omnifocus 那样又可以按按钮，也可以用自然语意。</li>
+<li>Grey：有意思的是，自然语意这个东西，说白了当他可以被识别出来的时候就显得十分厉害，但当识别不出来的时候，就立马感觉像在 1970 年跟 Terminal 讲话一样</li>
+<li>Myke 认为可以直接用自然语意当然十分好，但是没有一个 UI 作为备用基础是一个很蠢的想法，不明白为啥没有</li>
+</ul>
+</li>
+<li>数据统计<ul>
+<li>又十分有感觉，也有点没用</li>
+<li>gamification（游戏化）还是有用的</li>
+</ul>
+</li>
+<li>项目？<ul>
+<li>在定位一个任务在哪里的时候十分有用，更方便的找到</li>
+<li>Myke 之前从没有用过 项目这个理念</li>
+</ul>
+</li>
+</ol>
+<p>最后 Myke 表示他很喜欢 Todoist 所以才会有很多不满意和批评的地方，这恰恰代表了 Todoist 对他来讲真的有用并且很喜欢用，如果没有觉得有任何做的不好的地方，那反而奇怪了。并且表示不会迁移回去 Omnifocus，原因原话：Because the things this app does better are so much better, and the things it doesn’t do as well maybe not as bad as I initially thought it would be. Myke 还说他目前想不到一个好的原因会让它重回 Omnifocus，他这么说：Omnifocus is a better iOS application than Todoist, the app are amazing. 并表示 Todoist Mac 就是个封装（@o1xhack 注：Todoist Mac 更新重新了应用更加适配），iOS 虽然是个应用但感觉一点都天然，但所有的小细节和让这个程序成功运行让他感觉十分有趣，因为在后台有太多有趣的事情发生，对于 Mac 2017 来说这是一个更加好的系统。</p>
+<p>Grey 又解释了一下 Todoist 并不会作为他的首要工具，主要是和他的助理共享项目而用，并且解释了自己的原因，想法和为什么。并且和他助理的使用测试下来都很成功，对于两个人使用十分的方便和好，在它心里一定有一席之地，但也许不是首要位置，但谁知道呢~</p>
+<p>Web API 越来越重要，Myke 说如果要下注，一定会下到 Grey 会用 Todoist 上~ </p>
+<hr>
+<h1 id="项目父级子级关系"><a href="#项目父级子级关系" class="headerlink" title="项目父级子级关系"></a>项目父级子级关系</h1><p>每一个项目（Project）之间的父子级别关系，是仅在你的账户中显示的，也就是说你这里的父子级别的项目关系在共享给别人后，别人是不会知道这个关系的，举个例子：</p>
+<p>两个项目：「iOS开发」 和 「Swift学习」<br>你将 Swift学习 放到了 iOS开发的下面，在你这里 iOS开发 就是所谓的子项目，当你将两个项目都共享给别人后，别人那里，这两个项目拥有同等的级别，都是主项目，谁也不是谁的子项目。</p>
+<p> <img src="https://ww3.sinaimg.cn/large/006tKfTcgy1fehgeu0wkhj30yk0yvqd5.jpg" alt></p>
+<hr>
+<h1 id="已完成的子任务堆积怎么办？"><a href="#已完成的子任务堆积怎么办？" class="headerlink" title="已完成的子任务堆积怎么办？"></a>已完成的子任务堆积怎么办？</h1><p>如果你创建了一个主任务并且添加了许多的子任务，而这个主任务又不会短期内就完成，那一段时间后你的主任务里面便会有一堆灰色删除线的子任务堆积。在一个子任务已经被玩成后，你可以通过对这个子任务从右向左滑动，这个已经完成的子任务便会彻底不显示。</p>
+<p><img src="https://ww3.sinaimg.cn/large/006tKfTcgy1fehgpuopqaj30yk0yvaii.jpg" alt></p>
+<hr>
+<h1 id="设定默认的打开页面"><a href="#设定默认的打开页面" class="headerlink" title="设定默认的打开页面"></a>设定默认的打开页面</h1><blockquote>
+<p>发布于微博 <a href="http://weibo.com/sayoneofficial" target="_blank" rel="noopener">@说一SayOne</a> made by apexidea </p>
+</blockquote>
+<p>当你打开 Todoist 的网页时，你最想看到什么？是你今天安排的工作任务，还是你那塞得满满当当的收件箱？这一切你都可以自己做主。打开设置 - 偏好设置 - 起始页，你就可以选择和自定义显示在起始页的项目。当你点击左上角的 Todoist 图标时，就可以快速访问起始页。就我个人而言，我习惯将起始页设为收件箱、过期任务和今天事件。</p>
+<p><img src="https://i.imgur.com/bpmndHy.png" alt></p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ios/" rel="tag"># ios</a>
+          
+            <a href="/tags/app/" rel="tag"># app</a>
+          
+            <a href="/tags/review/" rel="tag"># review</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/03/20/coffeeit/" rel="next" title="iOS APP：Coffee It - Track Caffeine in Simplest Way">
+                <i class="fa fa-chevron-left"></i> iOS APP：Coffee It - Track Caffeine in Simplest Way
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/04/29/tech/boserevolve/" rel="prev" title="「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频）">
+                「Tech」Bose 新款 SoundLink Revolve 开箱以及对比 mini2（视频） <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+      </div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/uploads/avatar.jpg" alt="Yuxiao Wang">
+            
+              <p class="site-author-name" itemprop="name">Yuxiao Wang</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives">
+                
+                    <span class="site-state-item-count">32</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">10</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">34</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="http://t.me/o1xhack" title="Telegram &rarr; http://t.me/o1xhack" rel="noopener" target="_blank"><i class="fa fa-fw fa-telegram-plane"></i>Telegram</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/jsxiao113" title="Weibo &rarr; https://weibo.com/jsxiao113" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/o1xhack" title="GitHub &rarr; https://github.com/o1xhack" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:o1xhack@gmail.com" title="E-Mail &rarr; mailto:o1xhack@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://twitter.com/o1xhack" title="Twitter &rarr; https://twitter.com/o1xhack" rel="noopener" target="_blank"><i class="fa fa-fw fa-twitter"></i>Twitter</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#开个坑"><span class="nav-number">1.</span> <span class="nav-text">开个坑</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#目录"><span class="nav-number">2.</span> <span class="nav-text">目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Cortex-47-关于-Todoist-想法的探讨"><span class="nav-number">3.</span> <span class="nav-text">Cortex #47 关于 Todoist 想法的探讨</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">3.1.</span> <span class="nav-text">总结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#项目父级子级关系"><span class="nav-number">4.</span> <span class="nav-text">项目父级子级关系</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#已完成的子任务堆积怎么办？"><span class="nav-number">5.</span> <span class="nav-text">已完成的子任务堆积怎么办？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#设定默认的打开页面"><span class="nav-number">6.</span> <span class="nav-text">设定默认的打开页面</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yuxiao Wang</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.0.1</div>
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      欢迎第 <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 个天才
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      总访问量 <span class="busuanzi-value" id="busuanzi_value_site_pv"></span> 次
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/schemes/muse.js?v=7.0.1"></script>
+
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+  
+  <script id="dsq-count-scr" src="https://yuxiaowang.disqus.com/count.js" async></script>
+
+
+<script>
+  var disqus_config = function() {
+    this.page.url = "http://o1xhack.com/2017/04/10/ios/todoist-using/";
+    this.page.identifier = "2017/04/10/ios/todoist-using/";
+    this.page.title = '「iOS」Todoist 的一些用法和技巧（2017.05.28）';
+    };
+  function loadComments() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://yuxiaowang.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', '' + +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  
+    loadComments();
+  
+</script>
+
+
+
+
+
+  
+
+
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
