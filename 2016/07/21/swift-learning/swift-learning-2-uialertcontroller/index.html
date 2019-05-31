@@ -98,19 +98,19 @@
 
 
 
-  <meta name="description" content="var diaryNum = 1 diaryNum += 1          // 新的 Swift 去掉了 ++ 符号 print &amp;quot;Hello Again！&amp;quot; print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;  Welcome to Swift Le">
+  <meta name="description" content="var diaryNum = 1 diaryNum += 1          // 新的 Swift 去掉了 ++ 符号 print &amp;quot;Hello Again！&amp;quot; print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;   Welcome to Swift L">
 <meta name="keywords" content="language,learning,swift3.0,uialertcontroller">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Swift 学习日记 - 2（UIAlertController）">
 <meta property="og:url" content="http://o1xhack.com/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/index.html">
 <meta property="og:site_name" content="LifeAnalysis Lab &amp; Yuxiao">
-<meta property="og:description" content="var diaryNum = 1 diaryNum += 1          // 新的 Swift 去掉了 ++ 符号 print &amp;quot;Hello Again！&amp;quot; print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;  Welcome to Swift Le">
+<meta property="og:description" content="var diaryNum = 1 diaryNum += 1          // 新的 Swift 去掉了 ++ 符号 print &amp;quot;Hello Again！&amp;quot; print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;   Welcome to Swift L">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://imgur.com/ElFHevR.jpg">
 <meta property="og:updated_time" content="2016-07-22T02:00:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Swift 学习日记 - 2（UIAlertController）">
-<meta name="twitter:description" content="var diaryNum = 1 diaryNum += 1          // 新的 Swift 去掉了 ++ 符号 print &amp;quot;Hello Again！&amp;quot; print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;  Welcome to Swift Le">
+<meta name="twitter:description" content="var diaryNum = 1 diaryNum += 1          // 新的 Swift 去掉了 ++ 符号 print &amp;quot;Hello Again！&amp;quot; print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;   Welcome to Swift L">
 <meta name="twitter:image" content="http://imgur.com/ElFHevR.jpg">
 
 
@@ -581,12 +581,14 @@
 diaryNum += 1          // 新的 Swift 去掉了 ++ 符号
 print &quot;Hello Again！&quot;
 print &quot;Welcome to Swift Learning Diary &quot; + String(diaryNum) + &quot; !&quot;
-</code></pre><blockquote>
+</code></pre>
+<blockquote>
 <p>Welcome to Swift Learning Diary 2 !</p>
 </blockquote>
 <a id="more"></a>
 <p><strong>点击进入 → <a href="http://o1xhack.com/2016/05/21/swift-learning/swift-learning-outline-source/">Swift 学习日志 - 目录/相关资料</a></strong></p>
-<h1 id="FollowLight-改进"><a href="#FollowLight-改进" class="headerlink" title="FollowLight 改进"></a>FollowLight 改进</h1><ul>
+<h1 id="followlight-改进"><a class="markdownIt-Anchor" href="#followlight-改进"></a> FollowLight 改进</h1>
+<ul>
 <li>胜利提醒增加了你玩的轮数（winningNumber）</li>
 <li>胜利后增加选项，可以直接增加难度（call 增加难度的 func）</li>
 <li>失败提醒增加了你玩的轮数</li>
@@ -594,23 +596,37 @@ print &quot;Welcome to Swift Learning Diary &quot; + String(diaryNum) + &quot; !
 </ul>
 <p><img src="http://imgur.com/ElFHevR.jpg" alt></p>
 <hr>
-<h1 id="UIAlertView-的退役"><a href="#UIAlertView-的退役" class="headerlink" title="UIAlertView 的退役"></a>UIAlertView 的退役</h1><p>UIAlertView 全部被 UIAlertController 给替换，在新版本的 xCode 中，会相应报错，并且有官方文档予以参考（Important: UIAlertView is deprecated in iOS 8.）<br>继承于 UIViewController （前一本书有讲过关于继承的问题，<em>inherit</em>） </p>
+<h1 id="uialertview-的退役"><a class="markdownIt-Anchor" href="#uialertview-的退役"></a> UIAlertView 的退役</h1>
+<p>UIAlertView 全部被 UIAlertController 给替换，在新版本的 xCode 中，会相应报错，并且有官方文档予以参考（Important: UIAlertView is deprecated in iOS 8.）<br>
+继承于 UIViewController （前一本书有讲过关于继承的问题，<em>inherit</em>）</p>
 <blockquote>
 <p>以下代码引用更改自 XCode 帮助文档，没有直接拉过来是因为用实例更适合解释和接受概念（帮助文档还是需要一定基础看懂的吧…）</p>
 </blockquote>
-<h2 id="UIAlertView-之前什么样子？"><a href="#UIAlertView-之前什么样子？" class="headerlink" title="UIAlertView 之前什么样子？"></a>UIAlertView 之前什么样子？</h2><pre><code>var name : UIAlertView = UIAlertView(Title: &quot;你想要的提示&quot;, message: &quot;在提示下面的小字信息&quot;, delegate: self, cancelButtonTitle: nil, otherButtonTitles: &quot;按钮&quot;) 
+<h2 id="uialertview-之前什么样子"><a class="markdownIt-Anchor" href="#uialertview-之前什么样子"></a> UIAlertView 之前什么样子？</h2>
+<pre><code>var name : UIAlertView = UIAlertView(Title: &quot;你想要的提示&quot;, message: &quot;在提示下面的小字信息&quot;, delegate: self, cancelButtonTitle: nil, otherButtonTitles: &quot;按钮&quot;) 
 name.show()     //改自书中案例
-</code></pre><p>如果在其中想要添加动作的时候，需要另外使用 delegate，其中有参数 alertView 和 buttonIndex。具体的不细说，但是新版本的确优化了许多。</p>
-<h2 id="UIAlertController-的改变"><a href="#UIAlertController-的改变" class="headerlink" title="UIAlertController 的改变"></a>UIAlertController 的改变</h2><p>以下代码都在一个函数中（func alertExample { }）<br>    let name = UIAlertController(title: “你想要的提示”, message: “在提示下面的小字信息!”, preferredStyle: .Alert)<br>首先去除了 delegate 以及之后的所有东西，在整个提示中变得间接许多，要知道，精简就是一门学问，这样子的改变可以一眼看出来提示的信息。<br><em>string 字符串中可以将变量转换为 string 字符添加到提示语句中，这样子可以拥有灵活性的提示</em></p>
-<h4 id="新增加的-preferredStyle-目前有两种可选："><a href="#新增加的-preferredStyle-目前有两种可选：" class="headerlink" title="新增加的 preferredStyle 目前有两种可选："></a>新增加的 preferredStyle 目前有两种可选：</h4><pre><code>enum UIAlertControllerStyle : Int {
+</code></pre>
+<p>如果在其中想要添加动作的时候，需要另外使用 delegate，其中有参数 alertView 和 buttonIndex。具体的不细说，但是新版本的确优化了许多。</p>
+<h2 id="uialertcontroller-的改变"><a class="markdownIt-Anchor" href="#uialertcontroller-的改变"></a> UIAlertController 的改变</h2>
+<p>以下代码都在一个函数中（func alertExample { }）<br>
+let name = UIAlertController(title: “你想要的提示”, message: “在提示下面的小字信息!”, preferredStyle: .Alert)<br>
+首先去除了 delegate 以及之后的所有东西，在整个提示中变得间接许多，要知道，精简就是一门学问，这样子的改变可以一眼看出来提示的信息。<br>
+<em>string 字符串中可以将变量转换为 string 字符添加到提示语句中，这样子可以拥有灵活性的提示</em></p>
+<h4 id="新增加的-preferredstyle-目前有两种可选"><a class="markdownIt-Anchor" href="#新增加的-preferredstyle-目前有两种可选"></a> 新增加的 preferredStyle 目前有两种可选：</h4>
+<pre><code>enum UIAlertControllerStyle : Int {
     case ActionSheet        //底部弹出提示框
     case Alert       // 中间弹出提示框
 }
-</code></pre><h4 id="当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）"><a href="#当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）" class="headerlink" title="当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）"></a>当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）</h4><pre><code>name.addAction(UIAlertAction(title: &quot;按钮&quot;, style: .Default) { _ in
+</code></pre>
+<h4 id="当初的动作添加也顺势的变成了如下当然动作并不是一定要添加的是可以没有任何动作只有提示的"><a class="markdownIt-Anchor" href="#当初的动作添加也顺势的变成了如下当然动作并不是一定要添加的是可以没有任何动作只有提示的"></a> 当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）</h4>
+<pre><code>name.addAction(UIAlertAction(title: &quot;按钮&quot;, style: .Default) { _ in
            // 你想要它做的事情
             })
-</code></pre><h4 id="present-模式继承了-UIViewController："><a href="#present-模式继承了-UIViewController：" class="headerlink" title="present 模式继承了 UIViewController："></a>present 模式继承了 UIViewController：</h4><pre><code>self.presentViewController(name, animated: true){}
-</code></pre><blockquote>
+</code></pre>
+<h4 id="present-模式继承了-uiviewcontroller"><a class="markdownIt-Anchor" href="#present-模式继承了-uiviewcontroller"></a> present 模式继承了 UIViewController：</h4>
+<pre><code>self.presentViewController(name, animated: true){}
+</code></pre>
+<blockquote>
 <p>对于提示框的选择主要就是这些，最基础的内容，可以尝试在程序中添加各种提示，包括提示后的动作，动作里调用其他的提示函数或者普通函数来进一步的动作。</p>
 </blockquote>
 <p>推荐文章：<a href="http://www.jianshu.com/p/9cf49e6fa3c4" target="_blank" rel="noopener">iOS-个人整理16 - 警示框–UIAlertController</a></p>
@@ -982,7 +998,7 @@ name.show()     //改自书中案例
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#FollowLight-改进"><span class="nav-number">1.</span> <span class="nav-text">FollowLight 改进</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#UIAlertView-的退役"><span class="nav-number">2.</span> <span class="nav-text">UIAlertView 的退役</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#UIAlertView-之前什么样子？"><span class="nav-number">2.1.</span> <span class="nav-text">UIAlertView 之前什么样子？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#UIAlertController-的改变"><span class="nav-number">2.2.</span> <span class="nav-text">UIAlertController 的改变</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#新增加的-preferredStyle-目前有两种可选："><span class="nav-number">2.2.0.1.</span> <span class="nav-text">新增加的 preferredStyle 目前有两种可选：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）"><span class="nav-number">2.2.0.2.</span> <span class="nav-text">当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#present-模式继承了-UIViewController："><span class="nav-number">2.2.0.3.</span> <span class="nav-text">present 模式继承了 UIViewController：</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#followlight-改进"><span class="nav-number">1.</span> <span class="nav-text"> FollowLight 改进</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#uialertview-的退役"><span class="nav-number">2.</span> <span class="nav-text"> UIAlertView 的退役</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#uialertview-之前什么样子"><span class="nav-number">2.1.</span> <span class="nav-text"> UIAlertView 之前什么样子？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#uialertcontroller-的改变"><span class="nav-number">2.2.</span> <span class="nav-text"> UIAlertController 的改变</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#新增加的-preferredstyle-目前有两种可选"><span class="nav-number">2.2.0.1.</span> <span class="nav-text"> 新增加的 preferredStyle 目前有两种可选：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#当初的动作添加也顺势的变成了如下当然动作并不是一定要添加的是可以没有任何动作只有提示的"><span class="nav-number">2.2.0.2.</span> <span class="nav-text"> 当初的动作添加也顺势的变成了如下：（当然，动作并不是一定要添加的，是可以没有任何动作只有提示的）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#present-模式继承了-uiviewcontroller"><span class="nav-number">2.2.0.3.</span> <span class="nav-text"> present 模式继承了 UIViewController：</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>

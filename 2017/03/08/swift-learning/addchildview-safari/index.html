@@ -98,13 +98,13 @@
 
 
 
-  <meta name="description" content="介绍本文章尝试添加 SafariViewController 作为子 viewcontroller。我是通过 SnapKit 来对所有的对象进行 layout 以及 Swift 3 来编译。 同时，我也在最后介绍了一些 SnapKit 的高级用法，divide 和 multiply，这些在官方的档案中并没有过多的提及。 下载完整的项目。 English Version: Add SafariVie">
+  <meta name="description" content="介绍 本文章尝试添加 SafariViewController 作为子 viewcontroller。我是通过 SnapKit 来对所有的对象进行 layout 以及 Swift 3 来编译。 同时，我也在最后介绍了一些 SnapKit 的高级用法，divide 和 multiply，这些在官方的档案中并没有过多的提及。 下载完整的项目。 English Version: Add SafariV">
 <meta name="keywords" content="language,learning,github,swift3.0,SafariViewController,SnapKit">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController">
 <meta property="og:url" content="http://o1xhack.com/2017/03/08/swift-learning/addchildview-safari/index.html">
 <meta property="og:site_name" content="LifeAnalysis Lab &amp; Yuxiao">
-<meta property="og:description" content="介绍本文章尝试添加 SafariViewController 作为子 viewcontroller。我是通过 SnapKit 来对所有的对象进行 layout 以及 Swift 3 来编译。 同时，我也在最后介绍了一些 SnapKit 的高级用法，divide 和 multiply，这些在官方的档案中并没有过多的提及。 下载完整的项目。 English Version: Add SafariVie">
+<meta property="og:description" content="介绍 本文章尝试添加 SafariViewController 作为子 viewcontroller。我是通过 SnapKit 来对所有的对象进行 layout 以及 Swift 3 来编译。 同时，我也在最后介绍了一些 SnapKit 的高级用法，divide 和 multiply，这些在官方的档案中并没有过多的提及。 下载完整的项目。 English Version: Add SafariV">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://i.imgur.com/77cE892.png">
 <meta property="og:image" content="http://i.imgur.com/7Dx2ZUP.png">
@@ -118,7 +118,7 @@
 <meta property="og:updated_time" content="2016-05-25T10:54:29.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Swift 3 - 用 SnapKit 添加 SafariViewController 为 childViewController">
-<meta name="twitter:description" content="介绍本文章尝试添加 SafariViewController 作为子 viewcontroller。我是通过 SnapKit 来对所有的对象进行 layout 以及 Swift 3 来编译。 同时，我也在最后介绍了一些 SnapKit 的高级用法，divide 和 multiply，这些在官方的档案中并没有过多的提及。 下载完整的项目。 English Version: Add SafariVie">
+<meta name="twitter:description" content="介绍 本文章尝试添加 SafariViewController 作为子 viewcontroller。我是通过 SnapKit 来对所有的对象进行 layout 以及 Swift 3 来编译。 同时，我也在最后介绍了一些 SnapKit 的高级用法，divide 和 multiply，这些在官方的档案中并没有过多的提及。 下载完整的项目。 English Version: Add SafariV">
 <meta name="twitter:image" content="http://i.imgur.com/77cE892.png">
 
 
@@ -597,47 +597,63 @@
       
 
       
-        <h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>本文章尝试添加 SafariViewController 作为子 viewcontroller。我是通过 SnapKit 来对所有的对象进行 layout 以及 Swift 3 来编译。</p>
+        <h1 id="介绍"><a class="markdownIt-Anchor" href="#介绍"></a> 介绍</h1>
+<p>本文章尝试添加 SafariViewController 作为子 viewcontroller。我是通过 SnapKit 来对所有的对象进行 layout 以及 Swift 3 来编译。</p>
 <p>同时，我也在最后介绍了一些 SnapKit 的高级用法，divide 和 multiply，这些在官方的档案中并没有过多的提及。</p>
 <p>下载<a href="https://github.com/o1xhack/addChildViewController" target="_blank" rel="noopener">完整的项目</a>。</p>
 <p>English Version: <a href="http://o1xhack.com/en/2017/03/10/swift-learning/addchildview-safari/">Add SafariViewController as childViewController with SnapKit</a></p>
-<blockquote class="blockquote-center"> <a href="http://o1xhack.com/dev/">开发者</a>：开发这个世界. </blockquote>
-
-<h2 id><a href="#" class="headerlink" title></a><a id="more"></a></h2><h1 id="SnapKit"><a href="#SnapKit" class="headerlink" title="SnapKit"></a>SnapKit</h1><p><a href="http://snapkit.io" target="_blank" rel="noopener">SnapKit</a> 是一款让 iOS 和 OS X 自动布局变得方便的 DSL。</p>
-<h2 id="为什么要用？"><a href="#为什么要用？" class="headerlink" title="为什么要用？"></a>为什么要用？</h2><p>当我在开发 <a href="http://o1xhack.com/2017/02/21/infoit/">Info It</a> 时，在 Xcode 中给对象添加限制时，Xcode 每一次都会给我崩溃并且无法显示想要的任何界面。在尝试许久并资讯了他人后，不得不觉得是 Xcode 本身的问题。在安装了 SnapKit 以及使用后，发觉通过 Snapkit 来进行编程化的自动布局会自动的解决这个方法，而 SnapKit 所带来的简单方便的理解，更加让布局变得方便许多。</p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><a href="http://snapkit.io/docs/" target="_blank" rel="noopener">SnapKit 官方文档</a></p>
+<blockquote class="blockquote-center"> [开发者](http://o1xhack.com/dev/)：开发这个世界. </blockquote>
+<h2 id="-more-"><a class="markdownIt-Anchor" href="#-more-"></a> <a id="more"></a></h2>
+<h1 id="snapkit"><a class="markdownIt-Anchor" href="#snapkit"></a> SnapKit</h1>
+<p><a href="http://snapkit.io" target="_blank" rel="noopener">SnapKit</a> 是一款让 iOS 和 OS X 自动布局变得方便的 DSL。</p>
+<h2 id="为什么要用"><a class="markdownIt-Anchor" href="#为什么要用"></a> 为什么要用？</h2>
+<p>当我在开发 <a href="http://o1xhack.com/2017/02/21/infoit/">Info It</a> 时，在 Xcode 中给对象添加限制时，Xcode 每一次都会给我崩溃并且无法显示想要的任何界面。在尝试许久并资讯了他人后，不得不觉得是 Xcode 本身的问题。在安装了 SnapKit 以及使用后，发觉通过 Snapkit 来进行编程化的自动布局会自动的解决这个方法，而 SnapKit 所带来的简单方便的理解，更加让布局变得方便许多。</p>
+<h2 id="安装"><a class="markdownIt-Anchor" href="#安装"></a> 安装</h2>
+<p><a href="http://snapkit.io/docs/" target="_blank" rel="noopener">SnapKit 官方文档</a></p>
 <p>通过 CocoaPods，每个人都可以十分快的安装。我不会在本文章中相机说明安装 CocoaPods 的细节和方法，我会假定你已经安装了 CocoaPods 并且直接开始安装 SnapKKits。</p>
 <p>选择 Swift 语言创建一个新的项目，不关闭 Xcode 的情况下打开终端（我这里用的是 iTerm），接下来 ‘cd’ 到你项目所在的文件夹并且创建一个新的 podfile。</p>
 <p><code>&gt; pod init</code></p>
 <p>在完成这条指令之后，打开你的 podfile，并且讲下面一行指令加入进去，和我图中所加入的位置一致。</p>
-<p><code>pod &#39;SnapKit&#39;, &#39;~&gt; 3.0&#39;</code></p>
+<p><code>pod 'SnapKit', '~&gt; 3.0'</code></p>
 <p>接下类在终端中输入安装 pod 的指令：</p>
 <p><code>&gt; pod install</code></p>
 <p>在安装 SnapKit 期间，不要关闭你所创建的项目！在如图中成功安装后，关闭项目并且打开 <code>.xcworkspace</code> 结尾的文件。</p>
 <p><img src="http://i.imgur.com/77cE892.png" alt></p>
 <hr>
-<h1 id="SafariViewController"><a href="#SafariViewController" class="headerlink" title="SafariViewController"></a>SafariViewController</h1><p>接下来我会用 “svc” 来代替 SafariViewController</p>
+<h1 id="safariviewcontroller"><a class="markdownIt-Anchor" href="#safariviewcontroller"></a> SafariViewController</h1>
+<p>接下来我会用 “svc” 来代替 SafariViewController</p>
 <p>当你想用 svc 时，你需要在 class 的开头继承 SafariViewControllerDelegate，然后添加两个 String 作为之后当做链接打开所使用：</p>
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ViewController</span>: <span class="title">UIViewController</span>, <span class="title">SFSafariViewControllerDelegate</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Insert two web link to test the child view</span></span><br><span class="line">    <span class="keyword">let</span> main: <span class="type">String</span> = <span class="string">"http://o1xhack.com/2017/02/21/infoit/"</span></span><br><span class="line">    <span class="keyword">let</span> update: <span class="type">String</span> = <span class="string">"http://o1xhack.com"</span></span><br></pre></td></tr></table></figure>
 <p>在 storyboard 中创建一个按钮以及一个界面（button，view）。</p>
 <p>并且将 view 和 button 连接到你的 controller 文件中。</p>
 <p><img src="http://i.imgur.com/7Dx2ZUP.png" alt></p>
-<h2 id="addChildViewController"><a href="#addChildViewController" class="headerlink" title="addChildViewController"></a>addChildViewController</h2><p>在 viewDidLoad 中添加如下的代码来实现自动布局和添加子视图：</p>
+<h2 id="addchildviewcontroller"><a class="markdownIt-Anchor" href="#addchildviewcontroller"></a> addChildViewController</h2>
+<p>在 viewDidLoad 中添加如下的代码来实现自动布局和添加子视图：</p>
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">func</span> <span class="title">viewDidLoad</span><span class="params">()</span></span> &#123;</span><br><span class="line">    <span class="keyword">super</span>.viewDidLoad()</span><br><span class="line">    </span><br><span class="line">    showView.snp.makeConstraints&#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">        make.edges.equalTo(<span class="keyword">self</span>.view).inset(<span class="type">UIEdgeInsetsMake</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">60</span>,<span class="number">0</span>))</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">let</span> svc = <span class="type">SFSafariViewController</span>(url: <span class="type">URL</span>(string: main)!)</span><br><span class="line">    svc.delegate = <span class="keyword">self</span></span><br><span class="line">    <span class="keyword">self</span>.addChildViewController(svc)</span><br><span class="line">    <span class="keyword">self</span>.showView.addSubview(svc.view)</span><br><span class="line">    svc.didMove(toParentViewController: <span class="keyword">self</span>)</span><br><span class="line">    </span><br><span class="line">    svc.view.snp.makeConstraints&#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">        make.edges.equalTo(<span class="keyword">self</span>.showView)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;    </span><br></pre></td></tr></table></figure>
-<h3 id="第-4-6-行"><a href="#第-4-6-行" class="headerlink" title="第 4-6 行:"></a>第 4-6 行:</h3><p>给 showView 进行布局限定（这个视图将会是 svc 的父视图），这里的代码运用 SnapKit 将 showView 限制于 view（主视图），上左右分别和 view 没有任何举例，下方空出 60 的距离留给 button。</p>
-<h3 id="第-8-12-行"><a href="#第-8-12-行" class="headerlink" title="第 8-12 行:"></a>第 8-12 行:</h3><p>第 8 行添加了 SafariViewController 给 svc，用到了我之前添加的链接。第 9 行设定了 svc 的 delegate。<br>第 10 行将 svc 添加为子视图，然后在第 11 行将 svc 视图添加为 showView 的 subview。<br>第 12 行告诉 controller 我们的 svc 已经成功的添加到了父级视图中，也就是我们的 showView。</p>
-<h3 id="第-14-16-行"><a href="#第-14-16-行" class="headerlink" title="第 14-16 行:"></a>第 14-16 行:</h3><p>这里基本和前面的 4-6 行一致，我们给 svc 设定了布局限制，让它正正好好填满了整个 showView，相对的来讲也就是和 showView 一样的（0,0,60,0），但因为 svc 是一个子视图，所以我们要限制子视图相对于父级视图的布局。</p>
-<h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><p>在添加了这些代码之后，运行整个项目然后我们会看到如图中的模拟器视图，并且发现我们的 button 和 svc 互相遮挡，这是因为我们还没有给 button 进行任何的布局。、</p>
+<h3 id="第-4-6-行"><a class="markdownIt-Anchor" href="#第-4-6-行"></a> 第 4-6 行:</h3>
+<p>给 showView 进行布局限定（这个视图将会是 svc 的父视图），这里的代码运用 SnapKit 将 showView 限制于 view（主视图），上左右分别和 view 没有任何举例，下方空出 60 的距离留给 button。</p>
+<h3 id="第-8-12-行"><a class="markdownIt-Anchor" href="#第-8-12-行"></a> 第 8-12 行:</h3>
+<p>第 8 行添加了 SafariViewController 给 svc，用到了我之前添加的链接。第 9 行设定了 svc 的 delegate。<br>
+第 10 行将 svc 添加为子视图，然后在第 11 行将 svc 视图添加为 showView 的 subview。<br>
+第 12 行告诉 controller 我们的 svc 已经成功的添加到了父级视图中，也就是我们的 showView。</p>
+<h3 id="第-14-16-行"><a class="markdownIt-Anchor" href="#第-14-16-行"></a> 第 14-16 行:</h3>
+<p>这里基本和前面的 4-6 行一致，我们给 svc 设定了布局限制，让它正正好好填满了整个 showView，相对的来讲也就是和 showView 一样的（0,0,60,0），但因为 svc 是一个子视图，所以我们要限制子视图相对于父级视图的布局。</p>
+<h3 id="结果"><a class="markdownIt-Anchor" href="#结果"></a> 结果</h3>
+<p>在添加了这些代码之后，运行整个项目然后我们会看到如图中的模拟器视图，并且发现我们的 button 和 svc 互相遮挡，这是因为我们还没有给 button 进行任何的布局。、</p>
 <p><img src="http://i.imgur.com/xPAUgcc.png" alt></p>
 <hr>
-<h1 id="再遇-SnapKit"><a href="#再遇-SnapKit" class="headerlink" title="再遇 SnapKit"></a>再遇 SnapKit</h1><p>现在，我们知道 svc 距离底部是 60，因此我们可以相应依据 showView 来给 button 进行限制。</p>
+<h1 id="再遇-snapkit"><a class="markdownIt-Anchor" href="#再遇-snapkit"></a> 再遇 SnapKit</h1>
+<p>现在，我们知道 svc 距离底部是 60，因此我们可以相应依据 showView 来给 button 进行限制。</p>
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">change.snp.makeConstraints &#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">        make.centerX.equalTo(showView)</span><br><span class="line">        make.top.equalTo(showView.snp.bottom).offset(<span class="number">20</span>)</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<p>关于 <code>change.snp.makeConstraints</code> 的代码，我们需要把它紧接着 <code>showView.snp.makeConstraints</code> 添加，因为这两个的限制是有关联的。 </p>
-<p>第 2 行，我们对 button 的中心进行了限定，让它的横轴中心和 showView 一致，如果你曾经用过 Xcode 的限制，那么你一定会熟悉这行代码的意思。<br>第 3 行，我们设定 button 的顶部和 showView 的底部距离为 20。因为我们知道 showView 一定距离 view 的底部是 60， 因此 20 这个距离是一定因为分辨率问题被影响。（在之后我会用 divide 的方法来设定布局，一个更加精美的方法。）</p>
+<p>关于 <code>change.snp.makeConstraints</code> 的代码，我们需要把它紧接着 <code>showView.snp.makeConstraints</code> 添加，因为这两个的限制是有关联的。</p>
+<p>第 2 行，我们对 button 的中心进行了限定，让它的横轴中心和 showView 一致，如果你曾经用过 Xcode 的限制，那么你一定会熟悉这行代码的意思。<br>
+第 3 行，我们设定 button 的顶部和 showView 的底部距离为 20。因为我们知道 showView 一定距离 view 的底部是 60， 因此 20 这个距离是一定因为分辨率问题被影响。（在之后我会用 divide 的方法来设定布局，一个更加精美的方法。）</p>
 <p>运行项目，然后你会发现 button 正好在 svc 的下面并且在整个手机的中心。</p>
 <p><img src="http://i.imgur.com/ZBtJswu.png" alt></p>
 <hr>
-<h1 id="更新-SVC"><a href="#更新-SVC" class="headerlink" title="更新 SVC"></a>更新 SVC</h1><p>现在我们需要写一个新的 function 用作点按 button 后更新 svc 链接。这一点都不难，只需要将 button<br>拖拽到 viewcontroller 中并且选择创建一个动作即可。</p>
+<h1 id="更新-svc"><a class="markdownIt-Anchor" href="#更新-svc"></a> 更新 SVC</h1>
+<p>现在我们需要写一个新的 function 用作点按 button 后更新 svc 链接。这一点都不难，只需要将 button<br>
+拖拽到 viewcontroller 中并且选择创建一个动作即可。</p>
 <p><img src="http://i.imgur.com/O5dJFEC.png" alt></p>
 <p>我们尝试添加和 viewDidLoad 中一样的添加 svc 的代码并且运行程序，然后我们发现在点击 button 后，svc 并没有任何变化。</p>
 <p>这是我们添加的代码：那为什么会这样呢？（记住你不能直接复制我的代码，因为这需要连接 button 才可以）</p>
@@ -647,7 +663,8 @@
 <p>添加完成后，运行程序并且点击按钮，我们发现的确可以更改 svc 的连接了：（第一个是文章内容，第二个是目录）</p>
 <p><img src="http://i.imgur.com/UtWsXku.png" alt></p>
 <hr>
-<h1 id="SnapKit-Divide-Multiply"><a href="#SnapKit-Divide-Multiply" class="headerlink" title="SnapKit Divide / Multiply"></a>SnapKit Divide / Multiply</h1><p>到这里，这个项目其实已经完成了，我们成功用 SnapKit 来限制了每个对象，并且将 svc 嵌入到 view 中，和 button 可以同时存在，并且可以更新链接。但是用具体的数字来限制布局的距离其实并不那么好，会有一丢丢的缺点，而这里我们就要通过 SnapKit 所拥有的分割和倍数来决定每个对象所占用的具体比例而达到完美的决绝，而我们之前用具体数字所形成的布局在白色空白处其实是不相等的，因为我们没有考虑 button 自身的高度。</p>
+<h1 id="snapkit-divide-multiply"><a class="markdownIt-Anchor" href="#snapkit-divide-multiply"></a> SnapKit Divide / Multiply</h1>
+<p>到这里，这个项目其实已经完成了，我们成功用 SnapKit 来限制了每个对象，并且将 svc 嵌入到 view 中，和 button 可以同时存在，并且可以更新链接。但是用具体的数字来限制布局的距离其实并不那么好，会有一丢丢的缺点，而这里我们就要通过 SnapKit 所拥有的分割和倍数来决定每个对象所占用的具体比例而达到完美的决绝，而我们之前用具体数字所形成的布局在白色空白处其实是不相等的，因为我们没有考虑 button 自身的高度。</p>
 <p>Divideby 以及 Multiplyby 是 SnapKit 中的两个高级使用方法，在文档中也没有涉及过多，是通过对对象进行比例化的分割来完美达到布局效果。</p>
 <p>首先我们考虑了一下发现我们仅仅需要很少的空间给 button，假设我们将整个 view 的高度分成了 10 份，svc 占用 9 份。但当我们在讲 view 除以 10 分取其 9 份的时候，我们不能用 divide，而应用 multiply 以及系数 0.9 因为使用 devide 来进行 9/10 的分割并没有简单的乘以系数方便。</p>
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">showView.snp.makeConstraints&#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">        make.top.equalTo(<span class="keyword">self</span>.view).offset(<span class="number">0</span>)</span><br><span class="line">        make.<span class="keyword">right</span>.equalTo(<span class="keyword">self</span>.view).offset(<span class="number">0</span>)</span><br><span class="line">        make.<span class="keyword">left</span>.equalTo(<span class="keyword">self</span>.view).offset(<span class="number">0</span>)</span><br><span class="line">        make.height.equalTo(<span class="keyword">self</span>.view).multipliedBy(<span class="number">0.9</span>)</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
@@ -662,7 +679,8 @@
 <figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">change.snp.makeConstraints &#123; (make) -&gt; <span class="type">Void</span> <span class="keyword">in</span></span><br><span class="line">    make.centerX.equalTo(showView)</span><br><span class="line">    make.bottom.equalTo(<span class="keyword">self</span>.view).multipliedBy(<span class="number">0.967</span>)</span><br><span class="line">    make.height.equalTo(<span class="keyword">self</span>.view).multipliedBy(<span class="number">0.034</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>哈！成功啦~</p>
 <p><img src="http://i.imgur.com/KSqrPZg.png" alt></p>
-<h2 id="为什么用？"><a href="#为什么用？" class="headerlink" title="为什么用？"></a>为什么用？</h2><p>我们可以发现 divide 和 multiply 很容易让整个布局变得比较迷惑，尤其是当对象越来越多时，更加需要深思熟虑每一个比例的确定以及试验，然而一旦我们确定了这个比例，除非我们需要在添加一个新的对象，就算添加，也将会比用具体数字要方便美观容易确定的多。</p>
+<h2 id="为什么用"><a class="markdownIt-Anchor" href="#为什么用"></a> 为什么用？</h2>
+<p>我们可以发现 divide 和 multiply 很容易让整个布局变得比较迷惑，尤其是当对象越来越多时，更加需要深思熟虑每一个比例的确定以及试验，然而一旦我们确定了这个比例，除非我们需要在添加一个新的对象，就算添加，也将会比用具体数字要方便美观容易确定的多。</p>
 
       
     </div>
@@ -1035,7 +1053,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#介绍"><span class="nav-number">1.</span> <span class="nav-text">介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#"><span class="nav-number">1.1.</span> <span class="nav-text"></span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SnapKit"><span class="nav-number">2.</span> <span class="nav-text">SnapKit</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要用？"><span class="nav-number">2.1.</span> <span class="nav-text">为什么要用？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">2.2.</span> <span class="nav-text">安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SafariViewController"><span class="nav-number">3.</span> <span class="nav-text">SafariViewController</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#addChildViewController"><span class="nav-number">3.1.</span> <span class="nav-text">addChildViewController</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第-4-6-行"><span class="nav-number">3.1.1.</span> <span class="nav-text">第 4-6 行:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第-8-12-行"><span class="nav-number">3.1.2.</span> <span class="nav-text">第 8-12 行:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第-14-16-行"><span class="nav-number">3.1.3.</span> <span class="nav-text">第 14-16 行:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结果"><span class="nav-number">3.1.4.</span> <span class="nav-text">结果</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#再遇-SnapKit"><span class="nav-number">4.</span> <span class="nav-text">再遇 SnapKit</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#更新-SVC"><span class="nav-number">5.</span> <span class="nav-text">更新 SVC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#SnapKit-Divide-Multiply"><span class="nav-number">6.</span> <span class="nav-text">SnapKit Divide / Multiply</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么用？"><span class="nav-number">6.1.</span> <span class="nav-text">为什么用？</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#介绍"><span class="nav-number">1.</span> <span class="nav-text"> 介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#-more-"><span class="nav-number">1.1.</span> <span class="nav-text"> </span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#snapkit"><span class="nav-number">2.</span> <span class="nav-text"> SnapKit</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要用"><span class="nav-number">2.1.</span> <span class="nav-text"> 为什么要用？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">2.2.</span> <span class="nav-text"> 安装</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#safariviewcontroller"><span class="nav-number">3.</span> <span class="nav-text"> SafariViewController</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#addchildviewcontroller"><span class="nav-number">3.1.</span> <span class="nav-text"> addChildViewController</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第-4-6-行"><span class="nav-number">3.1.1.</span> <span class="nav-text"> 第 4-6 行:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第-8-12-行"><span class="nav-number">3.1.2.</span> <span class="nav-text"> 第 8-12 行:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第-14-16-行"><span class="nav-number">3.1.3.</span> <span class="nav-text"> 第 14-16 行:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结果"><span class="nav-number">3.1.4.</span> <span class="nav-text"> 结果</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#再遇-snapkit"><span class="nav-number">4.</span> <span class="nav-text"> 再遇 SnapKit</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#更新-svc"><span class="nav-number">5.</span> <span class="nav-text"> 更新 SVC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#snapkit-divide-multiply"><span class="nav-number">6.</span> <span class="nav-text"> SnapKit Divide / Multiply</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么用"><span class="nav-number">6.1.</span> <span class="nav-text"> 为什么用？</span></a></li></ol></li></ol></div>
             
 
           </div>
