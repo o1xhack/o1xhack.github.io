@@ -23,7 +23,7 @@
     <published>2019-06-06T03:20:29.000Z</published>
     <updated>2019-06-06T03:20:29.000Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>Many apps try to bypass location-sharing restrictions by scanning for Bluetooth and wifi signals in the area, which may reveal a users’ location</p></blockquote><blockquote><p><strong>“We’re shutting the door on that abuse as well,” Federighi said</strong></p></blockquote><p><strong>苹果证实有软件通过 蓝牙+wifi 的情况进行地理位置定位，因此 iOS13 增加了蓝牙权限的开关。<br>欢迎大家和我分享你认为哪款软件这么干了，包括你的经历猜想</strong></p><p>以下是目前看到的 iOS13 请求蓝牙权限的 APP，并且认为应该不请求的。如果你知道哪款软件的确需要请求蓝牙连接的，欢迎告知！</p><a id="more"></a><p>括号里为反馈人的社交号，否则则是我<br>软件按照字幕排序</p><p>Amazon<br>Citi Mobile<br>Facebook<br>Goodnotes (@Blindingsky)<br>Google Map<br>Netflix (@马工藤同学)<br>Pocket Casts<br>玎玎 (@Blindingsky)<br>淘宝<br>网易云音乐 (@Blindingsky)<br>微信<br>支付宝</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>Many apps try to bypass location-sharing restrictions by scanning for Bluetooth and wifi signals in the area, which may reveal a users’ location</p></blockquote><blockquote><p><strong>“We’re shutting the door on that abuse as well,” Federighi said</strong></p></blockquote><p><strong>苹果证实有软件通过 蓝牙+wifi 的情况进行地理位置定位，因此 iOS13 增加了蓝牙权限的开关。<br>欢迎大家和我分享你认为哪款软件这么干了，包括你的经历猜想</strong></p><p>以下是目前看到的 iOS13 请求蓝牙权限的 APP，并且认为应该不请求的。如果你知道哪款软件的确需要请求蓝牙连接的，欢迎告知！</p><a id="more"></a><p>括号里为反馈人的社交号，否则则是我<br>软件按照字幕排序</p><p>Amazon<br>Citi Mobile<br>Facebook<br>Goodnotes (@Blindingsky)<br>Google Map (地图工具 用来加强定位也可以理解)<br>Netflix (@马工藤同学)<br>Pocket Casts<br>玎玎 (@Blindingsky)<br>淘宝<br>网易云音乐 (@Blindingsky)<br>微信<br>支付宝</p>]]></content>
     
     <summary type="html">
     
