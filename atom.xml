@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2019-05-30T03:20:29.000Z</updated>
+  <updated>2019-06-06T03:20:29.000Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>iOS13 疑似无故请求蓝牙的软件列表</title>
+    <link href="http://o1xhack.com/2019/06/05/ios/ios13-bluteooth/"/>
+    <id>http://o1xhack.com/2019/06/05/ios/ios13-bluteooth/</id>
+    <published>2019-06-06T03:20:29.000Z</published>
+    <updated>2019-06-06T03:20:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>Many apps try to bypass location-sharing restrictions by scanning for Bluetooth and wifi signals in the area, which may reveal a users’ location</p></blockquote><blockquote><p><strong>“We’re shutting the door on that abuse as well,” Federighi said</strong></p></blockquote><p><strong>苹果证实有软件通过 蓝牙+wifi 的情况进行地理位置定位，因此 iOS13 增加了蓝牙权限的开关。<br>欢迎大家和我分享你认为哪款软件这么干了，包括你的经历猜想</strong></p><p>以下是目前看到的 iOS13 请求蓝牙权限的 APP，并且认为应该不请求的。</p><a id="more"></a><p>括号里为反馈人的社交号，否则则是我<br>软件按照字幕排序</p><p>Amazon<br>Citi bank<br>Facebook<br>Goodnotes (@Blindingsky)<br>Google Map<br>Netflix (@马工藤同学)<br>玎玎 (@Blindingsky)<br>米家 (@Blindingsky)<br>淘宝<br>网易云音乐 (@Blindingsky)<br>微信<br>支付宝</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Many apps try to bypass location-sharing restrictions by scanning for Bluetooth and wifi signals in the area, which may reveal a users’ location&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;“We’re shutting the door on that abuse as well,” Federighi said&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;苹果证实有软件通过 蓝牙+wifi 的情况进行地理位置定位，因此 iOS13 增加了蓝牙权限的开关。&lt;br&gt;
+欢迎大家和我分享你认为哪款软件这么干了，包括你的经历猜想&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以下是目前看到的 iOS13 请求蓝牙权限的 APP，并且认为应该不请求的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="iOS" scheme="http://o1xhack.com/categories/iOS/"/>
+    
+    
+      <category term="ios" scheme="http://o1xhack.com/tags/ios/"/>
+    
+      <category term="app" scheme="http://o1xhack.com/tags/app/"/>
+    
+      <category term="ios-beta" scheme="http://o1xhack.com/tags/ios-beta/"/>
+    
+  </entry>
   
   <entry>
     <title>iOS 首屏：软件变化 / 新软件 / 每月最佳（月更 19.05.29）</title>
@@ -596,45 +630,6 @@ With &lt;strong&gt;mit licen≥≥ce&lt;/strong&gt;&lt;/p&gt;
       <category term="language" scheme="http://o1xhack.com/tags/language/"/>
     
       <category term="learning" scheme="http://o1xhack.com/tags/learning/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于 o1xhack.com 的 blog 搭建</title>
-    <link href="http://o1xhack.com/2017/02/19/blog/about-blog/"/>
-    <id>http://o1xhack.com/2017/02/19/blog/about-blog/</id>
-    <published>2017-02-20T03:11:00.000Z</published>
-    <updated>2017-02-19T11:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="目录"><a class="markdownIt-Anchor" href="#目录"></a> 目录</h2><p><ul class="markdownIt-TOC"><li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li><li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li><li><a href="#%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E7%BA%BF">更新时间线</a><ul><li><a href="#2017224">2017.2.24</a></li><li><a href="#2017219">2017.2.19</a></li><li><a href="#2017218">2017.2.18</a></li></ul></li><li><a href="#%E5%AE%9A%E5%88%B6%E4%B8%BB%E9%A2%98">定制主题</a></li></ul></p><hr><h2 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h2><p><a href="http://o1xhack.com">o1xhack.com</a> 域名购买自 goDaddy，使用 dnspod 进行解析，基于 hexo 和 github page 搭建的静态博客。</p><p>hexo 主题使用大名鼎鼎的 next。</p><a id="more"></a><hr><h2 id="更新时间线"><a class="markdownIt-Anchor" href="#更新时间线"></a> 更新时间线</h2><h3 id="2017224"><a class="markdownIt-Anchor" href="#2017224"></a> 2017.2.24</h3><ul><li>增加了 生活者</li></ul><h3 id="2017219"><a class="markdownIt-Anchor" href="#2017219"></a> 2017.2.19</h3><ul><li>增加了 开发者、尝新者</li><li>定制主题</li></ul><h3 id="2017218"><a class="markdownIt-Anchor" href="#2017218"></a> 2017.2.18</h3><ul><li>blog 正式上线</li><li>增加了 分类、标签、关于我</li></ul><hr><h2 id="定制主题"><a class="markdownIt-Anchor" href="#定制主题"></a> 定制主题</h2><ul><li><a href="http://wellliu.com/2016/12/29/Blog%E5%B1%85%E4%B8%AD%E8%B0%83%E6%95%B4-%E5%9F%BA%E4%BA%8ENext%E4%B8%BB%E9%A2%98/" target="_blank" rel="noopener">首页文章标题、阅读更多显示居中</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;目录&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#目录&quot;&gt;&lt;/a&gt; 目录&lt;/h2&gt;
-&lt;p&gt;&lt;ul class=&quot;markdownIt-TOC&quot;&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%9B%AE%E5%BD%95&quot;&gt;目录&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E7%AE%80%E4%BB%8B&quot;&gt;简介&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4%E7%BA%BF&quot;&gt;更新时间线&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#2017224&quot;&gt;2017.2.24&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2017219&quot;&gt;2017.2.19&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#2017218&quot;&gt;2017.2.18&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#%E5%AE%9A%E5%88%B6%E4%B8%BB%E9%A2%98&quot;&gt;定制主题&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;简介&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#简介&quot;&gt;&lt;/a&gt; 简介&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;http://o1xhack.com&quot;&gt;o1xhack.com&lt;/a&gt; 域名购买自 goDaddy，使用 dnspod 进行解析，基于 hexo 和 github page 搭建的静态博客。&lt;/p&gt;
-&lt;p&gt;hexo 主题使用大名鼎鼎的 next。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="blog" scheme="http://o1xhack.com/categories/blog/"/>
-    
-    
-      <category term="blog" scheme="http://o1xhack.com/tags/blog/"/>
     
   </entry>
   
