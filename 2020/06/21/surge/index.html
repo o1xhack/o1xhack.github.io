@@ -656,7 +656,7 @@
 <li>无规则：没有任何规则加入，自己加入自己得规则</li>
 <li>eHpo1 规则：加入 <a href="https://github.com/eHpo1/Rules" target="_blank" rel="noopener">eHpo1</a> 规则
 <ul>
-<li>你自己去加他的也可以，就是需要 hostname 自己增加等等</li>
+<li>你自己去加他的也可以，就是需要 hostname 自己增加等</li>
 </ul>
 </li>
 </ol>
@@ -695,6 +695,7 @@
 <figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[Proxy Group]</span></span><br><span class="line"><span class="attr">Global</span> = select, Proxy1, Proxy2, Proxy3, Domestic</span><br><span class="line"><span class="attr">Domestic</span> = select, DIRECT, Global</span><br><span class="line"><span class="attr">AdBlock</span> = select, REJECT, Global, Domestic</span><br><span class="line"><span class="attr">Apple_API</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Apple_CDN</span> = select, Domestic, Apple_API</span><br><span class="line"><span class="attr">AsianMedia</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">GlobalMedia</span> = select, Global, Domestic, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Proxy1</span> = select, 美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">3</span></span><br><span class="line"><span class="attr">Proxy2</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br><span class="line"><span class="attr">Proxy3</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br></pre></td></tr></table></figure>
 <h3 id="ehpo1-规则版本无脑自己替换自己的机场"><a class="markdownIt-Anchor" href="#ehpo1-规则版本无脑自己替换自己的机场"></a> eHpo1 规则版本（无脑自己替换自己的机场）</h3>
 <p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
+<p>规则包含的列表说明：<a href="https://github.com/eHpo1/Rules#list-%E9%A1%BA%E5%BA%8F%E8%AF%B4%E6%98%8E" target="_blank" rel="noopener">List 顺序、说明</a></p>
 <h5 id="如果机场有订阅-2"><a class="markdownIt-Anchor" href="#如果机场有订阅-2"></a> 如果机场有订阅</h5>
 <p>直接更改<code>[Proxy Group]</code> 里面 <code>Proxy1，Proxy2，Proxy3</code> 的订阅地址即可<br>
 多个机场直接分开订阅在 1，2，3 里面</p>
