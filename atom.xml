@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://o1xhack.com/"/>
-  <updated>2019-06-06T03:20:29.000Z</updated>
+  <updated>2020-06-22T05:28:00.000Z</updated>
   <id>http://o1xhack.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Surge 规则 脚本个人自用维护 ⬆️ 2020.06.21</title>
+    <link href="http://o1xhack.com/2020/06/21/surge/"/>
+    <id>http://o1xhack.com/2020/06/21/surge/</id>
+    <published>2020-06-22T05:28:00.000Z</published>
+    <updated>2020-06-22T05:28:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>自我使用得脚本+去广告规则等，来自网上大佬得维护项目，并非自己创建。<br>不会增加我不用到的更新，如果需要大二全的请自行研究 nzw9314 等大佬的库</p><p>里面的脚本等都是我自己再用/曾经用过觉得可能会用所以保留，所以不会有你想要的所有。<br>为各位中度用户直接调用使用，其他请自行搜索攻略。</p><a id="more"></a><h2 id="目录"><a class="markdownIt-Anchor" href="#目录"></a> 目录</h2><p><ul class="markdownIt-TOC"><li><a href="#%E7%9B%AE%E5%BD%95">目录</a></li><li><a href="#%E9%A1%B9%E7%9B%AE">项目</a></li><li><a href="#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">使用说明</a><ul><li><a href="#%E4%B8%80%E5%85%B1%E6%9C%89%E4%B8%A4%E4%B8%AA%E7%89%88%E6%9C%AC">一共有两个版本</a></li><li><a href="#%E9%9C%80%E8%A6%81%E5%BC%80%E5%90%AF-%E8%AE%BE%E7%BD%AE">需要开启 &amp; 设置</a></li></ul></li><li><a href="#%E6%97%A0%E8%A7%84%E5%88%99%E7%89%88%E6%9C%AC%E7%94%A8%E8%87%AA%E5%B7%B1%E7%9A%84%E8%A7%84%E5%88%99">无规则版本（用自己的规则）</a><ul><li><a href="#%E7%94%A8%E8%87%AA%E5%B7%B1%E4%B9%8B%E5%89%8D%E7%9A%84%E9%85%8D%E7%BD%AE">用自己之前的配置</a></li><li><a href="#%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE">手动配置</a><ul><li><a href="#%E5%A6%82%E6%9E%9C%E6%9C%BA%E5%9C%BA%E6%9C%89%E8%AE%A2%E9%98%85">如果机场有订阅</a></li><li><a href="#%E6%9C%BA%E5%9C%BA%E4%B8%8D%E6%94%AF%E6%8C%81%E8%AE%A2%E9%98%85">机场不支持订阅</a></li></ul></li></ul></li><li><a href="#ehpo1-%E8%A7%84%E5%88%99%E7%89%88%E6%9C%AC%E6%97%A0%E8%84%91%E8%87%AA%E5%B7%B1%E6%9B%BF%E6%8D%A2%E8%87%AA%E5%B7%B1%E7%9A%84%E6%9C%BA%E5%9C%BA">eHpo1 规则版本（无脑自己替换自己的机场）</a><br>*<ul><li><a href="#%E5%A6%82%E6%9E%9C%E6%9C%BA%E5%9C%BA%E6%9C%89%E8%AE%A2%E9%98%85-2">如果机场有订阅</a></li><li><a href="#%E6%9C%BA%E5%9C%BA%E4%B8%8D%E6%94%AF%E6%8C%81%E8%AE%A2%E9%98%85-2">机场不支持订阅</a></li></ul></li><li><a href="#hostname-%E6%9B%B4%E6%96%B0">HostName 更新</a><ul><li><a href="#1-%E5%BE%97%E5%88%B0%E5%8E%9F%E6%9C%89-conf-%E4%B8%AD%E6%B2%A1%E6%9C%89%E5%BE%97-hostname">1. 得到原有 conf 中没有得 hostname</a></li><li><a href="#2-%E5%B0%86%E5%89%AA%E8%B4%B4%E6%9D%BF-hostname-%E8%BD%AC%E4%B8%BA%E9%80%97%E5%8F%B7%E5%88%86%E5%89%B2">2. 将剪贴板 hostname 转为逗号分割</a></li></ul></li><li><a href="#final-%E6%9C%80%E7%BB%88%E7%AD%96%E7%95%A5">Final 最终策略</a></li><li><a href="#license-mit">License MIT</a><ul><li><a href="#%E9%B8%A3%E8%B0%A2">鸣谢</a></li></ul></li></ul></p><h2 id="项目"><a class="markdownIt-Anchor" href="#项目"></a> 项目</h2><p><a href>目录</a></p><p>项目地址：<a href="https://github.com/o1xhack/script" target="_blank" rel="noopener">https://github.com/o1xhack/script</a></p><p>项目支持 Surge，其他的自行研究谢谢。<br>项目需要 Surge 订阅，Mac 需要自行购买完整版。<br>项目不提供 Surge 等软件的基本说明，请自行搜索不懂得地方。</p><h2 id="使用说明"><a class="markdownIt-Anchor" href="#使用说明"></a> 使用说明</h2><h3 id="一共有两个版本"><a class="markdownIt-Anchor" href="#一共有两个版本"></a> 一共有两个版本</h3><ol><li>无规则：没有任何规则加入，自己加入自己得规则</li><li>eHpo1 规则：加入 <a href="https://github.com/eHpo1/Rules" target="_blank" rel="noopener">eHpo1</a> 规则<ul><li>你自己去加他的也可以，就是需要 hostname 自己增加等等</li></ul></li></ol><h3 id="需要开启-设置"><a class="markdownIt-Anchor" href="#需要开启-设置"></a> 需要开启 &amp; 设置</h3><ol><li>脚本</li><li>Rewrite</li><li>MitM<ul><li>配置根证书 -&gt; 安装证书</li><li>打开手机设置 -&gt; 通用 -&gt; 关于 -&gt; 证书信任（最下面）-&gt; 进去信任刚刚安装的证书</li></ul></li></ol><h2 id="无规则版本用自己的规则"><a class="markdownIt-Anchor" href="#无规则版本用自己的规则"></a> 无规则版本（用自己的规则）</h2><p>直接下载项目中的「JS&amp;签(无规则)host 精简」<br>使用文件编辑模式，最好 Mac 编辑，iCloud 同步过去。</p><h3 id="用自己之前的配置"><a class="markdownIt-Anchor" href="#用自己之前的配置"></a> 用自己之前的配置</h3><ol><li>复制自己原有 conf 中的 <code>[Proxy] [Proxy Group]</code> 直接粘贴过去把 <code>[Proxy] [Proxy Group]</code> 全部覆盖</li><li>复制自己原有 conf 中的 <code>[Rule]</code>，粘贴到 <code>[Rule]</code> 以后的后面，不要覆盖其中有的。</li></ol><h3 id="手动配置"><a class="markdownIt-Anchor" href="#手动配置"></a> 手动配置</h3><h4 id="如果机场有订阅"><a class="markdownIt-Anchor" href="#如果机场有订阅"></a> 如果机场有订阅</h4><p>直接更改<code>[Proxy Group]</code> 里面 <code>Proxy1，Proxy2，Proxy3</code> 的订阅地址即可<br>多个机场直接分开订阅在 1，2，3 里面</p><h4 id="机场不支持订阅"><a class="markdownIt-Anchor" href="#机场不支持订阅"></a> 机场不支持订阅</h4><p>在<code>[Proxy]</code>下增加你的每一个机场</p><figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[Proxy]</span><br><span class="line">DIRECT = direct</span><br><span class="line">美国<span class="number">1</span> = xxxx</span><br><span class="line">美国<span class="number">2</span> = xxxx</span><br><span class="line">美国<span class="number">3</span> = xxxx</span><br><span class="line">美国<span class="number">4</span> = xxxx</span><br></pre></td></tr></table></figure><p>去往<code>[Proxy Group]</code> 里面更改 <code>Proxy1，Proxy2，Proxy3</code><br>删除其中得 <code>policy-path=https://www.example.com/example1.list</code>，替换成自己得 Proxy<br>自行觉得 1，2，3 都需要哪些，或者多个机场都可以</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[Proxy Group]</span></span><br><span class="line"><span class="attr">Global</span> = select, Proxy1, Proxy2, Proxy3, Domestic</span><br><span class="line"><span class="attr">Domestic</span> = select, DIRECT, Global</span><br><span class="line"><span class="attr">AdBlock</span> = select, REJECT, Global, Domestic</span><br><span class="line"><span class="attr">Apple_API</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Apple_CDN</span> = select, Domestic, Apple_API</span><br><span class="line"><span class="attr">AsianMedia</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">GlobalMedia</span> = select, Global, Domestic, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Proxy1</span> = select, 美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">3</span></span><br><span class="line"><span class="attr">Proxy2</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br><span class="line"><span class="attr">Proxy3</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br></pre></td></tr></table></figure><h2 id="ehpo1-规则版本无脑自己替换自己的机场"><a class="markdownIt-Anchor" href="#ehpo1-规则版本无脑自己替换自己的机场"></a> eHpo1 规则版本（无脑自己替换自己的机场）</h2><h4 id="如果机场有订阅-2"><a class="markdownIt-Anchor" href="#如果机场有订阅-2"></a> 如果机场有订阅</h4><p>直接更改<code>[Proxy Group]</code> 里面 <code>Proxy1，Proxy2，Proxy3</code> 的订阅地址即可<br>多个机场直接分开订阅在 1，2，3 里面</p><h4 id="机场不支持订阅-2"><a class="markdownIt-Anchor" href="#机场不支持订阅-2"></a> 机场不支持订阅</h4><p>在<code>[Proxy]</code>下增加你的每一个机场</p><figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[Proxy]</span><br><span class="line">DIRECT = direct</span><br><span class="line">美国<span class="number">1</span> = xxxx</span><br><span class="line">美国<span class="number">2</span> = xxxx</span><br><span class="line">美国<span class="number">3</span> = xxxx</span><br><span class="line">美国<span class="number">4</span> = xxxx</span><br></pre></td></tr></table></figure><p>去往<code>[Proxy Group]</code> 里面更改 <code>Proxy1，Proxy2，Proxy3</code><br>删除其中得 <code>policy-path=https://www.example.com/example1.list</code>，替换成自己得 Proxy<br>自行觉得 1，2，3 都需要哪些，或者多个机场都可以</p><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[Proxy Group]</span></span><br><span class="line"><span class="attr">Global</span> = select, Proxy1, Proxy2, Proxy3, Domestic</span><br><span class="line"><span class="attr">Domestic</span> = select, DIRECT, Global</span><br><span class="line"><span class="attr">AdBlock</span> = select, REJECT, Global, Domestic</span><br><span class="line"><span class="attr">Apple_API</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Apple_CDN</span> = select, Domestic, Apple_API</span><br><span class="line"><span class="attr">AsianMedia</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">GlobalMedia</span> = select, Global, Domestic, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Proxy1</span> = select, 美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">3</span></span><br><span class="line"><span class="attr">Proxy2</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br><span class="line"><span class="attr">Proxy3</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br></pre></td></tr></table></figure><h2 id="hostname-更新"><a class="markdownIt-Anchor" href="#hostname-更新"></a> HostName 更新</h2><h3 id="1-得到原有-conf-中没有得-hostname"><a class="markdownIt-Anchor" href="#1-得到原有-conf-中没有得-hostname"></a> 1. 得到原有 conf 中没有得 hostname</h3><p>两个数组对比，得到非重复：<a href="http://www.molbiotools.com/listcompare.html" target="_blank" rel="noopener">http://www.molbiotools.com/listcompare.html</a> （分隔符逗号自动转换）<br>List A = conf 已有 hostname 复制过去<br>List B = 你想增加得 hostname 复制过去<br>选择「Compare」<br>在 Result 中点击 List B 圆环右边的数字，= 仅 List B 有的 Hostname。<br>复制「Copy to Clipboard」<br><img src="https://i.imgur.com/QYmeuAw.png" alt></p><h3 id="2-将剪贴板-hostname-转为逗号分割"><a class="markdownIt-Anchor" href="#2-将剪贴板-hostname-转为逗号分割"></a> 2. 将剪贴板 hostname 转为逗号分割</h3><p>是的你没看错，上一个剪贴板复制的是没一行一个新的 hostname，如果直接粘贴过去哈哈哈，你会发现不能用。<br><a href="https://convert.town/replace-new-lines-with-commas" target="_blank" rel="noopener">https://convert.town/replace-new-lines-with-commas</a><br>进入上方网址，粘贴到左边，右边自动加入逗号<br>成功后，看图，右边下方绿色提示代表已经复制到剪贴板。直接粘贴到 conf 中 hostname 后面即可。<br><img src="https://i.imgur.com/v8Jqpl9.png" alt></p><h2 id="final-最终策略"><a class="markdownIt-Anchor" href="#final-最终策略"></a> Final 最终策略</h2><p>现在的策略都是选择的<code>Domestic</code><br>如需更改： <code>[Rule]</code> 最后一条<code>FINAL,Domestic,dns-failed</code> 替换为自己想要的</p><h2 id="license-mit"><a class="markdownIt-Anchor" href="#license-mit"></a> License MIT</h2><p>不得使用本项目组织、参与、进行任何形式的违法犯罪行为。<br>项目维护者对本项目的任何形式滥用不承担任何责任。使用者自身承当完全责任。<br>可以拷贝、转发，但是必须提供原作者信息，同时也不能将本项目用于商业用途。</p><h3 id="鸣谢"><a class="markdownIt-Anchor" href="#鸣谢"></a> 鸣谢</h3><p>lhie1<br>neoFelhz<br>NobyDa<br>onewayticket255<br>yichahucha<br>Hackl0us<br>nzw9314<br>chavyleung<br>Choler</p><p>如果遗忘请告诉我我在加上！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自我使用得脚本+去广告规则等，来自网上大佬得维护项目，并非自己创建。&lt;br&gt;
+不会增加我不用到的更新，如果需要大二全的请自行研究 nzw9314 等大佬的库&lt;/p&gt;
+&lt;p&gt;里面的脚本等都是我自己再用/曾经用过觉得可能会用所以保留，所以不会有你想要的所有。&lt;br&gt;
+为各位中度用户直接调用使用，其他请自行搜索攻略。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="自动化" scheme="http://o1xhack.com/categories/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    
+      <category term="surge" scheme="http://o1xhack.com/tags/surge/"/>
+    
+      <category term="脚本" scheme="http://o1xhack.com/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
   
   <entry>
     <title>🚫 iOS13 疑似无故请求蓝牙的软件列表</title>
@@ -128,6 +155,10 @@
     
     </summary>
     
+      <category term="自动化" scheme="http://o1xhack.com/categories/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+    
+    
+      <category term="shortcuts" scheme="http://o1xhack.com/tags/shortcuts/"/>
     
   </entry>
   
@@ -596,36 +627,6 @@ With &lt;strong&gt;mit licen≥≥ce&lt;/strong&gt;&lt;/p&gt;
       <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
     
       <category term="iOS APP" scheme="http://o1xhack.com/tags/iOS-APP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>iOS开发相关分享 @iosdevswift 说明（Twitter，微博）</title>
-    <link href="http://o1xhack.com/2017/02/19/iosdevswift/"/>
-    <id>http://o1xhack.com/2017/02/19/iosdevswift/</id>
-    <published>2017-02-20T05:08:00.000Z</published>
-    <updated>2017-02-19T11:00:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://i.imgur.com/DdRc42G.png" alt></p><a id="more"></a><h1 id="intro"><a class="markdownIt-Anchor" href="#intro"></a> Intro</h1><p>English：</p><blockquote><p>Sharing iOS developing and swift learning related stuff. Make developing easy and quick. All articles are the things I meet with or want to achieve</p></blockquote><p>中：</p><blockquote><p>分享在 iOS 开发以及 Swift 使用中遇到的困难，解决方法，问题，教程等等，数量不多，因为都是个人遇到的才会分享</p></blockquote><h2 id="订阅开发者头条"><a class="markdownIt-Anchor" href="#订阅开发者头条"></a> 订阅开发者头条：</h2><blockquote><p>开发者头条订阅，APP 内直接搜索 29225 也可以</p></blockquote><p><a href="https://toutiao.io/subjects/29225" target="_blank" rel="noopener">iOS开发与Swift</a></p><h2 id="twitter-通过-pcat-分发"><a class="markdownIt-Anchor" href="#twitter-通过-pcat-分发"></a> Twitter 通过 P.cat 分发</h2><blockquote><p>Twitter is the main platform to share, click to go.</p></blockquote><p><a href="http://twitter.com/iosdevswift" target="_blank" rel="noopener">点击关注Twitter @iosdevswift</a></p><h2 id="weibo-通过-pcat-分发"><a class="markdownIt-Anchor" href="#weibo-通过-pcat-分发"></a> Weibo 通过 P.cat 分发</h2><blockquote><p>Weibo is the sub platform to share, click to go.(sync using P.cat)</p></blockquote><p><a href="http://weibo.com/iosdevswift" target="_blank" rel="noopener">点击关注微博 @iosdevswift</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/DdRc42G.png&quot; alt&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="iOS Develop（iOS 开发）" scheme="http://o1xhack.com/categories/iOS-Develop%EF%BC%88iOS-%E5%BC%80%E5%8F%91%EF%BC%89/"/>
-    
-    
-      <category term="swift" scheme="http://o1xhack.com/tags/swift/"/>
-    
-      <category term="iOSDev" scheme="http://o1xhack.com/tags/iOSDev/"/>
-    
-      <category term="blog" scheme="http://o1xhack.com/tags/blog/"/>
-    
-      <category term="language" scheme="http://o1xhack.com/tags/language/"/>
-    
-      <category term="learning" scheme="http://o1xhack.com/tags/learning/"/>
     
   </entry>
   
