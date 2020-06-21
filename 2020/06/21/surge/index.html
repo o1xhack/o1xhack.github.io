@@ -592,6 +592,8 @@
 <li><a href="#%E9%9C%80%E8%A6%81%E5%BC%80%E5%90%AF-%E8%AE%BE%E7%BD%AE">需要开启 &amp; 设置</a></li>
 </ul>
 </li>
+<li><a href="#%E9%85%8D%E7%BD%AE-conf">配置 conf</a>
+<ul>
 <li><a href="#%E6%97%A0%E8%A7%84%E5%88%99%E7%89%88%E6%9C%AC%E7%94%A8%E8%87%AA%E5%B7%B1%E7%9A%84%E8%A7%84%E5%88%99">无规则版本（用自己的规则）</a>
 <ul>
 <li><a href="#%E7%94%A8%E8%87%AA%E5%B7%B1%E4%B9%8B%E5%89%8D%E7%9A%84%E9%85%8D%E7%BD%AE">用自己之前的配置</a></li>
@@ -617,6 +619,16 @@
 </ul>
 </li>
 <li><a href="#final-%E6%9C%80%E7%BB%88%E7%AD%96%E7%95%A5">Final 最终策略</a></li>
+</ul>
+</li>
+<li><a href="#%E8%84%9A%E6%9C%AC-%E4%BB%BB%E5%8A%A1%E4%BD%BF%E7%94%A8">脚本 &amp; 任务使用</a>
+<ul>
+<li><a href="#%E5%88%86%E5%8C%BA">分区</a></li>
+<li><a href="#1-%E5%8E%BB%E5%B9%BF%E5%91%8A%E7%AD%89">1. 去广告等</a></li>
+<li><a href="#2-vip-%E7%AD%89">2. VIP 等</a></li>
+<li><a href="#3-%E8%8E%B7%E5%8F%96-cookie-%E6%89%A7%E8%A1%8C%E7%AD%BE%E5%88%B0%E7%AD%89">3. 获取 Cookie &amp; 执行签到等</a></li>
+</ul>
+</li>
 <li><a href="#license-mit">License MIT</a>
 <ul>
 <li><a href="#%E9%B8%A3%E8%B0%A2">鸣谢</a></li>
@@ -652,41 +664,43 @@
 </ul>
 </li>
 </ol>
-<h2 id="无规则版本用自己的规则"><a class="markdownIt-Anchor" href="#无规则版本用自己的规则"></a> 无规则版本（用自己的规则）</h2>
+<hr>
+<h2 id="配置-conf"><a class="markdownIt-Anchor" href="#配置-conf"></a> 配置 conf</h2>
 <p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
+<h3 id="无规则版本用自己的规则"><a class="markdownIt-Anchor" href="#无规则版本用自己的规则"></a> 无规则版本（用自己的规则）</h3>
 <p>直接下载项目中的「JS&amp;签(无规则)host 精简」<br>
 使用文件编辑模式，最好 Mac 编辑，iCloud 同步过去。</p>
-<h3 id="用自己之前的配置"><a class="markdownIt-Anchor" href="#用自己之前的配置"></a> 用自己之前的配置</h3>
+<h4 id="用自己之前的配置"><a class="markdownIt-Anchor" href="#用自己之前的配置"></a> 用自己之前的配置</h4>
 <ol>
 <li>复制自己原有 conf 中的 <code>[Proxy] [Proxy Group]</code> 直接粘贴过去把 <code>[Proxy] [Proxy Group]</code> 全部覆盖</li>
 <li>复制自己原有 conf 中的 <code>[Rule]</code>，粘贴到 <code>[Rule]</code> 以后的后面，不要覆盖其中有的。</li>
 </ol>
-<h3 id="手动配置"><a class="markdownIt-Anchor" href="#手动配置"></a> 手动配置</h3>
-<h4 id="如果机场有订阅"><a class="markdownIt-Anchor" href="#如果机场有订阅"></a> 如果机场有订阅</h4>
+<h4 id="手动配置"><a class="markdownIt-Anchor" href="#手动配置"></a> 手动配置</h4>
+<h5 id="如果机场有订阅"><a class="markdownIt-Anchor" href="#如果机场有订阅"></a> 如果机场有订阅</h5>
 <p>直接更改<code>[Proxy Group]</code> 里面 <code>Proxy1，Proxy2，Proxy3</code> 的订阅地址即可<br>
 多个机场直接分开订阅在 1，2，3 里面</p>
-<h4 id="机场不支持订阅"><a class="markdownIt-Anchor" href="#机场不支持订阅"></a> 机场不支持订阅</h4>
+<h5 id="机场不支持订阅"><a class="markdownIt-Anchor" href="#机场不支持订阅"></a> 机场不支持订阅</h5>
 <p>在<code>[Proxy]</code>下增加你的每一个机场</p>
 <figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[Proxy]</span><br><span class="line">DIRECT = direct</span><br><span class="line">美国<span class="number">1</span> = xxxx</span><br><span class="line">美国<span class="number">2</span> = xxxx</span><br><span class="line">美国<span class="number">3</span> = xxxx</span><br><span class="line">美国<span class="number">4</span> = xxxx</span><br></pre></td></tr></table></figure>
 <p>去往<code>[Proxy Group]</code> 里面更改 <code>Proxy1，Proxy2，Proxy3</code><br>
 删除其中得 <code>policy-path=https://www.example.com/example1.list</code>，替换成自己得 Proxy<br>
 自行觉得 1，2，3 都需要哪些，或者多个机场都可以</p>
 <figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[Proxy Group]</span></span><br><span class="line"><span class="attr">Global</span> = select, Proxy1, Proxy2, Proxy3, Domestic</span><br><span class="line"><span class="attr">Domestic</span> = select, DIRECT, Global</span><br><span class="line"><span class="attr">AdBlock</span> = select, REJECT, Global, Domestic</span><br><span class="line"><span class="attr">Apple_API</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Apple_CDN</span> = select, Domestic, Apple_API</span><br><span class="line"><span class="attr">AsianMedia</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">GlobalMedia</span> = select, Global, Domestic, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Proxy1</span> = select, 美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">3</span></span><br><span class="line"><span class="attr">Proxy2</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br><span class="line"><span class="attr">Proxy3</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br></pre></td></tr></table></figure>
-<h2 id="ehpo1-规则版本无脑自己替换自己的机场"><a class="markdownIt-Anchor" href="#ehpo1-规则版本无脑自己替换自己的机场"></a> eHpo1 规则版本（无脑自己替换自己的机场）</h2>
+<h3 id="ehpo1-规则版本无脑自己替换自己的机场"><a class="markdownIt-Anchor" href="#ehpo1-规则版本无脑自己替换自己的机场"></a> eHpo1 规则版本（无脑自己替换自己的机场）</h3>
 <p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
-<h4 id="如果机场有订阅-2"><a class="markdownIt-Anchor" href="#如果机场有订阅-2"></a> 如果机场有订阅</h4>
+<h5 id="如果机场有订阅-2"><a class="markdownIt-Anchor" href="#如果机场有订阅-2"></a> 如果机场有订阅</h5>
 <p>直接更改<code>[Proxy Group]</code> 里面 <code>Proxy1，Proxy2，Proxy3</code> 的订阅地址即可<br>
 多个机场直接分开订阅在 1，2，3 里面</p>
-<h4 id="机场不支持订阅-2"><a class="markdownIt-Anchor" href="#机场不支持订阅-2"></a> 机场不支持订阅</h4>
+<h5 id="机场不支持订阅-2"><a class="markdownIt-Anchor" href="#机场不支持订阅-2"></a> 机场不支持订阅</h5>
 <p>在<code>[Proxy]</code>下增加你的每一个机场</p>
 <figure class="highlight lsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[Proxy]</span><br><span class="line">DIRECT = direct</span><br><span class="line">美国<span class="number">1</span> = xxxx</span><br><span class="line">美国<span class="number">2</span> = xxxx</span><br><span class="line">美国<span class="number">3</span> = xxxx</span><br><span class="line">美国<span class="number">4</span> = xxxx</span><br></pre></td></tr></table></figure>
 <p>去往<code>[Proxy Group]</code> 里面更改 <code>Proxy1，Proxy2，Proxy3</code><br>
 删除其中得 <code>policy-path=https://www.example.com/example1.list</code>，替换成自己得 Proxy<br>
 自行觉得 1，2，3 都需要哪些，或者多个机场都可以</p>
 <figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">[Proxy Group]</span></span><br><span class="line"><span class="attr">Global</span> = select, Proxy1, Proxy2, Proxy3, Domestic</span><br><span class="line"><span class="attr">Domestic</span> = select, DIRECT, Global</span><br><span class="line"><span class="attr">AdBlock</span> = select, REJECT, Global, Domestic</span><br><span class="line"><span class="attr">Apple_API</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Apple_CDN</span> = select, Domestic, Apple_API</span><br><span class="line"><span class="attr">AsianMedia</span> = select, Domestic, Global, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">GlobalMedia</span> = select, Global, Domestic, Proxy1, Proxy2, Proxy3</span><br><span class="line"><span class="attr">Proxy1</span> = select, 美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">3</span></span><br><span class="line"><span class="attr">Proxy2</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br><span class="line"><span class="attr">Proxy3</span> = select,  美国<span class="number">1</span>, 美国<span class="number">2</span>, 美国<span class="number">4</span></span><br></pre></td></tr></table></figure>
-<h2 id="hostname-更新"><a class="markdownIt-Anchor" href="#hostname-更新"></a> HostName 更新</h2>
+<h3 id="hostname-更新"><a class="markdownIt-Anchor" href="#hostname-更新"></a> HostName 更新</h3>
 <p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
-<h3 id="1-得到原有-conf-中没有得-hostname"><a class="markdownIt-Anchor" href="#1-得到原有-conf-中没有得-hostname"></a> 1. 得到原有 conf 中没有得 hostname</h3>
+<h4 id="1-得到原有-conf-中没有得-hostname"><a class="markdownIt-Anchor" href="#1-得到原有-conf-中没有得-hostname"></a> 1. 得到原有 conf 中没有得 hostname</h4>
 <p>两个数组对比，得到非重复：<a href="http://www.molbiotools.com/listcompare.html" target="_blank" rel="noopener">http://www.molbiotools.com/listcompare.html</a> （分隔符逗号自动转换）<br>
 List A = conf 已有 hostname 复制过去<br>
 List B = 你想增加得 hostname 复制过去<br>
@@ -694,16 +708,40 @@ List B = 你想增加得 hostname 复制过去<br>
 在 Result 中点击 List B 圆环右边的数字，= 仅 List B 有的 Hostname。<br>
 复制「Copy to Clipboard」<br>
 <img src="https://i.imgur.com/QYmeuAw.png" alt></p>
-<h3 id="2-将剪贴板-hostname-转为逗号分割"><a class="markdownIt-Anchor" href="#2-将剪贴板-hostname-转为逗号分割"></a> 2. 将剪贴板 hostname 转为逗号分割</h3>
+<h4 id="2-将剪贴板-hostname-转为逗号分割"><a class="markdownIt-Anchor" href="#2-将剪贴板-hostname-转为逗号分割"></a> 2. 将剪贴板 hostname 转为逗号分割</h4>
 <p>是的你没看错，上一个剪贴板复制的是没一行一个新的 hostname，如果直接粘贴过去哈哈哈，你会发现不能用。<br>
 <a href="https://convert.town/replace-new-lines-with-commas" target="_blank" rel="noopener">https://convert.town/replace-new-lines-with-commas</a><br>
 进入上方网址，粘贴到左边，右边自动加入逗号<br>
 成功后，看图，右边下方绿色提示代表已经复制到剪贴板。直接粘贴到 conf 中 hostname 后面即可。<br>
 <img src="https://i.imgur.com/v8Jqpl9.png" alt></p>
-<h2 id="final-最终策略"><a class="markdownIt-Anchor" href="#final-最终策略"></a> Final 最终策略</h2>
+<h3 id="final-最终策略"><a class="markdownIt-Anchor" href="#final-最终策略"></a> Final 最终策略</h3>
 <p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
 <p>现在的策略都是选择的<code>Domestic</code><br>
 如需更改： <code>[Rule]</code> 最后一条<code>FINAL,Domestic,dns-failed</code> 替换为自己想要的</p>
+<hr>
+<h2 id="脚本-任务使用"><a class="markdownIt-Anchor" href="#脚本-任务使用"></a> 脚本 &amp; 任务使用</h2>
+<p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
+<h3 id="分区"><a class="markdownIt-Anchor" href="#分区"></a> 分区</h3>
+<p>通过</p>
+<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">------------------------------------------</span><br><span class="line">获取 Cookie &amp; 签到相关</span><br><span class="line">------------------------------------------</span><br></pre></td></tr></table></figure>
+<p>类似的三行评论，整个<code>[Script]</code>分为</p>
+<ol>
+<li>去广告等</li>
+<li>VIP 等</li>
+<li>获取 Cookie &amp; 执行签到等</li>
+</ol>
+<h3 id="1-去广告等"><a class="markdownIt-Anchor" href="#1-去广告等"></a> 1. 去广告等</h3>
+<p>基本不需要关闭开启，默认都是开启<br>
+部分前面带有<code>//</code>代表我禁用了，需要的话自行启用就好</p>
+<h3 id="2-vip-等"><a class="markdownIt-Anchor" href="#2-vip-等"></a> 2. VIP 等</h3>
+<p>勿滥用，如被封禁等不负任何责任。如侵权请告知删除。</p>
+<h3 id="3-获取-cookie-执行签到等"><a class="markdownIt-Anchor" href="#3-获取-cookie-执行签到等"></a> 3. 获取 Cookie &amp; 执行签到等</h3>
+<p>请自己一行行读取 Cookie 上面的评论说明。<br>
+每一个 Cookie 获取都有自己得用法和说明，缺失请评论在文章下 或 发起 git issue</p>
+<p>跟着 Cookie 获取完成，改关闭关闭，改保留保留。<br>
+Cron 的时间基本是 晚上17点或者18点。<br>
+部分使用双重签到，第一次失败还能有二次机会。</p>
+<hr>
 <h2 id="license-mit"><a class="markdownIt-Anchor" href="#license-mit"></a> License MIT</h2>
 <p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
 <p>不得使用本项目组织、参与、进行任何形式的违法犯罪行为。<br>
@@ -1090,7 +1128,7 @@ Choler</p>
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#目录"><span class="nav-number">1.</span> <span class="nav-text"> 目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目"><span class="nav-number">2.</span> <span class="nav-text"> 项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用说明"><span class="nav-number">3.</span> <span class="nav-text"> 使用说明</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一共有两个版本"><span class="nav-number">3.1.</span> <span class="nav-text"> 一共有两个版本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#需要开启-设置"><span class="nav-number">3.2.</span> <span class="nav-text"> 需要开启 &amp; 设置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#无规则版本用自己的规则"><span class="nav-number">4.</span> <span class="nav-text"> 无规则版本（用自己的规则）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#用自己之前的配置"><span class="nav-number">4.1.</span> <span class="nav-text"> 用自己之前的配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#手动配置"><span class="nav-number">4.2.</span> <span class="nav-text"> 手动配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#如果机场有订阅"><span class="nav-number">4.2.1.</span> <span class="nav-text"> 如果机场有订阅</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#机场不支持订阅"><span class="nav-number">4.2.2.</span> <span class="nav-text"> 机场不支持订阅</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ehpo1-规则版本无脑自己替换自己的机场"><span class="nav-number">5.</span> <span class="nav-text"> eHpo1 规则版本（无脑自己替换自己的机场）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#如果机场有订阅-2"><span class="nav-number">5.0.1.</span> <span class="nav-text"> 如果机场有订阅</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#机场不支持订阅-2"><span class="nav-number">5.0.2.</span> <span class="nav-text"> 机场不支持订阅</span></a></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#hostname-更新"><span class="nav-number">6.</span> <span class="nav-text"> HostName 更新</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-得到原有-conf-中没有得-hostname"><span class="nav-number">6.1.</span> <span class="nav-text"> 1. 得到原有 conf 中没有得 hostname</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-将剪贴板-hostname-转为逗号分割"><span class="nav-number">6.2.</span> <span class="nav-text"> 2. 将剪贴板 hostname 转为逗号分割</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#final-最终策略"><span class="nav-number">7.</span> <span class="nav-text"> Final 最终策略</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#license-mit"><span class="nav-number">8.</span> <span class="nav-text"> License MIT</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#鸣谢"><span class="nav-number">8.1.</span> <span class="nav-text"> 鸣谢</span></a></li></ol></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#目录"><span class="nav-number">1.</span> <span class="nav-text"> 目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目"><span class="nav-number">2.</span> <span class="nav-text"> 项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用说明"><span class="nav-number">3.</span> <span class="nav-text"> 使用说明</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一共有两个版本"><span class="nav-number">3.1.</span> <span class="nav-text"> 一共有两个版本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#需要开启-设置"><span class="nav-number">3.2.</span> <span class="nav-text"> 需要开启 &amp; 设置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置-conf"><span class="nav-number">4.</span> <span class="nav-text"> 配置 conf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#无规则版本用自己的规则"><span class="nav-number">4.1.</span> <span class="nav-text"> 无规则版本（用自己的规则）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#用自己之前的配置"><span class="nav-number">4.1.1.</span> <span class="nav-text"> 用自己之前的配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#手动配置"><span class="nav-number">4.1.2.</span> <span class="nav-text"> 手动配置</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#如果机场有订阅"><span class="nav-number">4.1.2.1.</span> <span class="nav-text"> 如果机场有订阅</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#机场不支持订阅"><span class="nav-number">4.1.2.2.</span> <span class="nav-text"> 机场不支持订阅</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ehpo1-规则版本无脑自己替换自己的机场"><span class="nav-number">4.2.</span> <span class="nav-text"> eHpo1 规则版本（无脑自己替换自己的机场）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#如果机场有订阅-2"><span class="nav-number">4.2.0.1.</span> <span class="nav-text"> 如果机场有订阅</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#机场不支持订阅-2"><span class="nav-number">4.2.0.2.</span> <span class="nav-text"> 机场不支持订阅</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hostname-更新"><span class="nav-number">4.3.</span> <span class="nav-text"> HostName 更新</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-得到原有-conf-中没有得-hostname"><span class="nav-number">4.3.1.</span> <span class="nav-text"> 1. 得到原有 conf 中没有得 hostname</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-将剪贴板-hostname-转为逗号分割"><span class="nav-number">4.3.2.</span> <span class="nav-text"> 2. 将剪贴板 hostname 转为逗号分割</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#final-最终策略"><span class="nav-number">4.4.</span> <span class="nav-text"> Final 最终策略</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#脚本-任务使用"><span class="nav-number">5.</span> <span class="nav-text"> 脚本 &amp; 任务使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#分区"><span class="nav-number">5.1.</span> <span class="nav-text"> 分区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-去广告等"><span class="nav-number">5.2.</span> <span class="nav-text"> 1. 去广告等</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-vip-等"><span class="nav-number">5.3.</span> <span class="nav-text"> 2. VIP 等</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-获取-cookie-执行签到等"><span class="nav-number">5.4.</span> <span class="nav-text"> 3. 获取 Cookie &amp; 执行签到等</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#license-mit"><span class="nav-number">6.</span> <span class="nav-text"> License MIT</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#鸣谢"><span class="nav-number">6.1.</span> <span class="nav-text"> 鸣谢</span></a></li></ol></li></div>
             
 
           </div>
