@@ -108,7 +108,7 @@
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://i.imgur.com/QYmeuAw.png">
 <meta property="og:image" content="https://i.imgur.com/v8Jqpl9.png">
-<meta property="og:updated_time" content="2020-06-23T05:28:00.000Z">
+<meta property="og:updated_time" content="2020-06-24T05:28:00.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Surge 规则 脚本个人自用维护 ⬆️ 2020.06.22">
 <meta name="twitter:description" content="自我使用得脚本+去广告规则等，来自网上大佬得维护项目，并非自己创建。 不会增加我不用到的更新，如果需要大二全的请自行研究 nzw9314 等大佬的库 里面的脚本等都是我自己再用/曾经用过觉得可能会用所以保留，所以不会有你想要的所有。 为各位中度用户直接调用使用，其他请自行搜索攻略。 联系我~ 👉🏻 关于我">
@@ -518,7 +518,7 @@
                 
                   <span class="post-meta-item-text">更新</span>
                 
-                <time title="修改时间：2020-06-22 22:28:00" itemprop="dateModified" datetime="2020-06-22T22:28:00-07:00">2020-06-22</time>
+                <time title="修改时间：2020-06-23 22:28:00" itemprop="dateModified" datetime="2020-06-23T22:28:00-07:00">2020-06-23</time>
               
             
           </span>
@@ -605,7 +605,7 @@
 <li><a href="#%E9%A1%B9%E7%9B%AE">项目</a></li>
 <li><a href="#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">使用说明</a>
 <ul>
-<li><a href="#%E4%B8%80%E5%85%B1%E6%9C%89%E4%B8%A4%E4%B8%AA%E7%89%88%E6%9C%AC">一共有两个版本</a></li>
+<li><a href="#%E4%B8%80%E5%85%B1%E6%9C%89%E4%B8%A4%E4%B8%AA%E7%89%88%E6%9C%AC-conf">一共有两个版本 Conf</a></li>
 <li><a href="#%E9%9C%80%E8%A6%81%E5%BC%80%E5%90%AF-%E8%AE%BE%E7%BD%AE">需要开启 &amp; 设置</a></li>
 </ul>
 </li>
@@ -640,10 +640,17 @@
 </li>
 <li><a href="#%E8%84%9A%E6%9C%AC-%E4%BB%BB%E5%8A%A1%E4%BD%BF%E7%94%A8">脚本 &amp; 任务使用</a>
 <ul>
-<li><a href="#%E5%88%86%E5%8C%BA">分区</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E-2">使用说明</a>
+<ul>
+<li><a href="#conf-%E4%B8%AD%E5%90%84%E7%A7%8D%E6%B3%A8%E9%87%8A%E8%AF%B4%E6%98%8E">Conf 中各种注释说明：</a></li>
+<li><a href="#%E9%80%BB%E8%BE%91%E8%AF%B4%E6%98%8E">逻辑说明：</a></li>
+<li><a href="#script-%E4%B8%8B%E5%88%86%E5%8C%BA">[Script] 下分区</a></li>
+</ul>
+</li>
 <li><a href="#1-%E5%8E%BB%E5%B9%BF%E5%91%8A%E7%AD%89">1. 去广告等</a></li>
 <li><a href="#2-vip-%E7%AD%89">2. VIP 等</a></li>
-<li><a href="#3-%E8%8E%B7%E5%8F%96-cookie-%E6%89%A7%E8%A1%8C%E7%AD%BE%E5%88%B0%E7%AD%89">3. 获取 Cookie &amp; 执行签到等</a></li>
+<li><a href="#3-%E6%8E%A8%E9%80%81%E9%80%9A%E7%9F%A5%E7%9B%B8%E5%85%B3">3. 推送通知相关</a></li>
+<li><a href="#4-%E8%8E%B7%E5%8F%96-cookie-%E6%89%A7%E8%A1%8C%E7%AD%BE%E5%88%B0%E7%AD%89">4. 获取 Cookie &amp; 执行签到等</a></li>
 </ul>
 </li>
 <li><a href="#license-mit">License MIT</a>
@@ -654,6 +661,22 @@
 </ul>
 </p>
 <h2 id="更新说明"><a class="markdownIt-Anchor" href="#更新说明"></a> 更新说明</h2>
+<p>2020.06.23</p>
+<ul>
+<li>两个版本 Conf 大面积更新 v0.0.5
+<ul>
+<li>所有脚本任务名称更改，方便辨识</li>
+<li>增加更多说明</li>
+<li>增加版本在 conf 结尾，方便大家未来更新</li>
+</ul>
+</li>
+<li><a href="https://o1xhack.com/2020/06/21/surge/#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">使用说明</a> 部分增加更多详细说明：
+<ul>
+<li>所有版本 Conf 的开头<code>[General]</code>更新</li>
+<li>版本相同的地方</li>
+</ul>
+</li>
+</ul>
 <p>2020.06.22</p>
 <ul>
 <li>eHpo1 的 hostname 缺失部分，已经更新，只需要把 <code>hostname=</code> 部分全部复制过去即可。</li>
@@ -667,7 +690,7 @@
 项目不提供 Surge 等软件的基本说明，请自行搜索不懂得地方。</p>
 <h2 id="使用说明"><a class="markdownIt-Anchor" href="#使用说明"></a> 使用说明</h2>
 <p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
-<h3 id="一共有两个版本"><a class="markdownIt-Anchor" href="#一共有两个版本"></a> 一共有两个版本</h3>
+<h3 id="一共有两个版本-conf"><a class="markdownIt-Anchor" href="#一共有两个版本-conf"></a> 一共有两个版本 Conf</h3>
 <ol>
 <li>无规则：没有任何规则加入，自己加入自己得规则</li>
 <li>eHpo1 规则：加入 <a href="https://github.com/eHpo1/Rules" target="_blank" rel="noopener">eHpo1</a> 规则
@@ -676,6 +699,11 @@
 </ul>
 </li>
 </ol>
+<p>相同之处：</p>
+<ul>
+<li><code>[General]</code> 用的都是 <a href="https://github.com/Hackl0us/SS-Rule-Snippet" target="_blank" rel="noopener">Hackl0us/SS-Rule-Snippet</a></li>
+<li>签到&amp;脚本都是一样的</li>
+</ul>
 <h3 id="需要开启-设置"><a class="markdownIt-Anchor" href="#需要开启-设置"></a> 需要开启 &amp; 设置</h3>
 <ol>
 <li>脚本</li>
@@ -745,28 +773,44 @@ List B = 你想增加得 hostname 复制过去<br>
 <hr>
 <h2 id="脚本-任务使用"><a class="markdownIt-Anchor" href="#脚本-任务使用"></a> 脚本 &amp; 任务使用</h2>
 <p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
-<h3 id="分区"><a class="markdownIt-Anchor" href="#分区"></a> 分区</h3>
+<h3 id="使用说明-2"><a class="markdownIt-Anchor" href="#使用说明-2"></a> 使用说明</h3>
+<h4 id="conf-中各种注释说明"><a class="markdownIt-Anchor" href="#conf-中各种注释说明"></a> Conf 中各种注释说明：</h4>
+<ol>
+<li><code>// xxxx</code> 代表是被禁用了</li>
+<li><code># xxxx</code> 代表是下方脚本的注释说明。<strong>一定要看</strong>。不看你不会知道怎么弄的。</li>
+<li><code>cronexp=0 6 17 * * *</code> = 每天 17:06:00 进行这个脚本。</li>
+</ol>
+<h4 id="逻辑说明"><a class="markdownIt-Anchor" href="#逻辑说明"></a> 逻辑说明：</h4>
+<ol>
+<li>分区1，2，3 基本都是开启的，部分被禁用了，你可以自定打开。</li>
+<li>分区4「获取 Cookie &amp; 签到相关」全部都是默认禁用，自行阅读注释，理解后才可能成功</li>
+<li>每个分区说明，请去下面每个区域看</li>
+</ol>
+<h4 id="script-下分区"><a class="markdownIt-Anchor" href="#script-下分区"></a> [Script] 下分区</h4>
 <p>通过</p>
 <figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">------------------------------------------</span><br><span class="line">获取 Cookie &amp; 签到相关</span><br><span class="line">------------------------------------------</span><br></pre></td></tr></table></figure>
 <p>类似的三行评论，整个<code>[Script]</code>分为</p>
 <ol>
 <li>去广告等</li>
 <li>VIP 等</li>
+<li>推送通知相关</li>
 <li>获取 Cookie &amp; 执行签到等</li>
 </ol>
 <h3 id="1-去广告等"><a class="markdownIt-Anchor" href="#1-去广告等"></a> 1. 去广告等</h3>
-<p>基本不需要关闭开启，默认都是开启<br>
-部分前面带有<code>//</code>代表我禁用了，需要的话自行启用就好</p>
+<p>基本不需要关闭开启，默认都是开启</p>
 <h3 id="2-vip-等"><a class="markdownIt-Anchor" href="#2-vip-等"></a> 2. VIP 等</h3>
 <p>默认都是禁用，未开启。<br>
 勿滥用，如被封禁等不负任何责任。如侵权请告知删除。</p>
-<h3 id="3-获取-cookie-执行签到等"><a class="markdownIt-Anchor" href="#3-获取-cookie-执行签到等"></a> 3. 获取 Cookie &amp; 执行签到等</h3>
-<p>默认都是禁用，未开启。</p>
+<h3 id="3-推送通知相关"><a class="markdownIt-Anchor" href="#3-推送通知相关"></a> 3. 推送通知相关</h3>
+<h3 id="4-获取-cookie-执行签到等"><a class="markdownIt-Anchor" href="#4-获取-cookie-执行签到等"></a> 4. 获取 Cookie &amp; 执行签到等</h3>
+<p>默认全部禁用，未开启。</p>
 <p>请自己一行行读取 Cookie 上面的评论说明。<br>
-每一个 Cookie 获取都有自己得用法和说明，缺失请评论在文章下 或 发起 git issue</p>
-<p>跟着 Cookie 获取完成，该关闭关闭，该保留保留。<br>
-Cron 的时间基本是 晚上17点或者18点。<br>
-部分使用双重签到，第一次失败还能有二次机会。</p>
+每一个 Cookie 获取都有自己得用法和说明，缺失请评论在文章下 或 发起 git issue<br>
+跟着 Cookie 获取完成，该关闭关闭，该保留保留。</p>
+<p>脚本进行时间说明：</p>
+<ol>
+<li>每个脚本存在<code>cronexp=0 6 17 * * *</code> 代表这是一个定时脚本，在某一个时间段才可以</li>
+</ol>
 <hr>
 <h2 id="license-mit"><a class="markdownIt-Anchor" href="#license-mit"></a> License MIT</h2>
 <p><a href="https://o1xhack.com/2020/06/21/surge/#%E7%9B%AE%E5%BD%95">目录</a></p>
@@ -1154,7 +1198,7 @@ Choler</p>
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#目录"><span class="nav-number">1.</span> <span class="nav-text"> 目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更新说明"><span class="nav-number">2.</span> <span class="nav-text"> 更新说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目"><span class="nav-number">3.</span> <span class="nav-text"> 项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用说明"><span class="nav-number">4.</span> <span class="nav-text"> 使用说明</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一共有两个版本"><span class="nav-number">4.1.</span> <span class="nav-text"> 一共有两个版本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#需要开启-设置"><span class="nav-number">4.2.</span> <span class="nav-text"> 需要开启 &amp; 设置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置-conf"><span class="nav-number">5.</span> <span class="nav-text"> 配置 conf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#无规则版本用自己的规则"><span class="nav-number">5.1.</span> <span class="nav-text"> 无规则版本（用自己的规则）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#用自己之前的配置"><span class="nav-number">5.1.1.</span> <span class="nav-text"> 用自己之前的配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#手动配置"><span class="nav-number">5.1.2.</span> <span class="nav-text"> 手动配置</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#如果机场有订阅"><span class="nav-number">5.1.2.1.</span> <span class="nav-text"> 如果机场有订阅</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#机场不支持订阅"><span class="nav-number">5.1.2.2.</span> <span class="nav-text"> 机场不支持订阅</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ehpo1-规则版本无脑自己替换自己的机场"><span class="nav-number">5.2.</span> <span class="nav-text"> eHpo1 规则版本（无脑自己替换自己的机场）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#如果机场有订阅-2"><span class="nav-number">5.2.0.1.</span> <span class="nav-text"> 如果机场有订阅</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#机场不支持订阅-2"><span class="nav-number">5.2.0.2.</span> <span class="nav-text"> 机场不支持订阅</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hostname-更新"><span class="nav-number">5.3.</span> <span class="nav-text"> HostName 更新</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-得到原有-conf-中没有得-hostname"><span class="nav-number">5.3.1.</span> <span class="nav-text"> 1. 得到原有 conf 中没有得 hostname</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-将剪贴板-hostname-转为逗号分割"><span class="nav-number">5.3.2.</span> <span class="nav-text"> 2. 将剪贴板 hostname 转为逗号分割</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#final-最终策略"><span class="nav-number">5.4.</span> <span class="nav-text"> Final 最终策略</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#脚本-任务使用"><span class="nav-number">6.</span> <span class="nav-text"> 脚本 &amp; 任务使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#分区"><span class="nav-number">6.1.</span> <span class="nav-text"> 分区</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-去广告等"><span class="nav-number">6.2.</span> <span class="nav-text"> 1. 去广告等</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-vip-等"><span class="nav-number">6.3.</span> <span class="nav-text"> 2. VIP 等</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-获取-cookie-执行签到等"><span class="nav-number">6.4.</span> <span class="nav-text"> 3. 获取 Cookie &amp; 执行签到等</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#license-mit"><span class="nav-number">7.</span> <span class="nav-text"> License MIT</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#鸣谢"><span class="nav-number">7.1.</span> <span class="nav-text"> 鸣谢</span></a></li></ol></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#目录"><span class="nav-number">1.</span> <span class="nav-text"> 目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更新说明"><span class="nav-number">2.</span> <span class="nav-text"> 更新说明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目"><span class="nav-number">3.</span> <span class="nav-text"> 项目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用说明"><span class="nav-number">4.</span> <span class="nav-text"> 使用说明</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一共有两个版本-conf"><span class="nav-number">4.1.</span> <span class="nav-text"> 一共有两个版本 Conf</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#需要开启-设置"><span class="nav-number">4.2.</span> <span class="nav-text"> 需要开启 &amp; 设置</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置-conf"><span class="nav-number">5.</span> <span class="nav-text"> 配置 conf</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#无规则版本用自己的规则"><span class="nav-number">5.1.</span> <span class="nav-text"> 无规则版本（用自己的规则）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#用自己之前的配置"><span class="nav-number">5.1.1.</span> <span class="nav-text"> 用自己之前的配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#手动配置"><span class="nav-number">5.1.2.</span> <span class="nav-text"> 手动配置</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#如果机场有订阅"><span class="nav-number">5.1.2.1.</span> <span class="nav-text"> 如果机场有订阅</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#机场不支持订阅"><span class="nav-number">5.1.2.2.</span> <span class="nav-text"> 机场不支持订阅</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ehpo1-规则版本无脑自己替换自己的机场"><span class="nav-number">5.2.</span> <span class="nav-text"> eHpo1 规则版本（无脑自己替换自己的机场）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#如果机场有订阅-2"><span class="nav-number">5.2.0.1.</span> <span class="nav-text"> 如果机场有订阅</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#机场不支持订阅-2"><span class="nav-number">5.2.0.2.</span> <span class="nav-text"> 机场不支持订阅</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hostname-更新"><span class="nav-number">5.3.</span> <span class="nav-text"> HostName 更新</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-得到原有-conf-中没有得-hostname"><span class="nav-number">5.3.1.</span> <span class="nav-text"> 1. 得到原有 conf 中没有得 hostname</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-将剪贴板-hostname-转为逗号分割"><span class="nav-number">5.3.2.</span> <span class="nav-text"> 2. 将剪贴板 hostname 转为逗号分割</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#final-最终策略"><span class="nav-number">5.4.</span> <span class="nav-text"> Final 最终策略</span></a></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#脚本-任务使用"><span class="nav-number">6.</span> <span class="nav-text"> 脚本 &amp; 任务使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#使用说明-2"><span class="nav-number">6.1.</span> <span class="nav-text"> 使用说明</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#conf-中各种注释说明"><span class="nav-number">6.1.1.</span> <span class="nav-text"> Conf 中各种注释说明：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#逻辑说明"><span class="nav-number">6.1.2.</span> <span class="nav-text"> 逻辑说明：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#script-下分区"><span class="nav-number">6.1.3.</span> <span class="nav-text"> [Script] 下分区</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-去广告等"><span class="nav-number">6.2.</span> <span class="nav-text"> 1. 去广告等</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-vip-等"><span class="nav-number">6.3.</span> <span class="nav-text"> 2. VIP 等</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-推送通知相关"><span class="nav-number">6.4.</span> <span class="nav-text"> 3. 推送通知相关</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-获取-cookie-执行签到等"><span class="nav-number">6.5.</span> <span class="nav-text"> 4. 获取 Cookie &amp; 执行签到等</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#license-mit"><span class="nav-number">7.</span> <span class="nav-text"> License MIT</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#鸣谢"><span class="nav-number">7.1.</span> <span class="nav-text"> 鸣谢</span></a></li></ol></li></div>
             
 
           </div>
