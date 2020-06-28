@@ -99,7 +99,7 @@
 
 
   <meta name="description" content="var diaryNum = 1 diaryNum += 1          // 新的 Swift 去掉了 ++ 符号 print &amp;quot;Hello Again！&amp;quot; print &amp;quot;Welcome to Swift Learning Diary &amp;quot; + String(diaryNum) + &amp;quot; !&amp;quot;   Welcome to Swift L">
-<meta name="keywords" content="language,learning,swift3.0,uialertcontroller">
+<meta name="keywords" content="language,learning,uialertcontroller,swift3.0">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Swift 学习日记 - 2（UIAlertController）">
 <meta property="og:url" content="http://o1xhack.com/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/index.html">
@@ -550,18 +550,14 @@
 
           
           
-            <span id="/2016/07/21/swift-learning/swift-learning-2-uialertcontroller/" class="leancloud_visitors" data-flag-title="Swift 学习日记 - 2（UIAlertController）">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="post-meta-item-text">阅读次数：</span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
           
 
           
@@ -661,9 +657,9 @@ let name = UIAlertController(title: “你想要的提示”, message: “在提
           
             <a href="/tags/learning/" rel="tag"># learning</a>
           
-            <a href="/tags/swift3-0/" rel="tag"># swift3.0</a>
-          
             <a href="/tags/uialertcontroller/" rel="tag"># uialertcontroller</a>
+          
+            <a href="/tags/swift3-0/" rel="tag"># swift3.0</a>
           
         </div>
       
@@ -1545,66 +1541,6 @@ let name = UIAlertController(title: “你想要的提示”, message: “在提
 
 
   
-  
-  <script>
-    
-    function addCount(Counter) {
-      var $visitors = $('.leancloud_visitors');
-      var url = $visitors.attr('id').trim();
-      var title = $visitors.attr('data-flag-title').trim();
-
-      Counter('get', '/classes/Counter', { where: JSON.stringify({ url }) })
-        .done(function({ results }) {
-          if (results.length > 0) {
-            var counter = results[0];
-            
-            Counter('put', '/classes/Counter/' + counter.objectId, JSON.stringify({ time: { '__op': 'Increment', 'amount': 1 } }))
-            
-              .done(function() {
-                var $element = $(document.getElementById(url));
-                $element.find('.leancloud-visitors-count').text(counter.time + 1);
-              })
-            
-              .fail(function ({ responseJSON }) {
-                console.log('Failed to save Visitor num, with error message: ' + responseJSON.error);
-              })
-          } else {
-            
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text('Counter not initialized! More info at console err msg.');
-              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
-            
-          }
-        })
-        .fail(function ({ responseJSON }) {
-          console.log('LeanCloud Counter Error: ' + responseJSON.code + ' ' + responseJSON.error);
-        });
-    }
-    
-
-    $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'vlxVtr44hbYjc8nyjkhUAUVT-gzGzoHsz')
-        .done(function({ api_server }) {
-          var Counter = function(method, url, data) {
-            return $.ajax({
-              method: method,
-              url: 'https://' + api_server + '/1.1' + url,
-              headers: {
-                'X-LC-Id': 'vlxVtr44hbYjc8nyjkhUAUVT-gzGzoHsz',
-                'X-LC-Key': 'xEXzPVMjnX8Dw2IYk7UrYyss',
-                'Content-Type': 'application/json',
-              },
-              data: data
-            });
-          };
-          
-            addCount(Counter);
-          
-        });
-    });
-  </script>
-
-
 
   
 
